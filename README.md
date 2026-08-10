@@ -76,10 +76,14 @@ npm run e2e              # Playwright: 하루 세션 완주, 진도 유지, 마�
 
 `main`에 푸시하면 GitHub Actions가 테스트를 돌리고 GitHub Pages로 배포합니다.
 
-저장소를 새로 만들었다면 **처음 한 번은 사람이 켜 줘야 합니다.**
-Settings → Pages → Build and deployment → Source 를 **GitHub Actions** 로 바꾸세요.
-워크플로 토큰에는 Pages 사이트를 만들 권한이 없어서, 이걸 안 하면 빌드가 다 통과하고도
-마지막 `configure-pages` 단계에서 멈춥니다.
+저장소를 새로 만들었다면 **처음 한 번은 사람이 설정을 두 군데 만져 줘야 합니다.**
+둘 다 워크플로 토큰 권한 밖이라 자동화할 수 없고, 안 하면 빌드가 전부 통과하고도 배포만 멈춥니다.
+
+1. **Settings → Pages → Source** 를 **GitHub Actions** 로.
+   안 하면 `configure-pages` 단계에서 `Get Pages site failed` 로 멈춥니다.
+2. **Settings → General → Default branch** 를 **`main`** 으로.
+   `github-pages` 환경은 기본 브랜치에서만 배포를 허용해서, 다르면 `deploy` 잡이
+   러너를 받기도 전에 거부됩니다(로그도 남지 않아 원인이 잘 안 보입니다).
 
 ## 부모가 도와줄 때
 

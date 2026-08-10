@@ -1,0 +1,578 @@
+/* --------------------------------------------------------------- 문항 세트 */
+.qset {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.qset__head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.qset__bar {
+  flex: 1;
+}
+
+.qset__prompt {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.qset__options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.qset__option {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  padding: 12px 14px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.qset__option:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--surface-2);
+}
+
+.qset__option:disabled {
+  cursor: default;
+}
+
+.qset__option.is-selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.qset__option.is-correct {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.qset__option.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.qset__marker {
+  flex: none;
+  font-weight: 700;
+  color: var(--text-3);
+}
+
+.qset__hint {
+  font-family: var(--font-mono);
+  letter-spacing: 0.15em;
+  color: var(--text-2);
+}
+
+.qset__feedback {
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  border-left: 3px solid var(--border-strong);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  font-size: 14px;
+}
+
+.qset__feedback.is-correct {
+  background: var(--ok-soft);
+  border-left-color: var(--ok);
+}
+
+.qset__feedback.is-wrong {
+  background: var(--warn-soft);
+  border-left-color: var(--warn);
+}
+
+.qset__feedback.is-neutral {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+}
+
+.qset__explanation {
+  white-space: pre-wrap;
+  color: var(--text-2);
+}
+
+.qset__feedback.is-correct .qset__explanation,
+.qset__feedback.is-wrong .qset__explanation {
+  color: inherit;
+  opacity: 0.9;
+}
+
+/* ------------------------------------------------------------- 블록 헤더 */
+.blockbar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  position: sticky;
+  top: 60px;
+  z-index: 10;
+}
+
+.blockbar__title {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.blockbar__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--area-color, var(--accent));
+}
+
+.blockbar__clock {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  color: var(--text-2);
+}
+
+.blockbar__clock.is-over {
+  color: var(--warn);
+}
+
+/* --------------------------------------------------------------- 스텝퍼 */
+.stepper {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.stepper::-webkit-scrollbar {
+  display: none;
+}
+
+.stepper__item {
+  flex: 1;
+  min-width: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 8px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2);
+  cursor: pointer;
+  text-align: left;
+}
+
+.stepper__item.is-current {
+  border-color: var(--area-color, var(--accent));
+  background: var(--area-soft, var(--accent-soft));
+  color: var(--area-color, var(--accent-text));
+}
+
+.stepper__item.is-done {
+  color: var(--ok);
+  border-color: color-mix(in srgb, var(--ok) 40%, transparent);
+}
+
+.stepper__meta {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-3);
+}
+
+/* ---------------------------------------------------------------- 단어 카드 */
+.flashcard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  min-height: 220px;
+  justify-content: center;
+  text-align: center;
+}
+
+.flashcard__word {
+  font-family: var(--font-reading);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.flashcard__pos {
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.flashcard__meaning {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--accent-text);
+}
+
+.flashcard__example {
+  font-family: var(--font-reading);
+  font-size: 16px;
+  color: var(--text-2);
+}
+
+.vocab-list {
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.vocab-list__row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  font-size: 14px;
+}
+
+.vocab-list__word {
+  font-family: var(--font-reading);
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ 지문 */
+.passage {
+  font-family: var(--font-reading);
+  font-size: 17.5px;
+  line-height: 1.85;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.passage p {
+  margin: 0;
+}
+
+.passage mark {
+  background: var(--accent-soft);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+.glossary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.glossary__item {
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.glossary__item b {
+  font-family: var(--font-reading);
+}
+
+/* -------------------------------------------------------------- 말하기 */
+.stage-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.stage-tab {
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-2);
+  cursor: pointer;
+}
+
+.stage-tab.is-active {
+  background: var(--area-speaking-soft);
+  border-color: var(--area-speaking);
+  color: var(--area-speaking);
+}
+
+.stage-tab.is-done::after {
+  content: ' ✓';
+  color: var(--ok);
+}
+
+.speak-line {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  border: 1px solid transparent;
+}
+
+.speak-line.is-active {
+  border-color: var(--area-speaking);
+  background: var(--area-speaking-soft);
+}
+
+.speak-line__text {
+  font-family: var(--font-reading);
+  font-size: 17px;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.pattern {
+  font-family: var(--font-reading);
+  font-size: 20px;
+  line-height: 1.7;
+  padding: var(--sp-4);
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.pattern__slot {
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 0 2px;
+  border-radius: var(--radius-full);
+  background: var(--area-speaking-soft);
+  color: var(--area-speaking);
+  font-weight: 700;
+}
+
+.slot-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.slot-option {
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  font-family: var(--font-reading);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.slot-option.is-active {
+  background: var(--area-speaking);
+  border-color: var(--area-speaking);
+  color: #fff;
+}
+
+.counter {
+  display: flex;
+  gap: 6px;
+}
+
+.counter__dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--border-strong);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.counter__dot.is-on {
+  background: var(--area-speaking);
+  border-color: var(--area-speaking);
+}
+
+.mic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-5);
+  border-radius: var(--radius-lg);
+  background: var(--surface-2);
+}
+
+.mic__time {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.mic__time.is-goal {
+  color: var(--ok);
+}
+
+.mic__ring {
+  width: 100%;
+  max-width: 320px;
+}
+
+.feeling {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.feeling__btn {
+  flex: 1;
+  min-width: 96px;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.feeling__btn.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+}
+
+/* -------------------------------------------------------------- 대시보드 */
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.stat__value {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat__label {
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.spark {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 64px;
+}
+
+.spark__bar {
+  flex: 1;
+  min-width: 4px;
+  border-radius: 3px 3px 0 0;
+  background: var(--accent);
+  opacity: 0.85;
+}
+
+.spark__bar.is-empty {
+  background: var(--surface-3);
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.goal.is-done {
+  border-color: var(--ok);
+  background: var(--ok-soft);
+}
+
+.day-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  padding: var(--sp-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  text-decoration: none;
+  color: inherit;
+}
+
+.day-card:hover {
+  border-color: var(--accent);
+}
+
+.day-card.is-done {
+  background: var(--ok-soft);
+  border-color: color-mix(in srgb, var(--ok) 35%, transparent);
+}
+
+.day-card.is-current {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+.dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dots__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--surface-3);
+}
+
+.dots__dot.is-done {
+  background: var(--ok);
+}
+
+@media (max-width: 560px) {
+  .flashcard__word {
+    font-size: 28px;
+  }
+
+  .passage {
+    font-size: 16.5px;
+  }
+
+  .blockbar {
+    top: 56px;
+  }
+}

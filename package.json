@@ -1,0 +1,36 @@
+{
+  "name": "english-study",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "중3 영어 학습 플랫폼 - 읽고 생각하고 영어로 표현하기",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate:content && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "jsdom": "^30.0.1",
+    "tsx": "^4.23.11",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1",
+    "vitest": "^4.1.10"
+  }
+}

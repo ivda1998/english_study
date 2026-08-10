@@ -1,0 +1,1080 @@
+{
+  "week": 1,
+  "title": "영어와 다시 친해지기",
+  "focus": "짧은 글을 끝까지 읽고, 좋아하는 것을 한 문장으로 말해요",
+  "speakingTopics": [
+    "My favorite subject",
+    "My favorite food",
+    "My favorite book",
+    "My favorite movie",
+    "My weekend"
+  ],
+  "days": [
+    {
+      "id": "w01d1",
+      "week": 1,
+      "dayOfWeek": "mon",
+      "title": "좋아하는 것에는 이유가 있다",
+      "vocab": [
+        { "word": "favorite", "pos": "adj.", "meaning": "가장 좋아하는", "example": "Math is my favorite subject.", "exampleKo": "수학은 내가 가장 좋아하는 과목이다." },
+        { "word": "subject", "pos": "n.", "meaning": "과목", "example": "Which subject do you like most?", "exampleKo": "너는 어떤 과목을 가장 좋아하니?" },
+        { "word": "strange", "pos": "adj.", "meaning": "이상한", "example": "It is not strange to like different things.", "exampleKo": "서로 다른 것을 좋아하는 건 이상한 일이 아니다." },
+        { "word": "enjoy", "pos": "v.", "meaning": "즐기다", "example": "I enjoy solving hard problems.", "exampleKo": "나는 어려운 문제 푸는 것을 즐긴다." },
+        { "word": "reward", "pos": "n.", "meaning": "보상", "example": "Your brain gives you a small reward.", "exampleKo": "뇌가 너에게 작은 보상을 준다." },
+        { "word": "practice", "pos": "v.", "meaning": "연습하다", "example": "I practice English for twenty minutes every day.", "exampleKo": "나는 매일 20분씩 영어를 연습한다." },
+        { "word": "solve", "pos": "v.", "meaning": "풀다, 해결하다", "example": "Can you solve this problem?", "exampleKo": "이 문제를 풀 수 있니?" },
+        { "word": "puzzle", "pos": "n.", "meaning": "퍼즐, 수수께끼", "example": "Math feels like a puzzle to me.", "exampleKo": "수학은 나에게 퍼즐처럼 느껴진다." },
+        { "word": "brain", "pos": "n.", "meaning": "뇌", "example": "Your brain learns while you sleep.", "exampleKo": "너의 뇌는 자는 동안에도 배운다." },
+        { "word": "worry", "pos": "v.", "meaning": "걱정하다", "example": "Do not worry about small mistakes.", "exampleKo": "작은 실수는 걱정하지 마라." }
+      ],
+      "grammar": {
+        "point": "감각동사 + 형용사 (2형식)",
+        "explanation": "look, sound, feel, taste, smell 같은 감각동사 뒤에는 부사가 아니라 형용사가 옵니다. 우리말로는 '~하게 들린다, ~하게 보인다'로 해석되어서 부사를 쓰기 쉬운데, 영어에서는 주어를 설명하는 자리이므로 형용사를 씁니다. 뒤에 명사를 쓰고 싶으면 like를 넣어 'sound like a puzzle'처럼 씁니다.",
+        "examples": [
+          { "en": "Math sounds boring to some students.", "ko": "수학은 어떤 학생들에게는 지루하게 들린다." },
+          { "en": "This problem feels easy today.", "ko": "이 문제는 오늘 쉽게 느껴진다." },
+          { "en": "It sounds like a puzzle.", "ko": "그것은 퍼즐처럼 들린다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w01d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\nYour idea sounds ______.",
+            "options": ["great", "greatly", "greatness", "to great"],
+            "answer": 0,
+            "explanation": "sound는 감각동사이므로 뒤에 형용사 great가 옵니다. greatly는 부사라서 올 수 없습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-g2",
+            "prompt": "어법상 알맞은 문장은?",
+            "options": [
+              "The soup tastes deliciously.",
+              "The soup tastes delicious.",
+              "The soup tastes to delicious.",
+              "The soup tastes deliciousness."
+            ],
+            "answer": 1,
+            "explanation": "taste 뒤에는 형용사가 옵니다. deliciously는 부사이므로 쓸 수 없습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-g3",
+            "prompt": "빈칸에 알맞은 것은?\nMath feels ______ a puzzle to me.",
+            "options": ["as", "like", "so", "very"],
+            "answer": 1,
+            "explanation": "감각동사 뒤에 명사(a puzzle)를 쓰려면 like가 필요합니다."
+          },
+          {
+            "kind": "write",
+            "id": "w01d1-g4",
+            "prompt": "괄호 안의 말을 알맞은 형태로 쓰세요.\nThe music sounds ( beautiful ).",
+            "accept": ["beautiful"],
+            "explanation": "sound 뒤에는 형용사가 그대로 옵니다. beautifully로 바꾸면 틀립니다.",
+            "hint": "부사로 바꾸지 않아요"
+          },
+          {
+            "kind": "write",
+            "id": "w01d1-g5",
+            "prompt": "밑줄 친 부분을 바르게 고쳐 쓰세요.\nYou look tiredly today. → You look ______ today.",
+            "accept": ["tired"],
+            "explanation": "look 뒤에는 주어를 설명하는 형용사 tired가 옵니다.",
+            "hint": "-ly를 떼요"
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-g6",
+            "prompt": "밑줄 친 부분이 어법상 틀린 것은?",
+            "options": [
+              "She looks happy.",
+              "It smells sweet.",
+              "He feels sadly.",
+              "The plan sounds good."
+            ],
+            "answer": 2,
+            "explanation": "feel 뒤에도 형용사가 와야 하므로 sadly가 아니라 sad가 맞습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Everyone Has a Favorite",
+          "topic": "학교생활 · 취향",
+          "body": "Ask ten students about their favorite subject, and you will hear ten different answers. Some students say math sounds boring, but others think it feels like a puzzle. This is not strange at all. People enjoy different things because they are good at different things.\n\nScientists say that we usually like what we can do well. When you solve a hard problem, your brain gives you a small reward, and that feeling makes you want to try again. So a favorite subject is often a subject you have practiced a lot.\n\nIf you do not have a favorite subject yet, do not worry. Try something for a few weeks, and see how it feels.",
+          "glossary": [
+            { "word": "at all", "meaning": "전혀" },
+            { "word": "reward", "meaning": "보상" },
+            { "word": "practice", "meaning": "연습하다" }
+          ],
+          "translation": "열 명의 학생에게 가장 좋아하는 과목을 물어보면 열 개의 다른 대답을 듣게 된다. 어떤 학생은 수학이 지루하게 들린다고 하지만, 다른 학생은 퍼즐처럼 느껴진다고 생각한다. 이것은 전혀 이상한 일이 아니다. 사람들은 저마다 잘하는 것이 다르기 때문에 좋아하는 것도 다르다.\n\n과학자들은 우리가 보통 잘할 수 있는 것을 좋아한다고 말한다. 어려운 문제를 풀면 뇌가 작은 보상을 주고, 그 기분이 다시 해보고 싶게 만든다. 그래서 좋아하는 과목은 대개 많이 연습해 본 과목이다.\n\n아직 좋아하는 과목이 없어도 걱정하지 마라. 몇 주 동안 해보고, 어떤 느낌인지 살펴보면 된다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d1-r1",
+            "prompt": "글의 요지로 가장 알맞은 것은?",
+            "options": [
+              "수학은 모든 학생에게 어려운 과목이다.",
+              "좋아하는 과목은 대개 많이 해본 과목이다.",
+              "학생은 한 과목만 깊이 공부해야 한다.",
+              "잘하는 과목이 없으면 걱정해야 한다."
+            ],
+            "answer": 1,
+            "explanation": "글은 '잘하는 것 → 좋아하게 된다'는 흐름으로, 좋아하는 과목은 많이 연습한 과목이라고 말합니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-r2",
+            "prompt": "글의 내용과 일치하는 것은?",
+            "options": [
+              "학생 열 명은 대개 같은 과목을 좋아한다.",
+              "어려운 문제를 풀면 뇌가 작은 보상을 준다.",
+              "과학자들은 취향이 타고난다고 말한다.",
+              "좋아하는 과목이 없으면 다른 학교를 가야 한다."
+            ],
+            "answer": 1,
+            "explanation": "두 번째 문단에 your brain gives you a small reward 라고 나와 있습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-r3",
+            "prompt": "밑줄 친 that feeling 이 가리키는 것은?",
+            "options": [
+              "지루하다는 느낌",
+              "문제를 풀었을 때 받는 작은 보상의 느낌",
+              "친구와 답을 비교하는 느낌",
+              "시험이 끝났을 때의 느낌"
+            ],
+            "answer": 1,
+            "explanation": "바로 앞 문장의 a small reward 를 받는 느낌을 가리킵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w01d1-r4",
+            "prompt": "이 글을 한 문장으로 요약해 보세요. (한국어도 좋아요)",
+            "sample": "We like the things we have practiced, so a favorite subject often comes from practice."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 친구가 좋아하는 과목에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Mina", "text": "Jiho, what is your favorite subject this year?" },
+          { "speaker": "Jiho", "text": "Math, I think. It feels like a puzzle to me." },
+          { "speaker": "Mina", "text": "Really? Math sounds hard to me. I like English better." },
+          { "speaker": "Jiho", "text": "That is because you read a lot. You have practiced it more than I have." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d1-l1",
+            "prompt": "지호가 좋아하는 과목은?",
+            "options": ["영어", "수학", "과학", "역사"],
+            "answer": 1,
+            "explanation": "Jiho가 Math, I think. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d1-l2",
+            "prompt": "지호가 미나에 대해 말한 이유는?",
+            "options": [
+              "미나가 수학을 잘해서",
+              "미나가 책을 많이 읽어서",
+              "미나가 학원에 다녀서",
+              "미나가 선생님을 좋아해서"
+            ],
+            "answer": 1,
+            "explanation": "That is because you read a lot. 이라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "It feels like a puzzle to me.",
+          "You have practiced it more than I have."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "This is not strange at all.",
+          "People enjoy different things because they are good at different things.",
+          "Try something for a few weeks, and see how it feels."
+        ],
+        "substitution": {
+          "pattern": "I like {subject} because it is {adjective}.",
+          "slots": [
+            { "key": "subject", "options": ["math", "science", "English", "history", "music"] },
+            { "key": "adjective", "options": ["interesting", "useful", "easy for me", "fun", "clear"] }
+          ],
+          "examples": [
+            "I like math because it is interesting.",
+            "I like science because it is interesting.",
+            "I like English because it is useful."
+          ]
+        },
+        "qna": [
+          { "question": "What is your favorite subject?", "sample": "My favorite subject is math." },
+          { "question": "Why do you like it?", "sample": "Because it feels like a puzzle." },
+          { "question": "What subject is difficult for you?", "sample": "History is difficult for me." },
+          { "question": "What did you do today?", "sample": "I studied English for an hour." },
+          { "question": "What book are you reading?", "sample": "I am reading a science book." }
+        ]
+      }
+    },
+
+    {
+      "id": "w01d2",
+      "week": 1,
+      "dayOfWeek": "tue",
+      "title": "현재완료로 '해봤다' 말하기",
+      "vocab": [
+        { "word": "mistake", "pos": "n.", "meaning": "실수", "example": "A mistake is just information.", "exampleKo": "실수는 그냥 정보일 뿐이다." },
+        { "word": "notebook", "pos": "n.", "meaning": "공책", "example": "My notebook was full of red marks.", "exampleKo": "내 공책은 빨간 표시로 가득했다." },
+        { "word": "correct", "pos": "adj.", "meaning": "정확한, 맞는", "example": "There is one correct answer in math.", "exampleKo": "수학에는 정답이 하나 있다." },
+        { "word": "freedom", "pos": "n.", "meaning": "자유", "example": "I like the freedom of choosing my own way.", "exampleKo": "나는 내 방식을 고를 수 있는 자유가 좋다." },
+        { "word": "textbook", "pos": "n.", "meaning": "교과서", "example": "The textbook shows only one method.", "exampleKo": "교과서는 한 가지 방법만 보여준다." },
+        { "word": "proud", "pos": "adj.", "meaning": "자랑스러운", "example": "I feel proud when I find a shorter way.", "exampleKo": "더 짧은 방법을 찾으면 자랑스럽다." },
+        { "word": "surprise", "pos": "v.", "meaning": "놀라게 하다", "example": "Math still surprises me.", "exampleKo": "수학은 여전히 나를 놀라게 한다." },
+        { "word": "bored", "pos": "adj.", "meaning": "지루한", "example": "I have not become bored with it.", "exampleKo": "나는 그것에 싫증나지 않았다." },
+        { "word": "information", "pos": "n.", "meaning": "정보", "example": "This chart gives useful information.", "exampleKo": "이 도표는 유용한 정보를 준다." },
+        { "word": "method", "pos": "n.", "meaning": "방법", "example": "There is more than one method.", "exampleKo": "방법은 한 가지가 아니다." }
+      ],
+      "grammar": {
+        "point": "현재완료 (have/has + 과거분사)",
+        "explanation": "현재완료는 과거의 일을 지금과 연결해서 말할 때 씁니다. '경험(~해 본 적 있다)', '계속(~해 왔다)', '완료(막 ~했다)'의 뜻이 있습니다. since 뒤에는 시작 시점, for 뒤에는 기간이 옵니다. yesterday, last year처럼 딱 끊긴 과거 표현과는 함께 쓰지 않습니다.",
+        "examples": [
+          { "en": "I have liked math since the fourth grade.", "ko": "나는 4학년 때부터 수학을 좋아해 왔다." },
+          { "en": "I have studied math for six years.", "ko": "나는 6년 동안 수학을 공부해 왔다." },
+          { "en": "I have never forgotten his words.", "ko": "나는 그의 말을 잊은 적이 없다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w01d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI ______ English since I was ten.",
+            "options": ["study", "studied", "have studied", "will study"],
+            "answer": 2,
+            "explanation": "since가 있으므로 과거부터 지금까지 이어지는 현재완료 have studied를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-g2",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "I have finished my homework.",
+              "She has lived here for five years.",
+              "He has gone to Busan yesterday.",
+              "They have never seen snow."
+            ],
+            "answer": 2,
+            "explanation": "yesterday처럼 끝난 과거를 나타내는 말은 현재완료와 함께 쓰지 않습니다. He went to Busan yesterday. 가 맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-g3",
+            "prompt": "빈칸에 알맞은 것은?\nI have studied math ______ six years.",
+            "options": ["since", "for", "from", "during"],
+            "answer": 1,
+            "explanation": "기간(six years) 앞에는 for를 씁니다. since 뒤에는 시작 시점이 옵니다."
+          },
+          {
+            "kind": "write",
+            "id": "w01d2-g4",
+            "prompt": "괄호 안의 동사를 현재완료로 바꿔 쓰세요.\nShe ( live ) in Seoul since 2019. → She ______ in Seoul since 2019.",
+            "accept": ["has lived"],
+            "explanation": "주어가 3인칭 단수이므로 has + 과거분사(lived)를 씁니다.",
+            "hint": "has + p.p."
+          },
+          {
+            "kind": "write",
+            "id": "w01d2-g5",
+            "prompt": "우리말에 맞게 빈칸을 채우세요.\n나는 그 영화를 본 적이 한 번도 없다. → I have ______ seen the movie.",
+            "accept": ["never"],
+            "explanation": "'한 번도 ~한 적 없다'는 경험을 부정하는 never를 have와 과거분사 사이에 씁니다.",
+            "hint": "n으로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-g6",
+            "prompt": "밑줄 친 현재완료의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "I have been to Jeju twice.",
+              "She has read that book before.",
+              "He has just finished lunch.",
+              "They have tried Indian food once."
+            ],
+            "answer": 2,
+            "explanation": "①②④는 경험이고, ③은 '막 ~했다'는 완료의 쓰임입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Why I Like Math",
+          "topic": "학교생활 · 자기 생각",
+          "body": "I have liked math since I was in the fourth grade. At first, I was not good at it. I made many mistakes, and my notebook was full of red marks. But my teacher told me something I have never forgotten: a mistake is just information.\n\nMath is different from other subjects. In math, there is one correct answer, but there are many roads to it. I like that freedom. When I find a shorter road than the one in the textbook, I feel proud.\n\nI have studied math for six years now, and it still surprises me. That is why I have not become bored with it.",
+          "glossary": [
+            { "word": "at first", "meaning": "처음에는" },
+            { "word": "be full of", "meaning": "~로 가득하다" },
+            { "word": "road", "meaning": "길, 방법" }
+          ],
+          "translation": "나는 4학년 때부터 수학을 좋아해 왔다. 처음에는 잘하지 못했다. 실수를 많이 했고, 내 공책은 빨간 표시로 가득했다. 하지만 선생님이 내게 해준 말을 나는 한 번도 잊은 적이 없다. 실수는 그냥 정보일 뿐이라는 말이었다.\n\n수학은 다른 과목과 다르다. 수학에는 정답이 하나 있지만, 그곳에 가는 길은 여러 개다. 나는 그 자유가 좋다. 교과서에 나온 것보다 더 짧은 길을 찾으면 나는 뿌듯하다.\n\n나는 이제 6년째 수학을 공부해 왔고, 수학은 여전히 나를 놀라게 한다. 그래서 나는 아직 수학에 싫증나지 않았다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d2-r1",
+            "prompt": "글쓴이가 수학을 좋아하는 이유로 알맞은 것은?",
+            "options": [
+              "정답이 여러 개라서",
+              "답은 하나지만 푸는 길은 여러 개라서",
+              "교과서가 쉬워서",
+              "실수를 하지 않아서"
+            ],
+            "answer": 1,
+            "explanation": "there is one correct answer, but there are many roads to it 에서 확인할 수 있습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-r2",
+            "prompt": "글의 내용과 일치하지 않는 것은?",
+            "options": [
+              "글쓴이는 처음부터 수학을 잘했다.",
+              "글쓴이는 4학년 때부터 수학을 좋아했다.",
+              "선생님은 실수를 정보라고 말했다.",
+              "글쓴이는 6년째 수학을 공부해 왔다."
+            ],
+            "answer": 0,
+            "explanation": "At first, I was not good at it. 이라고 했으므로 처음부터 잘한 것은 아닙니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-r3",
+            "prompt": "빈칸에 들어갈 말로 가장 알맞은 것은?\nThe writer thinks a mistake is ______.",
+            "options": ["a failure", "information", "a punishment", "a secret"],
+            "answer": 1,
+            "explanation": "선생님의 말 a mistake is just information 을 글쓴이가 그대로 받아들이고 있습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w01d2-r4",
+            "prompt": "당신이 좋아하는 과목과 그 이유를 한 문장으로 써 보세요.",
+            "sample": "I like science because I can test my own ideas."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "선생님과 학생이 수학 공부에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Teacher", "text": "You have made a lot of progress this year." },
+          { "speaker": "Student", "text": "Thank you. But I still make many mistakes." },
+          { "speaker": "Teacher", "text": "A mistake is just information. It shows you where to look next." },
+          { "speaker": "Student", "text": "I have never thought about it that way." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d2-l1",
+            "prompt": "선생님이 실수에 대해 말한 것은?",
+            "options": [
+              "실수는 부끄러운 것이다",
+              "실수는 어디를 봐야 할지 알려주는 정보다",
+              "실수를 줄이려면 더 자야 한다",
+              "실수는 시험에서만 중요하다"
+            ],
+            "answer": 1,
+            "explanation": "It shows you where to look next. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d2-l2",
+            "prompt": "학생의 마지막 말에서 알 수 있는 것은?",
+            "options": [
+              "전에도 같은 생각을 했다",
+              "그런 식으로 생각해 본 적이 없다",
+              "선생님 말에 동의하지 않는다",
+              "수학을 그만두려고 한다"
+            ],
+            "answer": 1,
+            "explanation": "I have never thought about it that way. 는 '그렇게 생각해 본 적 없다'는 뜻입니다."
+          }
+        ],
+        "dictation": [
+          "You have made a lot of progress this year.",
+          "I have never thought about it that way."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Math is different from other subjects.",
+          "I like that freedom.",
+          "In math, there is one correct answer, but there are many roads to it."
+        ],
+        "substitution": {
+          "pattern": "I have {verb} {object} for {time}.",
+          "slots": [
+            { "key": "verb", "options": ["studied", "played", "liked", "read", "practiced"] },
+            { "key": "object", "options": ["math", "the piano", "English books", "soccer", "this game"] },
+            { "key": "time", "options": ["two years", "six months", "a long time", "three weeks", "many years"] }
+          ],
+          "examples": [
+            "I have studied math for six months.",
+            "I have played soccer for two years.",
+            "I have liked English books for a long time."
+          ]
+        },
+        "qna": [
+          { "question": "How long have you studied English?", "sample": "I have studied English for six years." },
+          { "question": "What is your favorite subject?", "sample": "My favorite subject is math." },
+          { "question": "Have you ever made a big mistake?", "sample": "Yes, I have. I forgot my homework once." },
+          { "question": "What was difficult today?", "sample": "The listening part was difficult today." },
+          { "question": "What do you want to be better at?", "sample": "I want to be better at speaking." }
+        ],
+        "oneMinute": {
+          "topic": "My favorite subject",
+          "topicKo": "내가 가장 좋아하는 과목",
+          "keywords": ["math", "one answer", "many roads", "mistakes", "proud"]
+        },
+        "mathTalk": {
+          "problem": "Solve: 2x + 5 = 13",
+          "problemKo": "2x + 5 = 13 을 풀어보세요",
+          "basic": ["First, I find x.", "Then, I calculate this number.", "Finally, I get the answer."],
+          "upgraded": [
+            "First, I need to find the value of x.",
+            "Then, I substitute it into the equation.",
+            "Finally, I get the answer."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w01d3",
+      "week": 1,
+      "dayOfWeek": "wed",
+      "title": "to부정사로 하고 싶은 일 말하기",
+      "vocab": [
+        { "word": "decide", "pos": "v.", "meaning": "결정하다", "example": "I decided to read one book a month.", "exampleKo": "나는 한 달에 책 한 권을 읽기로 결정했다." },
+        { "word": "choose", "pos": "v.", "meaning": "고르다", "example": "I always choose a short book first.", "exampleKo": "나는 항상 짧은 책을 먼저 고른다." },
+        { "word": "cover", "pos": "n.", "meaning": "표지", "example": "The cover looked interesting.", "exampleKo": "표지가 흥미로워 보였다." },
+        { "word": "understand", "pos": "v.", "meaning": "이해하다", "example": "It was hard to understand at first.", "exampleKo": "처음에는 이해하기 어려웠다." },
+        { "word": "twice", "pos": "adv.", "meaning": "두 번", "example": "I had to read some pages twice.", "exampleKo": "나는 몇 페이지를 두 번 읽어야 했다." },
+        { "word": "forget", "pos": "v.", "meaning": "잊다", "example": "I sometimes forget that I am reading in English.", "exampleKo": "나는 가끔 내가 영어로 읽고 있다는 것을 잊는다." },
+        { "word": "perfect", "pos": "adj.", "meaning": "완벽한", "example": "You do not need a perfect level.", "exampleKo": "완벽한 수준이 필요한 것은 아니다." },
+        { "word": "actually", "pos": "adv.", "meaning": "실제로", "example": "Choose a book you actually want to finish.", "exampleKo": "네가 실제로 끝내고 싶은 책을 골라라." },
+        { "word": "finish", "pos": "v.", "meaning": "끝내다", "example": "I want to finish this book by Sunday.", "exampleKo": "나는 일요일까지 이 책을 끝내고 싶다." },
+        { "word": "level", "pos": "n.", "meaning": "수준", "example": "This book is above my level.", "exampleKo": "이 책은 내 수준보다 높다." }
+      ],
+      "grammar": {
+        "point": "to부정사의 명사적 용법",
+        "explanation": "to + 동사원형은 문장에서 명사처럼 쓰여 '~하는 것, ~하기'로 해석됩니다. want, decide, hope, plan, need 같은 동사 뒤에는 목적어로 to부정사가 옵니다. It is hard to understand. 처럼 진주어 자리에 오면 앞에 가주어 It을 씁니다.",
+        "examples": [
+          { "en": "I decided to read one book a month.", "ko": "나는 한 달에 한 권을 읽기로 결정했다." },
+          { "en": "It was hard to understand at first.", "ko": "처음에는 이해하기가 어려웠다." },
+          { "en": "You only need a book you want to finish.", "ko": "너는 끝내고 싶은 책 한 권만 있으면 된다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w01d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI decided ______ a new book.",
+            "options": ["read", "to read", "reading to", "to reading"],
+            "answer": 1,
+            "explanation": "decide 뒤에는 to부정사가 목적어로 옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-g2",
+            "prompt": "빈칸에 알맞은 것은?\n______ is important to ask questions.",
+            "options": ["That", "It", "This", "There"],
+            "answer": 1,
+            "explanation": "to부정사가 진주어일 때 앞자리에는 가주어 It을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "I hope to see you soon.",
+              "She wants to join the club.",
+              "He needs to studying harder.",
+              "They planned to meet at six."
+            ],
+            "answer": 2,
+            "explanation": "need 뒤에는 to study가 와야 합니다. to studying은 쓸 수 없습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w01d3-g4",
+            "prompt": "두 문장이 같은 뜻이 되도록 빈칸을 채우세요.\nTo finish this book is not easy. = ______ is not easy to finish this book.",
+            "accept": ["It"],
+            "explanation": "진주어 to부정사를 뒤로 보내고 앞에는 가주어 It을 씁니다.",
+            "hint": "두 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w01d3-g5",
+            "prompt": "우리말에 맞게 빈칸을 채우세요.\n나는 영어책 읽는 것을 시작하고 싶다. → I want ______ reading English books.",
+            "accept": ["to start", "to begin"],
+            "explanation": "want 뒤에는 to부정사가 옵니다. to start 또는 to begin 모두 가능합니다.",
+            "hint": "to + 동사원형"
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-g6",
+            "prompt": "밑줄 친 to부정사의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "I want to sleep.",
+              "She hopes to win.",
+              "He has a book to read.",
+              "They decided to leave."
+            ],
+            "answer": 2,
+            "explanation": "①②④는 목적어로 쓰인 명사적 용법이고, ③은 앞의 명사 a book을 꾸미는 형용사적 용법입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "A Book That Changed My Week",
+          "topic": "독서 · 경험",
+          "body": "Last month I decided to read one book that was not for school. I chose a short science book about numbers because the cover looked interesting.\n\nAt first it was hard to understand. I had to read some pages twice. But by Wednesday, I wanted to know what happened next, and I forgot that I was reading in English at all.\n\nThe book taught me something simple. To enjoy reading, you do not need a perfect level. You only need a book that you actually want to finish. Now I keep a list of books to read, and the list is getting longer every week.",
+          "glossary": [
+            { "word": "by Wednesday", "meaning": "수요일쯤에는" },
+            { "word": "keep a list", "meaning": "목록을 만들어 두다" },
+            { "word": "at all", "meaning": "전혀" }
+          ],
+          "translation": "지난달에 나는 학교 숙제가 아닌 책을 한 권 읽기로 결정했다. 표지가 흥미로워 보여서 숫자에 관한 짧은 과학책을 골랐다.\n\n처음에는 이해하기 어려웠다. 어떤 페이지는 두 번 읽어야 했다. 하지만 수요일쯤 되자 다음에 무슨 일이 일어나는지 알고 싶어졌고, 내가 영어로 읽고 있다는 사실조차 잊어버렸다.\n\n그 책은 내게 간단한 것을 가르쳐 주었다. 읽기를 즐기기 위해 완벽한 수준이 필요한 것은 아니다. 정말로 끝내고 싶은 책 한 권이면 된다. 지금 나는 읽을 책 목록을 만들어 두는데, 그 목록은 매주 길어지고 있다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d3-r1",
+            "prompt": "글쓴이가 책을 고른 이유는?",
+            "options": [
+              "선생님이 추천해서",
+              "표지가 흥미로워 보여서",
+              "시험 범위라서",
+              "친구가 읽고 있어서"
+            ],
+            "answer": 1,
+            "explanation": "because the cover looked interesting 이라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-r2",
+            "prompt": "글쓴이가 말하는 읽기의 조건은?",
+            "options": [
+              "완벽한 영어 실력",
+              "끝내고 싶은 마음이 드는 책",
+              "짧은 분량",
+              "매일 정해진 시간"
+            ],
+            "answer": 1,
+            "explanation": "You only need a book that you actually want to finish. 가 핵심입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-r3",
+            "prompt": "글의 흐름으로 보아 글쓴이의 태도 변화로 알맞은 것은?",
+            "options": [
+              "기대 → 실망",
+              "어려움 → 몰입",
+              "자신감 → 두려움",
+              "무관심 → 무관심"
+            ],
+            "answer": 1,
+            "explanation": "처음에는 어려웠지만(hard to understand) 나중에는 다음 내용이 궁금해졌습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w01d3-r4",
+            "prompt": "끝까지 읽고 싶은 책이 있다면 무엇인가요? 한 문장으로 써 보세요.",
+            "sample": "I want to finish a book about space because I like stars."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "도서관에서 두 학생이 책에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Suho", "text": "Have you decided to join the reading club?" },
+          { "speaker": "Yuna", "text": "Not yet. I want to read more, but the books look too long." },
+          { "speaker": "Suho", "text": "Then start with a short one. It is easier to finish." },
+          { "speaker": "Yuna", "text": "That is a good idea. I will choose one today." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d3-l1",
+            "prompt": "유나가 걱정하는 것은?",
+            "options": ["책이 너무 길어 보인다", "동아리 회비가 비싸다", "친구가 없다", "시간이 맞지 않는다"],
+            "answer": 0,
+            "explanation": "the books look too long 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d3-l2",
+            "prompt": "수호가 제안한 것은?",
+            "options": [
+              "동아리를 그만두라고",
+              "짧은 책부터 시작하라고",
+              "한국어 책을 읽으라고",
+              "선생님께 물어보라고"
+            ],
+            "answer": 1,
+            "explanation": "Then start with a short one. 이라고 제안했습니다."
+          }
+        ],
+        "dictation": [
+          "I want to read more, but the books look too long.",
+          "Then start with a short one."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "At first it was hard to understand.",
+          "I had to read some pages twice.",
+          "You only need a book that you actually want to finish."
+        ],
+        "substitution": {
+          "pattern": "I want to {verb} {object} this {time}.",
+          "slots": [
+            { "key": "verb", "options": ["read", "finish", "try", "watch", "learn"] },
+            { "key": "object", "options": ["a science book", "this novel", "a new game", "an English movie", "one new song"] },
+            { "key": "time", "options": ["week", "weekend", "month", "vacation", "evening"] }
+          ],
+          "examples": [
+            "I want to read a science book this week.",
+            "I want to watch an English movie this weekend.",
+            "I want to finish this novel this month."
+          ]
+        },
+        "qna": [
+          { "question": "What book are you reading now?", "sample": "I am reading a short science book." },
+          { "question": "What do you want to read next?", "sample": "I want to read a book about space." },
+          { "question": "Is it easy or hard to read in English?", "sample": "It is a little hard, but it is getting better." },
+          { "question": "What is your favorite movie?", "sample": "My favorite movie is a science fiction movie." },
+          { "question": "What did you decide to do this week?", "sample": "I decided to study English every day." }
+        ]
+      }
+    },
+
+    {
+      "id": "w01d4",
+      "week": 1,
+      "dayOfWeek": "thu",
+      "title": "동명사로 습관과 취향 말하기",
+      "vocab": [
+        { "word": "smell", "pos": "v.", "meaning": "냄새를 맡다; 냄새가 나다", "example": "Have you ever smelled something familiar?", "exampleKo": "익숙한 냄새를 맡아본 적 있니?" },
+        { "word": "suddenly", "pos": "adv.", "meaning": "갑자기", "example": "I suddenly remembered my childhood.", "exampleKo": "나는 갑자기 어린 시절이 떠올랐다." },
+        { "word": "childhood", "pos": "n.", "meaning": "어린 시절", "example": "This song reminds me of my childhood.", "exampleKo": "이 노래는 내 어린 시절을 떠올리게 한다." },
+        { "word": "memory", "pos": "n.", "meaning": "기억", "example": "Smell and memory are stored close together.", "exampleKo": "냄새와 기억은 가까이 저장된다." },
+        { "word": "store", "pos": "v.", "meaning": "저장하다", "example": "The brain stores memories in many places.", "exampleKo": "뇌는 기억을 여러 곳에 저장한다." },
+        { "word": "reason", "pos": "n.", "meaning": "이유", "example": "That is one reason people love old food.", "exampleKo": "그것이 사람들이 옛날 음식을 좋아하는 한 가지 이유다." },
+        { "word": "whole", "pos": "adj.", "meaning": "전체의", "example": "The smell fills the whole house.", "exampleKo": "그 냄새가 집 전체를 채운다." },
+        { "word": "rarely", "pos": "adv.", "meaning": "거의 ~않다", "example": "The answer is rarely about taste only.", "exampleKo": "그 답은 맛에 관한 것만은 거의 아니다." },
+        { "word": "simple", "pos": "adj.", "meaning": "단순한", "example": "The soup itself is simple.", "exampleKo": "그 수프 자체는 단순하다." },
+        { "word": "without", "pos": "prep.", "meaning": "~없이", "example": "Without the memory, it would just be soup.", "exampleKo": "그 기억이 없다면 그것은 그냥 수프일 뿐이다." }
+      ],
+      "grammar": {
+        "point": "동명사 (동사 + -ing를 명사처럼)",
+        "explanation": "동사에 -ing를 붙이면 '~하는 것'이라는 명사가 됩니다. enjoy, finish, mind, keep, remember 뒤에는 동명사가 오고, 전치사(about, without, of 등) 뒤에도 반드시 동명사를 씁니다. want, decide, hope 뒤에는 to부정사가 온다는 점과 구별해서 외우면 좋습니다.",
+        "examples": [
+          { "en": "I enjoy solving hard problems.", "ko": "나는 어려운 문제 푸는 것을 즐긴다." },
+          { "en": "I remember sitting in her kitchen.", "ko": "나는 그녀의 부엌에 앉아 있던 것을 기억한다." },
+          { "en": "He left without saying goodbye.", "ko": "그는 작별 인사도 없이 떠났다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w01d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI enjoy ______ new food.",
+            "options": ["try", "to try", "trying", "tried"],
+            "answer": 2,
+            "explanation": "enjoy 뒤에는 동명사가 옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe went out without ______ anything.",
+            "options": ["eat", "to eat", "eating", "eaten"],
+            "answer": 2,
+            "explanation": "전치사 without 뒤에는 동명사가 옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "I finished doing my homework.",
+              "Do you mind opening the window?",
+              "He kept to ask questions.",
+              "We enjoyed watching the game."
+            ],
+            "answer": 2,
+            "explanation": "keep 뒤에는 동명사가 오므로 He kept asking questions. 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w01d4-g4",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nThank you for ( help ) me. → Thank you for ______ me.",
+            "accept": ["helping"],
+            "explanation": "전치사 for 뒤에는 동명사 helping이 옵니다.",
+            "hint": "-ing"
+          },
+          {
+            "kind": "write",
+            "id": "w01d4-g5",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nI remember ( sit ) in her kitchen. → I remember ______ in her kitchen.",
+            "accept": ["sitting"],
+            "explanation": "이미 한 일을 기억한다는 뜻이므로 remember 뒤에 동명사 sitting을 씁니다.",
+            "hint": "자음을 하나 더 써요"
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-g6",
+            "prompt": "빈칸에 들어갈 말이 나머지와 다른 것은?",
+            "options": [
+              "I enjoy ______ books. (read)",
+              "She finished ______ dinner. (cook)",
+              "They decided ______ early. (leave)",
+              "We kept ______ for an hour. (walk)"
+            ],
+            "answer": 2,
+            "explanation": "①②④는 동명사가 오지만, decide 뒤에는 to부정사(to leave)가 옵니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Food and Memory",
+          "topic": "음식 · 과학",
+          "body": "Have you ever smelled something and suddenly remembered a place from your childhood? Scientists say this happens because smell and memory are stored close together in the brain.\n\nThat is one reason people love the food they grew up with. When my grandmother makes soup, the smell fills the whole house, and I remember sitting in her kitchen as a small child. The soup itself is simple. Without the memory, it would just be soup.\n\nSo when someone asks about your favorite food, the answer is rarely about taste only. It is often about a person, a place, or a day you do not want to forget.",
+          "glossary": [
+            { "word": "grow up with", "meaning": "~와 함께 자라다" },
+            { "word": "be stored", "meaning": "저장되다" },
+            { "word": "itself", "meaning": "그 자체" }
+          ],
+          "translation": "어떤 냄새를 맡고 갑자기 어린 시절의 장소가 떠오른 적이 있는가? 과학자들은 냄새와 기억이 뇌 안에서 가까이 저장되기 때문에 이런 일이 생긴다고 말한다.\n\n그것이 사람들이 어릴 때부터 먹어온 음식을 좋아하는 한 가지 이유다. 할머니가 수프를 만들면 그 냄새가 집 전체를 채우고, 나는 어린아이로 그 부엌에 앉아 있던 기억이 떠오른다. 수프 자체는 단순하다. 그 기억이 없다면 그것은 그냥 수프일 뿐이다.\n\n그래서 누군가 가장 좋아하는 음식을 물으면, 그 답은 맛에 관한 것만인 경우가 드물다. 그것은 대개 어떤 사람, 어떤 장소, 또는 잊고 싶지 않은 어떤 날에 관한 것이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d4-r1",
+            "prompt": "글의 주제로 가장 알맞은 것은?",
+            "options": [
+              "요리를 잘하는 방법",
+              "좋아하는 음식에는 기억이 담겨 있다",
+              "냄새를 잘 맡는 훈련법",
+              "할머니의 수프 조리법"
+            ],
+            "answer": 1,
+            "explanation": "냄새와 기억의 연결을 근거로, 좋아하는 음식이 기억과 이어져 있다는 것이 주제입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-r2",
+            "prompt": "과학자들이 말한 이유는?",
+            "options": [
+              "냄새는 맛보다 강하기 때문에",
+              "냄새와 기억이 뇌에서 가까이 저장되기 때문에",
+              "어린이는 기억력이 좋기 때문에",
+              "수프에 특별한 재료가 있기 때문에"
+            ],
+            "answer": 1,
+            "explanation": "smell and memory are stored close together in the brain 이라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-r3",
+            "prompt": "밑줄 친 it 이 가리키는 것은?\nWithout the memory, it would just be soup.",
+            "options": ["the brain", "the kitchen", "the soup", "the smell"],
+            "answer": 2,
+            "explanation": "앞 문장의 The soup itself is simple. 에서 이어지므로 it은 수프를 가리킵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w01d4-r4",
+            "prompt": "당신에게 기억이 담긴 음식이 있나요? 한 문장으로 써 보세요.",
+            "sample": "My favorite food is my mother's fried rice because it reminds me of Sunday mornings."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "가족이 저녁 식사에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Mom", "text": "What do you want for dinner tonight?" },
+          { "speaker": "Jiho", "text": "Can we have grandmother's soup? I miss the smell." },
+          { "speaker": "Mom", "text": "You always remember eating it in her kitchen." },
+          { "speaker": "Jiho", "text": "Yes. The soup is simple, but the memory is not." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d4-l1",
+            "prompt": "지호가 먹고 싶어 하는 것은?",
+            "options": ["피자", "할머니의 수프", "볶음밥", "샌드위치"],
+            "answer": 1,
+            "explanation": "Can we have grandmother's soup? 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d4-l2",
+            "prompt": "지호가 그 음식을 좋아하는 이유는?",
+            "options": ["값이 싸서", "기억과 이어져 있어서", "만들기 쉬워서", "건강에 좋아서"],
+            "answer": 1,
+            "explanation": "The soup is simple, but the memory is not. 에서 기억 때문임을 알 수 있습니다."
+          }
+        ],
+        "dictation": [
+          "Can we have grandmother's soup?",
+          "You always remember eating it in her kitchen."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "The soup itself is simple.",
+          "Without the memory, it would just be soup.",
+          "Scientists say this happens because smell and memory are stored close together in the brain."
+        ],
+        "substitution": {
+          "pattern": "I enjoy {gerund} because it makes me {feeling}.",
+          "slots": [
+            { "key": "gerund", "options": ["eating soup", "reading books", "solving problems", "listening to music", "walking outside"] },
+            { "key": "feeling", "options": ["happy", "calm", "proud", "comfortable", "curious"] }
+          ],
+          "examples": [
+            "I enjoy eating soup because it makes me happy.",
+            "I enjoy solving problems because it makes me proud.",
+            "I enjoy listening to music because it makes me calm."
+          ]
+        },
+        "qna": [
+          { "question": "What is your favorite food?", "sample": "My favorite food is my grandmother's soup." },
+          { "question": "Why do you like it?", "sample": "Because it reminds me of her kitchen." },
+          { "question": "What food do you not like?", "sample": "I do not like very spicy food." },
+          { "question": "Who cooks at your home?", "sample": "My mother usually cooks at home." },
+          { "question": "What did you eat today?", "sample": "I ate rice and soup for lunch." }
+        ],
+        "oneMinute": {
+          "topic": "My favorite food",
+          "topicKo": "내가 가장 좋아하는 음식",
+          "keywords": ["soup", "grandmother", "kitchen", "smell", "memory"]
+        }
+      }
+    },
+
+    {
+      "id": "w01d5",
+      "week": 1,
+      "dayOfWeek": "fri",
+      "title": "비교급으로 주말 이야기하기",
+      "vocab": [
+        { "word": "weekend", "pos": "n.", "meaning": "주말", "example": "My weekend feels shorter than my weekdays.", "exampleKo": "내 주말은 평일보다 짧게 느껴진다." },
+        { "word": "exactly", "pos": "adv.", "meaning": "정확히", "example": "Saturday is exactly as long as Monday.", "exampleKo": "토요일은 월요일과 정확히 똑같이 길다." },
+        { "word": "researcher", "pos": "n.", "meaning": "연구자", "example": "Researchers have a simple explanation.", "exampleKo": "연구자들은 간단한 설명을 가지고 있다." },
+        { "word": "explanation", "pos": "n.", "meaning": "설명", "example": "His explanation was easy to follow.", "exampleKo": "그의 설명은 따라가기 쉬웠다." },
+        { "word": "schedule", "pos": "n.", "meaning": "일정", "example": "Our time is cut by bells and schedules.", "exampleKo": "우리 시간은 종소리와 일정으로 잘린다." },
+        { "word": "notice", "pos": "v.", "meaning": "알아차리다", "example": "On school days we notice every hour.", "exampleKo": "학교 가는 날에는 매 시간을 알아차린다." },
+        { "word": "disappear", "pos": "v.", "meaning": "사라지다", "example": "The day disappears very quickly.", "exampleKo": "하루가 아주 빨리 사라진다." },
+        { "word": "solution", "pos": "n.", "meaning": "해결책", "example": "One student found a small solution.", "exampleKo": "한 학생이 작은 해결책을 찾았다." },
+        { "word": "remember", "pos": "v.", "meaning": "기억하다", "example": "She can remember what she did.", "exampleKo": "그녀는 자기가 무엇을 했는지 기억할 수 있다." },
+        { "word": "evening", "pos": "n.", "meaning": "저녁", "example": "I finish my list before Sunday evening.", "exampleKo": "나는 일요일 저녁 전에 목록을 끝낸다." }
+      ],
+      "grammar": {
+        "point": "비교급과 최상급, as ~ as",
+        "explanation": "두 대상을 비교할 때는 형용사에 -er을 붙이거나 more를 앞에 붙이고 than을 씁니다. 셋 이상 중 가장 ~할 때는 the -est 또는 the most를 씁니다. 정도가 같을 때는 as + 원급 + as 를 쓰고, 부정문에서는 not as ~ as 로 '~만큼 …하지 않다'를 나타냅니다.",
+        "examples": [
+          { "en": "Weekends feel shorter than weekdays.", "ko": "주말은 평일보다 짧게 느껴진다." },
+          { "en": "Saturday is exactly as long as Monday.", "ko": "토요일은 월요일과 정확히 똑같이 길다." },
+          { "en": "This is the most interesting book in the series.", "ko": "이것은 그 시리즈에서 가장 흥미로운 책이다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w01d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThis book is ______ than that one.",
+            "options": ["interesting", "more interesting", "most interesting", "the most interesting"],
+            "answer": 1,
+            "explanation": "than이 있으므로 비교급이 필요하고, interesting은 긴 형용사라 more를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-g2",
+            "prompt": "빈칸에 알맞은 것은?\nSaturday is as ______ as Monday.",
+            "options": ["long", "longer", "longest", "more long"],
+            "answer": 0,
+            "explanation": "as ~ as 사이에는 원급이 들어갑니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "He runs faster than me.",
+              "She is the tallest in her class.",
+              "This test was more easier than the last one.",
+              "Math is not as hard as I thought."
+            ],
+            "answer": 2,
+            "explanation": "more와 -er을 동시에 쓸 수 없습니다. easier than 이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w01d5-g4",
+            "prompt": "괄호 안의 말을 알맞은 형태로 쓰세요.\nMy weekend feels ( long ) than before. → My weekend feels ______ than before.",
+            "accept": ["longer"],
+            "explanation": "than이 있으므로 비교급 longer를 씁니다.",
+            "hint": "-er"
+          },
+          {
+            "kind": "write",
+            "id": "w01d5-g5",
+            "prompt": "두 문장이 같은 뜻이 되도록 빈칸을 채우세요.\nMonday is longer than Saturday. = Saturday is not ______ long as Monday.",
+            "accept": ["as", "so"],
+            "explanation": "not as ~ as 는 '~만큼 …하지 않다'는 뜻입니다.",
+            "hint": "두 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-g6",
+            "prompt": "빈칸에 알맞은 것은?\nThis is ______ day of the year for me.",
+            "options": ["busy", "busier", "the busiest", "as busy"],
+            "answer": 2,
+            "explanation": "of the year 라는 범위가 있으므로 최상급 the busiest를 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Weekend Question",
+          "topic": "생활 · 시간 관리",
+          "body": "Most students think weekends are shorter than weekdays. Of course, Saturday is exactly as long as Monday, but it never feels that way.\n\nResearchers have a simple explanation. On school days, our time is cut into pieces by bells and schedules, so we notice every hour. On weekends, hours run together, and the day disappears.\n\nOne student found a small solution. She writes down two things she wants to do before Sunday evening. They do not have to be big things, like watching one movie or finishing one book. She says her weekends now feel longer than before, because she can remember what she did.",
+          "glossary": [
+            { "word": "cut into pieces", "meaning": "여러 조각으로 나뉘다" },
+            { "word": "run together", "meaning": "구분 없이 이어지다" },
+            { "word": "write down", "meaning": "적어 두다" }
+          ],
+          "translation": "대부분의 학생은 주말이 평일보다 짧다고 생각한다. 물론 토요일은 월요일과 정확히 똑같이 길지만, 결코 그렇게 느껴지지 않는다.\n\n연구자들은 간단한 설명을 내놓는다. 학교 가는 날에는 종소리와 일정 때문에 시간이 조각조각 나뉘어서 우리는 매 시간을 인식한다. 주말에는 시간들이 하나로 이어지고, 그렇게 하루가 사라진다.\n\n한 학생이 작은 해결책을 찾았다. 그녀는 일요일 저녁 전에 하고 싶은 일 두 가지를 적어 둔다. 영화 한 편 보기나 책 한 권 끝내기처럼, 대단한 일일 필요는 없다. 그녀는 자기가 무엇을 했는지 기억할 수 있기 때문에 이제 주말이 전보다 길게 느껴진다고 말한다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d5-r1",
+            "prompt": "글의 요지로 알맞은 것은?",
+            "options": [
+              "주말에는 더 많이 자야 한다.",
+              "기억에 남는 일을 하면 주말이 길게 느껴진다.",
+              "학교 일정은 없어져야 한다.",
+              "토요일이 월요일보다 실제로 짧다."
+            ],
+            "answer": 1,
+            "explanation": "무엇을 했는지 기억할 수 있으면 주말이 길게 느껴진다는 것이 결론입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-r2",
+            "prompt": "연구자들의 설명에 따르면 평일에 시간을 더 잘 인식하는 이유는?",
+            "options": [
+              "수업이 재미없어서",
+              "종소리와 일정이 시간을 나눠 주어서",
+              "친구를 많이 만나서",
+              "잠이 부족해서"
+            ],
+            "answer": 1,
+            "explanation": "our time is cut into pieces by bells and schedules 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-r3",
+            "prompt": "한 학생이 실천한 방법은?",
+            "options": [
+              "주말에 계획을 세우지 않기",
+              "하고 싶은 일 두 가지를 적어 두기",
+              "주말마다 여행 가기",
+              "일요일에 숙제를 몰아서 하기"
+            ],
+            "answer": 1,
+            "explanation": "She writes down two things she wants to do before Sunday evening. 이라고 나옵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w01d5-r4",
+            "prompt": "이번 주말에 하고 싶은 일 두 가지를 영어로 적어 보세요.",
+            "sample": "I want to watch one movie and finish my science book."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 친구가 주말 계획을 이야기해요.",
+        "script": [
+          { "speaker": "Nara", "text": "My weekends always disappear. What do you do?" },
+          { "speaker": "Doyun", "text": "I write down two things I want to do." },
+          { "speaker": "Nara", "text": "Only two? That sounds too easy." },
+          { "speaker": "Doyun", "text": "That is the point. Small plans are easier to finish than big ones." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w01d5-l1",
+            "prompt": "도윤이 주말에 하는 것은?",
+            "options": [
+              "하고 싶은 일 두 가지를 적는다",
+              "계획 없이 쉰다",
+              "친구와 도서관에 간다",
+              "아침 일찍 일어난다"
+            ],
+            "answer": 0,
+            "explanation": "I write down two things I want to do. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w01d5-l2",
+            "prompt": "도윤이 작은 계획을 세우는 이유는?",
+            "options": [
+              "큰 계획보다 끝내기 쉬워서",
+              "부모님이 시켜서",
+              "숙제가 많아서",
+              "친구와 약속해서"
+            ],
+            "answer": 0,
+            "explanation": "Small plans are easier to finish than big ones. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I write down two things I want to do.",
+          "Small plans are easier to finish than big ones."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Most students think weekends are shorter than weekdays.",
+          "One student found a small solution.",
+          "On weekends, hours run together, and the day disappears."
+        ],
+        "substitution": {
+          "pattern": "This weekend is {comparative} than last weekend because I {activity}.",
+          "slots": [
+            { "key": "comparative", "options": ["better", "busier", "longer", "quieter", "more fun"] },
+            { "key": "activity", "options": ["watched a movie", "read a book", "met my friend", "slept a lot", "played basketball"] }
+          ],
+          "examples": [
+            "This weekend is better than last weekend because I watched a movie.",
+            "This weekend is busier than last weekend because I met my friend.",
+            "This weekend is longer than last weekend because I read a book."
+          ]
+        },
+        "qna": [
+          { "question": "What did you do last weekend?", "sample": "I watched a movie and read a book." },
+          { "question": "Do weekends feel short to you?", "sample": "Yes, they feel very short." },
+          { "question": "What do you want to do this weekend?", "sample": "I want to finish my science book." },
+          { "question": "Which is better, Saturday or Sunday?", "sample": "Saturday is better because Sunday feels short." },
+          { "question": "What is your favorite movie?", "sample": "My favorite movie is about space travel." }
+        ],
+        "oneMinute": {
+          "topic": "My weekend",
+          "topicKo": "나의 주말",
+          "keywords": ["Saturday", "two things", "movie", "longer", "remember"]
+        }
+      }
+    }
+  ]
+}

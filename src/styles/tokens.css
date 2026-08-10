@@ -1,0 +1,158 @@
+/* ---------------------------------------------------------------------------
+   디자인 토큰
+   - 라이트를 기본으로 정의하고, 다크는 값만 덮어쓴다.
+   - 중3 학생이 매일 60분씩 보는 화면이므로 대비는 충분하되 자극은 낮게 잡았다.
+--------------------------------------------------------------------------- */
+
+:root {
+  /* 면 */
+  --bg: #f7f6f3;
+  --surface: #ffffff;
+  --surface-2: #f2f1ed;
+  --surface-3: #e8e6e0;
+  --border: #e0ddd6;
+  --border-strong: #cbc7bd;
+
+  /* 글자 */
+  --text: #23211d;
+  --text-2: #55514a;
+  --text-3: #858076;
+  --text-on-accent: #ffffff;
+
+  /* 강조 */
+  --accent: #2f6f62;
+  --accent-hover: #275c51;
+  --accent-soft: #e3efec;
+  --accent-text: #23574c;
+
+  /* 영역별 색 (어휘·문법·독해·듣기·말하기) */
+  --area-vocab: #b4761f;
+  --area-vocab-soft: #fbf0dc;
+  --area-grammar: #6a51b8;
+  --area-grammar-soft: #eee9fb;
+  --area-reading: #1f7a6b;
+  --area-reading-soft: #dcf0ec;
+  --area-listening: #256ea8;
+  --area-listening-soft: #ddecf8;
+  --area-speaking: #b04a63;
+  --area-speaking-soft: #fae4ea;
+
+  /* 상태 */
+  --ok: #2c7a4b;
+  --ok-soft: #dff2e6;
+  --warn: #9a6612;
+  --warn-soft: #fbf0d9;
+  --danger: #a83a3a;
+  --danger-soft: #fae1e1;
+
+  /* 형태 */
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 18px;
+  --radius-full: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(30, 27, 22, 0.06);
+  --shadow: 0 2px 10px rgba(30, 27, 22, 0.08);
+  --shadow-lg: 0 8px 28px rgba(30, 27, 22, 0.12);
+
+  /* 간격 */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+
+  --maxw: 880px;
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard',
+    'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', Roboto, sans-serif;
+  --font-reading: Georgia, 'Times New Roman', 'Noto Serif KR', serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #161513;
+    --surface: #1f1e1b;
+    --surface-2: #272521;
+    --surface-3: #322f2a;
+    --border: #35322c;
+    --border-strong: #4b473f;
+
+    --text: #edeae4;
+    --text-2: #b9b4aa;
+    --text-3: #8b857a;
+
+    --accent: #63b6a2;
+    --accent-hover: #7cc7b4;
+    --accent-soft: #1e3733;
+    --accent-text: #9fd8c8;
+    --text-on-accent: #10201d;
+
+    --area-vocab: #dfae5e;
+    --area-vocab-soft: #38301f;
+    --area-grammar: #a898e8;
+    --area-grammar-soft: #2b2740;
+    --area-reading: #6cc0ad;
+    --area-reading-soft: #1f342f;
+    --area-listening: #74b2e2;
+    --area-listening-soft: #1e2e3d;
+    --area-speaking: #e094a8;
+    --area-speaking-soft: #3a262c;
+
+    --ok: #6cc48a;
+    --ok-soft: #1e3327;
+    --warn: #ddb266;
+    --warn-soft: #362c1b;
+    --danger: #e08585;
+    --danger-soft: #3a2424;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.55);
+  }
+}
+
+[data-theme='dark'] {
+  --bg: #161513;
+  --surface: #1f1e1b;
+  --surface-2: #272521;
+  --surface-3: #322f2a;
+  --border: #35322c;
+  --border-strong: #4b473f;
+
+  --text: #edeae4;
+  --text-2: #b9b4aa;
+  --text-3: #8b857a;
+
+  --accent: #63b6a2;
+  --accent-hover: #7cc7b4;
+  --accent-soft: #1e3733;
+  --accent-text: #9fd8c8;
+  --text-on-accent: #10201d;
+
+  --area-vocab: #dfae5e;
+  --area-vocab-soft: #38301f;
+  --area-grammar: #a898e8;
+  --area-grammar-soft: #2b2740;
+  --area-reading: #6cc0ad;
+  --area-reading-soft: #1f342f;
+  --area-listening: #74b2e2;
+  --area-listening-soft: #1e2e3d;
+  --area-speaking: #e094a8;
+  --area-speaking-soft: #3a262c;
+
+  --ok: #6cc48a;
+  --ok-soft: #1e3327;
+  --warn: #ddb266;
+  --warn-soft: #362c1b;
+  --danger: #e08585;
+  --danger-soft: #3a2424;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.55);
+}

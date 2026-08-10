@@ -343,6 +343,16 @@ a {
   color: var(--text-2);
 }
 
+input[type='range'] {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+input[type='file'] {
+  font-size: 14px;
+  color: var(--text-2);
+}
+
 /* ------------------------------------------------------------------- chips */
 .chip {
   display: inline-flex;

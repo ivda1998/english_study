@@ -76,6 +76,11 @@ npm run e2e              # Playwright: 하루 세션 완주, 진도 유지, 마�
 
 `main`에 푸시하면 GitHub Actions가 테스트를 돌리고 GitHub Pages로 배포합니다.
 
+저장소를 새로 만들었다면 **처음 한 번은 사람이 켜 줘야 합니다.**
+Settings → Pages → Build and deployment → Source 를 **GitHub Actions** 로 바꾸세요.
+워크플로 토큰에는 Pages 사이트를 만들 권한이 없어서, 이걸 안 하면 빌드가 다 통과하고도
+마지막 `configure-pages` 단계에서 멈춥니다.
+
 ## 부모가 도와줄 때
 
 - 문법이 틀려도 **바로 지적하지 않습니다.** "아, 수학이 좋아서 그렇구나" 하고 내용에 반응해 주세요.

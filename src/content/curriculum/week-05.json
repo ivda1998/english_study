@@ -1,0 +1,1086 @@
+{
+  "week": 5,
+  "title": "더 멀리 보고 말하기",
+  "focus": "하고 싶은 일과 바라는 것을 이유와 함께 두세 문장으로 말해요",
+  "speakingTopics": [
+    "My dream job",
+    "A country I want to visit",
+    "What I want to learn",
+    "What makes me happy",
+    "What I would change about my school"
+  ],
+  "days": [
+    {
+      "id": "w05d1",
+      "week": 5,
+      "dayOfWeek": "mon",
+      "title": "관계대명사 what 으로 '~하는 것' 말하기",
+      "vocab": [
+        { "word": "timetable", "pos": "n.", "meaning": "시간표", "example": "What I want to learn is not on my school timetable.", "exampleKo": "내가 배우고 싶은 것은 학교 시간표에 없다." },
+        { "word": "complaint", "pos": "n.", "meaning": "불평", "example": "That sounds like a complaint, but it is not.", "exampleKo": "그것은 불평처럼 들리지만 그렇지 않다." },
+        { "word": "argument", "pos": "n.", "meaning": "논증, 주장", "example": "School teaches how to check an argument.", "exampleKo": "학교는 주장을 점검하는 법을 가르친다." },
+        { "word": "tool", "pos": "n.", "meaning": "도구", "example": "Those skills are the tools.", "exampleKo": "그 능력들이 바로 도구다." },
+        { "word": "decision", "pos": "n.", "meaning": "결정", "example": "What you build with them is your own decision.", "exampleKo": "그것으로 무엇을 만들지는 네 결정이다." },
+        { "word": "field", "pos": "n.", "meaning": "분야", "example": "Every field needs this skill.", "exampleKo": "모든 분야가 이 능력을 필요로 한다." },
+        { "word": "patient", "pos": "n.", "meaning": "환자", "example": "A doctor leaves the patient confused.", "exampleKo": "그 의사는 환자를 혼란스럽게 남겨 둔다." },
+        { "word": "engineer", "pos": "n.", "meaning": "기술자", "example": "An engineer must explain a design clearly.", "exampleKo": "기술자는 설계를 명확히 설명할 수 있어야 한다." },
+        { "word": "directly", "pos": "adv.", "meaning": "직접적으로", "example": "Almost nobody is taught it directly.", "exampleKo": "거의 아무도 그것을 직접 배우지 않는다." },
+        { "word": "discover", "pos": "v.", "meaning": "발견하다", "example": "I discover that I did not understand it.", "exampleKo": "나는 내가 그것을 이해하지 못했음을 알게 된다." }
+      ],
+      "grammar": {
+        "point": "관계대명사 what",
+        "explanation": "what은 the thing which의 뜻으로 '~하는 것'을 나타내며, 앞에 꾸밀 명사(선행사)가 없습니다. 이 점이 that, which와 다릅니다. what이 이끄는 절은 문장에서 주어, 목적어, 보어 자리에 그대로 들어갑니다. 앞에 명사가 있으면 what을 쓸 수 없고 that이나 which를 씁니다.",
+        "examples": [
+          { "en": "What I want to learn is not on the timetable.", "ko": "내가 배우고 싶은 것은 시간표에 없다." },
+          { "en": "School teaches what everyone needs.", "ko": "학교는 모두에게 필요한 것을 가르친다." },
+          { "en": "What surprised me is how often I was wrong.", "ko": "나를 놀라게 한 것은 내가 얼마나 자주 틀렸는가였다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w05d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\n______ I want to learn is not in the textbook.",
+            "options": ["That", "What", "Which", "Who"],
+            "answer": 1,
+            "explanation": "앞에 꾸밀 명사가 없고 '~하는 것'의 뜻이므로 what을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-g2",
+            "prompt": "빈칸에 알맞은 것은?\nThis is the book ______ changed my mind.",
+            "options": ["what", "that", "who", "whose"],
+            "answer": 1,
+            "explanation": "앞에 the book이라는 명사가 있으므로 what이 아니라 that(또는 which)을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "What she said was true.",
+              "I know what you mean.",
+              "Tell me the thing what you want.",
+              "What matters is the reason."
+            ],
+            "answer": 2,
+            "explanation": "the thing이라는 선행사가 있으므로 what을 쓸 수 없습니다. that을 쓰거나 the thing을 빼야 합니다."
+          },
+          {
+            "kind": "write",
+            "id": "w05d1-g4",
+            "prompt": "빈칸을 채우세요.\n______ you build with those tools is your own decision.",
+            "accept": ["What"],
+            "explanation": "'네가 만드는 것'이라는 주어 자리이므로 What을 씁니다.",
+            "hint": "네 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w05d1-g5",
+            "prompt": "두 문장을 하나로 만드세요.\nI want to learn something. + It is not taught here. → ______ I want to learn is not taught here.",
+            "accept": ["What"],
+            "explanation": "선행사 없이 '내가 배우고 싶은 것'을 나타내므로 What을 씁니다.",
+            "hint": "W로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-g6",
+            "prompt": "밑줄 친 what의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "What he needs is time.",
+              "I understood what you wrote.",
+              "What time does the class start?",
+              "This is what I meant."
+            ],
+            "answer": 2,
+            "explanation": "③은 '몇 시'를 묻는 의문사이고, 나머지는 '~하는 것'을 뜻하는 관계대명사입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "What I Want to Learn",
+          "topic": "진로 · 배움",
+          "body": "What I want to learn is not on my school timetable. That sounds like a complaint, but it is not one.\n\nSchool teaches what everyone needs: how to read carefully, how to check an argument, how to keep working when a task is boring. Those are the tools. What you build with them is your own decision.\n\nI want to learn how to explain a difficult idea in simple words. Every field needs this, and almost nobody is taught it directly. A doctor who cannot explain a result leaves the patient confused. An engineer who cannot explain a design cannot get it built.\n\nSo I have started practicing. After I read something hard, I write two sentences that a younger student could understand. What surprised me is how often I discover that I did not really understand it myself.",
+          "glossary": [
+            { "word": "keep working", "meaning": "계속 해나가다" },
+            { "word": "get it built", "meaning": "그것이 만들어지게 하다" },
+            { "word": "in simple words", "meaning": "쉬운 말로" }
+          ],
+          "translation": "내가 배우고 싶은 것은 학교 시간표에 없다. 불평처럼 들리겠지만 불평은 아니다.\n\n학교는 모두에게 필요한 것을 가르친다. 꼼꼼히 읽는 법, 주장을 점검하는 법, 지루한 일도 계속해 나가는 법. 그것들이 도구다. 그 도구로 무엇을 만들지는 각자의 결정이다.\n\n나는 어려운 생각을 쉬운 말로 설명하는 법을 배우고 싶다. 모든 분야가 이 능력을 필요로 하는데, 이것을 직접 배우는 사람은 거의 없다. 결과를 설명하지 못하는 의사는 환자를 혼란스럽게 남겨 둔다. 설계를 설명하지 못하는 기술자는 그것을 만들어지게 할 수 없다.\n\n그래서 나는 연습을 시작했다. 어려운 것을 읽고 나면, 나보다 어린 학생도 이해할 수 있는 두 문장을 쓴다. 나를 놀라게 한 것은, 그러다 보면 내가 사실은 그것을 제대로 이해하지 못했다는 걸 얼마나 자주 알게 되는가였다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d1-r1",
+            "prompt": "글쓴이가 배우고 싶어 하는 것은?",
+            "options": [
+              "새로운 외국어",
+              "어려운 생각을 쉬운 말로 설명하는 법",
+              "빠르게 읽는 법",
+              "시험 잘 보는 법"
+            ],
+            "answer": 1,
+            "explanation": "how to explain a difficult idea in simple words 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-r2",
+            "prompt": "글쓴이가 학교 교육을 어떻게 보고 있나요?",
+            "options": [
+              "쓸모없다고 본다",
+              "도구를 준다고 본다",
+              "너무 어렵다고 본다",
+              "바꿔야 한다고 본다"
+            ],
+            "answer": 1,
+            "explanation": "Those are the tools. 라고 하며 학교가 주는 것을 도구로 봅니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-r3",
+            "prompt": "글쓴이가 연습하면서 알게 된 것은?",
+            "options": [
+              "쉬운 글이 더 재미있다",
+              "설명해 보면 스스로 이해하지 못했음을 알게 된다",
+              "어린 학생이 더 똑똑하다",
+              "두 문장으로는 부족하다"
+            ],
+            "answer": 1,
+            "explanation": "I discover that I did not really understand it myself 가 답입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w05d1-r4",
+            "prompt": "학교 밖에서 배우고 싶은 것이 있나요? 한 문장으로 써 보세요.",
+            "sample": "What I want to learn is how to explain my ideas clearly."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 배우고 싶은 것에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Sena", "text": "What do you want to learn that school does not teach?" },
+          { "speaker": "Jiho", "text": "How to explain hard things in simple words." },
+          { "speaker": "Sena", "text": "That sounds useful. How do you practice it?" },
+          { "speaker": "Jiho", "text": "I write two easy sentences after I read something difficult." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d1-l1",
+            "prompt": "지호가 배우고 싶은 것은?",
+            "options": [
+              "빨리 읽는 법",
+              "어려운 것을 쉽게 설명하는 법",
+              "외국어 하나 더",
+              "발표 자세"
+            ],
+            "answer": 1,
+            "explanation": "How to explain hard things in simple words. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d1-l2",
+            "prompt": "지호의 연습 방법은?",
+            "options": [
+              "매일 단어를 외운다",
+              "읽은 뒤 쉬운 두 문장을 쓴다",
+              "친구에게 말한다",
+              "영상을 본다"
+            ],
+            "answer": 1,
+            "explanation": "I write two easy sentences after I read something difficult. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "What do you want to learn that school does not teach?",
+          "How to explain hard things in simple words."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Those are the tools.",
+          "So I have started practicing.",
+          "What you build with them is your own decision."
+        ],
+        "substitution": {
+          "pattern": "What I want to learn is {skill}, because {reason}.",
+          "slots": [
+            { "key": "skill", "options": ["how to explain things simply", "how to code", "how to draw", "how to speak in public", "how to study smarter"] },
+            { "key": "reason", "options": ["every field needs it", "it looks interesting", "school does not teach it", "I want to help people", "I am curious about it"] }
+          ],
+          "examples": [
+            "What I want to learn is how to explain things simply, because every field needs it.",
+            "What I want to learn is how to code, because I am curious about it.",
+            "What I want to learn is how to speak in public, because school does not teach it."
+          ]
+        },
+        "qna": [
+          { "question": "What do you want to learn?", "sample": "I want to learn how to explain ideas simply." },
+          { "question": "Why do you want to learn it?", "sample": "Because it is useful in every subject." },
+          { "question": "What does school teach you well?", "sample": "School teaches me how to read carefully." },
+          { "question": "How do you practice it?", "sample": "I write two easy sentences after reading." },
+          { "question": "What is something you learned outside school?", "sample": "I learned how to fix small things at home." }
+        ]
+      }
+    },
+
+    {
+      "id": "w05d2",
+      "week": 5,
+      "dayOfWeek": "tue",
+      "title": "분사구문으로 문장 줄이기",
+      "vocab": [
+        { "word": "island", "pos": "n.", "meaning": "섬", "example": "Iceland is a small island near the Arctic Circle.", "exampleKo": "아이슬란드는 북극권 근처의 작은 섬이다." },
+        { "word": "volcano", "pos": "n.", "meaning": "화산", "example": "The ground is heated by volcanoes underneath.", "exampleKo": "땅은 아래의 화산들로 데워진다." },
+        { "word": "electricity", "pos": "n.", "meaning": "전기", "example": "The ground provides most of the electricity.", "exampleKo": "그 땅이 전기의 대부분을 공급한다." },
+        { "word": "provide", "pos": "v.", "meaning": "공급하다", "example": "The earth provides energy for homes there.", "exampleKo": "그곳에서는 땅이 가정에 에너지를 공급한다." },
+        { "word": "source", "pos": "n.", "meaning": "근원", "example": "The source is under your feet.", "exampleKo": "그 근원이 네 발밑에 있다." },
+        { "word": "steam", "pos": "n.", "meaning": "수증기", "example": "Steam rises in the middle of a field.", "exampleKo": "들판 한가운데에서 수증기가 올라온다." },
+        { "word": "energy", "pos": "n.", "meaning": "에너지", "example": "Living there changes how you think about energy.", "exampleKo": "그곳에 살면 에너지에 대한 생각이 달라진다." },
+        { "word": "darkness", "pos": "n.", "meaning": "어둠", "example": "There is almost no darkness in summer.", "exampleKo": "여름에는 어둠이 거의 없다." },
+        { "word": "warm", "pos": "v.", "meaning": "따뜻하게 하다", "example": "Every home is warmed by hot water.", "exampleKo": "모든 집이 뜨거운 물로 데워진다." },
+        { "word": "differently", "pos": "adv.", "meaning": "다르게", "example": "I want to look at my city differently.", "exampleKo": "나는 내 도시를 다르게 보고 싶다." }
+      ],
+      "grammar": {
+        "point": "분사구문",
+        "explanation": "접속사 + 주어 + 동사로 된 부사절을 분사로 줄인 것이 분사구문입니다. 두 절의 주어가 같을 때 접속사와 주어를 지우고 동사를 -ing로 바꿉니다. 수동의 뜻이면 과거분사로 시작하고, being은 자주 생략됩니다. 시간, 이유, 조건, 동시동작 등의 뜻을 문맥으로 판단합니다.",
+        "examples": [
+          { "en": "Being a small island, Iceland has almost no trees.", "ko": "작은 섬이기 때문에 아이슬란드에는 나무가 거의 없다." },
+          { "en": "Heated by volcanoes, the ground provides electricity.", "ko": "화산으로 데워져서 그 땅이 전기를 공급한다." },
+          { "en": "The source is under your feet, making steam in a field.", "ko": "근원이 발밑에 있어서 들판에 수증기를 만든다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w05d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\n______ a small island, Iceland has few trees.",
+            "options": ["Be", "Being", "Been", "To be"],
+            "answer": 1,
+            "explanation": "As it is a small island 를 분사구문으로 줄이면 Being이 됩니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-g2",
+            "prompt": "빈칸에 알맞은 것은?\n______ by volcanoes, the ground stays warm.",
+            "options": ["Heating", "Heated", "To heat", "Heat"],
+            "answer": 1,
+            "explanation": "땅이 데워지는 쪽이므로 수동의 뜻인 과거분사 Heated를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-g3",
+            "prompt": "다음 문장을 분사구문으로 바르게 바꾼 것은?\nWhen I walked home, I saw the steam.",
+            "options": [
+              "Walking home, I saw the steam.",
+              "Walked home, I saw the steam.",
+              "To walk home, I saw the steam.",
+              "Walk home, I saw the steam."
+            ],
+            "answer": 0,
+            "explanation": "주어가 같으므로 접속사와 주어를 지우고 동사를 -ing로 바꿉니다."
+          },
+          {
+            "kind": "write",
+            "id": "w05d2-g4",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\n( live ) there for a year, she learned the language. → ______ there for a year, she learned the language.",
+            "accept": ["Living"],
+            "explanation": "능동의 뜻이므로 현재분사 Living으로 시작합니다.",
+            "hint": "-ing"
+          },
+          {
+            "kind": "write",
+            "id": "w05d2-g5",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\n( write ) in simple words, the book is easy to read. → ______ in simple words, the book is easy to read.",
+            "accept": ["Written"],
+            "explanation": "책이 쓰여진 것이므로 과거분사 Written으로 시작합니다.",
+            "hint": "과거분사"
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-g6",
+            "prompt": "밑줄 친 분사구문의 뜻으로 알맞은 것은?\nNot knowing the way, I asked a local student.",
+            "options": [
+              "길을 알았기 때문에",
+              "길을 몰랐기 때문에",
+              "길을 알고 싶어서",
+              "길을 물어본 뒤에"
+            ],
+            "answer": 1,
+            "explanation": "분사구문의 부정은 앞에 not을 붙이며, 여기서는 이유를 나타냅니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "A Country I Want to Visit",
+          "topic": "여행 · 환경",
+          "body": "Wanting to see a place is different from wanting to leave your own. I want to visit Iceland, and I have thought carefully about why.\n\nBeing a small island near the Arctic Circle, Iceland has almost no trees and almost no darkness in summer. Heated by volcanoes underneath, the ground provides most of the country's electricity. Nearly every home is warmed by water that comes out of the earth already hot.\n\nLiving there must change how a person thinks about energy. In my city, electricity arrives from somewhere far away that I have never seen. In Iceland, the source is under your feet, making steam in the middle of a field.\n\nI do not want to move there. I want to stand in that field for one hour, look at the steam, and then come home and look at my own city differently.",
+          "glossary": [
+            { "word": "the Arctic Circle", "meaning": "북극권" },
+            { "word": "come out of", "meaning": "~에서 나오다" },
+            { "word": "far away", "meaning": "멀리 떨어진" }
+          ],
+          "translation": "어떤 곳을 보고 싶은 것과 내가 사는 곳을 떠나고 싶은 것은 다르다. 나는 아이슬란드에 가보고 싶고, 그 이유를 꽤 오래 생각해 봤다.\n\n북극권 근처의 작은 섬이기 때문에 아이슬란드에는 나무가 거의 없고 여름에는 어둠도 거의 없다. 아래쪽 화산들로 데워져서 그 땅이 나라 전기의 대부분을 공급한다. 거의 모든 집이 땅에서 이미 뜨거운 채로 나오는 물로 데워진다.\n\n그런 곳에 살면 에너지에 대한 생각이 분명 달라질 것이다. 내가 사는 도시에서는 전기가 한 번도 본 적 없는 먼 어딘가에서 온다. 아이슬란드에서는 그 근원이 발밑에 있고, 들판 한가운데에서 수증기를 만든다.\n\n나는 그곳으로 이사 가고 싶은 것이 아니다. 그 들판에 한 시간만 서서 수증기를 바라보고, 그런 다음 집에 돌아와 내 도시를 다르게 보고 싶은 것이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d2-r1",
+            "prompt": "글쓴이가 아이슬란드에 가고 싶은 이유는?",
+            "options": [
+              "그곳으로 이민 가고 싶어서",
+              "에너지의 근원을 직접 보고 자기 도시를 다시 보고 싶어서",
+              "여름에 어둠이 없어서",
+              "나무가 없어서"
+            ],
+            "answer": 1,
+            "explanation": "마지막 문단에 그 이유가 분명히 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-r2",
+            "prompt": "글의 내용과 일치하는 것은?",
+            "options": [
+              "아이슬란드는 나무가 많다",
+              "전기의 대부분이 땅의 열에서 나온다",
+              "겨울에는 어둠이 없다",
+              "집은 전기로만 데운다"
+            ],
+            "answer": 1,
+            "explanation": "Heated by volcanoes underneath, the ground provides most of the country's electricity 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-r3",
+            "prompt": "글쓴이가 자기 도시에 대해 말한 것은?",
+            "options": [
+              "전기가 어디서 오는지 본 적이 없다",
+              "전기가 부족하다",
+              "화산이 있다",
+              "여름이 밝다"
+            ],
+            "answer": 0,
+            "explanation": "electricity arrives from somewhere far away that I have never seen 이라고 했습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w05d2-r4",
+            "prompt": "가보고 싶은 나라와 이유를 한 문장으로 써 보세요.",
+            "sample": "I want to visit Iceland because I want to see where its energy comes from."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 가고 싶은 나라를 이야기해요.",
+        "script": [
+          { "speaker": "Nara", "text": "If you could visit one country, where would you go?" },
+          { "speaker": "Minjun", "text": "Iceland. Being close to the Arctic, it has strange summers." },
+          { "speaker": "Nara", "text": "Strange how?" },
+          { "speaker": "Minjun", "text": "It never gets fully dark, and hot water comes straight out of the ground." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d2-l1",
+            "prompt": "민준이 가고 싶은 나라는?",
+            "options": ["캐나다", "아이슬란드", "노르웨이", "핀란드"],
+            "answer": 1,
+            "explanation": "Iceland. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d2-l2",
+            "prompt": "민준이 말한 그 나라의 특징은?",
+            "options": [
+              "여름에 완전히 어두워지지 않는다",
+              "겨울이 짧다",
+              "산이 많다",
+              "비가 자주 온다"
+            ],
+            "answer": 0,
+            "explanation": "It never gets fully dark 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "If you could visit one country, where would you go?",
+          "Hot water comes straight out of the ground."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "I want to visit Iceland, and I have thought carefully about why.",
+          "I do not want to move there.",
+          "In Iceland, the source is under your feet, making steam in the middle of a field."
+        ],
+        "substitution": {
+          "pattern": "I want to visit {country} because I want to see {thing}.",
+          "slots": [
+            { "key": "country", "options": ["Iceland", "Japan", "Canada", "Italy", "New Zealand"] },
+            { "key": "thing", "options": ["the steam in the fields", "the old streets", "the northern lights", "the mountains", "how people live there"] }
+          ],
+          "examples": [
+            "I want to visit Iceland because I want to see the steam in the fields.",
+            "I want to visit Canada because I want to see the northern lights.",
+            "I want to visit Japan because I want to see how people live there."
+          ]
+        },
+        "qna": [
+          { "question": "Which country do you want to visit?", "sample": "I want to visit Iceland." },
+          { "question": "Why that country?", "sample": "Because its energy comes from under the ground." },
+          { "question": "What would you do there?", "sample": "I would stand in a field and watch the steam." },
+          { "question": "Have you traveled abroad before?", "sample": "No, but I want to someday." },
+          { "question": "What would you miss about home?", "sample": "I would miss my family and my food." }
+        ],
+        "oneMinute": {
+          "topic": "A country I want to visit",
+          "topicKo": "가보고 싶은 나라",
+          "keywords": ["Iceland", "small island", "volcanoes", "steam", "look at home differently"]
+        },
+        "mathTalk": {
+          "problem": "A flight is 5,400 km. The plane flies 900 km per hour. How long does it take?",
+          "problemKo": "비행 거리 5,400km, 속력 900km/h 일 때 걸리는 시간은?",
+          "basic": ["First, I check the distance and the speed.", "Then, I divide the distance by the speed.", "Finally, I get six hours."],
+          "upgraded": [
+            "First, I identify the distance and the speed given in the question.",
+            "Then, I divide the distance by the speed to find the time.",
+            "Finally, I get six hours as the flight time."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w05d3",
+      "week": 5,
+      "dayOfWeek": "wed",
+      "title": "부가의문문으로 확인하며 말하기",
+      "vocab": [
+        { "word": "predict", "pos": "v.", "meaning": "예측하다", "example": "Researchers ask people to predict what will make them happy.", "exampleKo": "연구자들은 무엇이 자신을 행복하게 할지 예측해 보라고 한다." },
+        { "word": "mood", "pos": "n.", "meaning": "기분", "example": "They record their mood every hour.", "exampleKo": "그들은 매시간 기분을 기록한다." },
+        { "word": "familiar", "pos": "adj.", "meaning": "익숙한", "example": "Walking somewhere familiar makes me calm.", "exampleKo": "익숙한 곳을 걸으면 마음이 차분해진다." },
+        { "word": "fade", "pos": "v.", "meaning": "옅어지다", "example": "The feeling fades quickly.", "exampleKo": "그 기분은 빨리 옅어진다." },
+        { "word": "adaptation", "pos": "n.", "meaning": "적응", "example": "Psychologists call this adaptation.", "exampleKo": "심리학자들은 이것을 적응이라고 부른다." },
+        { "word": "psychologist", "pos": "n.", "meaning": "심리학자", "example": "Psychologists study how people feel.", "exampleKo": "심리학자들은 사람들이 어떻게 느끼는지 연구한다." },
+        { "word": "happiness", "pos": "n.", "meaning": "행복", "example": "Happiness is not something you wait for.", "exampleKo": "행복은 기다려야 하는 것이 아니다." },
+        { "word": "score", "pos": "n.", "meaning": "점수", "example": "A high score does not last long.", "exampleKo": "높은 점수의 기쁨은 오래가지 않는다." },
+        { "word": "fact", "pos": "n.", "meaning": "사실", "example": "That is not a sad fact at all.", "exampleKo": "그것은 전혀 슬픈 사실이 아니다." },
+        { "word": "inside", "pos": "prep.", "meaning": "~안에", "example": "It is already inside an ordinary afternoon.", "exampleKo": "그것은 이미 평범한 오후 안에 있다." }
+      ],
+      "grammar": {
+        "point": "부가의문문",
+        "explanation": "문장 끝에 짧게 붙여 확인하거나 동의를 구하는 표현입니다. 앞이 긍정이면 뒤는 부정, 앞이 부정이면 뒤는 긍정으로 씁니다. be동사와 조동사는 그대로 쓰고, 일반동사는 do/does/did를 씁니다. 주어는 반드시 대명사로 바꿉니다. 명령문에는 will you, Let's 뒤에는 shall we를 붙입니다.",
+        "examples": [
+          { "en": "Everyone wants to be happy, don't they?", "ko": "모두가 행복하고 싶어 하잖아, 그렇지?" },
+          { "en": "It is already inside an ordinary afternoon, isn't it?", "ko": "그건 이미 평범한 오후 안에 있어, 그렇지 않니?" },
+          { "en": "You did not know that, did you?", "ko": "너 그거 몰랐지, 그렇지?" }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w05d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nYou like music, ______?",
+            "options": ["do you", "don't you", "aren't you", "didn't you"],
+            "answer": 1,
+            "explanation": "앞이 긍정의 일반동사 현재형이므로 don't you를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe is not coming, ______?",
+            "options": ["is she", "isn't she", "does she", "doesn't she"],
+            "answer": 0,
+            "explanation": "앞이 부정이므로 뒤는 긍정 is she 가 됩니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-g3",
+            "prompt": "어법상 틀린 것은?",
+            "options": [
+              "Let's go now, shall we?",
+              "Open the window, will you?",
+              "He can swim, can he?",
+              "They went home, didn't they?"
+            ],
+            "answer": 2,
+            "explanation": "앞이 긍정이면 뒤는 부정이어야 하므로 can't he 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w05d3-g4",
+            "prompt": "빈칸을 채우세요.\nEveryone wants to be happy, ______ they?",
+            "accept": ["don't", "do not"],
+            "explanation": "everyone은 대명사 they로 받고, 앞이 긍정이므로 don't를 씁니다.",
+            "hint": "축약형이에요"
+          },
+          {
+            "kind": "write",
+            "id": "w05d3-g5",
+            "prompt": "빈칸을 채우세요.\nYou have finished it, ______ you?",
+            "accept": ["haven't", "have not"],
+            "explanation": "현재완료는 have를 그대로 써서 haven't you 가 됩니다.",
+            "hint": "have의 부정 축약형"
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-g6",
+            "prompt": "빈칸에 알맞은 것은?\nLet's record our mood every hour, ______?",
+            "options": ["will we", "shall we", "don't we", "aren't we"],
+            "answer": 1,
+            "explanation": "Let's 로 시작하는 문장의 부가의문문은 shall we 입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Happiness Question",
+          "topic": "심리 · 생활",
+          "body": "Everyone wants to be happy, don't they? But most people cannot really say what makes them happy, and the reason is interesting.\n\nWhen researchers ask people to predict what will make them happy, the answers are usually big: a new phone, a trip, a high score. When the same people record their mood every hour for a week, the pattern is different. The highest moments are small and ordinary. Finishing something. Walking somewhere familiar. Talking with one person who is easy to be with.\n\nBig events do make us happy, but the feeling fades quickly. Psychologists call this adaptation. You get used to good things much faster than you expect.\n\nThat is not a sad fact. It means happiness is not something you have to wait for. It is already inside an ordinary Tuesday afternoon, isn't it?",
+          "glossary": [
+            { "word": "get used to", "meaning": "~에 익숙해지다" },
+            { "word": "easy to be with", "meaning": "함께 있기 편한" },
+            { "word": "adaptation", "meaning": "적응" }
+          ],
+          "translation": "모두가 행복해지고 싶어 한다. 그렇지 않은가? 그런데 대부분의 사람은 무엇이 자신을 행복하게 하는지 정확히 말하지 못하고, 그 이유가 흥미롭다.\n\n연구자들이 사람들에게 무엇이 자신을 행복하게 할지 예측해 보라고 하면, 답은 대개 크다. 새 휴대폰, 여행, 높은 점수. 그런데 같은 사람들이 일주일 동안 매시간 기분을 기록하면 양상이 다르다. 가장 높은 순간들은 작고 평범하다. 무언가를 끝냈을 때. 익숙한 곳을 걸을 때. 함께 있기 편한 사람 한 명과 이야기할 때.\n\n큰 사건도 물론 우리를 행복하게 하지만, 그 기분은 빨리 옅어진다. 심리학자들은 이것을 적응이라고 부른다. 우리는 좋은 것에 생각보다 훨씬 빨리 익숙해진다.\n\n이것은 슬픈 사실이 아니다. 행복이 기다려야만 오는 것이 아니라는 뜻이기 때문이다. 그것은 이미 평범한 화요일 오후 안에 있다. 그렇지 않은가?"
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d3-r1",
+            "prompt": "연구 결과 실제로 가장 행복한 순간은?",
+            "options": ["여행 갈 때", "새 물건을 살 때", "작고 평범한 순간들", "시험을 잘 봤을 때"],
+            "answer": 2,
+            "explanation": "The highest moments are small and ordinary. 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-r2",
+            "prompt": "adaptation 이 뜻하는 것은?",
+            "options": [
+              "좋은 일에 빨리 익숙해지는 것",
+              "새로운 환경에 이사하는 것",
+              "행복을 예측하는 능력",
+              "기분을 기록하는 방법"
+            ],
+            "answer": 0,
+            "explanation": "You get used to good things much faster than you expect. 가 설명입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-r3",
+            "prompt": "글쓴이가 이것을 슬프지 않다고 한 이유는?",
+            "options": [
+              "행복은 기다릴 필요가 없기 때문에",
+              "큰 사건이 자주 있기 때문에",
+              "연구가 틀렸기 때문에",
+              "사람마다 다르기 때문에"
+            ],
+            "answer": 0,
+            "explanation": "happiness is not something you have to wait for 가 이유입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w05d3-r4",
+            "prompt": "당신을 행복하게 하는 작고 평범한 일을 한 문장으로 써 보세요.",
+            "sample": "I feel happy when I finish my homework early and listen to music."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 행복에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Yuna", "text": "You bought that phone last month, didn't you?" },
+          { "speaker": "Doyun", "text": "I did. But I stopped noticing it after two weeks." },
+          { "speaker": "Yuna", "text": "That is adaptation. We get used to things fast." },
+          { "speaker": "Doyun", "text": "So small daily things matter more, don't they?" }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d3-l1",
+            "prompt": "도윤이 새 휴대폰에 대해 말한 것은?",
+            "options": [
+              "두 주 뒤에는 신경 쓰지 않게 됐다",
+              "아직도 매일 기쁘다",
+              "고장이 났다",
+              "동생에게 줬다"
+            ],
+            "answer": 0,
+            "explanation": "I stopped noticing it after two weeks. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d3-l2",
+            "prompt": "두 사람의 결론은?",
+            "options": [
+              "비싼 물건이 행복을 준다",
+              "작고 일상적인 것이 더 중요하다",
+              "적응은 나쁜 것이다",
+              "휴대폰은 필요 없다"
+            ],
+            "answer": 1,
+            "explanation": "So small daily things matter more, don't they? 로 마무리합니다."
+          }
+        ],
+        "dictation": [
+          "You bought that phone last month, didn't you?",
+          "So small daily things matter more, don't they?"
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "The highest moments are small and ordinary.",
+          "Big events do make us happy, but the feeling fades quickly.",
+          "That is not a sad fact."
+        ],
+        "substitution": {
+          "pattern": "{activity} makes me happy, doesn't it sound simple?",
+          "slots": [
+            { "key": "activity", "options": ["Finishing my homework early", "Walking home slowly", "Talking with my best friend", "Solving one hard problem", "Listening to one good song"] }
+          ],
+          "examples": [
+            "Finishing my homework early makes me happy, doesn't it sound simple?",
+            "Walking home slowly makes me happy, doesn't it sound simple?",
+            "Solving one hard problem makes me happy, doesn't it sound simple?"
+          ]
+        },
+        "qna": [
+          { "question": "What makes you happy?", "sample": "Finishing something makes me happy." },
+          { "question": "Does a new thing make you happy for long?", "sample": "No, the feeling fades quickly." },
+          { "question": "What small thing made you smile today?", "sample": "My friend told me a funny story." },
+          { "question": "You like quiet time, don't you?", "sample": "Yes, I do. I need it after school." },
+          { "question": "What would make tomorrow a good day?", "sample": "Finishing my project would make it good." }
+        ]
+      }
+    },
+
+    {
+      "id": "w05d4",
+      "week": 5,
+      "dayOfWeek": "thu",
+      "title": "조동사 + have p.p. 로 지난 일 평가하기",
+      "vocab": [
+        { "word": "astronaut", "pos": "n.", "meaning": "우주비행사", "example": "Ten years ago I would have said astronaut.", "exampleKo": "10년 전이었다면 나는 우주비행사라고 답했을 것이다." },
+        { "word": "design", "pos": "v.", "meaning": "설계하다", "example": "I want to design things that solve problems.", "exampleKo": "나는 문제를 해결하는 것들을 설계하고 싶다." },
+        { "word": "apart", "pos": "adv.", "meaning": "분해하여", "example": "I took apart a broken radio as a child.", "exampleKo": "나는 어릴 때 고장 난 라디오를 분해했다." },
+        { "word": "upset", "pos": "adj.", "meaning": "속상한", "example": "I was upset that I had not understood it.", "exampleKo": "나는 그것을 이해하지 못한 것이 속상했다." },
+        { "word": "fair", "pos": "n.", "meaning": "박람회", "example": "I met an engineer at a science fair.", "exampleKo": "나는 과학 박람회에서 기술자를 만났다." },
+        { "word": "progress", "pos": "n.", "meaning": "진전", "example": "A small piece of progress by evening is enough.", "exampleKo": "저녁까지 작은 진전 하나면 충분하다." },
+        { "word": "title", "pos": "n.", "meaning": "직함", "example": "My dream job is not a title.", "exampleKo": "내 꿈의 직업은 직함이 아니다." },
+        { "word": "exist", "pos": "v.", "meaning": "존재하다", "example": "It might happen in a job that does not exist yet.", "exampleKo": "그것은 아직 존재하지 않는 직업에서 일어날 수도 있다." },
+        { "word": "radio", "pos": "n.", "meaning": "라디오", "example": "I could not put the radio back together.", "exampleKo": "나는 그 라디오를 다시 조립하지 못했다." },
+        { "word": "building", "pos": "n.", "meaning": "만드는 일", "example": "Most of her job is not building.", "exampleKo": "그녀의 일 대부분은 만드는 일이 아니다." }
+      ],
+      "grammar": {
+        "point": "조동사 + have + 과거분사",
+        "explanation": "지난 일을 지금 시점에서 짐작하거나 평가할 때 씁니다. must have p.p.는 '~였음이 틀림없다', can't have p.p.는 '~였을 리 없다', should have p.p.는 '~했어야 했는데 하지 않았다', could have p.p.는 '~할 수도 있었다', would have p.p.는 '~했을 것이다'라는 뜻입니다.",
+        "examples": [
+          { "en": "Ten years ago I would have said astronaut.", "ko": "10년 전이었다면 나는 우주비행사라고 말했을 것이다." },
+          { "en": "I should have realized this earlier.", "ko": "나는 이것을 더 일찍 깨달았어야 했다." },
+          { "en": "Those projects must have started with the wrong question.", "ko": "그 프로젝트들은 잘못된 질문에서 시작했음이 틀림없다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w05d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nHe is late. He ______ missed the bus.",
+            "options": ["must have", "should have", "can't have", "would have"],
+            "answer": 0,
+            "explanation": "'~했음이 틀림없다'는 강한 추측이므로 must have p.p.를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nI ______ studied harder. I regret it now.",
+            "options": ["must have", "should have", "can't have", "might have"],
+            "answer": 1,
+            "explanation": "후회를 나타내므로 should have p.p.를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-g3",
+            "prompt": "다음 문장의 뜻으로 알맞은 것은?\nShe can't have finished it already.",
+            "options": [
+              "그녀는 이미 끝냈을 리 없다",
+              "그녀는 이미 끝냈음이 틀림없다",
+              "그녀는 끝낼 수 없었다",
+              "그녀는 끝내야 했다"
+            ],
+            "answer": 0,
+            "explanation": "can't have p.p.는 '~했을 리 없다'는 부정의 추측입니다."
+          },
+          {
+            "kind": "write",
+            "id": "w05d4-g4",
+            "prompt": "빈칸을 채우세요.\nI ______ have asked the right question first. (그랬어야 했는데 하지 않았다)",
+            "accept": ["should"],
+            "explanation": "후회를 나타내는 should have p.p.입니다.",
+            "hint": "s로 시작해요"
+          },
+          {
+            "kind": "write",
+            "id": "w05d4-g5",
+            "prompt": "빈칸을 채우세요.\nThe project failed. It ______ have started with a wrong question. (틀림없다)",
+            "accept": ["must"],
+            "explanation": "강한 추측이므로 must have p.p.를 씁니다.",
+            "hint": "m으로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-g6",
+            "prompt": "밑줄 친 부분의 의미가 나머지와 다른 것은?",
+            "options": [
+              "He must have been tired.",
+              "She must have left early.",
+              "You must have seen it before.",
+              "You must finish it by six."
+            ],
+            "answer": 3,
+            "explanation": "①②③은 과거에 대한 추측이고, ④는 현재의 의무를 나타냅니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "My Dream Job",
+          "topic": "진로 · 자기 생각",
+          "body": "Ten years ago I would have said astronaut. Now I say something less exciting: I want to design things that solve problems.\n\nI should have realized this earlier. As a child I took apart a broken radio and could not put it back together, and I was not upset about the radio. I was upset that I had not understood the inside.\n\nAn engineer I met at a science fair told me something I still think about. She said that most of her job is not building. It is asking the right question first. Half of the failed projects she has seen must have started with the wrong question.\n\nSo my dream job is not a title. It is a kind of day: a difficult question in the morning, a small piece of progress by evening, and a reason to come back tomorrow. That could happen in many jobs. It might even happen in one that does not exist yet.",
+          "glossary": [
+            { "word": "take apart", "meaning": "분해하다" },
+            { "word": "put back together", "meaning": "다시 조립하다" },
+            { "word": "come back", "meaning": "다시 돌아오다" }
+          ],
+          "translation": "10년 전이었다면 나는 우주비행사라고 답했을 것이다. 지금은 조금 덜 멋진 대답을 한다. 나는 문제를 해결하는 것들을 설계하고 싶다.\n\n이걸 더 일찍 깨달았어야 했다. 어릴 때 나는 고장 난 라디오를 분해했다가 다시 조립하지 못했는데, 라디오 때문에 속상했던 게 아니었다. 그 안을 이해하지 못한 것이 속상했다.\n\n과학 박람회에서 만난 한 기술자가 해준 말을 나는 아직도 생각한다. 그녀는 자기 일의 대부분이 만드는 일이 아니라고 했다. 먼저 올바른 질문을 하는 일이라고 했다. 자기가 본 실패한 프로젝트의 절반은 잘못된 질문에서 시작했음이 틀림없다고 했다.\n\n그래서 내 꿈의 직업은 직함이 아니다. 그것은 하루의 모양이다. 아침에는 어려운 질문 하나, 저녁까지 작은 진전 하나, 그리고 내일 다시 돌아올 이유 하나. 그런 하루는 많은 직업에서 가능하다. 아직 존재하지 않는 직업에서 일어날 수도 있다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d4-r1",
+            "prompt": "글쓴이가 어릴 때 속상했던 이유는?",
+            "options": [
+              "라디오가 고장 나서",
+              "라디오 내부를 이해하지 못해서",
+              "부모님께 혼나서",
+              "새 라디오를 못 사서"
+            ],
+            "answer": 1,
+            "explanation": "I was upset that I had not understood the inside. 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-r2",
+            "prompt": "기술자가 말한 자기 일의 핵심은?",
+            "options": ["빠르게 만드는 것", "올바른 질문을 먼저 하는 것", "많이 실패하는 것", "혼자 일하는 것"],
+            "answer": 1,
+            "explanation": "It is asking the right question first. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-r3",
+            "prompt": "글쓴이가 말하는 꿈의 직업이란?",
+            "options": [
+              "특정한 직함",
+              "하루가 어떤 모양인가",
+              "연봉이 높은 일",
+              "우주비행사"
+            ],
+            "answer": 1,
+            "explanation": "It is a kind of day 라고 하며 하루의 모양으로 설명합니다."
+          },
+          {
+            "kind": "free",
+            "id": "w05d4-r4",
+            "prompt": "당신이 바라는 하루의 모양을 한 문장으로 써 보세요.",
+            "sample": "I want a day with one hard question in the morning and one small answer by evening."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "진로 상담 시간의 대화예요.",
+        "script": [
+          { "speaker": "Teacher", "text": "What job do you want in the future?" },
+          { "speaker": "Sena", "text": "I am not sure about the title, but I like solving problems." },
+          { "speaker": "Teacher", "text": "Then the field matters less than the kind of day you want." },
+          { "speaker": "Sena", "text": "I should have thought about it that way earlier." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d4-l1",
+            "prompt": "세나가 확실하지 않다고 한 것은?",
+            "options": ["직업의 이름", "좋아하는 과목", "대학 진학", "취미"],
+            "answer": 0,
+            "explanation": "I am not sure about the title 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d4-l2",
+            "prompt": "선생님의 조언은?",
+            "options": [
+              "직업 이름보다 원하는 하루의 모습이 중요하다",
+              "성적을 올려야 한다",
+              "빨리 정해야 한다",
+              "부모님과 상의해라"
+            ],
+            "answer": 0,
+            "explanation": "the field matters less than the kind of day you want 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I am not sure about the title, but I like solving problems.",
+          "I should have thought about it that way earlier."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "So my dream job is not a title.",
+          "I should have realized this earlier.",
+          "It is asking the right question first."
+        ],
+        "substitution": {
+          "pattern": "My dream job is something where I can {activity} every day.",
+          "slots": [
+            { "key": "activity", "options": ["solve problems", "design things", "help people", "explain ideas", "build something new"] }
+          ],
+          "examples": [
+            "My dream job is something where I can solve problems every day.",
+            "My dream job is something where I can design things every day.",
+            "My dream job is something where I can explain ideas every day."
+          ]
+        },
+        "qna": [
+          { "question": "What is your dream job?", "sample": "I want to design things that solve problems." },
+          { "question": "Why do you want that job?", "sample": "Because I like understanding how things work." },
+          { "question": "What did you want to be as a child?", "sample": "I would have said astronaut ten years ago." },
+          { "question": "What kind of day do you want?", "sample": "A day with one hard question and one small answer." },
+          { "question": "What subject helps that job?", "sample": "Math and science help the most." }
+        ],
+        "oneMinute": {
+          "topic": "My dream job",
+          "topicKo": "내가 바라는 직업",
+          "keywords": ["not a title", "design", "right question", "small progress", "come back tomorrow"]
+        }
+      }
+    },
+
+    {
+      "id": "w05d5",
+      "week": 5,
+      "dayOfWeek": "fri",
+      "title": "동격으로 개념 풀어 말하기",
+      "vocab": [
+        { "word": "concept", "pos": "n.", "meaning": "개념", "example": "A math concept sometimes opens up suddenly.", "exampleKo": "수학 개념은 때때로 갑자기 열린다." },
+        { "word": "grid", "pos": "n.", "meaning": "격자, 표", "example": "The timetable is a grid drawn in August.", "exampleKo": "시간표는 8월에 그려진 격자다." },
+        { "word": "chaos", "pos": "n.", "meaning": "혼란", "example": "I am not asking for chaos.", "exampleKo": "나는 혼란을 원하는 것이 아니다." },
+        { "word": "structure", "pos": "n.", "meaning": "구조, 틀", "example": "Structure helps most students.", "exampleKo": "틀은 대부분의 학생에게 도움이 된다." },
+        { "word": "drift", "pos": "v.", "meaning": "떠돌다", "example": "Without it, most students would drift.", "exampleKo": "그것이 없으면 대부분의 학생은 떠돌 것이다." },
+        { "word": "flexible", "pos": "adj.", "meaning": "유연한", "example": "One flexible block each week would help.", "exampleKo": "매주 한 시간의 유연한 시간이면 도움이 될 것이다." },
+        { "word": "period", "pos": "n.", "meaning": "교시, 시간", "example": "A period students could spend on weak points.", "exampleKo": "학생들이 약한 부분에 쓸 수 있는 한 교시." },
+        { "word": "fairness", "pos": "n.", "meaning": "공정함", "example": "Fairness does not mean identical time.", "exampleKo": "공정함이 똑같은 시간을 뜻하지는 않는다." },
+        { "word": "identical", "pos": "adj.", "meaning": "똑같은", "example": "Needs are not identical.", "exampleKo": "필요한 것은 모두 똑같지 않다." },
+        { "word": "obvious", "pos": "adj.", "meaning": "분명한", "example": "It is obvious that people learn at different speeds.", "exampleKo": "사람마다 배우는 속도가 다르다는 것은 분명하다." }
+      ],
+      "grammar": {
+        "point": "동격 (the fact that … / A, B)",
+        "explanation": "명사 뒤에 그 명사의 내용을 그대로 풀어 주는 것을 동격이라고 합니다. the fact that, the idea that, the belief that 처럼 접속사 that을 쓰거나, 콤마로 명사를 나란히 놓습니다. 이때의 that은 관계대명사와 달리 뒤에 완전한 문장이 오고, 앞 명사의 내용을 설명합니다.",
+        "examples": [
+          { "en": "It would be the idea that every subject needs the same time.", "ko": "그것은 모든 과목이 같은 시간을 필요로 한다는 생각일 것이다." },
+          { "en": "The fact that structure helps is obvious.", "ko": "틀이 도움이 된다는 사실은 분명하다." },
+          { "en": "The timetable, a grid drawn in August, cannot know this.", "ko": "8월에 그려진 격자인 시간표는 이것을 알 수 없다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w05d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThe fact ______ he studied hard is clear.",
+            "options": ["what", "that", "which", "who"],
+            "answer": 1,
+            "explanation": "the fact의 내용을 설명하는 동격의 that입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-g2",
+            "prompt": "밑줄 친 that의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "The idea that we need change is old.",
+              "The belief that fairness means sameness is wrong.",
+              "The book that I borrowed is heavy.",
+              "The fact that he left surprised us."
+            ],
+            "answer": 2,
+            "explanation": "③은 앞의 명사를 꾸미는 관계대명사이고, 나머지는 동격의 that입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-g3",
+            "prompt": "빈칸에 알맞은 것은?\nMy teacher, ______ math teacher, gave me the problem.",
+            "options": ["a", "an", "the", "that"],
+            "answer": 0,
+            "explanation": "콤마로 이어지는 동격 자리이므로 a math teacher 처럼 씁니다."
+          },
+          {
+            "kind": "write",
+            "id": "w05d5-g4",
+            "prompt": "빈칸을 채우세요.\nThe belief ______ everyone needs the same time is comfortable but wrong.",
+            "accept": ["that"],
+            "explanation": "the belief의 내용을 풀어 주는 동격의 that입니다.",
+            "hint": "네 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w05d5-g5",
+            "prompt": "두 문장을 동격으로 합치세요.\nI heard the news. + He passed the exam. → I heard the news ______ he passed the exam.",
+            "accept": ["that"],
+            "explanation": "the news의 내용을 설명하므로 동격의 that을 씁니다.",
+            "hint": "t로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-g6",
+            "prompt": "어법상 알맞은 문장은?",
+            "options": [
+              "The fact what he lied is clear.",
+              "The fact that he lied is clear.",
+              "The fact which he lied is clear.",
+              "The fact who he lied is clear."
+            ],
+            "answer": 1,
+            "explanation": "명사의 내용을 설명하는 동격에는 that을 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "What I Would Change About My School",
+          "topic": "학교 · 제안",
+          "body": "If I could change one thing about my school, it would not be the building or the food. It would be the idea that every subject needs the same amount of time every week.\n\nLearning does not work that way. Some weeks a math concept opens up and I could work on it for three hours without stopping. Other weeks, forty minutes is already too long. The timetable, a grid drawn in August, cannot know any of this.\n\nI am not asking for chaos. The fact that structure helps is obvious; without it, most students would drift. But a small change would help: one flexible block each week, a period students could spend on whatever they are currently stuck on.\n\nThe belief that fairness means giving everyone identical time is comfortable but wrong. Fair means giving each person what they need, and needs are not identical.",
+          "glossary": [
+            { "word": "open up", "meaning": "이해되기 시작하다" },
+            { "word": "be stuck on", "meaning": "~에 막혀 있다" },
+            { "word": "work that way", "meaning": "그런 식으로 작동하다" }
+          ],
+          "translation": "학교에서 한 가지를 바꿀 수 있다면, 건물이나 급식은 아닐 것이다. 모든 과목이 매주 똑같은 시간을 필요로 한다는 생각을 바꾸고 싶다.\n\n배움은 그런 식으로 작동하지 않는다. 어떤 주에는 수학 개념이 열리기 시작해서 세 시간을 쉬지 않고 붙잡을 수도 있다. 다른 주에는 40분도 이미 너무 길다. 8월에 그려진 격자인 시간표는 이런 것을 전혀 알 수 없다.\n\n혼란을 원하는 것이 아니다. 틀이 도움이 된다는 사실은 분명하다. 그것이 없으면 대부분의 학생은 떠돌 것이다. 하지만 작은 변화 하나면 도움이 될 것이다. 매주 한 시간의 유연한 블록, 지금 막혀 있는 무엇에든 쓸 수 있는 한 교시 말이다.\n\n공정함이란 모두에게 똑같은 시간을 주는 것이라는 믿음은 편하지만 틀렸다. 공정함은 각자에게 필요한 것을 주는 일이고, 필요한 것은 모두 똑같지 않다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d5-r1",
+            "prompt": "글쓴이가 바꾸고 싶은 것은?",
+            "options": [
+              "학교 건물",
+              "급식",
+              "모든 과목에 같은 시간을 배정하는 방식",
+              "시험 횟수"
+            ],
+            "answer": 2,
+            "explanation": "the idea that every subject needs the same amount of time every week 를 바꾸고 싶다고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-r2",
+            "prompt": "글쓴이가 제안한 구체적인 방법은?",
+            "options": [
+              "시간표를 없앤다",
+              "매주 유연한 한 교시를 둔다",
+              "수업을 세 시간으로 늘린다",
+              "과목 수를 줄인다"
+            ],
+            "answer": 1,
+            "explanation": "one flexible block each week 를 제안합니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-r3",
+            "prompt": "글쓴이가 생각하는 공정함이란?",
+            "options": [
+              "모두에게 똑같이 주는 것",
+              "각자에게 필요한 것을 주는 것",
+              "성적순으로 주는 것",
+              "시간을 줄이는 것"
+            ],
+            "answer": 1,
+            "explanation": "Fair means giving each person what they need 라고 했습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w05d5-r4",
+            "prompt": "학교에서 한 가지를 바꿀 수 있다면 무엇을 바꾸고 싶은지 한 문장으로 써 보세요.",
+            "sample": "I would add one free period every week so we could study what we are stuck on."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생회에서 시간표에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Minjun", "text": "I would change the idea that every subject needs equal time." },
+          { "speaker": "Hana", "text": "But without structure, students would drift." },
+          { "speaker": "Minjun", "text": "I agree. That is why I want only one flexible period." },
+          { "speaker": "Hana", "text": "One period a week sounds possible, doesn't it?" }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w05d5-l1",
+            "prompt": "민준의 제안은?",
+            "options": [
+              "시간표를 없애자",
+              "유연한 한 교시를 만들자",
+              "과목을 줄이자",
+              "수업 시간을 늘리자"
+            ],
+            "answer": 1,
+            "explanation": "I want only one flexible period. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w05d5-l2",
+            "prompt": "하나가 걱정한 것은?",
+            "options": [
+              "틀이 없으면 학생들이 방향을 잃는다",
+              "선생님이 반대한다",
+              "시간이 부족하다",
+              "학부모가 싫어한다"
+            ],
+            "answer": 0,
+            "explanation": "without structure, students would drift 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "But without structure, students would drift.",
+          "One period a week sounds possible, doesn't it?"
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Learning does not work that way.",
+          "I am not asking for chaos.",
+          "Fair means giving each person what they need, and needs are not identical."
+        ],
+        "substitution": {
+          "pattern": "I would change the idea that {belief}, because {reason}.",
+          "slots": [
+            { "key": "belief", "options": ["every subject needs equal time", "tests measure everything", "faster is better", "quiet students are not learning", "homework must be long"] },
+            { "key": "reason", "options": ["students learn at different speeds", "it is not true for everyone", "it makes us tired", "it ignores real learning", "quality matters more"] }
+          ],
+          "examples": [
+            "I would change the idea that every subject needs equal time, because students learn at different speeds.",
+            "I would change the idea that tests measure everything, because it ignores real learning.",
+            "I would change the idea that homework must be long, because quality matters more."
+          ]
+        },
+        "qna": [
+          { "question": "What would you change about your school?", "sample": "I would add one flexible period each week." },
+          { "question": "Why would you change that?", "sample": "Because we all get stuck on different things." },
+          { "question": "What do you like about your school?", "sample": "I like that the teachers answer my questions." },
+          { "question": "Is a fixed timetable fair?", "sample": "It is simple, but it is not always fair." },
+          { "question": "What does fairness mean to you?", "sample": "Fairness means giving each person what they need." }
+        ],
+        "oneMinute": {
+          "topic": "What I would change about my school",
+          "topicKo": "학교에서 바꾸고 싶은 것",
+          "keywords": ["equal time", "learning is uneven", "flexible period", "not chaos", "fair means needs"]
+        }
+      }
+    }
+  ]
+}

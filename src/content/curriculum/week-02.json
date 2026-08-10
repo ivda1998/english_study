@@ -1,0 +1,1077 @@
+{
+  "week": 2,
+  "title": "이유를 붙여 말하기",
+  "focus": "좋고 싫음에 '왜냐하면'을 붙이고, 문장을 길게 이어 봐요",
+  "speakingTopics": [
+    "Why I like math",
+    "A subject I don't like",
+    "My favorite teacher",
+    "My best friend",
+    "Something I'm good at"
+  ],
+  "days": [
+    {
+      "id": "w02d1",
+      "week": 2,
+      "dayOfWeek": "mon",
+      "title": "접속사로 문장 잇기",
+      "vocab": [
+        { "word": "avoid", "pos": "v.", "meaning": "피하다", "example": "Every student has a subject they avoid.", "exampleKo": "모든 학생에게는 피하고 싶은 과목이 있다." },
+        { "word": "refuse", "pos": "v.", "meaning": "거부하다", "example": "My brain refuses to hold all the dates.", "exampleKo": "내 뇌는 그 모든 연도를 담기를 거부한다." },
+        { "word": "semester", "pos": "n.", "meaning": "학기", "example": "Last semester I tried something different.", "exampleKo": "지난 학기에 나는 다른 방법을 시도했다." },
+        { "word": "instead", "pos": "adv.", "meaning": "대신에", "example": "Instead of memorizing, I asked questions.", "exampleKo": "외우는 대신 나는 질문을 했다." },
+        { "word": "memorize", "pos": "v.", "meaning": "암기하다", "example": "It is hard to memorize a long list.", "exampleKo": "긴 목록을 외우는 것은 어렵다." },
+        { "word": "event", "pos": "n.", "meaning": "사건", "example": "I asked one question about each event.", "exampleKo": "나는 각 사건에 대해 질문 하나씩을 했다." },
+        { "word": "although", "pos": "conj.", "meaning": "비록 ~이지만", "example": "Although it was hard, I kept going.", "exampleKo": "비록 어려웠지만 나는 계속했다." },
+        { "word": "dislike", "pos": "v.", "meaning": "싫어하다", "example": "A subject you dislike may be one you never understood.", "exampleKo": "네가 싫어하는 과목은 한 번도 이해하지 못한 과목일 수 있다." },
+        { "word": "similar", "pos": "adj.", "meaning": "비슷한", "example": "Those two things sound similar.", "exampleKo": "그 두 가지는 비슷하게 들린다." },
+        { "word": "completely", "pos": "adv.", "meaning": "완전히", "example": "They are completely different.", "exampleKo": "그것들은 완전히 다르다." }
+      ],
+      "grammar": {
+        "point": "접속사 because / although / when / if / so",
+        "explanation": "접속사는 문장과 문장을 이어 줍니다. because는 이유, although(=though)는 '~이지만'이라는 양보, when은 시간, if는 조건을 나타냅니다. so는 결과를 이끌어 앞 문장과 이어집니다. because와 so를 한 문장에 함께 쓰지 않는다는 점, although 뒤에는 문장이 오고 despite 뒤에는 명사가 온다는 점을 시험에서 자주 묻습니다.",
+        "examples": [
+          { "en": "I like math because it feels like a puzzle.", "ko": "나는 수학이 퍼즐 같아서 좋다." },
+          { "en": "Although the answers were not in the book, I looked for them.", "ko": "답이 책에 없었지만 나는 그것을 찾아보았다." },
+          { "en": "It was hard, so I asked my teacher.", "ko": "그것이 어려워서 나는 선생님께 물었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w02d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI study at night ______ the house is quiet then.",
+            "options": ["because", "although", "but", "so"],
+            "answer": 0,
+            "explanation": "뒤에 이유가 나오므로 because가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-g2",
+            "prompt": "빈칸에 알맞은 것은?\n______ I studied hard, I did not get a good grade.",
+            "options": ["Because", "Although", "So", "If"],
+            "answer": 1,
+            "explanation": "앞뒤 내용이 서로 반대이므로 '~이지만'을 뜻하는 Although가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "Because it rained, we stayed home.",
+              "It rained, so we stayed home.",
+              "Because it rained, so we stayed home.",
+              "Although it rained, we went out."
+            ],
+            "answer": 2,
+            "explanation": "because와 so는 같은 문장에서 함께 쓰지 않습니다. 둘 중 하나만 씁니다."
+          },
+          {
+            "kind": "write",
+            "id": "w02d1-g4",
+            "prompt": "두 문장을 하나로 이으세요.\nI do not like history. It has too many dates. → I do not like history ______ it has too many dates.",
+            "accept": ["because"],
+            "explanation": "이유를 나타내는 접속사 because로 잇습니다.",
+            "hint": "b로 시작해요"
+          },
+          {
+            "kind": "write",
+            "id": "w02d1-g5",
+            "prompt": "우리말에 맞게 빈칸을 채우세요.\n시험이 어렵다면 나는 다시 공부할 것이다. → ______ the test is hard, I will study again.",
+            "accept": ["If"],
+            "explanation": "조건을 나타내는 접속사 If를 씁니다.",
+            "hint": "두 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-g6",
+            "prompt": "밑줄 친 접속사의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "I was tired when I came home.",
+              "When the class started, I felt calm.",
+              "When you finish, tell me.",
+              "I stayed home because it was cold."
+            ],
+            "answer": 3,
+            "explanation": "①②③은 시간을 나타내는 when이고, ④는 이유를 나타내는 because입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Subject I Avoid",
+          "topic": "학교생활 · 적성",
+          "body": "Every student has a subject that they quietly avoid. For me, it is history. When I open the textbook, I see hundreds of names and dates, and my brain refuses to hold them.\n\nLast semester I tried something different. Instead of memorizing the list, I asked one question about each event: why did this happen? Although the answers were not in the book, looking for them made the names easier to remember.\n\nMy grade did not change much, but something else did. I no longer felt afraid when the history class started. A subject you dislike is often a subject you have never understood, not a subject you cannot understand. Those two things sound similar, but they are completely different.",
+          "glossary": [
+            { "word": "hundreds of", "meaning": "수백 개의" },
+            { "word": "no longer", "meaning": "더 이상 ~않다" },
+            { "word": "instead of", "meaning": "~하는 대신에" }
+          ],
+          "translation": "모든 학생에게는 조용히 피하는 과목이 하나씩 있다. 나에게는 역사다. 교과서를 펼치면 수백 개의 이름과 연도가 보이고, 내 뇌는 그것들을 담기를 거부한다.\n\n지난 학기에 나는 다른 방법을 시도했다. 목록을 외우는 대신, 각 사건에 대해 질문 하나씩을 했다. 왜 이 일이 일어났을까? 답이 책에 없기는 했지만, 그 답을 찾다 보니 이름들이 더 쉽게 외워졌다.\n\n내 성적은 크게 달라지지 않았다. 하지만 다른 것이 달라졌다. 역사 수업이 시작될 때 더 이상 두렵지 않았다. 네가 싫어하는 과목은 대개 이해할 수 없는 과목이 아니라, 한 번도 이해해 본 적 없는 과목이다. 이 둘은 비슷하게 들리지만 완전히 다르다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d1-r1",
+            "prompt": "글쓴이가 시도한 방법은?",
+            "options": [
+              "이름과 연도를 더 많이 외우기",
+              "사건마다 '왜'라는 질문을 해보기",
+              "역사 과목을 포기하기",
+              "친구와 함께 공부하기"
+            ],
+            "answer": 1,
+            "explanation": "I asked one question about each event: why did this happen? 에 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-r2",
+            "prompt": "글쓴이에게 실제로 달라진 것은?",
+            "options": ["성적이 크게 올랐다", "수업이 두렵지 않게 되었다", "역사를 가장 좋아하게 되었다", "선생님이 바뀌었다"],
+            "answer": 1,
+            "explanation": "My grade did not change much 이지만 I no longer felt afraid 라고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-r3",
+            "prompt": "마지막 문단에서 글쓴이가 구별하는 두 가지는?",
+            "options": [
+              "좋아하는 과목과 잘하는 과목",
+              "이해할 수 없는 과목과 이해해 본 적 없는 과목",
+              "시험 과목과 비시험 과목",
+              "쉬운 과목과 어려운 과목"
+            ],
+            "answer": 1,
+            "explanation": "never understood 와 cannot understand 를 구별하고 있습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w02d1-r4",
+            "prompt": "당신이 어려워하는 과목과 그 이유를 한 문장으로 써 보세요.",
+            "sample": "History is difficult for me because there are too many names to remember."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 싫어하는 과목에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Hana", "text": "Do you have a subject you really do not like?" },
+          { "speaker": "Minjun", "text": "History. There are too many dates to memorize." },
+          { "speaker": "Hana", "text": "Try asking why each event happened. It helped me." },
+          { "speaker": "Minjun", "text": "Although that sounds slow, I will try it this week." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d1-l1",
+            "prompt": "민준이 어려워하는 과목은?",
+            "options": ["수학", "역사", "과학", "음악"],
+            "answer": 1,
+            "explanation": "History. There are too many dates to memorize. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d1-l2",
+            "prompt": "하나가 제안한 공부 방법은?",
+            "options": [
+              "연도를 더 많이 외우기",
+              "사건이 왜 일어났는지 물어보기",
+              "교과서를 두 번 읽기",
+              "학원에 다니기"
+            ],
+            "answer": 1,
+            "explanation": "Try asking why each event happened. 라고 제안했습니다."
+          }
+        ],
+        "dictation": [
+          "There are too many dates to memorize.",
+          "Try asking why each event happened."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "For me, it is history.",
+          "Last semester I tried something different.",
+          "Those two things sound similar, but they are completely different."
+        ],
+        "substitution": {
+          "pattern": "I do not like {subject} because it is {reason}.",
+          "slots": [
+            { "key": "subject", "options": ["history", "music", "P.E.", "art", "chemistry"] },
+            { "key": "reason", "options": ["hard to memorize", "too fast for me", "not interesting to me", "confusing", "full of details"] }
+          ],
+          "examples": [
+            "I do not like history because it is hard to memorize.",
+            "I do not like music because it is not interesting to me.",
+            "I do not like chemistry because it is confusing."
+          ]
+        },
+        "qna": [
+          { "question": "What subject do you not like?", "sample": "I do not like history." },
+          { "question": "Why is it difficult for you?", "sample": "Because there are too many dates." },
+          { "question": "What helps you when a subject is hard?", "sample": "Asking questions helps me." },
+          { "question": "What subject do you like the most?", "sample": "I like math the most." },
+          { "question": "What did you study yesterday?", "sample": "I studied English and math yesterday." }
+        ]
+      }
+    },
+
+    {
+      "id": "w02d2",
+      "week": 2,
+      "dayOfWeek": "tue",
+      "title": "관계대명사로 사람과 사물 설명하기",
+      "vocab": [
+        { "word": "honest", "pos": "adj.", "meaning": "솔직한", "example": "The honest answer is very simple.", "exampleKo": "솔직한 대답은 아주 간단하다." },
+        { "word": "guess", "pos": "v.", "meaning": "추측하다", "example": "I do not want to guess what the teacher wants.", "exampleKo": "나는 선생님이 무엇을 원하는지 추측하고 싶지 않다." },
+        { "word": "depend", "pos": "v.", "meaning": "~에 달려 있다", "example": "A good answer depends on the reader.", "exampleKo": "좋은 답은 읽는 사람에 달려 있다." },
+        { "word": "calm", "pos": "adj.", "meaning": "차분한", "example": "There is something calm about math.", "exampleKo": "수학에는 차분한 무언가가 있다." },
+        { "word": "connect", "pos": "v.", "meaning": "연결하다", "example": "You find a rule that connects two ideas.", "exampleKo": "너는 두 생각을 연결하는 규칙을 찾는다." },
+        { "word": "separate", "pos": "adj.", "meaning": "별개의", "example": "I thought the two ideas were separate.", "exampleKo": "나는 그 두 생각이 별개라고 생각했다." },
+        { "word": "rule", "pos": "n.", "meaning": "규칙", "example": "This rule works every time.", "exampleKo": "이 규칙은 언제나 통한다." },
+        { "word": "moment", "pos": "n.", "meaning": "순간", "example": "I like the moment when a problem becomes short.", "exampleKo": "나는 문제가 짧아지는 순간이 좋다." },
+        { "word": "order", "pos": "n.", "meaning": "질서, 순서", "example": "Math is about finding order.", "exampleKo": "수학은 질서를 찾는 일이다." },
+        { "word": "disappear", "pos": "v.", "meaning": "사라지다", "example": "Five lines of work disappear at once.", "exampleKo": "다섯 줄의 풀이가 한 번에 사라진다." }
+      ],
+      "grammar": {
+        "point": "관계대명사 who / which / that",
+        "explanation": "관계대명사는 두 문장을 하나로 이으면서 앞의 명사를 설명합니다. 앞의 명사가 사람이면 who, 사물이면 which를 쓰고, that은 둘 다에 쓸 수 있습니다. 관계대명사가 뒤 문장에서 주어 역할을 하면 생략할 수 없고, 목적어 역할을 할 때만 생략할 수 있습니다.",
+        "examples": [
+          { "en": "People who like math are often asked why.", "ko": "수학을 좋아하는 사람들은 종종 이유를 질문받는다." },
+          { "en": "Math is the subject which never asks me to guess.", "ko": "수학은 나에게 추측을 요구하지 않는 과목이다." },
+          { "en": "You find a rule that connects two things.", "ko": "너는 두 가지를 연결하는 규칙을 찾는다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w02d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI know a student ______ loves science.",
+            "options": ["who", "which", "what", "whose"],
+            "answer": 0,
+            "explanation": "앞의 명사가 사람(a student)이고 뒤 문장의 주어 자리이므로 who를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-g2",
+            "prompt": "빈칸에 알맞은 것은?\nThis is the book ______ changed my week.",
+            "options": ["who", "which", "whom", "where"],
+            "answer": 1,
+            "explanation": "앞의 명사가 사물(the book)이므로 which(또는 that)를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "The girl who sits next to me is kind.",
+              "I like problems that have one answer.",
+              "The teacher which helped me is busy.",
+              "This is the rule that connects them."
+            ],
+            "answer": 2,
+            "explanation": "사람 앞에는 which를 쓰지 않습니다. who 또는 that이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w02d2-g4",
+            "prompt": "두 문장을 관계대명사로 이으세요.\nI met a boy. He likes math. → I met a boy ______ likes math.",
+            "accept": ["who", "that"],
+            "explanation": "사람을 설명하면서 주어 역할을 하므로 who 또는 that을 씁니다.",
+            "hint": "사람이에요"
+          },
+          {
+            "kind": "write",
+            "id": "w02d2-g5",
+            "prompt": "두 문장을 관계대명사로 이으세요.\nThis is the answer. It is still correct. → This is the answer ______ is still correct.",
+            "accept": ["which", "that"],
+            "explanation": "사물을 설명하는 주격 관계대명사이므로 which 또는 that을 씁니다.",
+            "hint": "사물이에요"
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-g6",
+            "prompt": "밑줄 친 관계대명사를 생략할 수 있는 것은?",
+            "options": [
+              "The rule that connects them is simple.",
+              "The book that I read was short.",
+              "The student who won the prize is here.",
+              "The idea that surprised me was new."
+            ],
+            "answer": 1,
+            "explanation": "②만 관계대명사가 목적어 역할(I read the book)이므로 생략할 수 있습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Reason Behind the Numbers",
+          "topic": "적성 · 자기 생각",
+          "body": "People who like math are often asked the same question: why? The honest answer is that math is the only subject which never asks me to guess what the teacher wants.\n\nIn writing class, a good answer depends on the reader. In math, an answer that is correct today will still be correct in ten years. There is something calm about that.\n\nI also like the moment when a long problem suddenly becomes short. You find a rule that connects two things you thought were separate, and five lines of work disappear. Students who have felt this moment usually keep studying math, even when it gets hard. It is not about numbers. It is about finding order.",
+          "glossary": [
+            { "word": "depend on", "meaning": "~에 달려 있다" },
+            { "word": "at once", "meaning": "한 번에" },
+            { "word": "keep -ing", "meaning": "계속 ~하다" }
+          ],
+          "translation": "수학을 좋아하는 사람들은 늘 같은 질문을 받는다. 왜냐고. 솔직한 대답은, 수학이 선생님이 무엇을 원하는지 추측하라고 요구하지 않는 유일한 과목이라는 것이다.\n\n글쓰기 수업에서는 좋은 답이 읽는 사람에 따라 달라진다. 수학에서는 오늘 맞는 답이 10년 뒤에도 맞다. 거기에는 차분한 무언가가 있다.\n\n나는 긴 문제가 갑자기 짧아지는 순간도 좋아한다. 서로 별개라고 생각했던 두 가지를 연결하는 규칙을 찾으면 다섯 줄의 풀이가 사라진다. 이 순간을 느껴본 학생들은 수학이 어려워져도 대개 계속 공부한다. 그것은 숫자에 관한 일이 아니다. 질서를 찾는 일이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d2-r1",
+            "prompt": "글쓴이가 수학을 좋아하는 가장 큰 이유는?",
+            "options": [
+              "계산이 빠르기 때문에",
+              "선생님의 의도를 추측하지 않아도 되기 때문에",
+              "시험 점수가 잘 나오기 때문에",
+              "친구들이 좋아하기 때문에"
+            ],
+            "answer": 1,
+            "explanation": "never asks me to guess what the teacher wants 가 핵심 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-r2",
+            "prompt": "글의 내용과 일치하는 것은?",
+            "options": [
+              "수학의 답은 시간이 지나면 달라진다.",
+              "글쓰기의 좋은 답은 읽는 사람에 따라 달라진다.",
+              "글쓴이는 긴 풀이를 좋아한다.",
+              "수학은 숫자를 외우는 과목이다."
+            ],
+            "answer": 1,
+            "explanation": "a good answer depends on the reader 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-r3",
+            "prompt": "빈칸에 들어갈 말로 가장 알맞은 것은?\nFor the writer, math is about finding ______.",
+            "options": ["speed", "order", "praise", "luck"],
+            "answer": 1,
+            "explanation": "마지막 문장 It is about finding order. 에서 확인할 수 있습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w02d2-r4",
+            "prompt": "수학이든 다른 과목이든, 문제를 풀었을 때 기분이 좋았던 순간을 한 문장으로 써 보세요.",
+            "sample": "I felt good when I solved a problem that my friend could not solve."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 수학 문제를 풀며 이야기해요.",
+        "script": [
+          { "speaker": "Sena", "text": "This problem takes five lines. Is there a shorter way?" },
+          { "speaker": "Jiho", "text": "There is a rule that connects these two parts." },
+          { "speaker": "Sena", "text": "Oh, then the whole middle part disappears." },
+          { "speaker": "Jiho", "text": "That is the moment I like the most in math." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d2-l1",
+            "prompt": "지호가 알려준 것은?",
+            "options": [
+              "두 부분을 연결하는 규칙",
+              "계산기를 쓰는 방법",
+              "답을 외우는 방법",
+              "선생님께 물어보기"
+            ],
+            "answer": 0,
+            "explanation": "There is a rule that connects these two parts. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d2-l2",
+            "prompt": "지호가 수학에서 가장 좋아하는 순간은?",
+            "options": [
+              "시험이 끝나는 순간",
+              "풀이가 줄어드는 순간",
+              "친구를 이기는 순간",
+              "정답을 확인하는 순간"
+            ],
+            "answer": 1,
+            "explanation": "풀이의 중간 부분이 사라지는 그 순간을 가장 좋아한다고 했습니다."
+          }
+        ],
+        "dictation": [
+          "There is a rule that connects these two parts.",
+          "That is the moment I like the most in math."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "There is something calm about that.",
+          "It is about finding order.",
+          "I also like the moment when a long problem suddenly becomes short."
+        ],
+        "substitution": {
+          "pattern": "I like {subject} because it is a subject that {reason}.",
+          "slots": [
+            { "key": "subject", "options": ["math", "science", "English", "art", "history"] },
+            { "key": "reason", "options": ["has clear answers", "lets me test my ideas", "helps me read more", "gives me freedom", "explains the world"] }
+          ],
+          "examples": [
+            "I like math because it is a subject that has clear answers.",
+            "I like science because it is a subject that lets me test my ideas.",
+            "I like art because it is a subject that gives me freedom."
+          ]
+        },
+        "qna": [
+          { "question": "Why do you like math?", "sample": "Because there is one correct answer." },
+          { "question": "What kind of problems do you like?", "sample": "I like problems that have a short solution." },
+          { "question": "Do you know a student who is good at math?", "sample": "Yes, my friend is very good at math." },
+          { "question": "When do you feel proud at school?", "sample": "I feel proud when I solve a hard problem." },
+          { "question": "What was difficult today?", "sample": "The grammar part was difficult today." }
+        ],
+        "oneMinute": {
+          "topic": "Why I like math",
+          "topicKo": "내가 수학을 좋아하는 이유",
+          "keywords": ["one answer", "no guessing", "rules", "short solution", "order"]
+        },
+        "mathTalk": {
+          "problem": "Solve: 3(x - 2) = 12",
+          "problemKo": "3(x - 2) = 12 를 풀어보세요",
+          "basic": ["First, I open the bracket.", "Then, I move the number.", "Finally, I get x = 6."],
+          "upgraded": [
+            "First, I expand the bracket on the left side.",
+            "Then, I move the constant to the other side.",
+            "Finally, I divide both sides by three and get x = 6."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w02d3",
+      "week": 2,
+      "dayOfWeek": "wed",
+      "title": "관계부사로 때와 장소 말하기",
+      "vocab": [
+        { "word": "talent", "pos": "n.", "meaning": "재능", "example": "Talent is not one single thing.", "exampleKo": "재능은 한 가지가 아니다." },
+        { "word": "measure", "pos": "v.", "meaning": "측정하다", "example": "School measures only a few skills.", "exampleKo": "학교는 몇 가지 능력만 측정한다." },
+        { "word": "ignore", "pos": "v.", "meaning": "무시하다", "example": "It ignores the rest of them.", "exampleKo": "그것은 나머지를 무시한다." },
+        { "word": "explain", "pos": "v.", "meaning": "설명하다", "example": "Some people are good at explaining.", "exampleKo": "어떤 사람들은 설명을 잘한다." },
+        { "word": "notice", "pos": "v.", "meaning": "알아차리다", "example": "She notices small mistakes quickly.", "exampleKo": "그녀는 작은 실수를 빨리 알아차린다." },
+        { "word": "skill", "pos": "n.", "meaning": "능력, 기술", "example": "That is a real skill.", "exampleKo": "그것은 진짜 능력이다." },
+        { "word": "section", "pos": "n.", "meaning": "부분, 영역", "example": "No exam has a section for it.", "exampleKo": "어떤 시험에도 그것을 위한 영역은 없다." },
+        { "word": "whether", "pos": "conj.", "meaning": "~인지 아닌지", "example": "The question is not whether you are good.", "exampleKo": "문제는 네가 잘하느냐가 아니다." },
+        { "word": "machine", "pos": "n.", "meaning": "기계", "example": "Give her a broken machine and watch.", "exampleKo": "그녀에게 고장 난 기계를 주고 지켜봐라." },
+        { "word": "broken", "pos": "adj.", "meaning": "고장 난", "example": "The broken machine stopped this morning.", "exampleKo": "그 고장 난 기계는 오늘 아침에 멈췄다." }
+      ],
+      "grammar": {
+        "point": "관계부사 where / when / why / how",
+        "explanation": "관계부사는 장소(where), 시간(when), 이유(why), 방법(how)을 나타내는 명사를 뒤 문장이 설명하게 이어 줍니다. 관계대명사와 달리 뒤에 완전한 문장이 옵니다. the reason why, the time when처럼 앞의 명사와 짝을 이루며, the way와 how는 함께 쓰지 않고 둘 중 하나만 씁니다.",
+        "examples": [
+          { "en": "It happens in a classroom where everyone takes the same test.", "ko": "그것은 모두가 같은 시험을 보는 교실에서 일어난다." },
+          { "en": "There is a moment when students decide they are not talented.", "ko": "학생들이 자신은 재능이 없다고 결정하는 순간이 있다." },
+          { "en": "She will find the reason why it stopped.", "ko": "그녀는 그것이 멈춘 이유를 찾아낼 것이다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w02d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThis is the classroom ______ we take the test.",
+            "options": ["which", "where", "who", "when"],
+            "answer": 1,
+            "explanation": "장소(the classroom)를 설명하고 뒤에 완전한 문장이 오므로 where를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-g2",
+            "prompt": "빈칸에 알맞은 것은?\nI remember the day ______ I first solved it alone.",
+            "options": ["where", "when", "why", "which"],
+            "answer": 1,
+            "explanation": "시간(the day)을 설명하므로 when을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "Tell me the reason why you left.",
+              "This is the way how she studies.",
+              "I know the place where they met.",
+              "That was the year when we moved."
+            ],
+            "answer": 1,
+            "explanation": "the way와 how는 함께 쓰지 않습니다. the way she studies 또는 how she studies 로 씁니다."
+          },
+          {
+            "kind": "write",
+            "id": "w02d3-g4",
+            "prompt": "빈칸에 알맞은 관계부사를 쓰세요.\nShe found the reason ______ the machine stopped.",
+            "accept": ["why"],
+            "explanation": "the reason 뒤에는 이유를 나타내는 관계부사 why가 옵니다.",
+            "hint": "이유예요"
+          },
+          {
+            "kind": "write",
+            "id": "w02d3-g5",
+            "prompt": "빈칸에 알맞은 관계부사를 쓰세요.\nThe library is a place ______ I can think quietly.",
+            "accept": ["where"],
+            "explanation": "장소를 설명하므로 where를 씁니다.",
+            "hint": "장소예요"
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-g6",
+            "prompt": "빈칸에 공통으로 들어갈 말은?\nI know the time ______ he arrives.\nThat was the moment ______ everything changed.",
+            "options": ["where", "when", "why", "which"],
+            "answer": 1,
+            "explanation": "the time, the moment 모두 시간을 나타내므로 관계부사 when이 들어갑니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Everyone Is Good at Something",
+          "topic": "적성 · 학교",
+          "body": "There is a moment when most students decide they are not talented. It usually happens in a classroom where everyone is measured by the same test on the same day.\n\nBut talent is not one thing. Some people are good at remembering. Others are good at explaining, or noticing small mistakes, or staying calm when a problem takes an hour. School measures a few of these and ignores the rest.\n\nI know a student who cannot memorize vocabulary lists at all. Give her a broken machine, though, and she will find the reason why it stopped in ten minutes. That is a real skill, even if no exam has a section for it. The question is not whether you are good at something. It is where you have not looked yet.",
+          "glossary": [
+            { "word": "be measured by", "meaning": "~로 측정되다" },
+            { "word": "the rest", "meaning": "나머지" },
+            { "word": "even if", "meaning": "비록 ~일지라도" }
+          ],
+          "translation": "대부분의 학생이 자신은 재능이 없다고 결정하는 순간이 있다. 그것은 보통 모두가 같은 날 같은 시험으로 측정되는 교실에서 일어난다.\n\n하지만 재능은 한 가지가 아니다. 어떤 사람은 기억을 잘한다. 어떤 사람은 설명을 잘하거나, 작은 실수를 잘 알아차리거나, 한 시간 걸리는 문제 앞에서도 침착함을 잃지 않는다. 학교는 그중 몇 가지만 측정하고 나머지는 무시한다.\n\n나는 단어 목록을 전혀 외우지 못하는 학생을 한 명 안다. 그런데 그 아이에게 고장 난 기계를 주면, 10분 안에 그것이 멈춘 이유를 찾아낸다. 그것을 위한 시험 영역이 없다 해도, 그것은 진짜 능력이다. 문제는 네가 무언가를 잘하느냐가 아니다. 아직 어디를 들여다보지 않았느냐다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d3-r1",
+            "prompt": "글의 주제로 가장 알맞은 것은?",
+            "options": [
+              "시험은 없어져야 한다",
+              "재능은 여러 가지이고 학교는 그중 일부만 잰다",
+              "단어 암기가 가장 중요한 능력이다",
+              "기계를 고치는 일이 최고의 직업이다"
+            ],
+            "answer": 1,
+            "explanation": "학교가 재는 능력은 일부이며 재능은 다양하다는 것이 주제입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-r2",
+            "prompt": "글에서 재능의 예로 언급되지 않은 것은?",
+            "options": ["기억하기", "설명하기", "빨리 달리기", "침착하게 버티기"],
+            "answer": 2,
+            "explanation": "remembering, explaining, noticing, staying calm 은 나오지만 달리기는 나오지 않습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-r3",
+            "prompt": "마지막 문장 It is where you have not looked yet. 의 의미로 알맞은 것은?",
+            "options": [
+              "아직 찾아보지 않은 영역이 있다는 뜻",
+              "장소를 옮겨야 한다는 뜻",
+              "시험 범위를 확인하라는 뜻",
+              "친구를 따라 하라는 뜻"
+            ],
+            "answer": 0,
+            "explanation": "잘하는 것이 없는 게 아니라 아직 들여다보지 않은 곳이 있다는 뜻입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w02d3-r4",
+            "prompt": "시험에는 안 나오지만 당신이 잘하는 것을 한 문장으로 써 보세요.",
+            "sample": "I am good at explaining things to my friends."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "선생님이 학생과 진로 상담을 해요.",
+        "script": [
+          { "speaker": "Teacher", "text": "You look worried. Is something wrong?" },
+          { "speaker": "Yuna", "text": "I am not good at anything. My test scores are average." },
+          { "speaker": "Teacher", "text": "Tests measure a few skills. They ignore many others." },
+          { "speaker": "Yuna", "text": "So the question is where I have not looked yet." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d3-l1",
+            "prompt": "유나가 걱정하는 것은?",
+            "options": ["잘하는 것이 없다고 느낀다", "친구와 다퉜다", "시험이 내일이다", "숙제를 잃어버렸다"],
+            "answer": 0,
+            "explanation": "I am not good at anything. 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d3-l2",
+            "prompt": "선생님이 말한 시험의 한계는?",
+            "options": [
+              "너무 자주 본다",
+              "몇 가지 능력만 재고 나머지는 무시한다",
+              "문제가 너무 쉽다",
+              "채점이 느리다"
+            ],
+            "answer": 1,
+            "explanation": "Tests measure a few skills. They ignore many others. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Tests measure a few skills.",
+          "So the question is where I have not looked yet."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "But talent is not one thing.",
+          "Some people are good at remembering.",
+          "That is a real skill, even if no exam has a section for it."
+        ],
+        "substitution": {
+          "pattern": "I am good at {skill}, and I like the place where I can {activity}.",
+          "slots": [
+            { "key": "skill", "options": ["explaining things", "solving puzzles", "remembering songs", "fixing small things", "listening to people"] },
+            { "key": "activity", "options": ["think quietly", "talk with friends", "try new things", "read for a long time", "move around"] }
+          ],
+          "examples": [
+            "I am good at solving puzzles, and I like the place where I can think quietly.",
+            "I am good at explaining things, and I like the place where I can talk with friends.",
+            "I am good at fixing small things, and I like the place where I can try new things."
+          ]
+        },
+        "qna": [
+          { "question": "What are you good at?", "sample": "I am good at solving math problems." },
+          { "question": "Where do you study best?", "sample": "I study best in my room." },
+          { "question": "When do you feel confident?", "sample": "I feel confident when I finish my homework early." },
+          { "question": "Do you know the reason why you like it?", "sample": "Yes, because I can do it well." },
+          { "question": "What do you want to be better at?", "sample": "I want to be better at speaking English." }
+        ]
+      }
+    },
+
+    {
+      "id": "w02d4",
+      "week": 2,
+      "dayOfWeek": "thu",
+      "title": "간접의문문으로 부드럽게 묻기",
+      "vocab": [
+        { "word": "silence", "pos": "n.", "meaning": "침묵", "example": "Most adults fill silence quickly.", "exampleKo": "대부분의 어른은 침묵을 빨리 메운다." },
+        { "word": "adult", "pos": "n.", "meaning": "어른", "example": "Most adults answer for you.", "exampleKo": "대부분의 어른은 너 대신 대답한다." },
+        { "word": "finally", "pos": "adv.", "meaning": "마침내", "example": "When I finally spoke, my sentence was short.", "exampleKo": "마침내 내가 말했을 때, 내 문장은 짧았다." },
+        { "word": "exactly", "pos": "adv.", "meaning": "정확히", "example": "That is exactly the point I missed.", "exampleKo": "그것이 바로 내가 놓친 지점이다." },
+        { "word": "believe", "pos": "v.", "meaning": "믿다", "example": "Someone believed I had something to say.", "exampleKo": "누군가는 내게 할 말이 있다고 믿어 주었다." },
+        { "word": "miss", "pos": "v.", "meaning": "놓치다", "example": "I did not want to miss the point.", "exampleKo": "나는 요점을 놓치고 싶지 않았다." },
+        { "word": "point", "pos": "n.", "meaning": "요점", "example": "That is the point of the lesson.", "exampleKo": "그것이 이 수업의 요점이다." },
+        { "word": "fill", "pos": "v.", "meaning": "채우다", "example": "Adults fill silence with their own words.", "exampleKo": "어른들은 침묵을 자기 말로 채운다." },
+        { "word": "wait", "pos": "v.", "meaning": "기다리다", "example": "My teacher just waited for my answer.", "exampleKo": "선생님은 그냥 내 대답을 기다렸다." },
+        { "word": "perfect", "pos": "adj.", "meaning": "완벽한", "example": "My sentence was not perfect.", "exampleKo": "내 문장은 완벽하지 않았다." }
+      ],
+      "grammar": {
+        "point": "간접의문문 (의문사 + 주어 + 동사)",
+        "explanation": "의문문이 다른 문장 안에 들어가면 어순이 '의문사 + 주어 + 동사'로 바뀝니다. Do you know? + Where is he? → Do you know where he is? 처럼 do/does/did는 사라지고 동사에 시제만 남습니다. 의문사가 없으면 if 또는 whether를 씁니다.",
+        "examples": [
+          { "en": "I do not know why she waited that long.", "ko": "나는 그녀가 왜 그렇게 오래 기다렸는지 모른다." },
+          { "en": "She asked me what I thought about the reading.", "ko": "그녀는 내가 그 글을 어떻게 생각하는지 물었다." },
+          { "en": "I wonder if he will come.", "ko": "나는 그가 올지 궁금하다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w02d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nDo you know where ______?",
+            "options": ["is the library", "the library is", "does the library", "the library does"],
+            "answer": 1,
+            "explanation": "간접의문문에서는 '의문사 + 주어 + 동사' 순서가 됩니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe asked me what I ______ about the book.",
+            "options": ["think", "thought", "do think", "did think"],
+            "answer": 1,
+            "explanation": "주절이 과거(asked)이므로 시제를 맞춰 thought를 씁니다. do/did는 쓰지 않습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "I know why he left early.",
+              "Tell me when the class starts.",
+              "Do you know what does she want?",
+              "I wonder if she is at home."
+            ],
+            "answer": 2,
+            "explanation": "간접의문문에는 does를 쓰지 않습니다. what she wants 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w02d4-g4",
+            "prompt": "두 문장을 하나로 만드세요.\nDo you know? + Where does he live? → Do you know where he ______?",
+            "accept": ["lives"],
+            "explanation": "does가 사라지고 동사에 -s가 붙어 lives가 됩니다.",
+            "hint": "-s를 붙여요"
+          },
+          {
+            "kind": "write",
+            "id": "w02d4-g5",
+            "prompt": "빈칸을 채우세요.\nI am not sure ______ she will come. (의문사 없음)",
+            "accept": ["if", "whether"],
+            "explanation": "의문사가 없는 간접의문문에는 if 또는 whether를 씁니다.",
+            "hint": "두 글자 또는 일곱 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-g6",
+            "prompt": "우리말을 영어로 바르게 옮긴 것은?\n그가 왜 늦었는지 아니?",
+            "options": [
+              "Do you know why was he late?",
+              "Do you know why he was late?",
+              "Do you know why did he late?",
+              "Do you know he was why late?"
+            ],
+            "answer": 1,
+            "explanation": "의문사 why 뒤에 주어(he) + 동사(was) 순서로 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Teacher Who Waited",
+          "topic": "교사 · 경험",
+          "body": "I still do not know why she waited that long. It was a Tuesday, and she asked me what I thought about the reading. I had an answer, but it took me time to find the English words for it.\n\nMost adults fill silence quickly. They ask, do you understand, and then answer for you. My teacher just looked at the window and waited. Fifteen seconds felt like an hour.\n\nWhen I finally spoke, my sentence was short and not perfect. She said that it was exactly the point she had missed. I do not remember what the reading was about. I remember that someone believed I had something to say. That is what a good teacher does.",
+          "glossary": [
+            { "word": "fill silence", "meaning": "침묵을 메우다" },
+            { "word": "feel like", "meaning": "~처럼 느껴지다" },
+            { "word": "answer for", "meaning": "~를 대신해 대답하다" }
+          ],
+          "translation": "나는 아직도 그녀가 왜 그렇게 오래 기다렸는지 모른다. 화요일이었고, 그녀는 내가 그 글에 대해 어떻게 생각하는지 물었다. 답은 있었지만, 그것을 영어 단어로 옮기는 데 시간이 걸렸다.\n\n대부분의 어른은 침묵을 빨리 메운다. 이해했니, 하고 묻고는 자기가 대신 대답해 버린다. 우리 선생님은 그냥 창밖을 보며 기다렸다. 15초가 한 시간처럼 느껴졌다.\n\n마침내 내가 입을 열었을 때, 내 문장은 짧고 완벽하지 않았다. 선생님은 그것이 바로 자기가 놓친 지점이라고 말했다. 나는 그 글이 무슨 내용이었는지 기억하지 못한다. 다만 누군가가 내게 할 말이 있다고 믿어 주었다는 것을 기억한다. 좋은 선생님이란 그런 것이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d4-r1",
+            "prompt": "선생님이 다른 어른들과 달랐던 점은?",
+            "options": [
+              "질문을 하지 않았다",
+              "대답을 대신 해주지 않고 기다렸다",
+              "영어로만 말했다",
+              "숙제를 내주지 않았다"
+            ],
+            "answer": 1,
+            "explanation": "다른 어른은 대신 대답하지만, 선생님은 기다렸다고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-r2",
+            "prompt": "글쓴이가 기억하는 것은?",
+            "options": [
+              "읽었던 글의 내용",
+              "누군가 자신에게 할 말이 있다고 믿어 준 일",
+              "친구들의 반응",
+              "그날의 시험 점수"
+            ],
+            "answer": 1,
+            "explanation": "I remember that someone believed I had something to say. 라고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-r3",
+            "prompt": "Fifteen seconds felt like an hour. 가 나타내는 것은?",
+            "options": [
+              "수업이 지루했다",
+              "기다리는 시간이 아주 길게 느껴졌다",
+              "선생님이 화가 났다",
+              "시계가 고장 났다"
+            ],
+            "answer": 1,
+            "explanation": "말을 찾는 동안 짧은 침묵이 아주 길게 느껴졌다는 뜻입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w02d4-r4",
+            "prompt": "기억에 남는 선생님이 있나요? 어떤 점이 좋았는지 한 문장으로 써 보세요.",
+            "sample": "My favorite teacher waited for my answer instead of answering for me."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생이 친구에게 선생님 이야기를 해요.",
+        "script": [
+          { "speaker": "Doyun", "text": "Do you know why Ms. Kim never rushes us?" },
+          { "speaker": "Hana", "text": "She says thinking takes time." },
+          { "speaker": "Doyun", "text": "Yesterday she waited fifteen seconds for my answer." },
+          { "speaker": "Hana", "text": "I wonder if other teachers can do that." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d4-l1",
+            "prompt": "김 선생님의 특징은?",
+            "options": ["학생을 재촉하지 않는다", "숙제를 많이 낸다", "목소리가 크다", "시험을 자주 본다"],
+            "answer": 0,
+            "explanation": "never rushes us 라고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d4-l2",
+            "prompt": "도윤이 어제 겪은 일은?",
+            "options": [
+              "선생님이 15초를 기다려 주었다",
+              "질문을 못 알아들었다",
+              "발표를 못했다",
+              "숙제를 잊었다"
+            ],
+            "answer": 0,
+            "explanation": "she waited fifteen seconds for my answer 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Do you know why Ms. Kim never rushes us?",
+          "I wonder if other teachers can do that."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Most adults fill silence quickly.",
+          "Fifteen seconds felt like an hour.",
+          "That is what a good teacher does."
+        ],
+        "substitution": {
+          "pattern": "I like a teacher who {behavior}, because it makes me {feeling}.",
+          "slots": [
+            { "key": "behavior", "options": ["waits for my answer", "explains slowly", "asks good questions", "listens to everyone", "laughs with us"] },
+            { "key": "feeling", "options": ["comfortable", "brave", "curious", "calm", "confident"] }
+          ],
+          "examples": [
+            "I like a teacher who waits for my answer, because it makes me comfortable.",
+            "I like a teacher who asks good questions, because it makes me curious.",
+            "I like a teacher who listens to everyone, because it makes me brave."
+          ]
+        },
+        "qna": [
+          { "question": "Who is your favorite teacher?", "sample": "My English teacher is my favorite." },
+          { "question": "Why do you like that teacher?", "sample": "Because she waits when I am slow." },
+          { "question": "Do you know what makes a good class?", "sample": "A good class has time to think." },
+          { "question": "What do you do when you cannot find the words?", "sample": "I stop and try again slowly." },
+          { "question": "What did your teacher say today?", "sample": "She said my answer was interesting." }
+        ],
+        "oneMinute": {
+          "topic": "My favorite teacher",
+          "topicKo": "내가 좋아하는 선생님",
+          "keywords": ["waited", "fifteen seconds", "short answer", "believed me", "good teacher"]
+        }
+      }
+    },
+
+    {
+      "id": "w02d5",
+      "week": 2,
+      "dayOfWeek": "fri",
+      "title": "that 명사절로 생각 전하기",
+      "vocab": [
+        { "word": "agree", "pos": "v.", "meaning": "동의하다", "example": "I do not agree with that idea.", "exampleKo": "나는 그 생각에 동의하지 않는다." },
+        { "word": "rare", "pos": "adj.", "meaning": "드문", "example": "What is rare is a friend who listens.", "exampleKo": "드문 것은 들어주는 친구다." },
+        { "word": "boring", "pos": "adj.", "meaning": "지루한", "example": "He stays interested even when I am boring.", "exampleKo": "내가 지루할 때조차 그는 관심을 잃지 않는다." },
+        { "word": "hobby", "pos": "n.", "meaning": "취미", "example": "We do not have the same hobby.", "exampleKo": "우리는 같은 취미를 갖고 있지 않다." },
+        { "word": "sick", "pos": "adj.", "meaning": "아픈", "example": "I was sick for a whole week.", "exampleKo": "나는 일주일 내내 아팠다." },
+        { "word": "note", "pos": "n.", "meaning": "필기", "example": "He brought the notes from class.", "exampleKo": "그는 수업 필기를 가져다주었다." },
+        { "word": "alike", "pos": "adj.", "meaning": "비슷한", "example": "Friendship is not about being alike.", "exampleKo": "우정은 서로 비슷한 것에 관한 일이 아니다." },
+        { "word": "share", "pos": "v.", "meaning": "공유하다", "example": "Friends do not have to share every interest.", "exampleKo": "친구가 모든 관심사를 공유해야 하는 것은 아니다." },
+        { "word": "happen", "pos": "v.", "meaning": "일어나다", "example": "Nothing interesting is happening today.", "exampleKo": "오늘은 흥미로운 일이 하나도 일어나지 않는다." },
+        { "word": "special", "pos": "adj.", "meaning": "특별한", "example": "He never said anything special.", "exampleKo": "그는 특별한 말을 한 적이 없다." }
+      ],
+      "grammar": {
+        "point": "접속사 that이 이끄는 명사절",
+        "explanation": "think, believe, know, say, learn 같은 동사 뒤에 '~라는 것'에 해당하는 문장이 올 때 접속사 that을 씁니다. 이때 that은 자기 뜻이 없고 문장을 명사 자리에 넣어 주는 역할만 하며, 회화에서는 자주 생략됩니다. 관계대명사 that과 달리 뒤에 빠진 성분이 없는 완전한 문장이 옵니다.",
+        "examples": [
+          { "en": "Most people think that a good friend is always fun.", "ko": "대부분의 사람은 좋은 친구란 늘 재미있다고 생각한다." },
+          { "en": "I learned that friendship is not about being alike.", "ko": "나는 우정이 비슷함에 관한 것이 아님을 배웠다." },
+          { "en": "She said she would come.", "ko": "그녀는 오겠다고 말했다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w02d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI think ______ he is honest.",
+            "options": ["that", "what", "which", "who"],
+            "answer": 0,
+            "explanation": "뒤에 완전한 문장이 오고 '~라는 것'의 뜻이므로 접속사 that을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-g2",
+            "prompt": "밑줄 친 that의 쓰임이 나머지와 다른 것은?",
+            "options": [
+              "I believe that he will come.",
+              "She said that it was hard.",
+              "This is the book that I lost.",
+              "We know that time passes."
+            ],
+            "answer": 2,
+            "explanation": "③만 앞의 명사 the book을 설명하는 관계대명사이고, 나머지는 명사절을 이끄는 접속사입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-g3",
+            "prompt": "어법상 알맞은 문장은?",
+            "options": [
+              "I know what he is kind.",
+              "I know that he is kind.",
+              "I know which he is kind.",
+              "I know who he is kind."
+            ],
+            "answer": 1,
+            "explanation": "뒤 문장이 완전하므로 접속사 that이 알맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w02d5-g4",
+            "prompt": "빈칸을 채우세요.\nI learned ______ friendship is not about being alike.",
+            "accept": ["that"],
+            "explanation": "learn 뒤에 '~라는 것'에 해당하는 명사절을 이끄는 that을 씁니다.",
+            "hint": "네 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w02d5-g5",
+            "prompt": "두 문장을 하나로 만드세요.\nI think. + He is a good friend. → I think ______ he is a good friend.",
+            "accept": ["that"],
+            "explanation": "think 뒤의 문장을 that으로 이어 줍니다. 회화에서는 생략하기도 합니다.",
+            "hint": "생략도 가능한 접속사"
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-g6",
+            "prompt": "우리말을 영어로 바르게 옮긴 것은?\n나는 그가 매일 왔다는 것을 기억한다.",
+            "options": [
+              "I remember what he came every day.",
+              "I remember that he came every day.",
+              "I remember which he came every day.",
+              "I remember he every day came."
+            ],
+            "answer": 1,
+            "explanation": "remember 뒤에 완전한 문장이 오므로 접속사 that을 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "What Makes a Good Friend",
+          "topic": "친구 · 생활",
+          "body": "Most people think that a good friend is someone who is always fun. I do not agree. Fun is easy to find. What is rare is someone who stays interested when you are boring.\n\nMy best friend and I are not similar. He talks to everyone; I need quiet after school. He forgets homework; I write everything down. For a long time I believed that friends had to share hobbies.\n\nThen one week I was sick, and he came every day with the notes from class. He never said anything special. He just showed up. I learned that friendship is not about being alike. It is about being there on the days when nothing interesting is happening.",
+          "glossary": [
+            { "word": "show up", "meaning": "나타나다, 와 주다" },
+            { "word": "be there", "meaning": "곁에 있어 주다" },
+            { "word": "write down", "meaning": "적어 두다" }
+          ],
+          "translation": "대부분의 사람은 좋은 친구란 늘 재미있는 사람이라고 생각한다. 나는 동의하지 않는다. 재미는 찾기 쉽다. 드문 것은 네가 지루할 때에도 관심을 잃지 않는 사람이다.\n\n내 가장 친한 친구와 나는 비슷하지 않다. 그는 모두에게 말을 걸고, 나는 방과 후에 조용함이 필요하다. 그는 숙제를 잊고, 나는 모든 것을 적어 둔다. 오랫동안 나는 친구라면 취미를 함께해야 한다고 믿었다.\n\n그러던 어느 주에 내가 아팠는데, 그는 매일 수업 필기를 들고 찾아왔다. 특별한 말은 한마디도 하지 않았다. 그냥 와 주었다. 나는 우정이 비슷해지는 일이 아니라는 것을 배웠다. 우정은 아무 일도 일어나지 않는 날에 곁에 있어 주는 일이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d5-r1",
+            "prompt": "글쓴이가 생각하는 좋은 친구는?",
+            "options": [
+              "항상 재미있는 사람",
+              "지루한 날에도 곁에 있어 주는 사람",
+              "같은 취미를 가진 사람",
+              "공부를 잘하는 사람"
+            ],
+            "answer": 1,
+            "explanation": "마지막 문장 being there on the days when nothing interesting is happening 이 답입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-r2",
+            "prompt": "글쓴이와 친구의 공통점으로 언급된 것은?",
+            "options": ["성격", "취미", "습관", "없음"],
+            "answer": 3,
+            "explanation": "글은 둘이 서로 다르다는 점만 계속 언급하고, 공통점은 말하지 않습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-r3",
+            "prompt": "글쓴이의 생각이 바뀐 계기는?",
+            "options": [
+              "친구가 아팠을 때",
+              "자신이 아팠을 때 친구가 매일 찾아온 일",
+              "선생님의 조언",
+              "책을 읽은 일"
+            ],
+            "answer": 1,
+            "explanation": "아팠던 한 주 동안 친구가 매일 필기를 가져다준 일이 계기입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w02d5-r4",
+            "prompt": "당신의 친한 친구는 어떤 사람인가요? 한 문장으로 써 보세요.",
+            "sample": "My best friend is quiet, but he always helps me when I need him."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 친구에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Sena", "text": "I think that a good friend should like the same things." },
+          { "speaker": "Minjun", "text": "Really? My best friend and I are completely different." },
+          { "speaker": "Sena", "text": "Then why do you stay close?" },
+          { "speaker": "Minjun", "text": "Because he showed up every day when I was sick." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w02d5-l1",
+            "prompt": "세나의 생각은?",
+            "options": [
+              "친구는 같은 것을 좋아해야 한다",
+              "친구는 달라야 재미있다",
+              "친구는 많을수록 좋다",
+              "친구보다 공부가 중요하다"
+            ],
+            "answer": 0,
+            "explanation": "a good friend should like the same things 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w02d5-l2",
+            "prompt": "민준이 친구와 가까운 이유는?",
+            "options": [
+              "취미가 같아서",
+              "아플 때 매일 찾아와서",
+              "같은 반이라서",
+              "성적이 비슷해서"
+            ],
+            "answer": 1,
+            "explanation": "he showed up every day when I was sick 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I think that a good friend should like the same things.",
+          "Because he showed up every day when I was sick."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Fun is easy to find.",
+          "He never said anything special.",
+          "I learned that friendship is not about being alike."
+        ],
+        "substitution": {
+          "pattern": "I think that a good friend is someone who {behavior}.",
+          "slots": [
+            { "key": "behavior", "options": ["listens to me", "tells me the truth", "shows up when I need help", "makes me laugh", "keeps my secrets"] }
+          ],
+          "examples": [
+            "I think that a good friend is someone who listens to me.",
+            "I think that a good friend is someone who tells me the truth.",
+            "I think that a good friend is someone who shows up when I need help."
+          ]
+        },
+        "qna": [
+          { "question": "Who is your best friend?", "sample": "My best friend is Minjun." },
+          { "question": "How did you become friends?", "sample": "We were in the same class last year." },
+          { "question": "Are you similar or different?", "sample": "We are quite different, but that is fine." },
+          { "question": "What do you do together?", "sample": "We usually eat lunch and talk." },
+          { "question": "What makes a good friend?", "sample": "I think a good friend listens to you." }
+        ],
+        "oneMinute": {
+          "topic": "My best friend",
+          "topicKo": "나의 가장 친한 친구",
+          "keywords": ["different", "quiet", "notes", "sick week", "showed up"]
+        }
+      }
+    }
+  ]
+}

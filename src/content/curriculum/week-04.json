@@ -1,0 +1,1057 @@
+{
+  "week": 4,
+  "title": "찬성과 반대, 내 생각 세우기",
+  "focus": "양쪽 주장을 읽고, 내 입장을 이유 하나와 함께 말해요",
+  "speakingTopics": [
+    "Is homework necessary?",
+    "Which is better, books or movies?",
+    "Should students use smartphones at school?",
+    "Is math difficult?",
+    "What makes a good teacher?"
+  ],
+  "days": [
+    {
+      "id": "w04d1",
+      "week": 4,
+      "dayOfWeek": "mon",
+      "title": "so ~ that 으로 정도 말하기",
+      "vocab": [
+        { "word": "disagreement", "pos": "n.", "meaning": "의견 차이", "example": "The disagreement is not really about work.", "exampleKo": "그 의견 차이는 사실 일의 양에 관한 것이 아니다." },
+        { "word": "research", "pos": "n.", "meaning": "연구", "example": "Research from several countries shows a pattern.", "exampleKo": "여러 나라의 연구가 하나의 패턴을 보여준다." },
+        { "word": "pattern", "pos": "n.", "meaning": "양상, 패턴", "example": "The studies show a clear pattern.", "exampleKo": "그 연구들은 분명한 패턴을 보여준다." },
+        { "word": "elementary", "pos": "adj.", "meaning": "초등의", "example": "In elementary school homework has little effect.", "exampleKo": "초등학교에서는 숙제의 효과가 거의 없다." },
+        { "word": "effect", "pos": "n.", "meaning": "효과", "example": "Homework has almost no effect on young learners.", "exampleKo": "숙제는 어린 학습자에게 거의 효과가 없다." },
+        { "word": "benefit", "pos": "n.", "meaning": "이득", "example": "After ninety minutes the benefit stops.", "exampleKo": "90분이 지나면 이득은 멈춘다." },
+        { "word": "stress", "pos": "n.", "meaning": "스트레스", "example": "Too much homework creates stress.", "exampleKo": "숙제가 너무 많으면 스트레스가 생긴다." },
+        { "word": "amount", "pos": "n.", "meaning": "양", "example": "The type matters more than the amount.", "exampleKo": "종류가 양보다 더 중요하다." },
+        { "word": "require", "pos": "v.", "meaning": "요구하다", "example": "Five problems that require different ideas are better.", "exampleKo": "서로 다른 생각을 요구하는 다섯 문제가 더 낫다." },
+        { "word": "patience", "pos": "n.", "meaning": "인내심", "example": "He has practiced nothing but patience.", "exampleKo": "그는 인내심 말고는 아무것도 연습하지 않았다." }
+      ],
+      "grammar": {
+        "point": "so ~ that / such ~ that",
+        "explanation": "'너무 ~해서 …하다'라는 정도와 결과를 나타낼 때 씁니다. so 뒤에는 형용사나 부사가 오고, such 뒤에는 (a/an +) 형용사 + 명사가 옵니다. so ~ that 주어 can't 는 too ~ to 로 바꿔 쓸 수 있습니다.",
+        "examples": [
+          { "en": "The problems are so easy that students stop thinking.", "ko": "그 문제들은 너무 쉬워서 학생들이 생각을 멈춘다." },
+          { "en": "It was such a long task that nobody finished it.", "ko": "그것은 너무 긴 과제여서 아무도 끝내지 못했다." },
+          { "en": "He was so tired that he could not study.", "ko": "그는 너무 피곤해서 공부할 수 없었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w04d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThe homework was ______ easy that I finished it in ten minutes.",
+            "options": ["so", "such", "too", "very"],
+            "answer": 0,
+            "explanation": "뒤에 형용사(easy)가 오므로 so를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-g2",
+            "prompt": "빈칸에 알맞은 것은?\nIt was ______ a boring task that I stopped thinking.",
+            "options": ["so", "such", "too", "much"],
+            "answer": 1,
+            "explanation": "뒤에 a + 형용사 + 명사가 오므로 such를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "She was so kind that everyone liked her.",
+              "It was such a hard test that I failed.",
+              "He was such tired that he slept early.",
+              "The book was so long that I stopped."
+            ],
+            "answer": 2,
+            "explanation": "형용사 tired 앞에는 so를 씁니다. He was so tired that ... 이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w04d1-g4",
+            "prompt": "빈칸을 채우세요.\nThe questions were so simple ______ nobody had to think.",
+            "accept": ["that"],
+            "explanation": "so ~ that 구문이므로 that을 씁니다.",
+            "hint": "네 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w04d1-g5",
+            "prompt": "두 문장이 같은 뜻이 되도록 빈칸을 채우세요.\nThe task was too long to finish. = The task was ______ long that I could not finish it.",
+            "accept": ["so"],
+            "explanation": "too ~ to 는 so ~ that 주어 could not 으로 바꿔 쓸 수 있습니다.",
+            "hint": "두 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-g6",
+            "prompt": "우리말을 영어로 바르게 옮긴 것은?\n그것은 너무 좋은 기회여서 나는 거절할 수 없었다.",
+            "options": [
+              "It was so a good chance that I could not say no.",
+              "It was such a good chance that I could not say no.",
+              "It was such good a chance that I could not say no.",
+              "It was too a good chance that I could not say no."
+            ],
+            "answer": 1,
+            "explanation": "such + a + 형용사 + 명사 순서로 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Is Homework Necessary?",
+          "topic": "찬반 · 교육",
+          "body": "Ask a teacher and a student the same question about homework, and you will get two different answers. The disagreement is not really about work. It is about what the work is for.\n\nResearch from several countries shows a clear pattern. In elementary school, homework has almost no effect on learning. In middle and high school, it helps, but only up to about ninety minutes a day. After that, the benefit stops and stress begins.\n\nThe type matters more than the amount. Twenty problems that repeat the same step are so easy that students stop thinking. Five problems that each require a different idea are harder, but they actually teach something.\n\nSo the honest answer is: homework is necessary, but not all homework is. A student who finishes thirty questions without thinking has practiced nothing but patience.",
+          "glossary": [
+            { "word": "up to", "meaning": "~까지" },
+            { "word": "matter", "meaning": "중요하다" },
+            { "word": "nothing but", "meaning": "~외에는 아무것도" }
+          ],
+          "translation": "숙제에 대해 교사와 학생에게 같은 질문을 하면 서로 다른 두 개의 답을 듣게 된다. 그 의견 차이는 사실 '일'에 관한 것이 아니다. 그 일이 '무엇을 위한 것인가'에 관한 것이다.\n\n여러 나라의 연구는 분명한 패턴을 보여준다. 초등학교에서는 숙제가 학습에 거의 효과가 없다. 중고등학교에서는 도움이 되지만, 하루 90분 정도까지만 그렇다. 그 이후에는 이득이 멈추고 스트레스가 시작된다.\n\n양보다 종류가 더 중요하다. 같은 단계를 반복하는 문제 스무 개는 너무 쉬워서 학생이 생각을 멈추게 만든다. 각각 다른 생각을 요구하는 문제 다섯 개는 더 어렵지만, 실제로 무언가를 가르쳐 준다.\n\n그래서 솔직한 답은 이렇다. 숙제는 필요하지만, 모든 숙제가 필요한 것은 아니다. 생각 없이 서른 문제를 끝낸 학생은 인내심 말고는 아무것도 연습하지 않은 것이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d1-r1",
+            "prompt": "글쓴이의 주장으로 가장 알맞은 것은?",
+            "options": [
+              "숙제는 없어져야 한다",
+              "숙제는 필요하지만 종류가 중요하다",
+              "숙제는 많을수록 좋다",
+              "초등학생에게 숙제가 가장 중요하다"
+            ],
+            "answer": 1,
+            "explanation": "homework is necessary, but not all homework is 가 핵심 주장입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-r2",
+            "prompt": "연구에 따르면 숙제가 도움이 되는 한계는?",
+            "options": ["하루 30분", "하루 60분", "하루 90분", "제한 없음"],
+            "answer": 2,
+            "explanation": "only up to about ninety minutes a day 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-r3",
+            "prompt": "마지막 문장에서 글쓴이가 비판하는 것은?",
+            "options": [
+              "생각 없이 반복하는 숙제",
+              "어려운 문제를 내는 교사",
+              "숙제를 하지 않는 학생",
+              "시험 제도"
+            ],
+            "answer": 0,
+            "explanation": "생각 없이 서른 문제를 푸는 것은 인내심만 연습한 것이라고 비판합니다."
+          },
+          {
+            "kind": "free",
+            "id": "w04d1-r4",
+            "prompt": "숙제가 필요하다고 생각하나요? 이유와 함께 한 문장으로 써 보세요.",
+            "sample": "I think homework is necessary, but it should be short and make me think."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생과 선생님이 숙제에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Student", "text": "Do we really need thirty questions every night?" },
+          { "speaker": "Teacher", "text": "What would you prefer instead?" },
+          { "speaker": "Student", "text": "Five hard ones. Thirty easy ones are so boring that I stop thinking." },
+          { "speaker": "Teacher", "text": "That is a fair point. Let us try five this week." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d1-l1",
+            "prompt": "학생이 원하는 숙제는?",
+            "options": ["쉬운 문제 서른 개", "어려운 문제 다섯 개", "숙제 없음", "선택 숙제"],
+            "answer": 1,
+            "explanation": "Five hard ones. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d1-l2",
+            "prompt": "선생님의 반응은?",
+            "options": ["거절했다", "학생 의견을 받아들였다", "화를 냈다", "대답하지 않았다"],
+            "answer": 1,
+            "explanation": "That is a fair point. Let us try five this week. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Do we really need thirty questions every night?",
+          "Thirty easy ones are so boring that I stop thinking."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "The type matters more than the amount.",
+          "It is about what the work is for.",
+          "So the honest answer is: homework is necessary, but not all homework is."
+        ],
+        "substitution": {
+          "pattern": "I think {topic} is {opinion} because it is so {adjective} that {result}.",
+          "slots": [
+            { "key": "topic", "options": ["homework", "morning study", "group work", "the school test", "reading time"] },
+            { "key": "opinion", "options": ["necessary", "not necessary", "useful", "too much", "helpful"] },
+            { "key": "adjective", "options": ["long", "easy", "repetitive", "hard", "short"] },
+            { "key": "result", "options": ["I stop thinking", "I learn nothing", "I get tired", "I have to think", "I want more"] }
+          ],
+          "examples": [
+            "I think homework is not necessary because it is so repetitive that I stop thinking.",
+            "I think homework is useful because it is so hard that I have to think.",
+            "I think reading time is helpful because it is so short that I want more."
+          ]
+        },
+        "qna": [
+          { "question": "Is homework necessary?", "sample": "I think it is necessary, but not too much." },
+          { "question": "How long do you spend on homework?", "sample": "I spend about an hour every day." },
+          { "question": "Which homework helps you the most?", "sample": "Math problems that make me think help the most." },
+          { "question": "What kind of homework do you dislike?", "sample": "I dislike copying the same sentence many times." },
+          { "question": "If you were a teacher, what homework would you give?", "sample": "I would give five hard questions." }
+        ]
+      }
+    },
+
+    {
+      "id": "w04d2",
+      "week": 4,
+      "dayOfWeek": "tue",
+      "title": "too ~ to / enough to 로 한계 말하기",
+      "vocab": [
+        { "word": "argue", "pos": "v.", "meaning": "논쟁하다", "example": "People argue about books and movies.", "exampleKo": "사람들은 책과 영화를 두고 논쟁한다." },
+        { "word": "director", "pos": "n.", "meaning": "감독", "example": "The director chooses everything for you.", "exampleKo": "감독이 모든 것을 대신 골라 준다." },
+        { "word": "exact", "pos": "adj.", "meaning": "정확한", "example": "He picks the exact second for the music.", "exampleKo": "그는 음악이 나올 정확한 순간을 고른다." },
+        { "word": "gap", "pos": "n.", "meaning": "빈틈", "example": "A book leaves gaps for your imagination.", "exampleKo": "책은 상상할 빈틈을 남겨 둔다." },
+        { "word": "afraid", "pos": "adj.", "meaning": "두려워하는", "example": "You read that a character is afraid.", "exampleKo": "너는 어떤 인물이 두려워한다고 읽는다." },
+        { "word": "version", "pos": "n.", "meaning": "버전, 판", "example": "It is simply someone else's version.", "exampleKo": "그것은 그저 다른 사람의 버전일 뿐이다." },
+        { "word": "simply", "pos": "adv.", "meaning": "단순히", "example": "It is simply another way of telling it.", "exampleKo": "그것은 단순히 다른 방식으로 이야기한 것이다." },
+        { "word": "receive", "pos": "v.", "meaning": "받아들이다", "example": "Choose the story you want to receive today.", "exampleKo": "오늘 받아들이고 싶은 이야기를 골라라." },
+        { "word": "build", "pos": "v.", "meaning": "만들어내다", "example": "Your brain builds the fear by itself.", "exampleKo": "네 뇌가 그 두려움을 스스로 만들어낸다." },
+        { "word": "explain", "pos": "v.", "meaning": "설명하다", "example": "Two hours is too short to explain everything.", "exampleKo": "두 시간은 모든 것을 설명하기에 너무 짧다." }
+      ],
+      "grammar": {
+        "point": "too ~ to / enough to",
+        "explanation": "too + 형용사/부사 + to부정사는 '너무 ~해서 …할 수 없다'는 부정의 뜻입니다. 형용사/부사 + enough + to부정사는 '…할 만큼 충분히 ~하다'는 뜻이며, enough는 형용사 뒤에 옵니다. 다만 명사 앞에서는 enough money처럼 앞에 옵니다.",
+        "examples": [
+          { "en": "Two hours is too short to explain everything.", "ko": "두 시간은 모든 것을 설명하기에 너무 짧다." },
+          { "en": "The book was interesting enough to finish in one day.", "ko": "그 책은 하루 만에 다 읽을 만큼 충분히 흥미로웠다." },
+          { "en": "He was not old enough to watch that movie.", "ko": "그는 그 영화를 볼 만큼 나이가 많지 않았다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w04d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThe film is ______ short to show every detail.",
+            "options": ["too", "enough", "so", "such"],
+            "answer": 0,
+            "explanation": "'너무 짧아서 ~할 수 없다'는 too + 형용사 + to부정사입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe is old ______ to choose her own books.",
+            "options": ["too", "enough", "very", "much"],
+            "answer": 1,
+            "explanation": "'~할 만큼 충분히'는 형용사 + enough + to부정사입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "He is tall enough to reach it.",
+              "She is enough smart to solve it.",
+              "I have enough time to read it.",
+              "It was too dark to see."
+            ],
+            "answer": 1,
+            "explanation": "enough는 형용사 뒤에 옵니다. smart enough to solve it 이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w04d2-g4",
+            "prompt": "두 문장이 같은 뜻이 되도록 빈칸을 채우세요.\nThe movie was so long that I could not finish it. = The movie was ______ long to finish.",
+            "accept": ["too"],
+            "explanation": "so ~ that 주어 could not 은 too ~ to 로 바꿔 씁니다.",
+            "hint": "세 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w04d2-g5",
+            "prompt": "빈칸을 채우세요.\nThis book is easy ______ to read in one evening.",
+            "accept": ["enough"],
+            "explanation": "형용사 easy 뒤에 enough를 써서 '충분히 쉬운'을 나타냅니다.",
+            "hint": "e로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-g6",
+            "prompt": "우리말을 영어로 바르게 옮긴 것은?\n그 문제는 내가 혼자 풀기에 너무 어려웠다.",
+            "options": [
+              "The problem was too hard for me to solve alone.",
+              "The problem was enough hard for me to solve alone.",
+              "The problem was too hard for me solving alone.",
+              "The problem was so hard to not solve alone."
+            ],
+            "answer": 0,
+            "explanation": "too + 형용사 + for 사람 + to부정사 형태로 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Books or Movies?",
+          "topic": "찬반 · 문화",
+          "body": "People argue about whether books are better than movies, but the two do completely different jobs.\n\nA movie decides for you. The director chooses the face, the room, the weather, and the exact second when the music starts. Two hours is too short to explain everything, so the film shows instead of telling.\n\nA book leaves gaps. When you read that a character is afraid, your brain builds the fear out of your own memories. That is why the movie version often feels wrong: it is not wrong, it is simply someone else's version.\n\nBooks are usually better when the important events happen inside a person's head. Movies are better when the important events happen in front of your eyes. The real question is not which is better. It is which one fits the story you want to receive today.",
+          "glossary": [
+            { "word": "instead of", "meaning": "~ 대신에" },
+            { "word": "out of", "meaning": "~로부터, ~을 재료로" },
+            { "word": "in front of", "meaning": "~ 앞에서" }
+          ],
+          "translation": "사람들은 책이 영화보다 나은지를 두고 논쟁하지만, 이 둘은 완전히 다른 일을 한다.\n\n영화는 너를 대신해 결정한다. 감독이 얼굴, 방, 날씨, 그리고 음악이 시작되는 정확한 순간까지 고른다. 두 시간은 모든 것을 설명하기에 너무 짧기 때문에, 영화는 말하는 대신 보여준다.\n\n책은 빈틈을 남긴다. 어떤 인물이 두려워한다고 읽으면, 네 뇌는 네 기억을 재료 삼아 그 두려움을 만들어낸다. 그래서 영화판이 종종 틀린 것처럼 느껴진다. 틀린 게 아니라, 그저 다른 사람의 버전인 것이다.\n\n중요한 사건이 사람의 머릿속에서 일어날 때는 대개 책이 낫다. 중요한 사건이 눈앞에서 벌어질 때는 영화가 낫다. 진짜 질문은 어느 쪽이 더 나은가가 아니다. 오늘 내가 받아들이고 싶은 이야기에 어느 쪽이 맞는가이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d2-r1",
+            "prompt": "글쓴이의 결론으로 알맞은 것은?",
+            "options": [
+              "책이 언제나 더 낫다",
+              "영화가 언제나 더 낫다",
+              "이야기의 성격에 따라 알맞은 매체가 다르다",
+              "둘 다 시간 낭비다"
+            ],
+            "answer": 2,
+            "explanation": "머릿속 사건은 책, 눈앞의 사건은 영화가 낫다고 정리합니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-r2",
+            "prompt": "영화판이 '틀리게' 느껴지는 이유는?",
+            "options": [
+              "감독이 실수해서",
+              "내가 만든 상상과 다른 사람의 버전이라서",
+              "배우가 어울리지 않아서",
+              "시간이 짧아서"
+            ],
+            "answer": 1,
+            "explanation": "it is simply someone else's version 이 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-r3",
+            "prompt": "글에서 책의 특징으로 언급된 것은?",
+            "options": ["빈틈을 남긴다", "음악이 있다", "두 시간이 걸린다", "감독이 있다"],
+            "answer": 0,
+            "explanation": "A book leaves gaps. 라고 나옵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w04d2-r4",
+            "prompt": "책과 영화 중 무엇을 더 좋아하나요? 이유와 함께 한 문장으로 써 보세요.",
+            "sample": "I prefer movies because I can see everything, but books let me imagine more."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 책과 영화를 비교해요.",
+        "script": [
+          { "speaker": "Hana", "text": "I read the book first, so the movie felt wrong." },
+          { "speaker": "Doyun", "text": "The main character looked different from my imagination." },
+          { "speaker": "Hana", "text": "Two hours is too short to show everything anyway." },
+          { "speaker": "Doyun", "text": "True. But the music was good enough to make me cry." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d2-l1",
+            "prompt": "하나가 영화를 어색하게 느낀 이유는?",
+            "options": ["책을 먼저 읽어서", "소리가 작아서", "친구와 함께 봐서", "자막이 없어서"],
+            "answer": 0,
+            "explanation": "I read the book first, so the movie felt wrong. 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d2-l2",
+            "prompt": "도윤이 좋게 평가한 것은?",
+            "options": ["배우", "음악", "길이", "결말"],
+            "answer": 1,
+            "explanation": "the music was good enough to make me cry 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Two hours is too short to show everything.",
+          "The music was good enough to make me cry."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "A movie decides for you.",
+          "A book leaves gaps.",
+          "The real question is not which is better."
+        ],
+        "substitution": {
+          "pattern": "I prefer {choice} because a {choice2} is too {adjective} to {action}.",
+          "slots": [
+            { "key": "choice", "options": ["books", "movies", "audiobooks", "comics", "documentaries"] },
+            { "key": "choice2", "options": ["movie", "book", "video", "story", "series"] },
+            { "key": "adjective", "options": ["short", "long", "fast", "slow", "simple"] },
+            { "key": "action", "options": ["explain everything", "show the details", "keep my attention", "finish in one day", "make me think"] }
+          ],
+          "examples": [
+            "I prefer books because a movie is too short to explain everything.",
+            "I prefer movies because a book is too long to finish in one day.",
+            "I prefer comics because a story is too slow to keep my attention."
+          ]
+        },
+        "qna": [
+          { "question": "Which is better, books or movies?", "sample": "I think books are better for me." },
+          { "question": "Why do you think so?", "sample": "Because I can imagine the scenes myself." },
+          { "question": "What was the last movie you watched?", "sample": "I watched an action movie last weekend." },
+          { "question": "Do you read the book before the movie?", "sample": "Usually I watch the movie first." },
+          { "question": "Which takes more time for you?", "sample": "Books take much more time for me." }
+        ],
+        "oneMinute": {
+          "topic": "Which is better, books or movies?",
+          "topicKo": "책과 영화 중 어느 쪽이 더 좋은가",
+          "keywords": ["different jobs", "movie decides", "book leaves gaps", "imagination", "my choice"]
+        },
+        "mathTalk": {
+          "problem": "A book has 240 pages. If you read 30 pages a day, how many days does it take?",
+          "problemKo": "240쪽짜리 책을 하루 30쪽씩 읽으면 며칠이 걸릴까요?",
+          "basic": ["First, I write down the numbers.", "Then, I divide 240 by 30.", "Finally, I get eight days."],
+          "upgraded": [
+            "First, I write down the total number of pages and the daily amount.",
+            "Then, I divide the total by the amount I read each day.",
+            "Finally, I get eight days as the answer."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w04d3",
+      "week": 4,
+      "dayOfWeek": "wed",
+      "title": "연결어로 글의 흐름 잡기",
+      "vocab": [
+        { "word": "collect", "pos": "v.", "meaning": "걷다, 모으다", "example": "Most schools collect phones in the morning.", "exampleKo": "대부분의 학교는 아침에 휴대폰을 걷는다." },
+        { "word": "unfair", "pos": "adj.", "meaning": "불공평한", "example": "Students call the rule unfair.", "exampleKo": "학생들은 그 규칙을 불공평하다고 말한다." },
+        { "word": "evidence", "pos": "n.", "meaning": "근거", "example": "Both sides have evidence.", "exampleKo": "양쪽 모두 근거를 가지고 있다." },
+        { "word": "concentration", "pos": "n.", "meaning": "집중력", "example": "A phone can hurt concentration.", "exampleKo": "휴대폰은 집중력을 해칠 수 있다." },
+        { "word": "attention", "pos": "n.", "meaning": "주의", "example": "Seeing it uses part of your attention.", "exampleKo": "그것이 보이기만 해도 주의의 일부를 쓴다." },
+        { "word": "therefore", "pos": "adv.", "meaning": "그러므로", "example": "Therefore, even a silent phone makes it harder.", "exampleKo": "그러므로 무음인 휴대폰조차 일을 더 어렵게 만든다." },
+        { "word": "emergency", "pos": "n.", "meaning": "비상 상황", "example": "During emergencies parents want to call.", "exampleKo": "비상 상황에는 부모가 전화하고 싶어 한다." },
+        { "word": "ban", "pos": "v.", "meaning": "금지하다", "example": "Some schools ban phones completely.", "exampleKo": "어떤 학교는 휴대폰을 완전히 금지한다." },
+        { "word": "situation", "pos": "n.", "meaning": "상황", "example": "The rule should follow the situation.", "exampleKo": "규칙은 상황을 따라야 한다." },
+        { "word": "object", "pos": "n.", "meaning": "물건", "example": "The rule should follow the situation, not the object.", "exampleKo": "규칙은 물건이 아니라 상황을 따라야 한다." }
+      ],
+      "grammar": {
+        "point": "연결어 (however / therefore / for example / on the other hand)",
+        "explanation": "연결어는 문장과 문장 사이의 관계를 알려 주는 표지판입니다. however는 반대, therefore는 결과, for example은 예시, on the other hand는 다른 관점, in addition은 추가를 나타냅니다. 시험에서는 빈칸에 알맞은 연결어를 고르거나, 연결어를 보고 글의 흐름을 짐작하는 문제가 자주 나옵니다.",
+        "examples": [
+          { "en": "Seeing a phone uses attention. Therefore, even a silent phone is a problem.", "ko": "휴대폰이 보이면 주의를 쓴다. 그러므로 무음이어도 문제다." },
+          { "en": "On the other hand, phones are useful in emergencies.", "ko": "반면에 휴대폰은 비상시에 유용하다." },
+          { "en": "Some tasks need focus. For example, a math test does.", "ko": "어떤 일은 집중이 필요하다. 예를 들어 수학 시험이 그렇다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w04d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nPhones hurt concentration. ______, many schools collect them.",
+            "options": ["However", "Therefore", "For example", "On the other hand"],
+            "answer": 1,
+            "explanation": "앞 내용이 원인이고 뒤가 결과이므로 Therefore가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-g2",
+            "prompt": "빈칸에 알맞은 것은?\nPhones can be a problem. ______, they help in emergencies.",
+            "options": ["Therefore", "In addition", "However", "As a result"],
+            "answer": 2,
+            "explanation": "앞뒤 내용이 반대이므로 However가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-g3",
+            "prompt": "빈칸에 알맞은 것은?\nSome tools help learning. ______, a dictionary app saves time.",
+            "options": ["For example", "However", "On the other hand", "Instead"],
+            "answer": 0,
+            "explanation": "구체적인 예를 드는 자리이므로 For example이 알맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w04d3-g4",
+            "prompt": "빈칸에 알맞은 연결어를 쓰세요. (결과)\nHe studied every day. ______, he passed the test.",
+            "accept": ["Therefore", "So"],
+            "explanation": "원인 뒤에 결과가 오므로 Therefore(또는 So)를 씁니다.",
+            "hint": "T 또는 S로 시작해요"
+          },
+          {
+            "kind": "write",
+            "id": "w04d3-g5",
+            "prompt": "빈칸에 알맞은 연결어를 쓰세요. (반대)\nThe rule is strict. ______, most students accept it.",
+            "accept": ["However", "But"],
+            "explanation": "앞뒤가 반대 내용이므로 However(또는 But)를 씁니다.",
+            "hint": "H 또는 B로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-g6",
+            "prompt": "글의 흐름상 어색한 것은?",
+            "options": [
+              "It rained. Therefore, we stayed inside.",
+              "He is tall. However, he cannot play basketball well.",
+              "I like fruit. For example, I like apples.",
+              "She studied hard. However, she got a good grade."
+            ],
+            "answer": 3,
+            "explanation": "열심히 공부해서 좋은 성적을 받은 것은 자연스러운 결과이므로 However가 아니라 Therefore가 맞습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Phones at School",
+          "topic": "찬반 · 학교 규칙",
+          "body": "Most schools now collect phones in the morning. Students call it unfair; teachers call it necessary. Both sides have evidence.\n\nStudies show that a phone does not have to ring to hurt concentration. Simply seeing it on the desk uses part of your attention. Therefore, even a silent phone makes a difficult task harder.\n\nOn the other hand, phones are useful. A student who does not understand a word can look it up in five seconds. During emergencies, parents want to reach their children immediately.\n\nPerhaps the question is wrong. Instead of asking whether phones should be banned, we could ask when they help and when they do not. A phone in a math test is a problem. A phone in a group project can be a library. The rule should follow the situation, not the object.",
+          "glossary": [
+            { "word": "look up", "meaning": "찾아보다" },
+            { "word": "reach", "meaning": "연락하다" },
+            { "word": "both sides", "meaning": "양쪽 모두" }
+          ],
+          "translation": "요즘 대부분의 학교는 아침에 휴대폰을 걷는다. 학생들은 불공평하다고 하고, 교사들은 필요하다고 한다. 양쪽 모두 근거가 있다.\n\n연구에 따르면 휴대폰은 울리지 않아도 집중력을 해친다. 책상 위에 보이는 것만으로도 주의의 일부를 쓴다. 그러므로 무음인 휴대폰조차 어려운 과제를 더 어렵게 만든다.\n\n반면에 휴대폰은 유용하다. 모르는 단어가 나오면 5초 만에 찾아볼 수 있다. 비상 상황에는 부모가 아이에게 즉시 연락하고 싶어 한다.\n\n어쩌면 질문 자체가 잘못됐다. 휴대폰을 금지해야 하느냐를 묻는 대신, 언제 도움이 되고 언제 그렇지 않은지를 물을 수 있다. 수학 시험 중의 휴대폰은 문제다. 모둠 과제에서의 휴대폰은 도서관이 될 수 있다. 규칙은 물건이 아니라 상황을 따라야 한다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d3-r1",
+            "prompt": "글쓴이가 제안하는 접근은?",
+            "options": [
+              "휴대폰을 완전히 금지하기",
+              "휴대폰을 자유롭게 허용하기",
+              "상황에 따라 규칙을 정하기",
+              "학생에게 맡기기"
+            ],
+            "answer": 2,
+            "explanation": "The rule should follow the situation, not the object. 가 결론입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-r2",
+            "prompt": "연구가 보여준 사실은?",
+            "options": [
+              "휴대폰은 울릴 때만 방해가 된다",
+              "보이기만 해도 주의를 쓴다",
+              "휴대폰은 성적을 올린다",
+              "학생들은 휴대폰을 잘 쓰지 않는다"
+            ],
+            "answer": 1,
+            "explanation": "Simply seeing it on the desk uses part of your attention. 이라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-r3",
+            "prompt": "글에서 휴대폰의 장점으로 언급된 것은?",
+            "options": [
+              "게임을 할 수 있다",
+              "모르는 단어를 바로 찾을 수 있다",
+              "사진을 찍을 수 있다",
+              "음악을 들을 수 있다"
+            ],
+            "answer": 1,
+            "explanation": "can look it up in five seconds 라고 나옵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w04d3-r4",
+            "prompt": "학교에서 휴대폰을 써도 될까요? 이유와 함께 한 문장으로 써 보세요.",
+            "sample": "I think students should use phones only for class work, not during tests."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학급 회의에서 휴대폰 규칙을 논의해요.",
+        "script": [
+          { "speaker": "Sena", "text": "I think collecting phones every morning is unfair." },
+          { "speaker": "Minjun", "text": "However, my grades went up after we started." },
+          { "speaker": "Sena", "text": "Then maybe we need them only during group projects." },
+          { "speaker": "Minjun", "text": "That sounds fair. The rule should follow the situation." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d3-l1",
+            "prompt": "민준의 경험은?",
+            "options": ["성적이 올랐다", "성적이 떨어졌다", "달라진 게 없다", "휴대폰을 잃어버렸다"],
+            "answer": 0,
+            "explanation": "my grades went up after we started 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d3-l2",
+            "prompt": "두 사람이 합의한 방향은?",
+            "options": [
+              "완전 금지",
+              "완전 허용",
+              "상황에 따라 다르게",
+              "부모가 결정"
+            ],
+            "answer": 2,
+            "explanation": "The rule should follow the situation. 으로 합의했습니다."
+          }
+        ],
+        "dictation": [
+          "I think collecting phones every morning is unfair.",
+          "The rule should follow the situation."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Both sides have evidence.",
+          "Perhaps the question is wrong.",
+          "The rule should follow the situation, not the object."
+        ],
+        "substitution": {
+          "pattern": "{connector}, I think students should {action} at school.",
+          "slots": [
+            { "key": "connector", "options": ["However", "Therefore", "For example", "On the other hand", "In my opinion"] },
+            { "key": "action", "options": ["use phones for class work", "keep phones in their bags", "use phones only at lunch", "leave phones at home", "decide by themselves"] }
+          ],
+          "examples": [
+            "However, I think students should use phones for class work.",
+            "Therefore, I think students should keep phones in their bags.",
+            "In my opinion, I think students should use phones only at lunch."
+          ]
+        },
+        "qna": [
+          { "question": "Should students use smartphones at school?", "sample": "I think they should use them only for study." },
+          { "question": "Why do you think so?", "sample": "Because a phone on the desk takes my attention." },
+          { "question": "Does your school collect phones?", "sample": "Yes, we hand them in every morning." },
+          { "question": "When is a phone useful at school?", "sample": "It is useful when I need to look up a word." },
+          { "question": "What rule would you make?", "sample": "I would allow phones during group projects." }
+        ]
+      }
+    },
+
+    {
+      "id": "w04d4",
+      "week": 4,
+      "dayOfWeek": "thu",
+      "title": "가정법 과거로 상상해 말하기",
+      "vocab": [
+        { "word": "hundred", "pos": "n.", "meaning": "백", "example": "If you asked a hundred students, most would say yes.", "exampleKo": "백 명의 학생에게 물으면 대부분 그렇다고 답할 것이다." },
+        { "word": "fall", "pos": "v.", "meaning": "나뉘다, 떨어지다", "example": "The answers fall into two groups.", "exampleKo": "그 답들은 두 무리로 나뉜다." },
+        { "word": "layer", "pos": "n.", "meaning": "층", "example": "Math is built in layers.", "exampleKo": "수학은 층으로 쌓여 있다." },
+        { "word": "fraction", "pos": "n.", "meaning": "분수", "example": "I did not understand fractions in sixth grade.", "exampleKo": "나는 6학년 때 분수를 이해하지 못했다." },
+        { "word": "ratio", "pos": "n.", "meaning": "비율", "example": "Ratios in eighth grade looked like magic.", "exampleKo": "8학년의 비율 단원은 마법처럼 보였다." },
+        { "word": "magic", "pos": "n.", "meaning": "마법", "example": "It looked like magic to me.", "exampleKo": "그것은 내게 마법처럼 보였다." },
+        { "word": "floor", "pos": "n.", "meaning": "바닥", "example": "The floor under the lesson is missing.", "exampleKo": "그 수업 아래의 바닥이 빠져 있다." },
+        { "word": "beyond", "pos": "prep.", "meaning": "~을 넘어서는", "example": "A subject truly beyond you cannot be fixed by effort.", "exampleKo": "정말로 네 능력 밖인 과목은 노력으로 해결되지 않는다." },
+        { "word": "advice", "pos": "n.", "meaning": "조언", "example": "If I could give one piece of advice, it would be this.", "exampleKo": "내가 조언 하나를 할 수 있다면 이것이다." },
+        { "word": "backwards", "pos": "adv.", "meaning": "뒤로", "example": "When a lesson stops making sense, go backwards.", "exampleKo": "수업이 이해되지 않기 시작하면 뒤로 가라." }
+      ],
+      "grammar": {
+        "point": "가정법 과거 (현재 사실과 다른 상상)",
+        "explanation": "지금 사실과 다른 일을 상상할 때 If + 주어 + 동사의 과거형, 주어 + would/could + 동사원형 형태를 씁니다. 시제는 과거지만 뜻은 현재입니다. be동사는 인칭에 상관없이 were를 쓰는 것이 원칙입니다. 단순한 조건(있을 수 있는 일)을 말할 때는 If + 현재형, will + 동사원형을 씁니다.",
+        "examples": [
+          { "en": "If you asked a hundred students, most would say yes.", "ko": "백 명에게 물어보면 대부분 그렇다고 할 것이다." },
+          { "en": "If I could give one piece of advice, it would be this.", "ko": "내가 조언 하나를 줄 수 있다면 이것일 것이다." },
+          { "en": "If I were you, I would go back one step.", "ko": "내가 너라면 한 단계 뒤로 갈 것이다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w04d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nIf I ______ more time, I would review the basics.",
+            "options": ["have", "had", "will have", "am having"],
+            "answer": 1,
+            "explanation": "가정법 과거이므로 if절에 과거형 had를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nIf I were you, I ______ ask the teacher.",
+            "options": ["will", "would", "am going to", "was"],
+            "answer": 1,
+            "explanation": "가정법 과거의 주절은 would + 동사원형입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "If I had a car, I would drive there.",
+              "If she were here, she would help us.",
+              "If I would be rich, I will travel.",
+              "If it rained, we would stay inside."
+            ],
+            "answer": 2,
+            "explanation": "if절에는 would를 쓰지 않고, 주절에는 will을 쓰지 않습니다. If I were rich, I would travel. 이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w04d4-g4",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nIf I ( be ) you, I would go backwards. → If I ______ you, I would go backwards.",
+            "accept": ["were", "was"],
+            "explanation": "가정법 과거에서 be동사는 인칭과 상관없이 were를 쓰는 것이 원칙입니다.",
+            "hint": "be동사 과거"
+          },
+          {
+            "kind": "write",
+            "id": "w04d4-g5",
+            "prompt": "빈칸을 채우세요.\nIf I could change one thing, it ______ be the test system.",
+            "accept": ["would"],
+            "explanation": "가정법 과거의 주절에는 would를 씁니다.",
+            "hint": "w로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-g6",
+            "prompt": "다음 문장의 뜻으로 알맞은 것은?\nIf I had studied fractions well, this lesson would make sense.",
+            "options": [
+              "분수를 잘 공부했으니 이 수업이 이해된다",
+              "분수를 잘 공부하지 않아서 이 수업이 이해되지 않는다",
+              "앞으로 분수를 공부할 것이다",
+              "이 수업은 분수와 관계없다"
+            ],
+            "answer": 1,
+            "explanation": "가정법은 사실과 반대를 나타내므로, 실제로는 분수를 잘 공부하지 않았다는 뜻입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Is Math Difficult?",
+          "topic": "찬반 · 학습",
+          "body": "If you asked a hundred students whether math is difficult, most would say yes. But if you asked them why, the answers would fall into two groups.\n\nThe first group says the ideas are hard. The second group says they missed something years ago and never caught up. These sound similar, but only the second problem is common.\n\nMath is built in layers. If you did not fully understand fractions in the sixth grade, then ratios in the eighth grade would look like magic. The lesson is not too difficult; the floor under it is missing.\n\nThis is good news. A subject that is truly beyond you cannot be fixed by effort. A missing layer can. If I could give one piece of advice, it would be this: when a lesson stops making sense, go backwards, not faster.",
+          "glossary": [
+            { "word": "catch up", "meaning": "따라잡다" },
+            { "word": "make sense", "meaning": "이해가 되다" },
+            { "word": "be built in", "meaning": "~로 쌓여 있다" }
+          ],
+          "translation": "백 명의 학생에게 수학이 어려운지 물으면 대부분 그렇다고 답할 것이다. 그런데 왜 어려운지 물으면, 답은 두 무리로 나뉠 것이다.\n\n첫 번째 무리는 개념 자체가 어렵다고 말한다. 두 번째 무리는 몇 년 전에 뭔가를 놓쳤고 끝내 따라잡지 못했다고 말한다. 두 대답은 비슷하게 들리지만, 흔한 문제는 두 번째뿐이다.\n\n수학은 층으로 쌓여 있다. 6학년 때 분수를 제대로 이해하지 못했다면, 8학년의 비율 단원은 마법처럼 보일 것이다. 그 수업이 너무 어려운 게 아니라, 그 아래 바닥이 빠져 있는 것이다.\n\n이것은 좋은 소식이다. 정말로 능력 밖인 과목은 노력으로 고칠 수 없다. 하지만 빠진 층은 고칠 수 있다. 내가 조언 하나를 할 수 있다면 이것이다. 수업이 이해되지 않기 시작하면, 더 빨리 가지 말고 뒤로 가라."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d4-r1",
+            "prompt": "글쓴이가 말하는 수학이 어려운 흔한 이유는?",
+            "options": [
+              "개념 자체가 너무 어려워서",
+              "예전에 놓친 부분을 따라잡지 못해서",
+              "문제 수가 많아서",
+              "선생님 설명이 빨라서"
+            ],
+            "answer": 1,
+            "explanation": "only the second problem is common 이라고 했고, 그것은 예전에 놓친 부분입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-r2",
+            "prompt": "글쓴이가 이것을 좋은 소식이라고 한 이유는?",
+            "options": [
+              "빠진 층은 고칠 수 있기 때문에",
+              "수학은 원래 쉽기 때문에",
+              "시험이 없어지기 때문에",
+              "누구나 잘하기 때문에"
+            ],
+            "answer": 0,
+            "explanation": "A missing layer can (be fixed). 이 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-r3",
+            "prompt": "글쓴이의 조언은?",
+            "options": [
+              "더 빨리 진도를 나가라",
+              "이해되지 않으면 뒤로 돌아가라",
+              "다른 과목을 하라",
+              "문제를 더 많이 풀어라"
+            ],
+            "answer": 1,
+            "explanation": "go backwards, not faster 가 조언입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w04d4-r4",
+            "prompt": "수학이 어렵다고 느낀 적이 있나요? 그때 어떻게 했는지 한 문장으로 써 보세요.",
+            "sample": "When math got hard, I went back to the earlier chapter and read it again."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생이 선생님께 수학 고민을 이야기해요.",
+        "script": [
+          { "speaker": "Nara", "text": "I understand the class, but I cannot solve the problems." },
+          { "speaker": "Teacher", "text": "When did it start to feel hard?" },
+          { "speaker": "Nara", "text": "Around the chapter on ratios, I think." },
+          { "speaker": "Teacher", "text": "If I were you, I would review fractions first." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d4-l1",
+            "prompt": "나라가 어려움을 느끼기 시작한 단원은?",
+            "options": ["분수", "비율", "방정식", "함수"],
+            "answer": 1,
+            "explanation": "Around the chapter on ratios 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d4-l2",
+            "prompt": "선생님의 조언은?",
+            "options": ["문제를 더 풀어라", "분수를 먼저 복습해라", "학원에 가라", "쉬어라"],
+            "answer": 1,
+            "explanation": "If I were you, I would review fractions first. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I understand the class, but I cannot solve the problems.",
+          "If I were you, I would review fractions first."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Math is built in layers.",
+          "This is good news.",
+          "The lesson is not too difficult; the floor under it is missing."
+        ],
+        "substitution": {
+          "pattern": "If I {verb} more {thing}, I would {result}.",
+          "slots": [
+            { "key": "verb", "options": ["had", "found", "practiced", "understood", "reviewed"] },
+            { "key": "thing", "options": ["time", "basic problems", "vocabulary", "confidence", "help"] },
+            { "key": "result", "options": ["go back one step", "feel calm in class", "solve it faster", "ask more questions", "enjoy math"] }
+          ],
+          "examples": [
+            "If I had more time, I would go back one step.",
+            "If I practiced more basic problems, I would solve it faster.",
+            "If I understood more vocabulary, I would enjoy math."
+          ]
+        },
+        "qna": [
+          { "question": "Is math difficult for you?", "sample": "Sometimes it is, but not always." },
+          { "question": "When did it start to feel hard?", "sample": "It felt hard when we started ratios." },
+          { "question": "What would you do if you were stuck?", "sample": "If I were stuck, I would review the earlier chapter." },
+          { "question": "What advice would you give a younger student?", "sample": "I would tell them to go backwards, not faster." },
+          { "question": "Which subject feels easiest to you?", "sample": "Korean feels the easiest to me." }
+        ],
+        "oneMinute": {
+          "topic": "Is math difficult?",
+          "topicKo": "수학은 어려운가",
+          "keywords": ["two groups", "layers", "missing floor", "go backwards", "good news"]
+        }
+      }
+    },
+
+    {
+      "id": "w04d5",
+      "week": 4,
+      "dayOfWeek": "fri",
+      "title": "최상급으로 '가장 ~한' 말하기",
+      "vocab": [
+        { "word": "describe", "pos": "v.", "meaning": "묘사하다", "example": "Ask students to describe their best teacher.", "exampleKo": "학생들에게 최고의 선생님을 묘사해 보라고 해봐라." },
+        { "word": "mention", "pos": "v.", "meaning": "언급하다", "example": "Almost nobody mentions knowledge.", "exampleKo": "거의 아무도 지식을 언급하지 않는다." },
+        { "word": "knowledge", "pos": "n.", "meaning": "지식", "example": "Knowledge is the easiest part of teaching.", "exampleKo": "지식은 가르치는 일에서 가장 쉬운 부분이다." },
+        { "word": "sigh", "pos": "v.", "meaning": "한숨 쉬다", "example": "He explained it again without sighing.", "exampleKo": "그는 한숨 한 번 쉬지 않고 다시 설명했다." },
+        { "word": "trap", "pos": "n.", "meaning": "함정", "example": "There is a name for the trap.", "exampleKo": "그 함정에는 이름이 있다." },
+        { "word": "curse", "pos": "n.", "meaning": "저주", "example": "The curse of knowledge is a real problem.", "exampleKo": "지식의 저주는 실제로 있는 문제다." },
+        { "word": "slippery", "pos": "adj.", "meaning": "미끄러운", "example": "They remember which step is slippery.", "exampleKo": "그들은 어느 계단이 미끄러운지 기억한다." },
+        { "word": "strict", "pos": "adj.", "meaning": "엄격한", "example": "The strictest teacher is not always the worst.", "exampleKo": "가장 엄격한 선생님이 늘 최악인 것은 아니다." },
+        { "word": "belief", "pos": "n.", "meaning": "믿음", "example": "A hard class with that belief feels safe.", "exampleKo": "그런 믿음이 있는 어려운 수업은 안전하게 느껴진다." },
+        { "word": "alive", "pos": "adj.", "meaning": "살아 있는", "example": "The best teachers keep that memory alive.", "exampleKo": "최고의 선생님들은 그 기억을 살려 둔다." }
+      ],
+      "grammar": {
+        "point": "최상급과 비교 표현 넓히기",
+        "explanation": "셋 이상 중 가장 ~할 때는 the + 최상급을 씁니다. 범위는 in(장소·집단)이나 of(복수 명사)로 나타냅니다. one of the + 최상급 + 복수명사는 '가장 ~한 것 중 하나'라는 뜻이고, 비교급을 강조할 때는 much, far, a lot을 앞에 붙입니다. very는 최상급을 강조할 때만 씁니다.",
+        "examples": [
+          { "en": "Knowing a subject is the easiest part of teaching.", "ko": "과목을 아는 것은 가르치는 일에서 가장 쉬운 부분이다." },
+          { "en": "It is one of the most common mistakes.", "ko": "그것은 가장 흔한 실수 중 하나다." },
+          { "en": "This class is much harder than last year's.", "ko": "이 수업은 작년 것보다 훨씬 어렵다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w04d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nExplaining is ______ part of teaching.",
+            "options": ["hard", "harder", "the hardest", "hardest than"],
+            "answer": 2,
+            "explanation": "가르치는 일 안에서 가장 어려운 부분이므로 the + 최상급을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe is one of the ______ teachers in our school.",
+            "options": ["best", "better", "good", "well"],
+            "answer": 0,
+            "explanation": "one of the + 최상급 + 복수명사 형태입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "This is much harder than that.",
+              "He is far taller than me.",
+              "This test is very harder than the last one.",
+              "That was the most difficult question."
+            ],
+            "answer": 2,
+            "explanation": "비교급 강조에는 much, far, a lot을 씁니다. very는 쓸 수 없습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w04d5-g4",
+            "prompt": "괄호 안의 말을 알맞은 형태로 쓰세요.\nHe is the ( strict ) teacher in our school.",
+            "accept": ["strictest"],
+            "explanation": "짧은 형용사의 최상급은 -est를 붙입니다.",
+            "hint": "-est"
+          },
+          {
+            "kind": "write",
+            "id": "w04d5-g5",
+            "prompt": "빈칸을 채우세요.\nIt is one of the most common mistakes ______ students. (복수명사 앞)",
+            "accept": ["of", "among"],
+            "explanation": "복수 명사 앞에서는 of(또는 among)로 범위를 나타냅니다.",
+            "hint": "두 글자 또는 다섯 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-g6",
+            "prompt": "우리말을 영어로 바르게 옮긴 것은?\n그것은 내가 지금까지 들은 수업 중 가장 좋았다.",
+            "options": [
+              "It was the better class I have ever had.",
+              "It was the best class I have ever had.",
+              "It was best class I have ever had.",
+              "It was the most best class I have ever had."
+            ],
+            "answer": 1,
+            "explanation": "the + 최상급 + I have ever + 과거분사 형태로 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "What Makes a Good Teacher?",
+          "topic": "교사 · 논설",
+          "body": "Ask students to describe the best teacher they have ever had, and almost nobody mentions knowledge. They mention time.\n\nThe most common answer is some version of this: she waited, or he explained it again without sighing. Knowing a subject is the easiest part of teaching. Explaining it to someone who does not yet know it is the hardest.\n\nThere is a name for the trap: the curse of knowledge. Once you understand something well, you forget what it felt like to be confused. The best teachers keep that memory alive. They remember which step is slippery, because they slipped there once.\n\nThat is also why the strictest teacher is not always the worst one. What students actually notice is whether the teacher believes they can get there. A hard class with that belief feels safe. An easy class without it feels cold.",
+          "glossary": [
+            { "word": "the curse of knowledge", "meaning": "지식의 저주(아는 사람이 모르는 상태를 잊는 것)" },
+            { "word": "get there", "meaning": "해내다" },
+            { "word": "once", "meaning": "일단 ~하면" }
+          ],
+          "translation": "학생들에게 지금까지 만난 최고의 선생님을 묘사해 보라고 하면, 지식을 말하는 사람은 거의 없다. 그들은 시간을 말한다.\n\n가장 흔한 대답은 대체로 이런 식이다. 그 선생님은 기다려 주었다, 혹은 한숨 한 번 쉬지 않고 다시 설명해 주었다. 과목을 아는 것은 가르치는 일에서 가장 쉬운 부분이다. 그것을 아직 모르는 사람에게 설명하는 일이 가장 어렵다.\n\n그 함정에는 이름이 있다. 지식의 저주다. 무언가를 잘 이해하고 나면, 헷갈리던 때의 기분을 잊어버린다. 최고의 선생님들은 그 기억을 살려 둔다. 어느 계단이 미끄러운지 기억하는데, 자기도 거기서 한 번 미끄러졌기 때문이다.\n\n그래서 가장 엄격한 선생님이 늘 최악인 것도 아니다. 학생들이 실제로 알아차리는 것은, 선생님이 자기가 해낼 수 있다고 믿어 주는가이다. 그런 믿음이 있는 어려운 수업은 안전하게 느껴진다. 그런 믿음이 없는 쉬운 수업은 차갑게 느껴진다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d5-r1",
+            "prompt": "학생들이 좋은 선생님으로 기억하는 것은?",
+            "options": ["지식의 양", "기다려 주고 다시 설명해 주는 태도", "숙제를 적게 내는 것", "시험을 쉽게 내는 것"],
+            "answer": 1,
+            "explanation": "she waited, or he explained it again without sighing 이 가장 흔한 답입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-r2",
+            "prompt": "the curse of knowledge 가 뜻하는 것은?",
+            "options": [
+              "아는 것이 많으면 불행해진다",
+              "잘 알게 되면 모르던 때의 기분을 잊는다",
+              "지식은 배울수록 어려워진다",
+              "선생님은 지식이 부족하다"
+            ],
+            "answer": 1,
+            "explanation": "you forget what it felt like to be confused 가 설명입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-r3",
+            "prompt": "글쓴이에 따르면 학생들이 실제로 알아차리는 것은?",
+            "options": [
+              "선생님의 학력",
+              "수업의 난이도",
+              "선생님이 자신을 믿어 주는지",
+              "선생님의 목소리 크기"
+            ],
+            "answer": 2,
+            "explanation": "whether the teacher believes they can get there 라고 나옵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w04d5-r4",
+            "prompt": "좋은 선생님의 조건을 한 문장으로 써 보세요.",
+            "sample": "A good teacher waits for you and believes that you can do it."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 좋은 선생님에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Doyun", "text": "Who is the best teacher you have ever had?" },
+          { "speaker": "Yuna", "text": "My science teacher. She explained things three times without sighing." },
+          { "speaker": "Doyun", "text": "Was her class easy?" },
+          { "speaker": "Yuna", "text": "No, it was one of the hardest. But I never felt stupid there." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w04d5-l1",
+            "prompt": "유나가 최고로 꼽은 선생님은?",
+            "options": ["영어 선생님", "과학 선생님", "수학 선생님", "체육 선생님"],
+            "answer": 1,
+            "explanation": "My science teacher. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w04d5-l2",
+            "prompt": "그 수업에 대한 유나의 설명은?",
+            "options": [
+              "쉬웠고 편했다",
+              "어려웠지만 위축되지 않았다",
+              "지루했다",
+              "숙제가 없었다"
+            ],
+            "answer": 1,
+            "explanation": "it was one of the hardest. But I never felt stupid there. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Who is the best teacher you have ever had?",
+          "It was one of the hardest."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "They mention time.",
+          "The best teachers keep that memory alive.",
+          "Knowing a subject is the easiest part of teaching."
+        ],
+        "substitution": {
+          "pattern": "The best teacher I have ever had was {description}, and that is the most important thing.",
+          "slots": [
+            { "key": "description", "options": ["patient", "funny but fair", "always ready to explain again", "calm when we made mistakes", "interested in our questions"] }
+          ],
+          "examples": [
+            "The best teacher I have ever had was patient, and that is the most important thing.",
+            "The best teacher I have ever had was always ready to explain again, and that is the most important thing.",
+            "The best teacher I have ever had was calm when we made mistakes, and that is the most important thing."
+          ]
+        },
+        "qna": [
+          { "question": "What makes a good teacher?", "sample": "A good teacher waits and explains again." },
+          { "question": "Who is the best teacher you have ever had?", "sample": "My science teacher was the best." },
+          { "question": "Was that class easy or hard?", "sample": "It was hard, but I felt safe there." },
+          { "question": "What would you do if you were a teacher?", "sample": "If I were a teacher, I would give thinking time." },
+          { "question": "Is a strict teacher a bad teacher?", "sample": "Not always. A strict teacher can still believe in you." }
+        ],
+        "oneMinute": {
+          "topic": "What makes a good teacher?",
+          "topicKo": "좋은 선생님이란",
+          "keywords": ["time", "waited", "explain again", "curse of knowledge", "believes in you"]
+        }
+      }
+    }
+  ]
+}

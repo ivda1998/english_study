@@ -1,0 +1,1061 @@
+{
+  "week": 3,
+  "title": "겪은 일을 이야기하기",
+  "focus": "있었던 일을 순서대로 말하고, 그때 느낌을 한 줄 덧붙여요",
+  "speakingTopics": [
+    "Something funny that happened",
+    "A difficult problem I solved",
+    "A book I recently read",
+    "A movie I watched",
+    "My best day this year"
+  ],
+  "days": [
+    {
+      "id": "w03d1",
+      "week": 3,
+      "dayOfWeek": "mon",
+      "title": "과거와 현재완료 구별하기",
+      "vocab": [
+        { "word": "projector", "pos": "n.", "meaning": "프로젝터", "example": "He turned on the projector.", "exampleKo": "그는 프로젝터를 켰다." },
+        { "word": "expect", "pos": "v.", "meaning": "예상하다", "example": "He did something I did not expect.", "exampleKo": "그는 내가 예상하지 못한 일을 했다." },
+        { "word": "entire", "pos": "adj.", "meaning": "전체의", "example": "He kept talking the entire time.", "exampleKo": "그는 그 시간 내내 계속 말했다." },
+        { "word": "terrible", "pos": "adj.", "meaning": "형편없는", "example": "His drawing was terrible.", "exampleKo": "그의 그림은 형편없었다." },
+        { "word": "laugh", "pos": "v.", "meaning": "웃다", "example": "Someone in the back row laughed out loud.", "exampleKo": "뒷줄의 누군가가 크게 웃었다." },
+        { "word": "experiment", "pos": "n.", "meaning": "실험", "example": "He drew the whole experiment on the board.", "exampleKo": "그는 실험 전체를 칠판에 그렸다." },
+        { "word": "complete", "pos": "adj.", "meaning": "완전한", "example": "The room was in complete silence.", "exampleKo": "교실은 완전한 침묵에 잠겼다." },
+        { "word": "plan", "pos": "v.", "meaning": "계획하다", "example": "Our teacher planned a video lesson.", "exampleKo": "우리 선생님은 영상 수업을 계획했다." },
+        { "word": "wrong", "pos": "adj.", "meaning": "잘못된", "example": "The thing that goes wrong is the thing you remember.", "exampleKo": "잘못된 그 일이 오히려 기억에 남는다." },
+        { "word": "row", "pos": "n.", "meaning": "줄", "example": "A student in the back row started it.", "exampleKo": "뒷줄의 한 학생이 그것을 시작했다." }
+      ],
+      "grammar": {
+        "point": "과거시제와 현재완료의 구별",
+        "explanation": "과거시제는 끝난 일을 그때 그 시점에서 말하고, 현재완료는 그 일이 지금과 이어져 있음을 말합니다. yesterday, last week, in 2020, ago처럼 시점이 딱 정해진 표현이 있으면 과거시제를 씁니다. ever, never, already, yet, so far처럼 지금까지의 경험을 나타내는 말과는 현재완료를 씁니다.",
+        "examples": [
+          { "en": "Our teacher planned a video lesson last Thursday.", "ko": "우리 선생님은 지난 목요일에 영상 수업을 계획했다." },
+          { "en": "I have forgotten most of my lessons from last year.", "ko": "나는 작년 수업 대부분을 잊어버렸다." },
+          { "en": "That is the worst test tube I have ever drawn.", "ko": "그건 내가 지금까지 그린 것 중 최악의 시험관이야." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w03d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\nWe ______ a video lesson last Thursday.",
+            "options": ["have", "have had", "had", "have been having"],
+            "answer": 2,
+            "explanation": "last Thursday라는 정해진 과거 시점이 있으므로 과거시제 had를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-g2",
+            "prompt": "빈칸에 알맞은 것은?\nI ______ that lesson yet.",
+            "options": ["do not forget", "did not forget", "have not forgotten", "was not forgetting"],
+            "answer": 2,
+            "explanation": "yet은 현재완료와 함께 쓰여 '아직 ~하지 않았다'를 나타냅니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "I have seen that movie twice.",
+              "She has never been to Japan.",
+              "He has finished it two hours ago.",
+              "They have already left."
+            ],
+            "answer": 2,
+            "explanation": "ago는 과거시제와 씁니다. He finished it two hours ago. 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w03d1-g4",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nThe screen ( stay ) white for a full minute. (지난 목요일 일)",
+            "accept": ["stayed"],
+            "explanation": "지난 목요일에 있었던 일이므로 과거시제 stayed를 씁니다.",
+            "hint": "-ed"
+          },
+          {
+            "kind": "write",
+            "id": "w03d1-g5",
+            "prompt": "빈칸을 채우세요.\nThat is the funniest lesson I have ______ had. (지금까지 중에서)",
+            "accept": ["ever"],
+            "explanation": "최상급 뒤에서 '지금까지 ~한 것 중에'는 have ever + 과거분사로 나타냅니다.",
+            "hint": "e로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-g6",
+            "prompt": "빈칸에 알맞은 것은?\nA: Where is your homework?\nB: I ______ it at home.",
+            "options": ["leave", "left", "have left", "am leaving"],
+            "answer": 2,
+            "explanation": "지금 숙제가 없다는 현재 상황과 이어지므로 현재완료 have left가 자연스럽습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Day the Projector Broke",
+          "topic": "학교생활 · 웃긴 경험",
+          "body": "Last Thursday our science teacher planned a video lesson. He turned on the projector, and nothing happened. He tried again. The screen stayed white for a full minute while thirty students watched in complete silence.\n\nThen he did something I did not expect. He picked up a marker and drew the whole experiment on the board, talking the entire time. His drawing was terrible. The test tube looked like a sock, and someone in the back row laughed out loud.\n\nHe laughed too. That is the worst test tube I have ever drawn, he said, and he kept going.\n\nI have forgotten most of my science lessons from last year. I have not forgotten that one. Sometimes the thing that goes wrong is the thing you remember.",
+          "glossary": [
+            { "word": "turn on", "meaning": "켜다" },
+            { "word": "out loud", "meaning": "소리 내어" },
+            { "word": "keep going", "meaning": "계속하다" }
+          ],
+          "translation": "지난 목요일에 우리 과학 선생님은 영상 수업을 계획했다. 프로젝터를 켰는데 아무 일도 일어나지 않았다. 다시 시도했다. 서른 명의 학생이 완전한 침묵 속에서 지켜보는 동안 화면은 꼬박 1분 동안 하얀 채로 있었다.\n\n그때 선생님은 내가 예상하지 못한 일을 했다. 마커를 집어 들고 실험 전체를 칠판에 그리면서 내내 설명을 했다. 그림은 형편없었다. 시험관이 양말처럼 보였고, 뒷줄의 누군가가 크게 웃었다.\n\n선생님도 웃었다. 내가 지금까지 그린 시험관 중에 제일 못 그렸네, 라고 말하고는 계속 수업을 했다.\n\n나는 작년 과학 수업 대부분을 잊어버렸다. 그런데 그 수업만은 잊지 않았다. 때로는 잘못된 일이 오히려 기억에 남는다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d1-r1",
+            "prompt": "선생님이 프로젝터가 켜지지 않자 한 일은?",
+            "options": [
+              "수업을 취소했다",
+              "칠판에 실험을 그리며 설명했다",
+              "다른 교실로 옮겼다",
+              "학생들에게 자습을 시켰다"
+            ],
+            "answer": 1,
+            "explanation": "He picked up a marker and drew the whole experiment on the board 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-r2",
+            "prompt": "글쓴이가 그 수업을 기억하는 이유로 알맞은 것은?",
+            "options": [
+              "시험에 나왔기 때문에",
+              "계획대로 되지 않은 일이 오히려 인상에 남았기 때문에",
+              "선생님이 화를 냈기 때문에",
+              "친구와 싸웠기 때문에"
+            ],
+            "answer": 1,
+            "explanation": "마지막 문장 the thing that goes wrong is the thing you remember 가 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-r3",
+            "prompt": "글의 분위기로 가장 알맞은 것은?",
+            "options": ["긴장되고 무겁다", "따뜻하고 유쾌하다", "슬프고 아쉽다", "차갑고 사무적이다"],
+            "answer": 1,
+            "explanation": "실수를 함께 웃어넘기는 장면이므로 따뜻하고 유쾌한 분위기입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w03d1-r4",
+            "prompt": "학교에서 있었던 웃긴 일을 한 문장으로 써 보세요.",
+            "sample": "Once my teacher wrote the wrong date on the board and nobody noticed for an hour."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 어제 수업에서 있었던 일을 이야기해요.",
+        "script": [
+          { "speaker": "Nara", "text": "Did you see what happened in science class?" },
+          { "speaker": "Suho", "text": "The projector broke, right? I heard about it." },
+          { "speaker": "Nara", "text": "Mr. Park drew everything on the board. It looked like a sock." },
+          { "speaker": "Suho", "text": "I have never laughed that much in a science class." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d1-l1",
+            "prompt": "과학 시간에 일어난 일은?",
+            "options": ["시험을 봤다", "프로젝터가 고장 났다", "선생님이 결근했다", "실험을 성공했다"],
+            "answer": 1,
+            "explanation": "The projector broke 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d1-l2",
+            "prompt": "수호의 마지막 말에서 알 수 있는 것은?",
+            "options": [
+              "과학 시간에 그렇게 웃어본 적이 없다",
+              "과학을 싫어한다",
+              "그 수업에 있었다",
+              "선생님을 못 만났다"
+            ],
+            "answer": 0,
+            "explanation": "I have never laughed that much 는 경험을 나타내는 현재완료입니다."
+          }
+        ],
+        "dictation": [
+          "Did you see what happened in science class?",
+          "I have never laughed that much in a science class."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "He tried again.",
+          "Then he did something I did not expect.",
+          "Sometimes the thing that goes wrong is the thing you remember."
+        ],
+        "substitution": {
+          "pattern": "Last {time}, {person} {action}, and everyone laughed.",
+          "slots": [
+            { "key": "time", "options": ["Monday", "week", "month", "Friday", "semester"] },
+            { "key": "person", "options": ["my teacher", "my friend", "my brother", "our class president", "I"] },
+            { "key": "action", "options": ["dropped the chalk", "said the wrong date", "drew a strange picture", "answered the wrong question", "fell asleep"] }
+          ],
+          "examples": [
+            "Last Monday, my teacher dropped the chalk, and everyone laughed.",
+            "Last week, my friend said the wrong date, and everyone laughed.",
+            "Last Friday, I answered the wrong question, and everyone laughed."
+          ]
+        },
+        "qna": [
+          { "question": "What funny thing happened at school?", "sample": "Our projector broke and the teacher drew everything." },
+          { "question": "When did it happen?", "sample": "It happened last Thursday." },
+          { "question": "Have you ever laughed in class?", "sample": "Yes, I have. It happens sometimes." },
+          { "question": "What do you remember about last year?", "sample": "I remember our sports day." },
+          { "question": "What did you do yesterday?", "sample": "I studied and watched a short video." }
+        ]
+      }
+    },
+
+    {
+      "id": "w03d2",
+      "week": 3,
+      "dayOfWeek": "tue",
+      "title": "지각동사·사역동사로 장면 말하기",
+      "vocab": [
+        { "word": "obvious", "pos": "adj.", "meaning": "뻔한, 분명한", "example": "I tried the obvious method first.", "exampleKo": "나는 먼저 뻔한 방법을 시도했다." },
+        { "word": "fail", "pos": "v.", "meaning": "실패하다", "example": "I tried it on Friday and failed.", "exampleKo": "나는 금요일에 시도했고 실패했다." },
+        { "word": "fact", "pos": "n.", "meaning": "사실", "example": "I made a list of every fact in the question.", "exampleKo": "나는 문제 속 모든 사실을 목록으로 적었다." },
+        { "word": "appear", "pos": "v.", "meaning": "나타나다", "example": "The answer appeared in four lines.", "exampleKo": "답이 네 줄 만에 나타났다." },
+        { "word": "realize", "pos": "v.", "meaning": "깨닫다", "example": "I realized that this was the real skill.", "exampleKo": "나는 이것이 진짜 능력임을 깨달았다." },
+        { "word": "list", "pos": "n.", "meaning": "목록", "example": "She writes a list before she starts.", "exampleKo": "그녀는 시작하기 전에 목록을 적는다." },
+        { "word": "nobody", "pos": "pron.", "meaning": "아무도 ~않다", "example": "Nobody had to solve it.", "exampleKo": "아무도 그것을 풀 필요는 없었다." },
+        { "word": "own", "pos": "adj.", "meaning": "자신의", "example": "I explained my own thinking out loud.", "exampleKo": "나는 내 생각을 소리 내어 설명했다." },
+        { "word": "already", "pos": "adv.", "meaning": "이미", "example": "She wrote down what she already knew.", "exampleKo": "그녀는 이미 알고 있는 것을 적어 두었다." },
+        { "word": "fit", "pos": "v.", "meaning": "들어맞다", "example": "Two facts fit together perfectly.", "exampleKo": "두 사실이 딱 들어맞았다." }
+      ],
+      "grammar": {
+        "point": "지각동사와 사역동사",
+        "explanation": "see, hear, watch, feel 같은 지각동사는 '목적어 + 동사원형'을 써서 처음부터 끝까지 본 일을, '목적어 + -ing'를 써서 진행 중인 장면을 나타냅니다. make, let, have 같은 사역동사는 목적어 뒤에 동사원형을 씁니다. 단, help는 원형과 to부정사를 모두 쓸 수 있고, get은 to부정사를 씁니다.",
+        "examples": [
+          { "en": "I watched my sister solve a different problem.", "ko": "나는 누나가 다른 문제를 푸는 것을 지켜봤다." },
+          { "en": "I heard myself explaining my own thinking.", "ko": "나는 내가 내 생각을 설명하고 있는 것을 들었다." },
+          { "en": "My teacher let us take the problem home.", "ko": "선생님은 우리가 그 문제를 집에 가져가게 해주셨다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w03d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI saw him ______ the door.",
+            "options": ["to open", "opens", "open", "opened"],
+            "answer": 2,
+            "explanation": "지각동사 see 뒤에는 목적어 + 동사원형이 옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe made me ______ the list again.",
+            "options": ["to write", "write", "writing", "written"],
+            "answer": 1,
+            "explanation": "사역동사 make 뒤에는 동사원형이 옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "My mother let me go out.",
+              "He had his brother carry the box.",
+              "I got my friend help me.",
+              "We watched the sun rise."
+            ],
+            "answer": 2,
+            "explanation": "get은 사역의 뜻이지만 to부정사를 씁니다. I got my friend to help me. 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w03d2-g4",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nI heard someone ( call ) my name. (지금 부르고 있는 중)",
+            "accept": ["calling"],
+            "explanation": "진행 중인 장면을 강조할 때는 지각동사 뒤에 -ing를 씁니다.",
+            "hint": "-ing"
+          },
+          {
+            "kind": "write",
+            "id": "w03d2-g5",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nThe teacher let us ( take ) it home. → The teacher let us ______ it home.",
+            "accept": ["take"],
+            "explanation": "사역동사 let 뒤에는 동사원형이 그대로 옵니다.",
+            "hint": "그대로 써요"
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-g6",
+            "prompt": "빈칸에 들어갈 형태가 나머지와 다른 것은?",
+            "options": [
+              "I saw her ______ . (leave)",
+              "He made me ______ . (wait)",
+              "They let him ______ . (go)",
+              "She asked me ______ . (stay)"
+            ],
+            "answer": 3,
+            "explanation": "①②③은 동사원형이 오지만, ask 뒤에는 to부정사(to stay)가 옵니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Problem That Took Three Days",
+          "topic": "문제 해결 · 경험",
+          "body": "My math teacher let us take one problem home for the weekend. She said nobody had to solve it. That made it interesting.\n\nOn Friday I tried the obvious method and failed. On Saturday I watched my older sister solve a different problem and noticed something: she wrote down what she already knew before she started. I had never done that.\n\nSo on Sunday I made a list of every fact in the question. Suddenly two of them fit together, and the answer appeared in four lines.\n\nWhen I showed it to my teacher, she did not say correct. She asked me how I found it. I heard myself explaining my own thinking out loud for the first time, and I realized that this was the real skill.",
+          "glossary": [
+            { "word": "have to", "meaning": "~해야 한다" },
+            { "word": "write down", "meaning": "적어 두다" },
+            { "word": "for the first time", "meaning": "처음으로" }
+          ],
+          "translation": "수학 선생님은 우리가 문제 하나를 주말 동안 집에 가져가게 해주셨다. 아무도 그것을 꼭 풀 필요는 없다고 하셨다. 그 말이 오히려 문제를 흥미롭게 만들었다.\n\n금요일에 나는 뻔한 방법을 시도했고 실패했다. 토요일에는 누나가 다른 문제를 푸는 것을 지켜보다가 한 가지를 알아차렸다. 누나는 시작하기 전에 이미 알고 있는 것을 적어 두었다. 나는 한 번도 그렇게 해본 적이 없었다.\n\n그래서 일요일에 나는 문제에 있는 모든 사실을 목록으로 적었다. 갑자기 그중 두 개가 맞물렸고, 답이 네 줄 만에 나타났다.\n\n선생님께 보여드렸을 때, 선생님은 맞았다고 말하지 않으셨다. 어떻게 찾았는지 물으셨다. 나는 처음으로 내가 내 생각을 소리 내어 설명하고 있는 것을 들었고, 이것이 진짜 능력이라는 것을 깨달았다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d2-r1",
+            "prompt": "글쓴이가 누나에게서 배운 방법은?",
+            "options": [
+              "답을 먼저 보고 시작하기",
+              "이미 아는 것을 먼저 적어 두기",
+              "문제를 여러 번 읽기",
+              "친구에게 물어보기"
+            ],
+            "answer": 1,
+            "explanation": "she wrote down what she already knew before she started 를 보고 배웠습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-r2",
+            "prompt": "선생님의 반응으로 알맞은 것은?",
+            "options": [
+              "정답이라고만 말했다",
+              "어떻게 찾았는지 물었다",
+              "다시 풀어보라고 했다",
+              "아무 말도 하지 않았다"
+            ],
+            "answer": 1,
+            "explanation": "She asked me how I found it. 이라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-r3",
+            "prompt": "글쓴이가 말한 the real skill 은?",
+            "options": [
+              "빨리 계산하는 능력",
+              "자기 생각을 설명할 수 있는 능력",
+              "많은 문제를 푸는 능력",
+              "공식을 외우는 능력"
+            ],
+            "answer": 1,
+            "explanation": "자기 사고 과정을 소리 내어 설명한 경험을 진짜 능력이라고 했습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w03d2-r4",
+            "prompt": "어렵게 풀어낸 문제가 있다면 어떻게 풀었는지 한 문장으로 써 보세요.",
+            "sample": "I solved it after I wrote down everything I already knew."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생이 문제 푼 과정을 선생님께 설명해요.",
+        "script": [
+          { "speaker": "Teacher", "text": "How did you find the answer?" },
+          { "speaker": "Jiho", "text": "First I made a list of the facts in the question." },
+          { "speaker": "Teacher", "text": "And then?" },
+          { "speaker": "Jiho", "text": "Then I saw two of them fit together, and it became easy." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d2-l1",
+            "prompt": "지호가 가장 먼저 한 일은?",
+            "options": ["공식을 외웠다", "사실을 목록으로 적었다", "선생님께 물었다", "답을 찍었다"],
+            "answer": 1,
+            "explanation": "First I made a list of the facts 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d2-l2",
+            "prompt": "지호가 문제를 풀 수 있었던 결정적 순간은?",
+            "options": [
+              "두 사실이 맞물리는 것을 본 순간",
+              "친구가 도와준 순간",
+              "답지를 본 순간",
+              "시간이 끝난 순간"
+            ],
+            "answer": 0,
+            "explanation": "I saw two of them fit together 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "First I made a list of the facts in the question.",
+          "Then I saw two of them fit together."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "That made it interesting.",
+          "I had never done that.",
+          "I made a list of every fact in the question."
+        ],
+        "substitution": {
+          "pattern": "I watched {person} {verb} it, and that made me {result}.",
+          "slots": [
+            { "key": "person", "options": ["my sister", "my friend", "my teacher", "my brother", "a classmate"] },
+            { "key": "verb", "options": ["solve", "explain", "draw", "check", "start"] },
+            { "key": "result", "options": ["try again", "understand it", "feel calm", "change my method", "ask a question"] }
+          ],
+          "examples": [
+            "I watched my sister solve it, and that made me try again.",
+            "I watched my teacher explain it, and that made me understand it.",
+            "I watched my friend check it, and that made me change my method."
+          ]
+        },
+        "qna": [
+          { "question": "What was a difficult problem for you?", "sample": "A math problem about equations was difficult." },
+          { "question": "How did you solve it?", "sample": "I wrote down everything I knew first." },
+          { "question": "How long did it take?", "sample": "It took me three days." },
+          { "question": "How did you feel after that?", "sample": "I felt proud of myself." },
+          { "question": "Who helps you when you are stuck?", "sample": "My sister usually helps me." }
+        ],
+        "oneMinute": {
+          "topic": "A difficult problem I solved",
+          "topicKo": "내가 풀어낸 어려운 문제",
+          "keywords": ["three days", "obvious method", "list of facts", "two facts", "four lines"]
+        },
+        "mathTalk": {
+          "problem": "Find x: x² - 5x + 6 = 0",
+          "problemKo": "x² - 5x + 6 = 0 의 해를 구해보세요",
+          "basic": ["First, I look at the numbers.", "Then, I split the middle term.", "Finally, I get x = 2 or x = 3."],
+          "upgraded": [
+            "First, I look for two numbers that multiply to six and add to five.",
+            "Then, I factor the equation into two brackets.",
+            "Finally, I set each bracket equal to zero and get x = 2 or x = 3."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w03d3",
+      "week": 3,
+      "dayOfWeek": "wed",
+      "title": "분사로 상태 꾸며 말하기",
+      "vocab": [
+        { "word": "character", "pos": "n.", "meaning": "등장인물", "example": "The characters were confusing at first.", "exampleKo": "등장인물들이 처음에는 헷갈렸다." },
+        { "word": "confusing", "pos": "adj.", "meaning": "혼란스러운", "example": "The story was confusing on page thirty.", "exampleKo": "그 이야기는 30쪽에서 혼란스러웠다." },
+        { "word": "chapter", "pos": "n.", "meaning": "장, 챕터", "example": "The same chapter felt different later.", "exampleKo": "같은 챕터가 나중에는 다르게 느껴졌다." },
+        { "word": "compare", "pos": "v.", "meaning": "비교하다", "example": "I was not comparing it to anything.", "exampleKo": "나는 그것을 무엇과도 비교하지 않고 있었다." },
+        { "word": "apart", "pos": "adv.", "meaning": "떨어져서", "example": "They were the same person, two weeks apart.", "exampleKo": "그들은 2주 간격의 같은 사람이었다." },
+        { "word": "shelf", "pos": "n.", "meaning": "책꽂이", "example": "I put it back on the shelf.", "exampleKo": "나는 그것을 책꽂이에 도로 꽂았다." },
+        { "word": "immediately", "pos": "adv.", "meaning": "즉시", "example": "I do not decide immediately anymore.", "exampleKo": "나는 이제 즉시 결정하지 않는다." },
+        { "word": "stuck", "pos": "adj.", "meaning": "꼼짝 못 하는", "example": "I was stuck at a bus stop.", "exampleKo": "나는 버스 정류장에 발이 묶여 있었다." },
+        { "word": "page", "pos": "n.", "meaning": "쪽", "example": "I stopped reading on page thirty.", "exampleKo": "나는 30쪽에서 읽기를 멈췄다." },
+        { "word": "enough", "pos": "adj.", "meaning": "충분한", "example": "I already had enough homework.", "exampleKo": "나는 이미 숙제가 충분히 많았다." }
+      ],
+      "grammar": {
+        "point": "현재분사와 과거분사",
+        "explanation": "-ing로 끝나는 현재분사는 '~하게 만드는'이라는 능동의 뜻이고, -ed로 끝나는 과거분사는 '~한 상태가 된'이라는 수동의 뜻입니다. 감정을 나타내는 형용사에서 자주 구별을 묻습니다. 사물이 지루하면 boring, 사람이 지루함을 느끼면 bored입니다.",
+        "examples": [
+          { "en": "The story was confusing.", "ko": "그 이야기는 혼란스러웠다. (이야기가 혼란을 준다)" },
+          { "en": "I was confused by the story.", "ko": "나는 그 이야기 때문에 혼란스러웠다. (내가 혼란을 느낀다)" },
+          { "en": "The bored reader and the interested reader were the same person.", "ko": "지루해하던 독자와 흥미를 느낀 독자는 같은 사람이었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w03d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThe movie was ______, so I fell asleep.",
+            "options": ["bored", "boring", "bore", "to bore"],
+            "answer": 1,
+            "explanation": "영화가 지루함을 주는 쪽이므로 현재분사 boring을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-g2",
+            "prompt": "빈칸에 알맞은 것은?\nI was ______ with the ending.",
+            "options": ["surprising", "surprise", "surprised", "to surprise"],
+            "answer": 2,
+            "explanation": "내가 놀람을 느낀 쪽이므로 과거분사 surprised를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "The lesson was interesting.",
+              "The students were interested.",
+              "I am very boring in class today.",
+              "That news was shocking."
+            ],
+            "answer": 2,
+            "explanation": "'내가 지루하다'는 I am bored 입니다. I am boring 은 '내가 지루한 사람이다'라는 뜻이 됩니다."
+          },
+          {
+            "kind": "write",
+            "id": "w03d3-g4",
+            "prompt": "괄호 안의 말을 알맞은 형태로 쓰세요.\nThe chapter that had ( bore ) me now felt different.",
+            "accept": ["bored"],
+            "explanation": "'나를 지루하게 했다'는 능동 과거형 bored입니다.",
+            "hint": "-ed"
+          },
+          {
+            "kind": "write",
+            "id": "w03d3-g5",
+            "prompt": "괄호 안의 말을 알맞은 형태로 쓰세요.\nI read forty pages ( stand ) up. → I read forty pages ______ up.",
+            "accept": ["standing"],
+            "explanation": "'서 있는 채로'라는 능동·진행의 뜻이므로 현재분사 standing을 씁니다.",
+            "hint": "-ing"
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-g6",
+            "prompt": "빈칸에 알맞게 짝지어진 것은?\nThe book was ______, and I was ______.",
+            "options": [
+              "exciting - exciting",
+              "excited - excited",
+              "exciting - excited",
+              "excited - exciting"
+            ],
+            "answer": 2,
+            "explanation": "사물은 -ing(exciting), 사람은 -ed(excited)로 씁니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "The Book I Almost Did Not Finish",
+          "topic": "독서 · 경험",
+          "body": "I stopped reading the book on page thirty. The story was slow, the characters were confusing, and I already had enough homework.\n\nTwo weeks later, stuck at a bus stop with a dead phone, I opened it again. The same chapter that had bored me now felt different. I was not tired, and I was not comparing it to anything. I read forty pages standing up.\n\nBooks are not only good or bad. A book can be the wrong book on Tuesday and the right book on Friday. The bored reader and the interested reader were the same person, two weeks apart.\n\nNow, when a book feels boring, I do not decide immediately. I put it back on the shelf and wait.",
+          "glossary": [
+            { "word": "a dead phone", "meaning": "배터리가 나간 휴대폰" },
+            { "word": "stand up", "meaning": "선 채로" },
+            { "word": "put back", "meaning": "도로 놓다" }
+          ],
+          "translation": "나는 30쪽에서 그 책 읽기를 멈췄다. 이야기는 느렸고, 등장인물은 헷갈렸고, 숙제는 이미 충분히 많았다.\n\n2주 뒤, 휴대폰 배터리가 나간 채 버스 정류장에 발이 묶여 있다가 나는 그 책을 다시 펼쳤다. 나를 지루하게 했던 바로 그 챕터가 이번에는 다르게 느껴졌다. 나는 피곤하지 않았고, 그것을 무엇과도 비교하고 있지 않았다. 나는 선 채로 마흔 쪽을 읽었다.\n\n책은 좋은 책과 나쁜 책으로만 나뉘지 않는다. 어떤 책은 화요일에는 틀린 책이고 금요일에는 맞는 책일 수 있다. 지루해하던 독자와 흥미를 느낀 독자는 2주 간격의 같은 사람이었다.\n\n이제 나는 책이 지루하게 느껴져도 곧바로 결정하지 않는다. 책꽂이에 도로 꽂아 두고 기다린다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d3-r1",
+            "prompt": "글쓴이가 처음에 책을 덮은 이유가 아닌 것은?",
+            "options": ["이야기가 느려서", "인물이 헷갈려서", "숙제가 많아서", "책이 너무 어려워서"],
+            "answer": 3,
+            "explanation": "난이도 때문이라는 언급은 없습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-r2",
+            "prompt": "2주 뒤에 달라진 것은?",
+            "options": ["책의 내용", "글쓴이의 상황과 마음", "책의 길이", "작가"],
+            "answer": 1,
+            "explanation": "같은 챕터인데 읽는 사람의 상태가 달랐다는 것이 핵심입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-r3",
+            "prompt": "글쓴이가 지금 하는 방법은?",
+            "options": [
+              "지루하면 바로 책을 버린다",
+              "책꽂이에 두었다가 나중에 다시 본다",
+              "끝까지 억지로 읽는다",
+              "친구에게 대신 읽게 한다"
+            ],
+            "answer": 1,
+            "explanation": "I put it back on the shelf and wait. 이라고 했습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w03d3-r4",
+            "prompt": "최근에 읽은 책에 대해 한 문장으로 써 보세요.",
+            "sample": "I recently read a science book, and the middle part was the most interesting."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 친구가 읽던 책 이야기를 해요.",
+        "script": [
+          { "speaker": "Yuna", "text": "Did you finish the book you started?" },
+          { "speaker": "Doyun", "text": "I stopped on page thirty. It was confusing." },
+          { "speaker": "Yuna", "text": "Try it again next month. I was bored at first too." },
+          { "speaker": "Doyun", "text": "Really? Then I will keep it on my shelf." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d3-l1",
+            "prompt": "도윤이 책을 덮은 쪽수는?",
+            "options": ["13쪽", "30쪽", "40쪽", "50쪽"],
+            "answer": 1,
+            "explanation": "I stopped on page thirty. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d3-l2",
+            "prompt": "유나의 조언은?",
+            "options": [
+              "다른 책을 읽어라",
+              "다음 달에 다시 시도해 봐라",
+              "빌려서 읽어라",
+              "요약본을 봐라"
+            ],
+            "answer": 1,
+            "explanation": "Try it again next month. 이라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I stopped on page thirty.",
+          "Try it again next month."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "I read forty pages standing up.",
+          "Books are not only good or bad.",
+          "I put it back on the shelf and wait."
+        ],
+        "substitution": {
+          "pattern": "The {thing} was {ing-adjective}, so I felt {ed-adjective}.",
+          "slots": [
+            { "key": "thing", "options": ["book", "movie", "lesson", "story", "game"] },
+            { "key": "ing-adjective", "options": ["boring", "confusing", "interesting", "exciting", "surprising"] },
+            { "key": "ed-adjective", "options": ["bored", "confused", "interested", "excited", "surprised"] }
+          ],
+          "examples": [
+            "The book was boring, so I felt bored.",
+            "The movie was exciting, so I felt excited.",
+            "The lesson was confusing, so I felt confused."
+          ]
+        },
+        "qna": [
+          { "question": "What book did you read recently?", "sample": "I read a short science book last month." },
+          { "question": "Was it interesting?", "sample": "The beginning was slow, but the end was interesting." },
+          { "question": "Do you finish every book you start?", "sample": "No, sometimes I stop and try again later." },
+          { "question": "Where do you like to read?", "sample": "I like reading in my room." },
+          { "question": "What book do you want to read next?", "sample": "I want to read a book about space." }
+        ]
+      }
+    },
+
+    {
+      "id": "w03d4",
+      "week": 3,
+      "dayOfWeek": "thu",
+      "title": "수동태로 설명하기",
+      "vocab": [
+        { "word": "film", "pos": "v.", "meaning": "촬영하다", "example": "A movie is filmed over several months.", "exampleKo": "영화는 여러 달에 걸쳐 촬영된다." },
+        { "word": "scene", "pos": "n.", "meaning": "장면", "example": "Scenes are not shot in order.", "exampleKo": "장면들은 순서대로 찍히지 않는다." },
+        { "word": "record", "pos": "v.", "meaning": "녹화하다", "example": "The last scene may be recorded first.", "exampleKo": "마지막 장면이 먼저 녹화될 수도 있다." },
+        { "word": "edit", "pos": "v.", "meaning": "편집하다", "example": "The story is built again in the editing room.", "exampleKo": "이야기는 편집실에서 다시 만들어진다." },
+        { "word": "cut", "pos": "v.", "meaning": "잘라내다", "example": "A long scene can be cut in ten seconds.", "exampleKo": "긴 장면도 10초 만에 잘려 나갈 수 있다." },
+        { "word": "add", "pos": "v.", "meaning": "더하다", "example": "Music is added near the end.", "exampleKo": "음악은 마지막 무렵에 더해진다." },
+        { "word": "tense", "pos": "adj.", "meaning": "긴장된", "example": "Watch a tense scene without sound.", "exampleKo": "긴장된 장면을 소리 없이 봐라." },
+        { "word": "credit", "pos": "n.", "meaning": "제작진 명단", "example": "That is why the credits are so long.", "exampleKo": "그래서 제작진 명단이 그렇게 긴 것이다." },
+        { "word": "create", "pos": "v.", "meaning": "만들어내다", "example": "The feeling was created by someone you never see.", "exampleKo": "그 느낌은 네가 보지 못하는 누군가가 만들어낸 것이다." },
+        { "word": "actor", "pos": "n.", "meaning": "배우", "example": "The actors are still learning their roles.", "exampleKo": "배우들은 아직 자기 역할을 익히는 중이다." }
+      ],
+      "grammar": {
+        "point": "수동태 (be동사 + 과거분사)",
+        "explanation": "행동을 누가 했는지보다 무엇이 되었는지가 중요할 때 수동태를 씁니다. 형태는 be동사 + 과거분사이고, 행위자를 밝히려면 by를 씁니다. 조동사가 있으면 조동사 + be + 과거분사가 되고, 부정문은 be동사 뒤에 not을 넣습니다.",
+        "examples": [
+          { "en": "A movie is usually filmed over several months.", "ko": "영화는 보통 여러 달에 걸쳐 촬영된다." },
+          { "en": "The last scene may be recorded on the first day.", "ko": "마지막 장면이 첫날 촬영될 수도 있다." },
+          { "en": "A movie is not made by one person.", "ko": "영화는 한 사람이 만드는 것이 아니다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w03d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nThe scenes ______ in a studio.",
+            "options": ["film", "are filmed", "are filming", "have filmed"],
+            "answer": 1,
+            "explanation": "장면은 촬영되는 대상이므로 수동태 are filmed가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nThe music can ______ later.",
+            "options": ["add", "added", "be added", "be adding"],
+            "answer": 2,
+            "explanation": "조동사가 있는 수동태는 조동사 + be + 과거분사입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "This book was written by a student.",
+              "The room is cleaned every day.",
+              "The window was broke by the wind.",
+              "These pictures were taken last year."
+            ],
+            "answer": 2,
+            "explanation": "break의 과거분사는 broken입니다. was broken 이 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w03d4-g4",
+            "prompt": "능동태를 수동태로 바꾸세요.\nSomeone created that feeling. → That feeling ______ created.",
+            "accept": ["was"],
+            "explanation": "과거의 수동태이므로 was + 과거분사를 씁니다.",
+            "hint": "be동사 과거"
+          },
+          {
+            "kind": "write",
+            "id": "w03d4-g5",
+            "prompt": "빈칸을 채우세요.\nA movie is not made ______ one person.",
+            "accept": ["by"],
+            "explanation": "수동태에서 행위자를 밝힐 때는 by를 씁니다.",
+            "hint": "두 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-g6",
+            "prompt": "다음 문장을 수동태로 바르게 바꾼 것은?\nThey sent thousands of pieces to the editing room.",
+            "options": [
+              "Thousands of pieces sent to the editing room.",
+              "Thousands of pieces were sent to the editing room.",
+              "Thousands of pieces were send to the editing room.",
+              "Thousands of pieces are sending to the editing room."
+            ],
+            "answer": 1,
+            "explanation": "send의 과거분사는 sent이므로 were sent가 맞습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "How a Movie Is Made",
+          "topic": "영화 · 정보 글",
+          "body": "A two-hour movie is usually filmed over several months. Scenes are not shot in order. The last scene may be recorded on the first day, while the actors are still learning who their characters are.\n\nAfter filming, thousands of small pieces are sent to an editing room. There, the story is built a second time. A scene that took a week to film can be cut in ten seconds if it slows the movie down.\n\nMusic is added near the end. Try watching a tense scene with the sound turned off, and most of the fear disappears. The feeling you remember was created by a person you never see.\n\nThat is why the credits are so long. A movie is not made by one person.",
+          "glossary": [
+            { "word": "in order", "meaning": "순서대로" },
+            { "word": "slow down", "meaning": "느리게 만들다" },
+            { "word": "turn off", "meaning": "끄다" }
+          ],
+          "translation": "두 시간짜리 영화는 보통 여러 달에 걸쳐 촬영된다. 장면들은 순서대로 찍히지 않는다. 마지막 장면이 첫날 촬영될 수도 있는데, 그때 배우들은 아직 자기 배역이 어떤 사람인지 익히는 중이다.\n\n촬영이 끝나면 수천 개의 작은 조각이 편집실로 보내진다. 그곳에서 이야기는 두 번째로 만들어진다. 찍는 데 일주일이 걸린 장면도 영화의 흐름을 느리게 만든다면 10초 만에 잘려 나갈 수 있다.\n\n음악은 거의 마지막에 더해진다. 긴장된 장면을 소리를 끄고 보면 두려움의 대부분이 사라진다. 네가 기억하는 그 느낌은 네가 한 번도 보지 못한 사람이 만들어낸 것이다.\n\n그래서 제작진 명단이 그렇게 긴 것이다. 영화는 한 사람이 만드는 것이 아니다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d4-r1",
+            "prompt": "글의 주제로 가장 알맞은 것은?",
+            "options": [
+              "영화 관람 예절",
+              "영화는 여러 단계와 여러 사람이 함께 만든다",
+              "배우가 되는 방법",
+              "음악의 역사"
+            ],
+            "answer": 1,
+            "explanation": "촬영 → 편집 → 음악 순으로 여러 사람이 만든다는 것이 주제입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-r2",
+            "prompt": "글의 내용과 일치하는 것은?",
+            "options": [
+              "장면은 항상 순서대로 찍는다.",
+              "일주일 걸린 장면도 잘릴 수 있다.",
+              "음악은 촬영 전에 먼저 만든다.",
+              "영화는 보통 한 달 안에 완성된다."
+            ],
+            "answer": 1,
+            "explanation": "A scene that took a week to film can be cut in ten seconds 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-r3",
+            "prompt": "소리를 끄고 보라고 한 이유는?",
+            "options": [
+              "배우의 표정을 보려고",
+              "음악이 감정을 만든다는 것을 확인하려고",
+              "대사를 외우려고",
+              "시간을 아끼려고"
+            ],
+            "answer": 1,
+            "explanation": "소리를 끄면 두려움이 사라진다는 것으로 음악의 역할을 보여줍니다."
+          },
+          {
+            "kind": "free",
+            "id": "w03d4-r4",
+            "prompt": "최근에 본 영화에 대해 한 문장으로 써 보세요.",
+            "sample": "I watched a movie about space last weekend, and the music made it exciting."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 본 영화에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Hana", "text": "That movie was filmed in three different countries." },
+          { "speaker": "Minjun", "text": "Really? The last scene looked so real." },
+          { "speaker": "Hana", "text": "It was recorded on the very first day of filming." },
+          { "speaker": "Minjun", "text": "So the music was added much later." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d4-l1",
+            "prompt": "그 영화가 촬영된 곳은?",
+            "options": ["한 나라", "두 나라", "세 나라", "스튜디오 안"],
+            "answer": 2,
+            "explanation": "filmed in three different countries 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d4-l2",
+            "prompt": "마지막 장면에 대한 설명은?",
+            "options": [
+              "촬영 첫날에 찍혔다",
+              "촬영 마지막 날에 찍혔다",
+              "다시 찍었다",
+              "잘려 나갔다"
+            ],
+            "answer": 0,
+            "explanation": "It was recorded on the very first day of filming. 이라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "That movie was filmed in three different countries.",
+          "So the music was added much later."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Music is added near the end.",
+          "Scenes are not shot in order.",
+          "A movie is not made by one person."
+        ],
+        "substitution": {
+          "pattern": "The movie was {adjective}, and the best part was {part}.",
+          "slots": [
+            { "key": "adjective", "options": ["exciting", "long", "sad", "funny", "surprising"] },
+            { "key": "part", "options": ["the ending", "the music", "the first scene", "the main character", "the last ten minutes"] }
+          ],
+          "examples": [
+            "The movie was exciting, and the best part was the ending.",
+            "The movie was funny, and the best part was the main character.",
+            "The movie was surprising, and the best part was the music."
+          ]
+        },
+        "qna": [
+          { "question": "What movie did you watch recently?", "sample": "I watched a science fiction movie." },
+          { "question": "What was it about?", "sample": "It was about a trip to another planet." },
+          { "question": "Which part did you like?", "sample": "I liked the last ten minutes." },
+          { "question": "Do you prefer movies or books?", "sample": "I prefer movies because they are faster." },
+          { "question": "Who did you watch it with?", "sample": "I watched it with my family." }
+        ],
+        "oneMinute": {
+          "topic": "A movie I watched",
+          "topicKo": "내가 본 영화",
+          "keywords": ["title", "about", "best part", "music", "feeling"]
+        }
+      }
+    },
+
+    {
+      "id": "w03d5",
+      "week": 3,
+      "dayOfWeek": "fri",
+      "title": "재귀대명사로 '스스로' 말하기",
+      "vocab": [
+        { "word": "ordinary", "pos": "adj.", "meaning": "평범한", "example": "It was an ordinary Wednesday in May.", "exampleKo": "그날은 5월의 평범한 수요일이었다." },
+        { "word": "promise", "pos": "v.", "meaning": "약속하다", "example": "I had promised myself to finish it alone.", "exampleKo": "나는 혼자 끝내겠다고 스스로 약속했었다." },
+        { "word": "project", "pos": "n.", "meaning": "과제", "example": "I finished the science project alone.", "exampleKo": "나는 과학 과제를 혼자 끝냈다." },
+        { "word": "nearly", "pos": "adv.", "meaning": "거의", "example": "I nearly gave up at four o'clock.", "exampleKo": "나는 4시에 거의 포기할 뻔했다." },
+        { "word": "present", "pos": "v.", "meaning": "발표하다", "example": "I presented the project to my class.", "exampleKo": "나는 반 아이들에게 과제를 발표했다." },
+        { "word": "shake", "pos": "v.", "meaning": "떨리다", "example": "I could feel my hands shake a little.", "exampleKo": "나는 손이 조금 떨리는 것을 느낄 수 있었다." },
+        { "word": "afterwards", "pos": "adv.", "meaning": "그 뒤에", "example": "Afterwards a classmate said it was cool.", "exampleKo": "그 뒤에 한 반 친구가 멋있다고 말했다." },
+        { "word": "rely", "pos": "v.", "meaning": "의지하다", "example": "I could rely on myself that day.", "exampleKo": "그날 나는 나 자신에게 의지할 수 있었다." },
+        { "word": "outside", "pos": "n.", "meaning": "바깥", "example": "Nothing was special from the outside.", "exampleKo": "바깥에서 보기에는 특별할 게 없었다." },
+        { "word": "win", "pos": "v.", "meaning": "이기다, 상을 타다", "example": "I did not win anything that day.", "exampleKo": "그날 나는 아무것도 타지 못했다." }
+      ],
+      "grammar": {
+        "point": "재귀대명사 (myself, yourself, itself …)",
+        "explanation": "주어와 목적어가 같은 사람일 때 목적어 자리에 재귀대명사를 씁니다. I made myself take a walk. 처럼 씁니다. 강조하려고 쓸 때는 문장에서 빼도 뜻이 통합니다. by oneself는 '혼자서', for oneself는 '스스로', in itself는 '그 자체로'라는 뜻으로 자주 나옵니다.",
+        "examples": [
+          { "en": "I had promised myself that I would finish it.", "ko": "나는 끝내겠다고 나 자신과 약속했었다." },
+          { "en": "The answer arrived by itself.", "ko": "답이 저절로 찾아왔다." },
+          { "en": "I could rely on myself for one whole afternoon.", "ko": "나는 오후 내내 나 자신에게 의지할 수 있었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w03d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI promised ______ to finish the project alone.",
+            "options": ["me", "my", "myself", "mine"],
+            "answer": 2,
+            "explanation": "주어와 목적어가 같은 사람이므로 재귀대명사 myself를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-g2",
+            "prompt": "빈칸에 알맞은 것은?\nShe did the whole project by ______.",
+            "options": ["her", "herself", "hers", "she"],
+            "answer": 1,
+            "explanation": "by oneself는 '혼자 힘으로'라는 뜻입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "He hurt himself during the game.",
+              "They enjoyed themselves at the party.",
+              "I saw me in the mirror.",
+              "The door opened by itself."
+            ],
+            "answer": 2,
+            "explanation": "주어와 목적어가 같으므로 I saw myself in the mirror. 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w03d5-g4",
+            "prompt": "빈칸에 알맞은 재귀대명사를 쓰세요.\nThe answer arrived by ______. (그 답 스스로)",
+            "accept": ["itself"],
+            "explanation": "사물이 주어이므로 itself를 씁니다. by itself는 '저절로'라는 뜻입니다.",
+            "hint": "it + self"
+          },
+          {
+            "kind": "write",
+            "id": "w03d5-g5",
+            "prompt": "빈칸에 알맞은 재귀대명사를 쓰세요.\nYou should be proud of ______.",
+            "accept": ["yourself"],
+            "explanation": "주어가 you이므로 yourself를 씁니다.",
+            "hint": "you + self"
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-g6",
+            "prompt": "밑줄 친 재귀대명사를 생략해도 뜻이 통하는 것은?",
+            "options": [
+              "He introduced himself to the class.",
+              "She wrote the report herself.",
+              "I hurt myself yesterday.",
+              "They taught themselves English."
+            ],
+            "answer": 1,
+            "explanation": "②는 '직접'을 강조하는 용법이라 빼도 문장이 성립합니다. 나머지는 목적어라서 뺄 수 없습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "My Best Day This Year",
+          "topic": "경험 · 자신감",
+          "body": "My best day this year was not a holiday. It was an ordinary Wednesday in May.\n\nI had promised myself that I would finish a science project without asking for help. By four o'clock I was stuck, and I nearly gave up. Instead I made myself take a walk, and on the way back the answer arrived by itself.\n\nThat evening I presented the project to my class. My voice shook a little, but I did not stop. Afterwards a boy who never talks to me said it was cool.\n\nNothing about the day was special from the outside. I did not win anything. I just found out that I could rely on myself for one whole afternoon, and that feeling stayed.",
+          "glossary": [
+            { "word": "give up", "meaning": "포기하다" },
+            { "word": "on the way back", "meaning": "돌아오는 길에" },
+            { "word": "find out", "meaning": "알게 되다" }
+          ],
+          "translation": "올해 나의 가장 좋았던 날은 휴일이 아니었다. 5월의 평범한 수요일이었다.\n\n나는 도움을 청하지 않고 과학 과제를 끝내겠다고 나 자신과 약속했었다. 4시쯤 막혔고, 거의 포기할 뻔했다. 대신 나는 억지로 산책을 나갔고, 돌아오는 길에 답이 저절로 찾아왔다.\n\n그날 저녁 나는 반 아이들 앞에서 과제를 발표했다. 목소리가 조금 떨렸지만 멈추지 않았다. 발표가 끝난 뒤 나에게 한 번도 말을 걸지 않던 남자애가 멋있다고 말해 주었다.\n\n바깥에서 보기에 그날은 특별할 게 하나도 없었다. 나는 아무것도 타지 못했다. 다만 나는 한 오후 내내 나 자신에게 의지할 수 있다는 것을 알게 되었고, 그 느낌은 남았다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d5-r1",
+            "prompt": "글쓴이가 막혔을 때 한 일은?",
+            "options": ["친구에게 물었다", "산책을 나갔다", "포기했다", "선생님을 찾아갔다"],
+            "answer": 1,
+            "explanation": "Instead I made myself take a walk 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-r2",
+            "prompt": "그날이 글쓴이에게 최고의 날인 이유는?",
+            "options": [
+              "상을 받아서",
+              "스스로에게 의지할 수 있다는 것을 알게 되어서",
+              "휴일이어서",
+              "친구가 많이 생겨서"
+            ],
+            "answer": 1,
+            "explanation": "I could rely on myself ... and that feeling stayed 가 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-r3",
+            "prompt": "글쓴이의 발표에 대한 설명으로 알맞은 것은?",
+            "options": [
+              "완벽하게 해냈다",
+              "목소리가 떨렸지만 끝까지 했다",
+              "중간에 멈췄다",
+              "발표하지 않았다"
+            ],
+            "answer": 1,
+            "explanation": "My voice shook a little, but I did not stop. 이라고 나옵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w03d5-r4",
+            "prompt": "올해 가장 좋았던 날을 한 문장으로 써 보세요.",
+            "sample": "My best day this year was the day I finished my project by myself."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "발표가 끝난 뒤 두 학생이 이야기해요.",
+        "script": [
+          { "speaker": "Sena", "text": "You did the whole project by yourself?" },
+          { "speaker": "Jiho", "text": "Yes. I promised myself I would not ask for help." },
+          { "speaker": "Sena", "text": "Your voice shook a little at the start." },
+          { "speaker": "Jiho", "text": "It did, but I did not stop. That is the part I am proud of." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w03d5-l1",
+            "prompt": "지호가 스스로와 한 약속은?",
+            "options": ["도움을 청하지 않겠다", "일찍 자겠다", "매일 공부하겠다", "발표를 짧게 하겠다"],
+            "answer": 0,
+            "explanation": "I promised myself I would not ask for help. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w03d5-l2",
+            "prompt": "지호가 자랑스러워하는 부분은?",
+            "options": ["떨지 않은 것", "멈추지 않은 것", "일등한 것", "빨리 끝낸 것"],
+            "answer": 1,
+            "explanation": "I did not stop. That is the part I am proud of. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "You did the whole project by yourself?",
+          "I promised myself I would not ask for help."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "It was an ordinary Wednesday in May.",
+          "My voice shook a little, but I did not stop.",
+          "I did not win anything."
+        ],
+        "substitution": {
+          "pattern": "I did {task} by myself, and afterwards I felt {feeling}.",
+          "slots": [
+            { "key": "task", "options": ["my science project", "my homework", "the presentation", "the cleaning", "the whole test"] },
+            { "key": "feeling", "options": ["proud", "tired but happy", "relieved", "confident", "calm"] }
+          ],
+          "examples": [
+            "I did my science project by myself, and afterwards I felt proud.",
+            "I did the presentation by myself, and afterwards I felt relieved.",
+            "I did my homework by myself, and afterwards I felt confident."
+          ]
+        },
+        "qna": [
+          { "question": "What was your best day this year?", "sample": "It was the day I finished my project alone." },
+          { "question": "What happened on that day?", "sample": "I presented my project to my class." },
+          { "question": "How did you feel?", "sample": "I felt nervous but proud." },
+          { "question": "What did you do by yourself recently?", "sample": "I made dinner by myself last week." },
+          { "question": "What are you proud of?", "sample": "I am proud that I did not give up." }
+        ],
+        "oneMinute": {
+          "topic": "My best day this year",
+          "topicKo": "올해 가장 좋았던 날",
+          "keywords": ["ordinary Wednesday", "project", "almost gave up", "walk", "proud"]
+        }
+      }
+    }
+  ]
+}

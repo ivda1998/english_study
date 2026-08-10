@@ -15,4 +15,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     port: 5173,
   },
+  build: {
+    // 6주 30일 콘텐츠를 번들에 함께 넣는다. 첫 방문 이후에는 네트워크 없이도
+    // 학습이 이어지므로, 한 번 크게 받는 편이 매일 조각을 받는 것보다 낫다.
+    chunkSizeWarningLimit: 800,
+  },
 }));

@@ -95,6 +95,41 @@ test('말하기 15분인 날에만 1분 말하기 탭이 열린다', async ({ pa
   await expect(page.getByRole('tab', { name: /수학으로 말하기/ })).toBeVisible();
 });
 
+test('마이크를 못 써도 1분 말하기가 진행되고 기록이 남는다', async ({ page }) => {
+  // 마이크 권한이 거부된 상황을 흉내 낸다.
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, 'mediaDevices', {
+      configurable: true,
+      value: {
+        getUserMedia: () => Promise.reject(new DOMException('denied', 'NotAllowedError')),
+      },
+    });
+  });
+
+  await page.goto('./#/day/w01d2');
+  await page.locator('.stepper').getByRole('tab', { name: /말하기/ }).click();
+  await page.getByRole('tab', { name: /1분 말하기/ }).click();
+
+  await page.getByRole('button', { name: /시작하기/ }).click();
+  await expect(page.locator('.mic__time')).toBeVisible();
+
+  await page.getByRole('button', { name: /다 말했어요/ }).click();
+  await expect(page.getByText('오늘 말해보니 어땠어요?')).toBeVisible();
+  await page.getByRole('button', { name: '할 만했어요' }).click();
+  await page.getByRole('button', { name: '기록 저장' }).click();
+  await expect(page.getByText('기록했어요. 오늘 말하기 끝!')).toBeVisible();
+
+  // 성장 기록에 반영된다
+  await page.goto('./#/stats');
+  await expect(page.getByRole('heading', { name: '최근 말하기' })).toBeVisible();
+  await expect(page.getByText('My favorite subject').first()).toBeVisible();
+  await expect(page.getByText('1분 말하기').first()).toBeVisible();
+
+  // 부모 화면에서는 녹음이 없다는 사실이 그대로 보인다
+  await page.goto('./#/parent');
+  await expect(page.getByText('녹음 없이 시간만 기록했어요')).toBeVisible();
+});
+
 test('주요 화면이 모바일 폭에서 가로로 넘치지 않는다', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   for (const path of ['./', './#/plan', './#/review', './#/stats', './#/parent', './#/settings']) {

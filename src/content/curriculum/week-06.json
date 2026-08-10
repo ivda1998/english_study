@@ -1,0 +1,1049 @@
+{
+  "week": 6,
+  "title": "생각을 밀고 나가기",
+  "focus": "긴 글을 읽고, 내 생각을 근거와 함께 1분 넘게 말해요",
+  "speakingTopics": [
+    "If I could change one thing in the world",
+    "If I had one million dollars",
+    "A problem teenagers have",
+    "What makes a person successful?",
+    "What I think is more important: talent or effort?"
+  ],
+  "days": [
+    {
+      "id": "w06d1",
+      "week": 6,
+      "dayOfWeek": "mon",
+      "title": "가정법으로 상상하고 바라기",
+      "vocab": [
+        { "word": "treat", "pos": "v.", "meaning": "대하다", "example": "We treat people who change their minds badly.", "exampleKo": "우리는 생각을 바꾸는 사람을 나쁘게 대한다." },
+        { "word": "admit", "pos": "v.", "meaning": "인정하다", "example": "Admitting that you were wrong is hard.", "exampleKo": "자신이 틀렸다고 인정하는 것은 어렵다." },
+        { "word": "defeat", "pos": "n.", "meaning": "패배", "example": "It is treated as a defeat.", "exampleKo": "그것은 패배처럼 여겨진다." },
+        { "word": "politician", "pos": "n.", "meaning": "정치인", "example": "A politician who updates an opinion is called weak.", "exampleKo": "의견을 바꾸는 정치인은 약하다고 불린다." },
+        { "word": "opinion", "pos": "n.", "meaning": "의견", "example": "He changed his opinion after reading it.", "exampleKo": "그는 그것을 읽고 의견을 바꿨다." },
+        { "word": "defend", "pos": "v.", "meaning": "옹호하다", "example": "People defend positions they no longer believe.", "exampleKo": "사람들은 더 이상 믿지 않는 입장을 옹호한다." },
+        { "word": "praise", "pos": "n.", "meaning": "칭찬", "example": "The highest praise was for changing her mind.", "exampleKo": "가장 큰 칭찬은 생각을 바꾼 것에 대한 것이었다." },
+        { "word": "evidence", "pos": "n.", "meaning": "증거", "example": "She changed her mind after reading the evidence.", "exampleKo": "그녀는 증거를 읽고 생각을 바꿨다." },
+        { "word": "publish", "pos": "v.", "meaning": "공개하다", "example": "Publishing that failure is part of the job.", "exampleKo": "그 실패를 공개하는 것도 일의 일부다." },
+        { "word": "enormous", "pos": "adj.", "meaning": "엄청난", "example": "It would be an enormous change.", "exampleKo": "그것은 엄청난 변화일 것이다." }
+      ],
+      "grammar": {
+        "point": "가정법 정리 (가정법 과거 · I wish · as if)",
+        "explanation": "현재 사실과 다른 상상은 If + 과거형, would/could + 동사원형으로 씁니다. 과거 사실과 다른 상상은 If + had p.p., would have p.p.로 씁니다. I wish + 과거형은 지금 그렇지 않아 아쉬운 것을, as if + 과거형은 실제와 다른 모습을 나타냅니다. 시제가 한 칸씩 과거로 물러난다고 기억하면 편합니다.",
+        "examples": [
+          { "en": "If I could change one thing, I would change how we treat mistakes.", "ko": "한 가지를 바꿀 수 있다면 실수를 대하는 방식을 바꾸겠다." },
+          { "en": "I wish it worked the other way.", "ko": "그 반대로 돌아가면 좋을 텐데." },
+          { "en": "If children grew up seeing this, the rest would follow.", "ko": "아이들이 이것을 보고 자란다면 나머지는 따라올 것이다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w06d1-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI wish I ______ more time to read.",
+            "options": ["have", "had", "will have", "am having"],
+            "answer": 1,
+            "explanation": "I wish 뒤에는 현재 사실과 반대이므로 과거형 had를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-g2",
+            "prompt": "빈칸에 알맞은 것은?\nHe talks as if he ______ everything.",
+            "options": ["knows", "knew", "will know", "has known"],
+            "answer": 1,
+            "explanation": "as if 뒤에 사실과 다른 모습을 나타낼 때는 과거형을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-g3",
+            "prompt": "빈칸에 알맞은 것은?\nIf I ______ harder last year, I would have passed.",
+            "options": ["studied", "had studied", "study", "would study"],
+            "answer": 1,
+            "explanation": "과거 사실과 반대이므로 가정법 과거완료 had studied를 씁니다."
+          },
+          {
+            "kind": "write",
+            "id": "w06d1-g4",
+            "prompt": "빈칸을 채우세요.\nIf I could change one thing, I ______ change how we treat mistakes.",
+            "accept": ["would"],
+            "explanation": "가정법 과거의 주절은 would + 동사원형입니다.",
+            "hint": "w로 시작해요"
+          },
+          {
+            "kind": "write",
+            "id": "w06d1-g5",
+            "prompt": "괄호 안의 동사를 알맞은 형태로 쓰세요.\nIf children ( grow ) up seeing this, the rest would follow.",
+            "accept": ["grew"],
+            "explanation": "가정법 과거이므로 동사의 과거형 grew를 씁니다.",
+            "hint": "불규칙 과거형"
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-g6",
+            "prompt": "다음 문장의 뜻으로 알맞은 것은?\nI wish I had said sorry that day.",
+            "options": [
+              "그날 미안하다고 말했다",
+              "그날 미안하다고 말할 것이다",
+              "그날 미안하다고 말했더라면 좋았을 텐데",
+              "그날 미안하다고 말하고 싶다"
+            ],
+            "answer": 2,
+            "explanation": "I wish + had p.p.는 과거에 하지 못한 일에 대한 아쉬움을 나타냅니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "If I Could Change One Thing",
+          "topic": "사회 · 사고력",
+          "body": "If I could change one thing in the world, I would not choose money or technology. I would change how we treat people who change their minds.\n\nRight now, admitting that you were wrong is treated as a defeat. A politician who updates an opinion is called weak. A student who says I thought X, but now I think Y sounds unsure. So people defend positions they no longer believe, and everyone loses.\n\nI wish it worked the other way. Imagine a school where the highest praise was she changed her mind after reading the evidence. Imagine an argument where both sides were looking for the truth instead of trying to win.\n\nSome people say this is impossible because human nature does not change. But we already do this in science. A scientist whose experiment fails does not hide it; publishing that failure is part of the job.\n\nIf children grew up seeing adults say I was wrong calmly, the rest would follow. It is a small change in words. It would be an enormous change in everything else.",
+          "glossary": [
+            { "word": "change one's mind", "meaning": "생각을 바꾸다" },
+            { "word": "no longer", "meaning": "더 이상 ~않다" },
+            { "word": "human nature", "meaning": "인간의 본성" }
+          ],
+          "translation": "세상에서 한 가지를 바꿀 수 있다면, 나는 돈이나 기술을 고르지 않겠다. 생각을 바꾸는 사람을 우리가 어떻게 대하는지를 바꾸겠다.\n\n지금은 자신이 틀렸다고 인정하는 것이 패배처럼 취급된다. 의견을 바꾸는 정치인은 약하다고 불린다. 나는 예전에 X라고 생각했지만 지금은 Y라고 생각한다고 말하는 학생은 확신이 없어 보인다. 그래서 사람들은 더 이상 믿지 않는 입장을 계속 옹호하고, 결국 모두가 손해를 본다.\n\n반대였으면 좋겠다. 가장 큰 칭찬이 '그 애는 증거를 읽고 생각을 바꿨어'인 학교를 상상해 보라. 양쪽이 이기려 하는 대신 진실을 찾고 있는 논쟁을 상상해 보라.\n\n인간의 본성은 변하지 않으니 불가능하다고 말하는 사람도 있다. 하지만 우리는 과학에서 이미 이렇게 하고 있다. 실험이 실패한 과학자는 그것을 숨기지 않는다. 그 실패를 공개하는 것이 일의 일부다.\n\n아이들이 어른들이 '내가 틀렸어'라고 담담히 말하는 모습을 보며 자란다면, 나머지는 따라올 것이다. 말 몇 마디의 작은 변화다. 그러나 다른 모든 것에서는 엄청난 변화일 것이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d1-r1",
+            "prompt": "글쓴이가 바꾸고 싶은 것은?",
+            "options": [
+              "돈이 분배되는 방식",
+              "생각을 바꾸는 사람을 대하는 방식",
+              "기술의 발전 속도",
+              "학교 시험 제도"
+            ],
+            "answer": 1,
+            "explanation": "how we treat people who change their minds 를 바꾸고 싶다고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-r2",
+            "prompt": "글쓴이가 과학을 예로 든 이유는?",
+            "options": [
+              "과학이 가장 중요한 과목이라서",
+              "실패를 숨기지 않고 공개하는 문화가 이미 있어서",
+              "과학자는 절대 틀리지 않아서",
+              "실험이 재미있어서"
+            ],
+            "answer": 1,
+            "explanation": "publishing that failure is part of the job 이라는 점을 근거로 듭니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-r3",
+            "prompt": "글쓴이가 말하는 현재의 문제는?",
+            "options": [
+              "사람들이 믿지 않는 입장을 계속 옹호한다",
+              "사람들이 너무 자주 생각을 바꾼다",
+              "증거가 부족하다",
+              "학교에 논쟁이 없다"
+            ],
+            "answer": 0,
+            "explanation": "people defend positions they no longer believe, and everyone loses 가 문제입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w06d1-r4",
+            "prompt": "세상에서 한 가지를 바꿀 수 있다면 무엇을 바꾸고 싶은지 한 문장으로 써 보세요.",
+            "sample": "If I could change one thing, I would make it normal to say I was wrong."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 토론 수업 뒤에 이야기해요.",
+        "script": [
+          { "speaker": "Hana", "text": "You changed your position in the middle of the debate." },
+          { "speaker": "Jiho", "text": "I did. Their evidence was better than mine." },
+          { "speaker": "Hana", "text": "Some students said that made you look weak." },
+          { "speaker": "Jiho", "text": "I wish people saw it the other way. Changing your mind is not losing." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d1-l1",
+            "prompt": "지호가 토론 중에 한 일은?",
+            "options": ["입장을 바꿨다", "말을 하지 않았다", "화를 냈다", "이겼다"],
+            "answer": 0,
+            "explanation": "You changed your position in the middle of the debate. 라고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d1-l2",
+            "prompt": "지호의 생각은?",
+            "options": [
+              "생각을 바꾸는 것은 지는 것이 아니다",
+              "토론에서는 이겨야 한다",
+              "증거는 중요하지 않다",
+              "다시는 토론하지 않겠다"
+            ],
+            "answer": 0,
+            "explanation": "Changing your mind is not losing. 이라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "Their evidence was better than mine.",
+          "I wish people saw it the other way."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "I wish it worked the other way.",
+          "It is a small change in words.",
+          "If I could change one thing in the world, I would not choose money or technology."
+        ],
+        "substitution": {
+          "pattern": "If I could change one thing, I would change {target}, because {reason}.",
+          "slots": [
+            { "key": "target", "options": ["how we treat mistakes", "how schools measure students", "how people argue online", "how cities use energy", "how we talk about failure"] },
+            { "key": "reason", "options": ["it changes everything else", "it is unfair now", "small changes spread", "it costs almost nothing", "it would help everyone"] }
+          ],
+          "examples": [
+            "If I could change one thing, I would change how we treat mistakes, because it changes everything else.",
+            "If I could change one thing, I would change how people argue online, because it is unfair now.",
+            "If I could change one thing, I would change how schools measure students, because it would help everyone."
+          ]
+        },
+        "qna": [
+          { "question": "If you could change one thing in the world, what would it be?", "sample": "I would change how we treat people who admit mistakes." },
+          { "question": "Why would you change that?", "sample": "Because people defend ideas they do not believe." },
+          { "question": "Is changing your mind a weakness?", "sample": "No, I think it shows you are thinking." },
+          { "question": "Have you ever changed your opinion?", "sample": "Yes, after I read more about it." },
+          { "question": "What do adults get wrong about students?", "sample": "They think we are not thinking about it." }
+        ]
+      }
+    },
+
+    {
+      "id": "w06d2",
+      "week": 6,
+      "dayOfWeek": "tue",
+      "title": "강조 표현으로 힘주어 말하기",
+      "vocab": [
+        { "word": "joke", "pos": "n.", "meaning": "농담", "example": "The question is usually asked as a joke.", "exampleKo": "그 질문은 보통 농담처럼 던져진다." },
+        { "word": "salary", "pos": "n.", "meaning": "급여", "example": "I could study without worrying about a salary.", "exampleKo": "나는 급여 걱정 없이 공부할 수 있을 것이다." },
+        { "word": "noble", "pos": "adj.", "meaning": "고귀한", "example": "Giving it all away sounds noble.", "exampleKo": "전부 기부한다는 것은 고귀하게 들린다." },
+        { "word": "expensive", "pos": "adj.", "meaning": "비싼", "example": "Everyone who has bought something expensive knows this.", "exampleKo": "비싼 것을 사본 사람은 누구나 이것을 안다." },
+        { "word": "properly", "pos": "adv.", "meaning": "제대로", "example": "So I tried to think properly.", "exampleKo": "그래서 나는 제대로 생각해 보려 했다." },
+        { "word": "remove", "pos": "v.", "meaning": "없애다", "example": "It asks what you would do if fear were removed.", "exampleKo": "그것은 두려움이 없어진다면 무엇을 할지 묻는다." },
+        { "word": "gift", "pos": "n.", "meaning": "선물", "example": "Time would be the real gift.", "exampleKo": "시간이야말로 진짜 선물일 것이다." },
+        { "word": "fear", "pos": "n.", "meaning": "두려움", "example": "Fear stops many people from trying.", "exampleKo": "두려움이 많은 사람의 시도를 막는다." },
+        { "word": "million", "pos": "n.", "meaning": "백만", "example": "If I had one million dollars, what would I do?", "exampleKo": "내게 백만 달러가 있다면 무엇을 할까?" },
+        { "word": "decide", "pos": "v.", "meaning": "결정하다", "example": "I spent almost no time deciding what I want.", "exampleKo": "나는 내가 원하는 것을 정하는 데 시간을 거의 쓰지 않았다." }
+      ],
+      "grammar": {
+        "point": "강조 표현 (do 강조 · It is ~ that 강조구문)",
+        "explanation": "동사를 강조할 때는 일반동사 앞에 do/does/did를 넣고 동사는 원형으로 씁니다. 문장의 특정 부분을 강조할 때는 It is[was] ~ that 사이에 강조할 말을 넣습니다. 강조하는 것이 사람이면 that 대신 who를, 사물이면 which를 쓸 수 있습니다.",
+        "examples": [
+          { "en": "Big events do make us happy.", "ko": "큰 사건도 정말로 우리를 행복하게 한다." },
+          { "en": "It is time, not the money, that would be the real gift.", "ko": "진짜 선물은 돈이 아니라 시간일 것이다." },
+          { "en": "It did teach me something.", "ko": "그것은 정말 나에게 무언가를 가르쳐 주었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w06d2-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI ______ believe you. Really.",
+            "options": ["do", "does", "did", "am"],
+            "answer": 0,
+            "explanation": "현재시제 1인칭 동사를 강조할 때는 do를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-g2",
+            "prompt": "빈칸에 알맞은 것은?\nIt was my sister ______ solved the problem.",
+            "options": ["what", "who", "which", "whose"],
+            "answer": 1,
+            "explanation": "강조하는 대상이 사람이므로 who(또는 that)를 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-g3",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "She does like math.",
+              "He did finish it on time.",
+              "They do worked hard.",
+              "I do want to go."
+            ],
+            "answer": 2,
+            "explanation": "do 강조 뒤에는 동사원형이 옵니다. They do work hard. 가 맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w06d2-g4",
+            "prompt": "밑줄 친 부분을 강조하는 문장으로 바꾸세요.\nTime is the real gift. → It is ______ that is the real gift.",
+            "accept": ["time"],
+            "explanation": "It is ~ that 사이에 강조할 말(time)을 넣습니다.",
+            "hint": "네 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w06d2-g5",
+            "prompt": "빈칸을 채우세요. (동사 강조)\nHe ______ teach me something important that day.",
+            "accept": ["did"],
+            "explanation": "과거의 동사를 강조할 때는 did + 동사원형을 씁니다.",
+            "hint": "과거형이에요"
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-g6",
+            "prompt": "다음 중 강조구문이 아닌 것은?",
+            "options": [
+              "It was in 2020 that we moved.",
+              "It is money that changes people.",
+              "It is raining outside now.",
+              "It was John who called you."
+            ],
+            "answer": 2,
+            "explanation": "③의 It은 날씨를 나타내는 비인칭 주어이고, 나머지는 It is ~ that 강조구문입니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "One Million Dollars",
+          "topic": "돈 · 사고력",
+          "body": "The question is usually asked as a joke, but the answers say something real about a person. If I had one million dollars, what would I do?\n\nThe honest first answer is: I have no idea. That surprised me. It did teach me something, though. I have spent thirteen years learning how to answer questions that already have answers, and almost no time deciding what I actually want.\n\nSo I tried to think properly. Buying things stops working quickly, as everyone who has bought something expensive knows. Giving it all away sounds noble, but doing it well is harder than it looks; badly chosen help can hurt.\n\nWhat I keep coming back to is time. With that money, I could spend five years learning something difficult without worrying about a salary. It is time, not the money itself, that would be the real gift.\n\nPerhaps that is the useful part of the question. It is not about money at all. It is about what you would do if fear were removed.",
+          "glossary": [
+            { "word": "give away", "meaning": "기부하다, 나눠주다" },
+            { "word": "keep coming back to", "meaning": "자꾸 되돌아가 생각하다" },
+            { "word": "at all", "meaning": "전혀" }
+          ],
+          "translation": "이 질문은 보통 농담처럼 던져지지만, 그 대답은 그 사람에 대해 진짜인 무언가를 말해 준다. 내게 백만 달러가 있다면 나는 무엇을 할까?\n\n솔직한 첫 대답은 이렇다. 모르겠다. 그 사실이 나를 놀라게 했다. 그래도 그것은 나에게 무언가를 가르쳐 주었다. 나는 13년 동안 이미 답이 있는 질문에 답하는 법을 배웠고, 내가 실제로 무엇을 원하는지 정하는 데는 거의 시간을 쓰지 않았다.\n\n그래서 제대로 생각해 보려 했다. 물건을 사는 것은 금방 효과가 사라진다. 비싼 것을 사본 사람이라면 누구나 안다. 전부 기부한다는 것은 고귀하게 들리지만, 그것을 잘하는 일은 보이는 것보다 어렵다. 잘못 고른 도움은 해가 될 수도 있다.\n\n내가 자꾸 돌아오게 되는 답은 시간이다. 그 돈이 있으면 급여 걱정 없이 어려운 것을 5년 동안 배울 수 있을 것이다. 진짜 선물은 돈 그 자체가 아니라 시간일 것이다.\n\n어쩌면 그것이 이 질문의 쓸모다. 이것은 사실 돈 이야기가 아니다. 두려움이 사라진다면 무엇을 하겠느냐는 이야기다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d2-r1",
+            "prompt": "글쓴이가 결국 도달한 답은?",
+            "options": ["물건 사기", "전부 기부하기", "시간을 사기", "저축하기"],
+            "answer": 2,
+            "explanation": "What I keep coming back to is time. 이라고 했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-r2",
+            "prompt": "글쓴이가 자신에 대해 놀란 점은?",
+            "options": [
+              "돈을 좋아한다는 것",
+              "원하는 것을 정해본 적이 거의 없다는 것",
+              "기부를 싫어한다는 것",
+              "계산이 빠르다는 것"
+            ],
+            "answer": 1,
+            "explanation": "almost no time deciding what I actually want 라는 부분입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-r3",
+            "prompt": "마지막 문단에서 글쓴이가 말하는 이 질문의 진짜 의미는?",
+            "options": [
+              "돈을 어떻게 쓸지 묻는 것",
+              "두려움이 없다면 무엇을 할지 묻는 것",
+              "직업을 정하라는 것",
+              "저축의 중요성"
+            ],
+            "answer": 1,
+            "explanation": "It is about what you would do if fear were removed. 가 답입니다."
+          },
+          {
+            "kind": "free",
+            "id": "w06d2-r4",
+            "prompt": "백만 달러가 생긴다면 무엇을 하고 싶은지 한 문장으로 써 보세요.",
+            "sample": "If I had one million dollars, I would buy time to learn something difficult."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 친구가 가정을 두고 이야기해요.",
+        "script": [
+          { "speaker": "Doyun", "text": "If you had one million dollars, what would you buy?" },
+          { "speaker": "Nara", "text": "Nothing at first. I would buy time." },
+          { "speaker": "Doyun", "text": "Time? That does sound strange." },
+          { "speaker": "Nara", "text": "It is time, not things, that I actually want." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d2-l1",
+            "prompt": "나라가 사고 싶다고 한 것은?",
+            "options": ["집", "시간", "여행", "옷"],
+            "answer": 1,
+            "explanation": "I would buy time. 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d2-l2",
+            "prompt": "나라의 마지막 말에 쓰인 표현은?",
+            "options": ["수동태", "강조구문", "가정법 과거완료", "부가의문문"],
+            "answer": 1,
+            "explanation": "It is time, not things, that ... 은 It is ~ that 강조구문입니다."
+          }
+        ],
+        "dictation": [
+          "If you had one million dollars, what would you buy?",
+          "It is time, not things, that I actually want."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "So I tried to think properly.",
+          "What I keep coming back to is time.",
+          "It is not about money at all."
+        ],
+        "substitution": {
+          "pattern": "It is {thing} that I really want, not {other}.",
+          "slots": [
+            { "key": "thing", "options": ["time", "freedom", "quiet", "a chance to learn", "good friends"] },
+            { "key": "other", "options": ["money", "expensive things", "praise", "a high score", "attention"] }
+          ],
+          "examples": [
+            "It is time that I really want, not money.",
+            "It is freedom that I really want, not praise.",
+            "It is a chance to learn that I really want, not a high score."
+          ]
+        },
+        "qna": [
+          { "question": "If you had one million dollars, what would you do?", "sample": "I would buy time to study what I like." },
+          { "question": "Would you buy anything first?", "sample": "Maybe one thing, but not much." },
+          { "question": "Do expensive things make people happy?", "sample": "Only for a short time, I think." },
+          { "question": "What would you do if you had no fear?", "sample": "I would try speaking English in public." },
+          { "question": "What do you want most right now?", "sample": "I want more time to read." }
+        ],
+        "oneMinute": {
+          "topic": "If I had one million dollars",
+          "topicKo": "백만 달러가 생긴다면",
+          "keywords": ["no idea at first", "buying things fades", "giving is hard", "time", "no fear"]
+        },
+        "mathTalk": {
+          "problem": "If you save 250,000 won a month, how long does it take to save 3,000,000 won?",
+          "problemKo": "매달 25만 원씩 모으면 300만 원을 모으는 데 얼마나 걸릴까요?",
+          "basic": ["First, I check the monthly amount.", "Then, I divide the total by it.", "Finally, I get twelve months."],
+          "upgraded": [
+            "First, I identify the monthly saving and the target amount.",
+            "Then, I divide the target by the monthly saving to find the number of months.",
+            "Finally, I get twelve months, which is exactly one year."
+          ]
+        }
+      }
+    },
+
+    {
+      "id": "w06d3",
+      "week": 6,
+      "dayOfWeek": "wed",
+      "title": "병렬구조로 나란히 말하기",
+      "vocab": [
+        { "word": "laziness", "pos": "n.", "meaning": "게으름", "example": "This is not laziness.", "exampleKo": "이것은 게으름이 아니다." },
+        { "word": "adolescence", "pos": "n.", "meaning": "청소년기", "example": "During adolescence the body clock shifts.", "exampleKo": "청소년기에는 몸의 시계가 이동한다." },
+        { "word": "internal", "pos": "adj.", "meaning": "내부의", "example": "The internal clock moves by about two hours.", "exampleKo": "내부 시계가 약 두 시간 이동한다." },
+        { "word": "shift", "pos": "v.", "meaning": "옮겨가다", "example": "The clock shifts by about two hours.", "exampleKo": "그 시계는 약 두 시간 옮겨간다." },
+        { "word": "awake", "pos": "adj.", "meaning": "깨어 있는", "example": "A teenager feels wide awake at midnight.", "exampleKo": "청소년은 자정에 정신이 말똥말똥하다." },
+        { "word": "biology", "pos": "n.", "meaning": "생물학적 특성", "example": "The biology has moved, not the attitude.", "exampleKo": "태도가 아니라 생물학적 특성이 이동한 것이다." },
+        { "word": "concentrate", "pos": "v.", "meaning": "집중하다", "example": "Concentrating in a first-period class is harder.", "exampleKo": "1교시 수업에 집중하는 것은 더 어렵다." },
+        { "word": "attendance", "pos": "n.", "meaning": "출석", "example": "Attendance improved after the later start.", "exampleKo": "등교 시간을 늦추자 출석률이 올랐다." },
+        { "word": "accident", "pos": "n.", "meaning": "사고", "example": "Accidents on the way to school went down.", "exampleKo": "등굣길 사고가 줄었다." },
+        { "word": "discipline", "pos": "n.", "meaning": "자제력", "example": "Adults call it a lack of discipline.", "exampleKo": "어른들은 그것을 자제력 부족이라고 부른다." }
+      ],
+      "grammar": {
+        "point": "병렬구조",
+        "explanation": "and, or, but으로 이어지는 것들은 문법적으로 같은 형태여야 합니다. 동명사는 동명사끼리, to부정사는 to부정사끼리, 명사구는 명사구끼리 씁니다. not only A but also B, both A and B 같은 상관접속사에서도 A와 B의 형태가 같아야 합니다. 시험에서 어법 문제로 자주 나옵니다.",
+        "examples": [
+          { "en": "Falling asleep early, waking up early, and concentrating in class are all harder.", "ko": "일찍 잠들기, 일찍 일어나기, 수업에 집중하기가 모두 더 어렵다." },
+          { "en": "They sleep six hours, study while tired, and are told to try harder.", "ko": "그들은 여섯 시간 자고, 피곤한 채로 공부하고, 더 노력하라는 말을 듣는다." },
+          { "en": "Attendance improved, grades improved, and accidents went down.", "ko": "출석률이 올랐고, 성적이 올랐고, 사고가 줄었다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w06d3-g1",
+            "prompt": "빈칸에 알맞은 것은?\nI like reading, walking, and ______.",
+            "options": ["to swim", "swim", "swimming", "swam"],
+            "answer": 2,
+            "explanation": "앞이 동명사(reading, walking)이므로 swimming으로 맞춥니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-g2",
+            "prompt": "어법상 틀린 문장은?",
+            "options": [
+              "She wants to rest and to read.",
+              "He is smart and kind.",
+              "They enjoy singing and to dance.",
+              "We came, saw, and left."
+            ],
+            "answer": 2,
+            "explanation": "enjoy 뒤는 동명사이므로 singing and dancing 으로 형태를 맞춰야 합니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-g3",
+            "prompt": "빈칸에 알맞은 것은?\nHe is not only tired but also ______.",
+            "options": ["hungry", "hunger", "to hunger", "hungrily"],
+            "answer": 0,
+            "explanation": "not only A but also B에서 A가 형용사(tired)이므로 B도 형용사여야 합니다."
+          },
+          {
+            "kind": "write",
+            "id": "w06d3-g4",
+            "prompt": "형태를 맞춰 빈칸을 채우세요.\nFalling asleep early, ( wake ) up early, and concentrating are all hard. → ______ up early",
+            "accept": ["waking"],
+            "explanation": "앞뒤가 동명사이므로 waking으로 맞춥니다.",
+            "hint": "-ing"
+          },
+          {
+            "kind": "write",
+            "id": "w06d3-g5",
+            "prompt": "형태를 맞춰 빈칸을 채우세요.\nThey sleep six hours, ( study ) while tired, and try again. → they ______ while tired",
+            "accept": ["study"],
+            "explanation": "sleep, try와 같은 현재형 동사이므로 study로 맞춥니다.",
+            "hint": "원형 그대로"
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-g6",
+            "prompt": "밑줄 친 부분의 형태가 나머지와 어울리지 않는 것은?\nThe school changed the start time, the bus schedule, and ______.",
+            "options": ["the lunch menu", "the exam dates", "improving the library", "the class order"],
+            "answer": 2,
+            "explanation": "앞이 모두 명사구이므로 동명사구인 improving the library는 어울리지 않습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "A Problem Teenagers Have",
+          "topic": "청소년 · 사회",
+          "body": "Ask adults what problem teenagers have, and they will say phones, grades, or friends. Ask teenagers, and many will say something simpler: they are tired.\n\nThis is not laziness. During adolescence, the body's internal clock shifts by about two hours. A teenager who feels wide awake at midnight is not being difficult; the biology has moved. Falling asleep early, waking up early, and concentrating in a first-period class are all genuinely harder than they were at age ten.\n\nMeanwhile, school starts at the same time it always has. The result is a country of students who sleep six hours, study while tired, and are then told to try harder.\n\nSome schools have tested a later start. Attendance improved, grades improved, and accidents on the way to school went down. The change cost almost nothing.\n\nAdults often treat teenage tiredness as a character problem: a lack of discipline, a lack of effort, a lack of will. It is worth asking whether the problem belongs to the teenager at all.",
+          "glossary": [
+            { "word": "wide awake", "meaning": "정신이 말똥말똥한" },
+            { "word": "a lack of", "meaning": "~의 부족" },
+            { "word": "belong to", "meaning": "~에게 속하다" }
+          ],
+          "translation": "어른들에게 청소년의 문제가 무엇이냐고 물으면 휴대폰, 성적, 친구라고 답할 것이다. 청소년에게 물으면 많은 아이가 더 단순한 답을 한다. 피곤하다는 것이다.\n\n이것은 게으름이 아니다. 청소년기에는 몸의 내부 시계가 약 두 시간 뒤로 이동한다. 자정에 정신이 말똥말똥한 청소년은 반항하는 게 아니라, 생물학적 특성이 옮겨간 것이다. 일찍 잠들기, 일찍 일어나기, 1교시에 집중하기는 열 살 때보다 정말로 더 어렵다.\n\n그런데 학교는 늘 그래왔던 시각에 시작한다. 그 결과 여섯 시간 자고, 피곤한 채로 공부하고, 그러고 나서 더 노력하라는 말을 듣는 학생들의 나라가 된다.\n\n어떤 학교들은 등교 시간을 늦춰 보았다. 출석률이 올랐고, 성적이 올랐고, 등굣길 사고가 줄었다. 그 변화에 든 비용은 거의 없었다.\n\n어른들은 청소년의 피로를 성격 문제로 다루곤 한다. 자제력 부족, 노력 부족, 의지 부족이라고. 그 문제가 정말 청소년의 것인지 물어볼 만하다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d3-r1",
+            "prompt": "글쓴이가 말하는 청소년의 가장 큰 문제는?",
+            "options": ["휴대폰", "성적", "잠 부족과 피로", "친구 관계"],
+            "answer": 2,
+            "explanation": "many will say something simpler: they are tired 가 출발점입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-r2",
+            "prompt": "청소년이 늦게까지 깨어 있는 이유는?",
+            "options": [
+              "게을러서",
+              "몸의 내부 시계가 두 시간쯤 이동해서",
+              "휴대폰 때문에",
+              "숙제가 많아서"
+            ],
+            "answer": 1,
+            "explanation": "the body's internal clock shifts by about two hours 가 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-r3",
+            "prompt": "등교 시간을 늦춘 학교의 결과로 언급되지 않은 것은?",
+            "options": ["출석률 향상", "성적 향상", "등굣길 사고 감소", "학비 절감"],
+            "answer": 3,
+            "explanation": "출석, 성적, 사고 감소만 언급되고 학비는 나오지 않습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w06d3-r4",
+            "prompt": "청소년이 겪는 문제 하나와 그 이유를 한 문장으로 써 보세요.",
+            "sample": "Many teenagers are tired because school starts before their body is ready."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "학생과 부모가 아침 시간에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Mom", "text": "You look tired again. Did you sleep late?" },
+          { "speaker": "Sena", "text": "I went to bed at eleven, but I could not fall asleep." },
+          { "speaker": "Mom", "text": "I have read that teenage body clocks shift by two hours." },
+          { "speaker": "Sena", "text": "So it is not laziness, waking up early is just harder now." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d3-l1",
+            "prompt": "세나의 상황은?",
+            "options": [
+              "11시에 누웠지만 잠들지 못했다",
+              "새벽까지 휴대폰을 봤다",
+              "일찍 일어났다",
+              "낮잠을 잤다"
+            ],
+            "answer": 0,
+            "explanation": "I went to bed at eleven, but I could not fall asleep. 이라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d3-l2",
+            "prompt": "엄마가 알고 있는 사실은?",
+            "options": [
+              "청소년의 몸 시계가 두 시간 이동한다",
+              "잠은 여섯 시간이면 충분하다",
+              "일찍 자면 성적이 오른다",
+              "낮잠이 해롭다"
+            ],
+            "answer": 0,
+            "explanation": "teenage body clocks shift by two hours 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "I went to bed at eleven, but I could not fall asleep.",
+          "Teenage body clocks shift by two hours."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "This is not laziness.",
+          "The change cost almost nothing.",
+          "Meanwhile, school starts at the same time it always has."
+        ],
+        "substitution": {
+          "pattern": "Teenagers have to {verb1}, {verb2}, and {verb3} every day.",
+          "slots": [
+            { "key": "verb1", "options": ["wake up early", "study for hours", "sit still", "take tests", "go to school"] },
+            { "key": "verb2", "options": ["finish homework", "join clubs", "help at home", "prepare for exams", "read a lot"] },
+            { "key": "verb3", "options": ["sleep too little", "stay focused", "keep smiling", "meet expectations", "start again tomorrow"] }
+          ],
+          "examples": [
+            "Teenagers have to wake up early, finish homework, and sleep too little every day.",
+            "Teenagers have to study for hours, prepare for exams, and stay focused every day.",
+            "Teenagers have to go to school, help at home, and start again tomorrow every day."
+          ]
+        },
+        "qna": [
+          { "question": "What problem do teenagers have?", "sample": "Many teenagers do not get enough sleep." },
+          { "question": "Why does that happen?", "sample": "Because our body clock shifts about two hours." },
+          { "question": "How many hours do you sleep?", "sample": "I usually sleep about six or seven hours." },
+          { "question": "What would help students most?", "sample": "A later school start would help a lot." },
+          { "question": "Do adults understand this?", "sample": "Some do, but many call it laziness." }
+        ]
+      }
+    },
+
+    {
+      "id": "w06d4",
+      "week": 6,
+      "dayOfWeek": "thu",
+      "title": "대명사가 가리키는 것 찾기",
+      "vocab": [
+        { "word": "convincing", "pos": "adj.", "meaning": "설득력 있는", "example": "It sounds convincing at first.", "exampleKo": "그것은 처음에는 설득력 있게 들린다." },
+        { "word": "performance", "pos": "n.", "meaning": "실력, 연기", "example": "We only see the finished performance.", "exampleKo": "우리는 완성된 실력만 본다." },
+        { "word": "plenty", "pos": "n.", "meaning": "많음", "example": "Plenty of people work hard and get nowhere.", "exampleKo": "많은 사람이 열심히 하고도 아무 데도 가지 못한다." },
+        { "word": "factor", "pos": "n.", "meaning": "요인", "example": "Researchers keep finding the same third factor.", "exampleKo": "연구자들은 같은 세 번째 요인을 계속 발견한다." },
+        { "word": "feedback", "pos": "n.", "meaning": "피드백", "example": "It is the ability to keep going after hard feedback.", "exampleKo": "그것은 아픈 피드백 뒤에도 계속하는 능력이다." },
+        { "word": "destroy", "pos": "v.", "meaning": "무너뜨리다", "example": "Do not be destroyed by one comment.", "exampleKo": "한마디 말에 무너지지 마라." },
+        { "word": "ability", "pos": "n.", "meaning": "능력", "example": "The ability to continue matters most.", "exampleKo": "계속하는 능력이 가장 중요하다." },
+        { "word": "continue", "pos": "v.", "meaning": "계속하다", "example": "Use the useful part and continue.", "exampleKo": "쓸모 있는 부분만 쓰고 계속하라." },
+        { "word": "grade", "pos": "n.", "meaning": "성적", "example": "Two students receive the same low grade.", "exampleKo": "두 학생이 똑같이 낮은 성적을 받는다." },
+        { "word": "nowhere", "pos": "adv.", "meaning": "아무 데도", "example": "They work hard and get nowhere.", "exampleKo": "그들은 열심히 하고도 아무 데도 가지 못한다." }
+      ],
+      "grammar": {
+        "point": "대명사가 가리키는 것 찾기",
+        "explanation": "it은 앞에 나온 바로 그 명사를, one은 같은 종류의 다른 것을, that과 those는 앞의 명사를 반복하지 않기 위해 씁니다. this는 방금 말한 내용 전체를 가리키기도 합니다. 시험에서는 밑줄 친 대명사가 무엇을 가리키는지 찾는 문제로 자주 나오며, 보통 바로 앞 문장에서 답을 찾을 수 있습니다.",
+        "examples": [
+          { "en": "I lost my pen. I need to buy one.", "ko": "펜을 잃어버렸다. 하나 사야겠다. (다른 펜)" },
+          { "en": "I found my pen. I need it today.", "ko": "펜을 찾았다. 오늘 그게 필요하다. (그 펜)" },
+          { "en": "This explains something confusing.", "ko": "이것은 헷갈리던 것을 설명해 준다. (앞 내용 전체)" }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w06d4-g1",
+            "prompt": "빈칸에 알맞은 것은?\nMy phone is old. I want to buy a new ______.",
+            "options": ["it", "one", "that", "this"],
+            "answer": 1,
+            "explanation": "같은 종류의 다른 물건을 가리키므로 one을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-g2",
+            "prompt": "빈칸에 알맞은 것은?\nI finished the report. I sent ______ to the teacher.",
+            "options": ["one", "it", "them", "that one"],
+            "answer": 1,
+            "explanation": "앞에 나온 바로 그 보고서를 가리키므로 it을 씁니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-g3",
+            "prompt": "밑줄 친 it이 가리키는 것은?\nWe only see the finished performance, not the ten years behind it.",
+            "options": ["the audience", "the performance", "the ten years", "the answer"],
+            "answer": 1,
+            "explanation": "behind it 의 it은 바로 앞의 the finished performance를 가리킵니다."
+          },
+          {
+            "kind": "write",
+            "id": "w06d4-g4",
+            "prompt": "빈칸을 채우세요.\nTwo students got the same grade. ______ decided the subject was not for her. (둘 중 한 명)",
+            "accept": ["One"],
+            "explanation": "둘 중 하나를 가리킬 때는 One을 쓰고, 나머지는 The other로 받습니다.",
+            "hint": "세 글자"
+          },
+          {
+            "kind": "write",
+            "id": "w06d4-g5",
+            "prompt": "빈칸을 채우세요.\nOne student gave up. ______ other asked which step went wrong.",
+            "accept": ["The"],
+            "explanation": "둘 중 나머지 하나는 the other로 나타냅니다.",
+            "hint": "세 글자"
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-g6",
+            "prompt": "밑줄 친 That one 이 가리키는 것은?\nThe first answer is talent. The second is hard work. That one is closer.",
+            "options": ["talent", "hard work", "the question", "the researcher"],
+            "answer": 1,
+            "explanation": "바로 앞에서 말한 두 번째 답, 즉 hard work를 가리킵니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "What Makes a Person Successful?",
+          "topic": "성공 · 사고력",
+          "body": "Everyone wants an answer to this, and the popular ones are usually wrong.\n\nThe first popular answer is talent. It sounds convincing because we only see the finished performance, not the ten years behind it. The second is hard work. That one is closer, but it cannot be the whole story either; plenty of people work extremely hard and get nowhere.\n\nResearchers who study high performers keep finding the same third factor, and it is not exciting: the ability to keep going after feedback that hurts. Not to ignore it, and not to be destroyed by it, but to read it, use the useful part, and continue.\n\nThis explains something confusing. Two students receive the same low grade. One decides the subject is not for her. The other asks which step went wrong. A year later they are in completely different places, and people call that talent.\n\nSuccess is not one thing. But if I had to name the part that separates people, it would be that: what you do in the week after something goes badly.",
+          "glossary": [
+            { "word": "high performer", "meaning": "높은 성취를 내는 사람" },
+            { "word": "get nowhere", "meaning": "성과를 내지 못하다" },
+            { "word": "go badly", "meaning": "잘 안 되다" }
+          ],
+          "translation": "모두가 이 질문의 답을 원하고, 인기 있는 답들은 대개 틀렸다.\n\n첫 번째 인기 답은 재능이다. 우리가 완성된 실력만 보고 그 뒤의 10년은 보지 못하기 때문에 그럴듯하게 들린다. 두 번째는 노력이다. 그쪽이 더 가깝지만, 그것도 전부는 아니다. 아주 열심히 하고도 아무 성과를 못 내는 사람이 많다.\n\n높은 성취를 내는 사람을 연구하는 학자들은 같은 세 번째 요인을 계속 발견하는데, 별로 멋있지 않다. 아픈 피드백을 받고도 계속하는 능력이다. 무시하지도 않고, 그것에 무너지지도 않으면서, 읽고, 쓸모 있는 부분만 쓰고, 계속하는 것이다.\n\n이것은 헷갈리던 한 가지를 설명해 준다. 두 학생이 똑같이 낮은 성적을 받는다. 한 명은 이 과목은 나와 안 맞는다고 결론짓는다. 다른 한 명은 어느 단계에서 틀렸는지 묻는다. 1년 뒤 두 사람은 완전히 다른 자리에 있고, 사람들은 그것을 재능이라고 부른다.\n\n성공은 한 가지가 아니다. 하지만 사람을 갈라놓는 부분을 하나만 꼽으라면 이것이다. 무언가 잘 안 된 그다음 한 주에 네가 무엇을 하는가."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d4-r1",
+            "prompt": "연구자들이 찾은 세 번째 요인은?",
+            "options": [
+              "타고난 재능",
+              "긴 노동 시간",
+              "아픈 피드백 뒤에도 계속하는 능력",
+              "좋은 환경"
+            ],
+            "answer": 2,
+            "explanation": "the ability to keep going after feedback that hurts 라고 나옵니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-r2",
+            "prompt": "재능이라는 답이 그럴듯하게 들리는 이유는?",
+            "options": [
+              "과학적으로 증명되어서",
+              "완성된 실력만 보고 그 뒤의 시간을 못 봐서",
+              "모두가 동의해서",
+              "쉽게 확인할 수 있어서"
+            ],
+            "answer": 1,
+            "explanation": "we only see the finished performance, not the ten years behind it 가 이유입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-r3",
+            "prompt": "밑줄 친 that 이 가리키는 것은?\npeople call that talent",
+            "options": [
+              "낮은 성적",
+              "1년 뒤 두 사람의 달라진 결과",
+              "과목의 난이도",
+              "선생님의 평가"
+            ],
+            "answer": 1,
+            "explanation": "1년 뒤 두 학생이 완전히 다른 자리에 있게 된 상황을 가리킵니다."
+          },
+          {
+            "kind": "free",
+            "id": "w06d4-r4",
+            "prompt": "무언가 잘 안 됐을 때 당신은 어떻게 하나요? 한 문장으로 써 보세요.",
+            "sample": "When something goes badly, I ask which step went wrong and try that part again."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "시험 결과를 받은 뒤 두 학생의 대화예요.",
+        "script": [
+          { "speaker": "Minjun", "text": "We got the same score, but you look calm." },
+          { "speaker": "Yuna", "text": "I am not happy. I just want to know which step I missed." },
+          { "speaker": "Minjun", "text": "I decided this subject is not for me." },
+          { "speaker": "Yuna", "text": "That is the difference, isn't it? Not the score itself." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d4-l1",
+            "prompt": "유나의 반응은?",
+            "options": [
+              "어느 단계에서 틀렸는지 알고 싶어 한다",
+              "성적에 만족한다",
+              "과목을 포기한다",
+              "선생님을 탓한다"
+            ],
+            "answer": 0,
+            "explanation": "I just want to know which step I missed. 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d4-l2",
+            "prompt": "유나가 말한 차이는?",
+            "options": ["점수 자체", "결과 이후의 반응", "공부 시간", "선생님"],
+            "answer": 1,
+            "explanation": "That is the difference ... Not the score itself. 라고 말했습니다."
+          }
+        ],
+        "dictation": [
+          "We got the same score, but you look calm.",
+          "I just want to know which step I missed."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "Success is not one thing.",
+          "The first popular answer is talent.",
+          "This explains something confusing."
+        ],
+        "substitution": {
+          "pattern": "I think a successful person is someone who {behavior} after {situation}.",
+          "slots": [
+            { "key": "behavior", "options": ["keeps going", "asks what went wrong", "tries a new method", "stays calm", "asks for help"] },
+            { "key": "situation", "options": ["a bad grade", "a failure", "hard feedback", "a long week", "a mistake"] }
+          ],
+          "examples": [
+            "I think a successful person is someone who keeps going after a bad grade.",
+            "I think a successful person is someone who asks what went wrong after a failure.",
+            "I think a successful person is someone who stays calm after hard feedback."
+          ]
+        },
+        "qna": [
+          { "question": "What makes a person successful?", "sample": "Continuing after failure makes a person successful." },
+          { "question": "Is talent the most important thing?", "sample": "No, I think it is only the starting point." },
+          { "question": "What do you do after a bad result?", "sample": "I check which step I got wrong." },
+          { "question": "Who do you think is successful?", "sample": "My sister, because she never stops trying." },
+          { "question": "Is hard work always enough?", "sample": "Not always, but it matters more than talent." }
+        ],
+        "oneMinute": {
+          "topic": "What makes a person successful?",
+          "topicKo": "무엇이 사람을 성공하게 하는가",
+          "keywords": ["not talent", "not only hard work", "feedback that hurts", "keep going", "the week after"]
+        }
+      }
+    },
+
+    {
+      "id": "w06d5",
+      "week": 6,
+      "dayOfWeek": "fri",
+      "title": "연결어로 글 전체를 읽어내기",
+      "vocab": [
+        { "word": "debate", "pos": "n.", "meaning": "논쟁", "example": "This debate never ends.", "exampleKo": "이 논쟁은 끝나지 않는다." },
+        { "word": "partly", "pos": "adv.", "meaning": "부분적으로", "example": "Both sides are partly right.", "exampleKo": "양쪽 모두 부분적으로 옳다." },
+        { "word": "ingredient", "pos": "n.", "meaning": "재료, 요소", "example": "They are not two separate ingredients.", "exampleKo": "그것들은 별개의 두 재료가 아니다." },
+        { "word": "interact", "pos": "v.", "meaning": "상호작용하다", "example": "Talent and effort interact with each other.", "exampleKo": "재능과 노력은 서로 상호작용한다." },
+        { "word": "visible", "pos": "adj.", "meaning": "눈에 보이는", "example": "The effort produced most of the visible skill.", "exampleKo": "눈에 보이는 실력의 대부분은 노력이 만들었다." },
+        { "word": "control", "pos": "v.", "meaning": "통제하다", "example": "The useful question is which one you can control.", "exampleKo": "쓸모 있는 질문은 어느 쪽을 통제할 수 있느냐다." },
+        { "word": "interest", "pos": "n.", "meaning": "흥미", "example": "The first hard week can end your interest.", "exampleKo": "첫 힘든 한 주가 흥미를 끝낼 수 있다." },
+        { "word": "produce", "pos": "v.", "meaning": "만들어내다", "example": "The talent produced the effort.", "exampleKo": "재능이 노력을 만들어냈다." },
+        { "word": "certain", "pos": "adj.", "meaning": "특정한", "example": "Some people learn certain things faster.", "exampleKo": "어떤 사람들은 특정한 것을 더 빨리 배운다." },
+        { "word": "decision", "pos": "n.", "meaning": "결정", "example": "For a student, only the second is a decision.", "exampleKo": "학생에게는 두 번째 것만이 결정할 수 있는 일이다." }
+      ],
+      "grammar": {
+        "point": "연결어로 글의 구조 읽기",
+        "explanation": "however와 but은 앞의 내용을 뒤집고, therefore와 so는 결과를 이끌고, for example과 consider는 예를 들고, in other words는 같은 말을 다시 정리합니다. 긴 글에서는 연결어만 따라가도 글쓴이의 주장이 어디서 방향을 트는지 알 수 있습니다. 빈칸 추론과 순서 배열 문제의 핵심 단서입니다.",
+        "examples": [
+          { "en": "However, the question itself may be badly built.", "ko": "그러나 질문 자체가 잘못 만들어졌을 수 있다." },
+          { "en": "Therefore, the useful question is not which one matters more.", "ko": "그러므로 쓸모 있는 질문은 어느 쪽이 더 중요한가가 아니다." },
+          { "en": "In other words, talent may decide where you begin.", "ko": "다시 말해 재능은 네가 어디서 시작하는지를 정할 수 있다." }
+        ],
+        "exercises": [
+          {
+            "kind": "choice",
+            "id": "w06d5-g1",
+            "prompt": "빈칸에 알맞은 것은?\nBoth sides sound right. ______, the question itself may be wrong.",
+            "options": ["Therefore", "However", "For example", "In addition"],
+            "answer": 1,
+            "explanation": "앞의 흐름을 뒤집는 자리이므로 However가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-g2",
+            "prompt": "빈칸에 알맞은 것은?\nTalent and effort interact. ______, we cannot measure them separately.",
+            "options": ["However", "Therefore", "On the other hand", "By contrast"],
+            "answer": 1,
+            "explanation": "앞이 근거이고 뒤가 결론이므로 Therefore가 알맞습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-g3",
+            "prompt": "빈칸에 알맞은 것은?\nTalent decides where you begin. ______, effort decides how long you stay.",
+            "options": ["In other words", "For example", "Therefore", "Because"],
+            "answer": 0,
+            "explanation": "앞의 내용을 다시 정리해 대비시키는 자리이므로 In other words가 알맞습니다."
+          },
+          {
+            "kind": "write",
+            "id": "w06d5-g4",
+            "prompt": "빈칸에 알맞은 연결어를 쓰세요. (예시)\nSome skills grow with practice. ______ , playing an instrument does.",
+            "accept": ["For example", "For instance"],
+            "explanation": "구체적인 예를 드는 자리이므로 For example(For instance)을 씁니다.",
+            "hint": "F로 시작해요"
+          },
+          {
+            "kind": "write",
+            "id": "w06d5-g5",
+            "prompt": "빈칸에 알맞은 연결어를 쓰세요. (결과)\nEffort produced most of the skill. ______ , we cannot call it pure talent.",
+            "accept": ["Therefore", "So", "Thus"],
+            "explanation": "결과를 이끄는 연결어를 씁니다.",
+            "hint": "T 또는 S로 시작해요"
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-g6",
+            "prompt": "글의 흐름상 빈칸에 알맞은 것은?\nPractice made her faster. ______ , adults began to call her talented.",
+            "options": ["However", "As a result", "In contrast", "Nevertheless"],
+            "answer": 1,
+            "explanation": "앞의 원인에 대한 결과가 이어지므로 As a result가 알맞습니다."
+          }
+        ]
+      },
+      "reading": {
+        "passage": {
+          "title": "Talent or Effort?",
+          "topic": "재능과 노력 · 사고력",
+          "body": "This debate never ends, probably because both sides are partly right. Talent is real: some people learn certain things faster. Effort is real too: nobody reaches a high level without years of it.\n\nHowever, the question itself may be badly built. Talent and effort are not two separate ingredients that we can measure and compare. They interact.\n\nConsider a child who happens to pick up music quickly. Because the early progress feels good, she practices more. Because she practices more, she progresses faster, and adults call her talented. The talent produced the effort, and the effort then produced most of the visible skill. By the age of fifteen, no one can separate the two.\n\nTherefore, the useful question is not which one matters more. It is which one you can control. You cannot choose your starting point, but you can choose whether the first difficult week ends your interest.\n\nIn other words, talent may decide where you begin. Effort decides how long you stay. For a fifteen-year-old, only the second is a decision.",
+          "glossary": [
+            { "word": "pick up", "meaning": "익히다, 배우다" },
+            { "word": "starting point", "meaning": "출발점" },
+            { "word": "in other words", "meaning": "다시 말해" }
+          ],
+          "translation": "이 논쟁은 끝나지 않는다. 아마 양쪽 다 부분적으로 옳기 때문일 것이다. 재능은 실재한다. 어떤 사람은 특정한 것을 더 빨리 배운다. 노력도 실재한다. 몇 년간의 노력 없이 높은 수준에 도달하는 사람은 없다.\n\n그러나 질문 자체가 잘못 만들어진 것일 수 있다. 재능과 노력은 우리가 따로 재서 비교할 수 있는 두 개의 재료가 아니다. 둘은 서로 영향을 주고받는다.\n\n음악을 유난히 빨리 익히는 아이를 생각해 보자. 초반의 진전이 기분 좋기 때문에 그 아이는 더 연습한다. 더 연습하기 때문에 더 빨리 늘고, 어른들은 그 아이를 재능 있다고 부른다. 재능이 노력을 만들어냈고, 그 노력이 다시 눈에 보이는 실력의 대부분을 만들었다. 열다섯 살쯤 되면 아무도 그 둘을 갈라낼 수 없다.\n\n그러므로 쓸모 있는 질문은 어느 쪽이 더 중요한가가 아니다. 어느 쪽을 내가 통제할 수 있는가이다. 출발점은 고를 수 없지만, 처음 힘든 한 주가 내 흥미를 끝내게 둘지는 고를 수 있다.\n\n다시 말해, 재능은 네가 어디서 시작하는지를 정할지 모른다. 노력은 네가 얼마나 오래 머무는지를 정한다. 열다섯 살에게는 두 번째 것만이 결정할 수 있는 일이다."
+        },
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d5-r1",
+            "prompt": "글쓴이의 주장으로 가장 알맞은 것은?",
+            "options": [
+              "재능이 노력보다 중요하다",
+              "노력이 재능보다 중요하다",
+              "둘은 서로 영향을 주고받으므로, 통제할 수 있는 쪽에 집중해야 한다",
+              "둘 다 중요하지 않다"
+            ],
+            "answer": 2,
+            "explanation": "They interact 와 It is which one you can control 이 핵심입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-r2",
+            "prompt": "음악을 빨리 익히는 아이의 예가 보여주는 것은?",
+            "options": [
+              "재능이 노력을 만들고, 노력이 실력을 만든다",
+              "연습은 소용없다",
+              "어른의 평가가 가장 중요하다",
+              "음악은 재능이 전부다"
+            ],
+            "answer": 0,
+            "explanation": "The talent produced the effort, and the effort then produced most of the visible skill 이 요지입니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-r3",
+            "prompt": "글의 흐름상 However 뒤에 오는 내용은?",
+            "options": [
+              "앞의 설명을 강화하는 예시",
+              "앞의 전제를 뒤집는 지적",
+              "결론 요약",
+              "새로운 통계"
+            ],
+            "answer": 1,
+            "explanation": "However 뒤에서 질문 자체가 잘못 만들어졌다고 전제를 뒤집습니다."
+          },
+          {
+            "kind": "free",
+            "id": "w06d5-r4",
+            "prompt": "재능과 노력 중 무엇이 더 중요하다고 생각하나요? 이유와 함께 두 문장으로 써 보세요.",
+            "sample": "I think effort is more important because it is the part I can control. Talent decides where I start, not where I finish."
+          }
+        ]
+      },
+      "listening": {
+        "intro": "두 학생이 재능과 노력에 대해 이야기해요.",
+        "script": [
+          { "speaker": "Jiho", "text": "He learns songs in one day. That is pure talent." },
+          { "speaker": "Hana", "text": "However, he also practices three hours every night." },
+          { "speaker": "Jiho", "text": "So which part is talent and which part is effort?" },
+          { "speaker": "Hana", "text": "In other words, nobody can separate them anymore." }
+        ],
+        "questions": [
+          {
+            "kind": "choice",
+            "id": "w06d5-l1",
+            "prompt": "하나가 덧붙인 사실은?",
+            "options": [
+              "그는 매일 세 시간 연습한다",
+              "그는 음악을 싫어한다",
+              "그는 학원에 다닌다",
+              "그는 노래를 못한다"
+            ],
+            "answer": 0,
+            "explanation": "he also practices three hours every night 라고 말했습니다."
+          },
+          {
+            "kind": "choice",
+            "id": "w06d5-l2",
+            "prompt": "두 사람의 결론은?",
+            "options": [
+              "재능이 전부다",
+              "노력이 전부다",
+              "이제 둘을 갈라낼 수 없다",
+              "연습은 소용없다"
+            ],
+            "answer": 2,
+            "explanation": "nobody can separate them anymore 라고 정리합니다."
+          }
+        ],
+        "dictation": [
+          "However, he also practices three hours every night.",
+          "In other words, nobody can separate them anymore."
+        ]
+      },
+      "speaking": {
+        "shadowing": [
+          "This debate never ends, probably because both sides are partly right.",
+          "They interact.",
+          "Effort decides how long you stay."
+        ],
+        "substitution": {
+          "pattern": "I think {factor} matters more, because {reason}.",
+          "slots": [
+            { "key": "factor", "options": ["effort", "talent", "curiosity", "habit", "patience"] },
+            { "key": "reason", "options": ["I can control it", "it lasts longer", "it decides how long you stay", "it makes practice possible", "everyone can build it"] }
+          ],
+          "examples": [
+            "I think effort matters more, because I can control it.",
+            "I think curiosity matters more, because it makes practice possible.",
+            "I think patience matters more, because it decides how long you stay."
+          ]
+        },
+        "qna": [
+          { "question": "What is more important: talent or effort?", "sample": "I think effort is more important." },
+          { "question": "Why do you think so?", "sample": "Because effort is the part I can control." },
+          { "question": "Do you know someone who is talented?", "sample": "Yes, but he practices a lot too." },
+          { "question": "Can effort beat talent?", "sample": "Over a long time, I think it can." },
+          { "question": "What do you want to keep doing for years?", "sample": "I want to keep studying math and reading." }
+        ],
+        "oneMinute": {
+          "topic": "What I think is more important: talent or effort?",
+          "topicKo": "재능과 노력, 무엇이 더 중요한가",
+          "keywords": ["both partly right", "they interact", "cannot separate", "what I control", "how long you stay"]
+        }
+      }
+    }
+  ]
+}

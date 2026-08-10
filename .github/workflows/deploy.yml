@@ -31,7 +31,11 @@ jobs:
       - run: npm test
       - run: npm run build
 
+      # enablement: true — 저장소에 Pages가 아직 꺼져 있으면 워크플로가 직접 켠다.
+      # (끄고 켜는 걸 사람이 설정 화면에서 하지 않아도 첫 배포가 통과한다.)
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

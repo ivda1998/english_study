@@ -8,13 +8,17 @@ import type { BlockProps } from './types';
 type Phase = 'learn' | 'quiz';
 
 /**
- * 어휘 15분: 단어 10개를 한 장씩 넘겨 보고(뜻·예문·발음), 바로 10문제로 확인한다.
- * 문제는 그날 단어에서 자동으로 만들어진다.
+ * 어휘 15분: 그날 단어를 한 장씩 넘겨 보고(뜻·예문·발음), 바로 문제로 확인한다.
+ * 문제는 그날 단어에서 자동으로 만들어지고, 단어가 많아도 문항 수는 늘지 않는다.
+ *
+ * 15분에 30장을 넘기려면 한 장에 오래 머물면 안 된다. 그래서 카드에서 바로
+ * 뜻을 보여주고(가리기는 선택), 언제든 문제로 건너뛸 수 있게 열어 둔다.
  */
 export default function VocabBlock({ day, onDone }: BlockProps) {
   const [phase, setPhase] = useState<Phase>('learn');
   const [index, setIndex] = useState(0);
-  const [revealed, setRevealed] = useState(false);
+  // 뜻을 처음부터 보여준다. 30장을 넘기는데 장마다 한 번 더 누르게 하면 시간이 다 간다.
+  const [revealed, setRevealed] = useState(true);
   const speech = useSpeech();
   const quiz = useMemo(() => buildVocabQuiz(day.id, day.vocab), [day]);
 
@@ -79,33 +83,27 @@ export default function VocabBlock({ day, onDone }: BlockProps) {
           type="button"
           className="btn btn--ghost"
           disabled={index === 0}
-          onClick={() => {
-            setIndex((i) => Math.max(0, i - 1));
-            setRevealed(false);
-          }}
+          onClick={() => setIndex((i) => Math.max(0, i - 1))}
         >
           이전
         </button>
-        {index + 1 < day.vocab.length ? (
-          <button
-            type="button"
-            className="btn btn--primary"
-            onClick={() => {
-              setIndex((i) => i + 1);
-              setRevealed(false);
-            }}
-          >
-            다음 단어
-          </button>
-        ) : (
-          <button type="button" className="btn btn--primary" onClick={() => setPhase('quiz')}>
-            문제 풀기
-          </button>
-        )}
+        <button
+          type="button"
+          className="btn btn--primary"
+          disabled={index + 1 >= day.vocab.length}
+          onClick={() => setIndex((i) => Math.min(day.vocab.length - 1, i + 1))}
+        >
+          다음 단어
+        </button>
       </div>
 
+      {/* 끝까지 안 넘겨도 문제로 갈 수 있다. 남은 단어는 복습에서 다시 만난다. */}
+      <button type="button" className="btn btn--primary" onClick={() => setPhase('quiz')}>
+        문제 풀기
+      </button>
+
       <details>
-        <summary className="tiny">10개 한눈에 보기</summary>
+        <summary className="tiny">{day.vocab.length}개 한눈에 보기</summary>
         <ul className="vocab-list" style={{ marginTop: 'var(--sp-3)' }}>
           {day.vocab.map((w) => (
             <li key={w.word} className="vocab-list__row">

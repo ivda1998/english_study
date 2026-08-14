@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import QuestionSet from '@/components/QuestionSet';
+import RichText from '@/components/RichText';
 import { toISODate } from '@/domain/date';
 import { boxDistribution, dueCards, masteredCount, type SrsCard } from '@/domain/srs';
 import { buildRecallQuestion } from '@/domain/vocabQuiz';
@@ -48,10 +49,17 @@ export default function ReviewPage() {
               <p className="tiny">
                 {note.dayId} · {note.area}
               </p>
-              <p style={{ whiteSpace: 'pre-wrap', fontWeight: 600 }}>{note.prompt}</p>
-              <p className="tiny">내가 쓴 답: {note.myAnswer}</p>
+              <p style={{ whiteSpace: 'pre-wrap', fontWeight: 600 }}>
+                <RichText>{note.prompt}</RichText>
+              </p>
+              <p className="tiny">
+                내가 쓴 답: <RichText>{note.myAnswer}</RichText>
+              </p>
               <p>
-                정답: <strong>{note.correctAnswer}</strong>
+                정답:{' '}
+                <strong>
+                  <RichText>{note.correctAnswer}</RichText>
+                </strong>
               </p>
               <p className="tiny" style={{ whiteSpace: 'pre-wrap' }}>
                 {note.explanation}

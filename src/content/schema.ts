@@ -5,6 +5,8 @@
      배포되는 것을 막는다.
 --------------------------------------------------------------------------- */
 
+import { hasMarkup, isMarkupBalanced, stripMarkup } from '@/domain/markup';
+
 export type Weekday = 'mon' | 'tue' | 'wed' | 'thu' | 'fri';
 export type AreaId = 'vocab' | 'grammar' | 'reading' | 'listening' | 'speaking';
 
@@ -216,7 +218,37 @@ export const PASSAGE_LENGTH_TARGET: Record<number, { min: number; max: number }>
 };
 
 export function countWords(text: string): number {
-  return text.trim().split(/\s+/).filter(Boolean).length;
+  // 밑줄 표기는 분량이 아니므로 세지 않는다.
+  return stripMarkup(text).trim().split(/\s+/).filter(Boolean).length;
+}
+
+/**
+ * "밑줄 친 …" 이라고 말하는 문항에는 실제로 `[[...]]` 밑줄 표기가 있어야 한다.
+ * 지시문만 있고 표기가 없으면 화면에서 어디를 가리키는지 알 수 없어 문제를 풀 수 없다.
+ */
+function validateUnderline(v: Validator, o: Record<string, unknown>, path: string) {
+  const prompt = typeof o.prompt === 'string' ? o.prompt : '';
+  const options = Array.isArray(o.options) ? (o.options as unknown[]).filter(isString) : [];
+  const texts = [prompt, ...options];
+
+  texts.forEach((text, i) => {
+    if (!isMarkupBalanced(text)) {
+      const where = i === 0 ? `${path}.prompt` : `${path}.options[${i - 1}]`;
+      v.fail(where, '밑줄 표기 [[ ]] 의 짝이 맞지 않습니다');
+    }
+  });
+
+  if (!prompt.includes('밑줄')) return;
+  if (!texts.some(hasMarkup)) {
+    v.fail(
+      `${path}.prompt`,
+      '"밑줄"이라고 했는데 밑줄 표기가 없습니다 — 가리킬 부분을 [[ ]] 로 감싸세요',
+    );
+  }
+}
+
+function isString(x: unknown): x is string {
+  return typeof x === 'string';
 }
 
 function validateQuestion(v: Validator, q: unknown, path: string, seenIds: Set<string>) {
@@ -261,6 +293,8 @@ function validateQuestion(v: Validator, q: unknown, path: string, seenIds: Set<s
     default:
       v.fail(`${path}.kind`, `알 수 없는 문항 종류: ${String(o.kind)}`);
   }
+
+  validateUnderline(v, o, path);
 }
 
 function validateDay(

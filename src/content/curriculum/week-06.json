@@ -273,7 +273,7 @@
           {
             "kind": "write",
             "id": "w06d2-g4",
-            "prompt": "밑줄 친 부분을 강조하는 문장으로 바꾸세요.\nTime is the real gift. → It is ______ that is the real gift.",
+            "prompt": "밑줄 친 부분을 강조하는 문장으로 바꾸세요.\n[[Time]] is the real gift. → It is ______ that is the real gift.",
             "accept": ["time"],
             "explanation": "It is ~ that 사이에 강조할 말(time)을 넣습니다.",
             "hint": "네 글자"
@@ -505,7 +505,7 @@
             "kind": "choice",
             "id": "w06d3-g6",
             "prompt": "밑줄 친 부분의 형태가 나머지와 어울리지 않는 것은?\nThe school changed the start time, the bus schedule, and ______.",
-            "options": ["the lunch menu", "the exam dates", "improving the library", "the class order"],
+            "options": ["[[the lunch menu]]", "[[the exam dates]]", "[[improving the library]]", "[[the class order]]"],
             "answer": 2,
             "explanation": "앞이 모두 명사구이므로 동명사구인 improving the library는 어울리지 않습니다."
           }
@@ -676,7 +676,7 @@
           {
             "kind": "choice",
             "id": "w06d4-g3",
-            "prompt": "밑줄 친 it이 가리키는 것은?\nWe only see the finished performance, not the ten years behind it.",
+            "prompt": "밑줄 친 it이 가리키는 것은?\nWe only see the finished performance, not the ten years behind [[it]].",
             "options": ["the audience", "the performance", "the ten years", "the answer"],
             "answer": 1,
             "explanation": "behind it 의 it은 바로 앞의 the finished performance를 가리킵니다."
@@ -700,7 +700,7 @@
           {
             "kind": "choice",
             "id": "w06d4-g6",
-            "prompt": "밑줄 친 That one 이 가리키는 것은?\nThe first answer is talent. The second is hard work. That one is closer.",
+            "prompt": "밑줄 친 That one 이 가리키는 것은?\nThe first answer is talent. The second is hard work. [[That one]] is closer.",
             "options": ["talent", "hard work", "the question", "the researcher"],
             "answer": 1,
             "explanation": "바로 앞에서 말한 두 번째 답, 즉 hard work를 가리킵니다."
@@ -749,7 +749,7 @@
           {
             "kind": "choice",
             "id": "w06d4-r3",
-            "prompt": "밑줄 친 that 이 가리키는 것은?\npeople call that talent",
+            "prompt": "밑줄 친 that 이 가리키는 것은?\npeople call [[that]] talent",
             "options": [
               "낮은 성적",
               "1년 뒤 두 사람의 달라진 결과",

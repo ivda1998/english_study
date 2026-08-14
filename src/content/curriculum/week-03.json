@@ -929,10 +929,10 @@
             "id": "w03d5-g6",
             "prompt": "밑줄 친 재귀대명사를 생략해도 뜻이 통하는 것은?",
             "options": [
-              "He introduced himself to the class.",
-              "She wrote the report herself.",
-              "I hurt myself yesterday.",
-              "They taught themselves English."
+              "He introduced [[himself]] to the class.",
+              "She wrote the report [[herself]].",
+              "I hurt [[myself]] yesterday.",
+              "They taught [[themselves]] English."
             ],
             "answer": 1,
             "explanation": "②는 '직접'을 강조하는 용법이라 빼도 문장이 성립합니다. 나머지는 목적어라서 뺄 수 없습니다."

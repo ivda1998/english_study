@@ -352,6 +352,52 @@
   flex: 1;
 }
 
+/* 지금 말하고 있는 사람 — 스크립트를 숨긴 채로도 차례를 알 수 있게 한다. */
+.speaker-now {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--area-listening);
+}
+
+.speaker-now__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  animation: speaker-pulse 1.1s ease-in-out infinite;
+}
+
+@keyframes speaker-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .speaker-now__dot {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/*
+  문항 속 밑줄. "밑줄 친 부분"이라고 말하면 화면에도 실제로 보여야 한다.
+  글자에 바짝 붙으면 알파벳 아랫부분과 겹치므로 살짝 띄운다.
+*/
+.ul {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--area-grammar);
+}
+
 .pattern {
   font-family: var(--font-reading);
   font-size: 20px;

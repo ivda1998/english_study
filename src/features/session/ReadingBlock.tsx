@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import QuestionSet from '@/components/QuestionSet';
+import RichText from '@/components/RichText';
 import { splitParagraphs } from '@/domain/curriculum';
+import { stripMarkup } from '@/domain/markup';
 import { useSpeech } from '@/hooks/useSpeech';
 import type { BlockProps } from './types';
 
@@ -24,7 +26,9 @@ export default function ReadingBlock({ day, onDone }: BlockProps) {
 
       <div className="passage">
         {paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
+          <p key={i}>
+            <RichText>{p}</RichText>
+          </p>
         ))}
       </div>
 
@@ -41,7 +45,9 @@ export default function ReadingBlock({ day, onDone }: BlockProps) {
           <button
             type="button"
             className="btn btn--sm btn--ghost"
-            onClick={() => (speech.speaking ? speech.stop() : speech.speak(paragraphs))}
+            onClick={() =>
+              speech.speaking ? speech.stop() : speech.speak(paragraphs.map(stripMarkup))
+            }
           >
             {speech.speaking ? '■ 멈추기' : '🔊 지문 듣기'}
           </button>

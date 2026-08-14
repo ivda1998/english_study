@@ -55,5 +55,37 @@ npm run validate:content
 { "kind": "free", "id": "…", "prompt": "…", "sample": "…" }
 ```
 
+## 밑줄 표기
+
+시험 문항은 "밑줄 친 부분"처럼 특정 구간을 가리킵니다. 그 구간을 `[[ ]]` 로 감싸면
+화면에 밑줄로 그려집니다. **지시문에 "밑줄"이라고 썼는데 표기가 없으면 검증에서 막힙니다** —
+어디를 가리키는지 알 수 없어 문제를 풀 수 없기 때문입니다.
+
+```jsonc
+// 지시문 안의 예문에 긋기
+{ "prompt": "밑줄 친 부분을 바르게 고쳐 쓰세요.\nYou look [[tiredly]] today. → You look ______ today." }
+
+// 보기마다 긋기 — "나머지와 다른 것" 유형은 보기 전부에 그어야 합니다
+{ "prompt": "밑줄 친 부분이 어법상 틀린 것은?",
+  "options": ["She looks [[happy]].", "It smells [[sweet]].", "He feels [[sadly]].", "The plan sounds [[good]]."] }
+```
+
+지문(`reading.passage.body`)에도 그을 수 있습니다. 밑줄 표기는 소리와 채점에서는
+자동으로 걷어내므로, 지문 듣기·따라 읽기·받아쓰기에는 영향을 주지 않습니다.
+단어 수 검증에도 포함되지 않습니다.
+
+## 듣기 대화
+
+`listening.script`의 각 줄에 `speaker`를 넣으면 화자마다 다른 목소리로 읽습니다.
+기기에 영어 목소리가 하나뿐이면 음 높이를 달리해 구분합니다. **두 사람 대화는
+반드시 `speaker`를 넣으세요** — 없으면 한 사람이 혼자 말하는 것처럼 들립니다.
+
+```jsonc
+"script": [
+  { "speaker": "Mina", "text": "What is your favorite subject?" },
+  { "speaker": "Jiho", "text": "Math. It feels like a puzzle." }
+]
+```
+
 앱의 **설정 → 주차 콘텐츠 가져오기**에서 이 형식의 JSON을 붙여넣으면
 빌드 없이 바로 같은 번호의 주차를 대신하게 할 수 있습니다.

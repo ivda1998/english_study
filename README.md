@@ -69,9 +69,9 @@
 npm install
 npm run dev              # 개발 서버
 npm run validate:content # 커리큘럼 검증 (30일 스키마·시간표·주제·정답)
-npm test                 # 단위 테스트 55개
+npm test                 # 단위 테스트 74개
 npm run build            # 검증 → 타입체크 → 빌드
-npm run e2e              # Playwright: 하루 세션 완주, 진도 유지, 마이크 폴백, 모바일 폭
+npm run e2e              # Playwright: 하루 세션 완주, 진도 유지, 마이크 폴백, 모바일 폭, 밑줄 표시
 ```
 
 `main`에 푸시하면 GitHub Actions가 테스트를 돌리고 GitHub Pages로 배포합니다.

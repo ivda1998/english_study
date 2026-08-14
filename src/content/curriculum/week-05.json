@@ -86,10 +86,10 @@
             "id": "w05d1-g6",
             "prompt": "밑줄 친 what의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "What he needs is time.",
-              "I understood what you wrote.",
-              "What time does the class start?",
-              "This is what I meant."
+              "[[What]] he needs is time.",
+              "I understood [[what]] you wrote.",
+              "[[What]] time does the class start?",
+              "This is [[what]] I meant."
             ],
             "answer": 2,
             "explanation": "③은 '몇 시'를 묻는 의문사이고, 나머지는 '~하는 것'을 뜻하는 관계대명사입니다."
@@ -299,7 +299,7 @@
           {
             "kind": "choice",
             "id": "w05d2-g6",
-            "prompt": "밑줄 친 분사구문의 뜻으로 알맞은 것은?\nNot knowing the way, I asked a local student.",
+            "prompt": "밑줄 친 분사구문의 뜻으로 알맞은 것은?\n[[Not knowing the way]], I asked a local student.",
             "options": [
               "길을 알았기 때문에",
               "길을 몰랐기 때문에",
@@ -730,10 +730,10 @@
             "id": "w05d4-g6",
             "prompt": "밑줄 친 부분의 의미가 나머지와 다른 것은?",
             "options": [
-              "He must have been tired.",
-              "She must have left early.",
-              "You must have seen it before.",
-              "You must finish it by six."
+              "He [[must have been]] tired.",
+              "She [[must have left]] early.",
+              "You [[must have seen]] it before.",
+              "You [[must finish]] it by six."
             ],
             "answer": 3,
             "explanation": "①②③은 과거에 대한 추측이고, ④는 현재의 의무를 나타냅니다."
@@ -902,10 +902,10 @@
             "id": "w05d5-g2",
             "prompt": "밑줄 친 that의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "The idea that we need change is old.",
-              "The belief that fairness means sameness is wrong.",
-              "The book that I borrowed is heavy.",
-              "The fact that he left surprised us."
+              "The idea [[that]] we need change is old.",
+              "The belief [[that]] fairness means sameness is wrong.",
+              "The book [[that]] I borrowed is heavy.",
+              "The fact [[that]] he left surprised us."
             ],
             "answer": 2,
             "explanation": "③은 앞의 명사를 꾸미는 관계대명사이고, 나머지는 동격의 that입니다."

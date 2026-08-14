@@ -86,10 +86,10 @@
             "id": "w02d1-g6",
             "prompt": "밑줄 친 접속사의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "I was tired when I came home.",
-              "When the class started, I felt calm.",
-              "When you finish, tell me.",
-              "I stayed home because it was cold."
+              "I was tired [[when]] I came home.",
+              "[[When]] the class started, I felt calm.",
+              "[[When]] you finish, tell me.",
+              "I stayed home [[because]] it was cold."
             ],
             "answer": 3,
             "explanation": "①②③은 시간을 나타내는 when이고, ④는 이유를 나타내는 because입니다."
@@ -291,10 +291,10 @@
             "id": "w02d2-g6",
             "prompt": "밑줄 친 관계대명사를 생략할 수 있는 것은?",
             "options": [
-              "The rule that connects them is simple.",
-              "The book that I read was short.",
-              "The student who won the prize is here.",
-              "The idea that surprised me was new."
+              "The rule [[that]] connects them is simple.",
+              "The book [[that]] I read was short.",
+              "The student [[who]] won the prize is here.",
+              "The idea [[that]] surprised me was new."
             ],
             "answer": 1,
             "explanation": "②만 관계대명사가 목적어 역할(I read the book)이므로 생략할 수 있습니다."
@@ -894,10 +894,10 @@
             "id": "w02d5-g2",
             "prompt": "밑줄 친 that의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "I believe that he will come.",
-              "She said that it was hard.",
-              "This is the book that I lost.",
-              "We know that time passes."
+              "I believe [[that]] he will come.",
+              "She said [[that]] it was hard.",
+              "This is the book [[that]] I lost.",
+              "We know [[that]] time passes."
             ],
             "answer": 2,
             "explanation": "③만 앞의 명사 the book을 설명하는 관계대명사이고, 나머지는 명사절을 이끄는 접속사입니다."

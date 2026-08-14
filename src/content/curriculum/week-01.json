@@ -76,7 +76,7 @@
           {
             "kind": "write",
             "id": "w01d1-g5",
-            "prompt": "밑줄 친 부분을 바르게 고쳐 쓰세요.\nYou look tiredly today. → You look ______ today.",
+            "prompt": "밑줄 친 부분을 바르게 고쳐 쓰세요.\nYou look [[tiredly]] today. → You look ______ today.",
             "accept": ["tired"],
             "explanation": "look 뒤에는 주어를 설명하는 형용사 tired가 옵니다.",
             "hint": "-ly를 떼요"
@@ -86,10 +86,10 @@
             "id": "w01d1-g6",
             "prompt": "밑줄 친 부분이 어법상 틀린 것은?",
             "options": [
-              "She looks happy.",
-              "It smells sweet.",
-              "He feels sadly.",
-              "The plan sounds good."
+              "She looks [[happy]].",
+              "It smells [[sweet]].",
+              "He feels [[sadly]].",
+              "The plan sounds [[good]]."
             ],
             "answer": 2,
             "explanation": "feel 뒤에도 형용사가 와야 하므로 sadly가 아니라 sad가 맞습니다."
@@ -138,7 +138,7 @@
           {
             "kind": "choice",
             "id": "w01d1-r3",
-            "prompt": "밑줄 친 that feeling 이 가리키는 것은?",
+            "prompt": "밑줄 친 [[that feeling]] 이 가리키는 것은?",
             "options": [
               "지루하다는 느낌",
               "문제를 풀었을 때 받는 작은 보상의 느낌",
@@ -296,10 +296,10 @@
             "id": "w01d2-g6",
             "prompt": "밑줄 친 현재완료의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "I have been to Jeju twice.",
-              "She has read that book before.",
-              "He has just finished lunch.",
-              "They have tried Indian food once."
+              "I [[have been]] to Jeju twice.",
+              "She [[has read]] that book before.",
+              "He [[has just finished]] lunch.",
+              "They [[have tried]] Indian food once."
             ],
             "answer": 2,
             "explanation": "①②④는 경험이고, ③은 '막 ~했다'는 완료의 쓰임입니다."
@@ -522,10 +522,10 @@
             "id": "w01d3-g6",
             "prompt": "밑줄 친 to부정사의 쓰임이 나머지와 다른 것은?",
             "options": [
-              "I want to sleep.",
-              "She hopes to win.",
-              "He has a book to read.",
-              "They decided to leave."
+              "I want [[to sleep]].",
+              "She hopes [[to win]].",
+              "He has a book [[to read]].",
+              "They decided [[to leave]]."
             ],
             "answer": 2,
             "explanation": "①②④는 목적어로 쓰인 명사적 용법이고, ③은 앞의 명사 a book을 꾸미는 형용사적 용법입니다."
@@ -785,7 +785,7 @@
           {
             "kind": "choice",
             "id": "w01d4-r3",
-            "prompt": "밑줄 친 it 이 가리키는 것은?\nWithout the memory, it would just be soup.",
+            "prompt": "밑줄 친 it 이 가리키는 것은?\nWithout the memory, [[it]] would just be soup.",
             "options": ["the brain", "the kitchen", "the soup", "the smell"],
             "answer": 2,
             "explanation": "앞 문장의 The soup itself is simple. 에서 이어지므로 it은 수프를 가리킵니다."

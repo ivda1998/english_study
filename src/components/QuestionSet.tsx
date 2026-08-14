@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import RichText from '@/components/RichText';
 import type { Question } from '@/content/schema';
 import { isCorrect, isGraded, type Response } from '@/domain/grading';
 
@@ -85,7 +86,9 @@ export default function QuestionSet({ questions, onComplete, finishLabel = '끝�
         </div>
       </div>
 
-      <p className="qset__prompt">{question.prompt}</p>
+      <p className="qset__prompt">
+        <RichText>{question.prompt}</RichText>
+      </p>
 
       {question.kind === 'choice' && (
         <ul className="qset__options">
@@ -113,7 +116,9 @@ export default function QuestionSet({ questions, onComplete, finishLabel = '끝�
                   }
                 >
                   <span className="qset__marker">{'①②③④⑤'[i] ?? i + 1}</span>
-                  <span>{option}</span>
+                  <span>
+                    <RichText>{option}</RichText>
+                  </span>
                 </button>
               </li>
             );
@@ -183,7 +188,11 @@ export default function QuestionSet({ questions, onComplete, finishLabel = '끝�
                 <p>
                   정답:{' '}
                   <strong>
-                    {question.kind === 'choice' ? question.options[question.answer] : question.accept[0]}
+                    <RichText>
+                      {question.kind === 'choice'
+                        ? (question.options[question.answer] ?? '')
+                        : question.accept[0]}
+                    </RichText>
                   </strong>
                 </p>
               )}

@@ -35,11 +35,15 @@ export default function ListeningBlock({ day, onDone }: BlockProps) {
     wrong: { question: Question; myAnswer: string }[];
   } | null>(null);
 
-  const lines = listening.script.map((l) => l.text);
+  // 화자를 그대로 넘겨야 목소리가 갈린다. 대화가 한 사람 독백처럼 들리면 안 된다.
   const play = () => {
     setPlays((p) => p + 1);
-    speech.speak(lines, { gapMs: 350 });
+    speech.speak(listening.script, { gapMs: 350 });
   };
+
+  /** 지금 말하고 있는 사람. 스크립트를 숨긴 채로도 누구 차례인지는 보여준다. */
+  const nowSpeaking =
+    speech.speaking && speech.index >= 0 ? listening.script[speech.index]?.speaker : undefined;
 
   if (phase === 'listen') {
     return (
@@ -63,13 +67,20 @@ export default function ListeningBlock({ day, onDone }: BlockProps) {
           >
             {speech.speaking ? '■ 멈추기' : plays === 0 ? '▶ 듣기 시작' : '▶ 다시 듣기'}
           </button>
-          <p className="tiny">두세 번 들어도 괜찮아요. 다 못 들려도 괜찮아요.</p>
+          {nowSpeaking ? (
+            <p className="speaker-now">
+              <span className="speaker-now__dot" aria-hidden="true" />
+              {nowSpeaking} 말하는 중
+            </p>
+          ) : (
+            <p className="tiny">두세 번 들어도 괜찮아요. 다 못 들려도 괜찮아요.</p>
+          )}
         </div>
 
         {(showScript || !speech.supported) && (
           <ul className="stack stack--sm">
             {listening.script.map((line, i) => (
-              <li key={i} className="speak-line">
+              <li key={i} className={`speak-line ${speech.index === i ? 'is-active' : ''}`}>
                 {line.speaker && <strong className="tiny">{line.speaker}</strong>}
                 <span className="speak-line__text">{line.text}</span>
               </li>

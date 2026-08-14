@@ -1,5 +1,6 @@
 import type { Day, Week } from '@/content/schema';
 import type { DayProgress } from '@/store/types';
+import { stripMarkup } from './markup';
 import { AREA_ORDER } from './timetable';
 
 /** 기본 커리큘럼 위에 사용자가 넣은 주차를 덮어쓴다 (같은 주차 번호면 사용자 것이 이긴다). */
@@ -63,9 +64,12 @@ export function completedDayCount(
   return allDays(weeks).filter((d) => isDayComplete(progressByDay[d.id])).length;
 }
 
-/** 지문을 문장 단위로 나눈다 (TTS·따라 읽기·받아쓰기에서 쓴다). */
+/**
+ * 지문을 문장 단위로 나눈다 (TTS·따라 읽기·받아쓰기에서 쓴다).
+ * 밑줄 표기는 소리로도 채점으로도 나가면 안 되므로 여기서 걷어낸다.
+ */
 export function splitSentences(text: string): string[] {
-  return text
+  return stripMarkup(text)
     .replace(/\s+/g, ' ')
     .split(/(?<=[.!?])\s+/)
     .map((s) => s.trim())

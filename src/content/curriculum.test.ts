@@ -32,13 +32,47 @@ describe('커리큘럼 콘텐츠', () => {
     }
   });
 
-  it('지문 길이가 주차가 올라갈수록 길어진다', () => {
-    const averages = files.map(
-      ({ week }) =>
-        week.days.reduce((sum, d) => sum + countWords(d.reading.passage.body), 0) / week.days.length,
-    );
-    for (let i = 1; i < averages.length; i += 1) {
-      expect(averages[i], `${i + 1}주차 평균 ${averages[i]}단어`).toBeGreaterThan(averages[i - 1]);
+  /**
+   * 수능 수준으로 옮기는 중이라 옛 계열과 새 계열이 한동안 섞여 있다.
+   * 아래 목록에 있는 주차는 이미 옮긴 것이고, 계열이 다른 주차끼리는 길이를 비교하지 않는다.
+   * 6주차까지 모두 옮기고 나면 이 예외를 지우고 전체를 한 줄로 비교하면 된다.
+   */
+  const MIGRATED_WEEKS = [1];
+
+  it('같은 계열 안에서는 주차가 올라갈수록 지문이 길어진다', () => {
+    const averages = files.map(({ week }) => ({
+      week: week.week,
+      words:
+        week.days.reduce((sum, d) => sum + countWords(d.reading.passage.body), 0) /
+        week.days.length,
+    }));
+    for (const group of [
+      averages.filter((a) => MIGRATED_WEEKS.includes(a.week)),
+      averages.filter((a) => !MIGRATED_WEEKS.includes(a.week)),
+    ]) {
+      for (let i = 1; i < group.length; i += 1) {
+        expect(group[i].words, `${group[i].week}주차 평균 ${group[i].words}단어`).toBeGreaterThan(
+          group[i - 1].words,
+        );
+      }
+    }
+  });
+
+  it('새 계열로 옮긴 주차는 옛 계열보다 지문이 길다', () => {
+    const wordsOf = (weekNo: number) => {
+      const found = files.find((f) => f.week.week === weekNo);
+      if (!found) throw new Error(`${weekNo}주차를 찾을 수 없습니다`);
+      return (
+        found.week.days.reduce((sum, d) => sum + countWords(d.reading.passage.body), 0) /
+        found.week.days.length
+      );
+    };
+    const migrated = MIGRATED_WEEKS.map(wordsOf);
+    const legacy = files.map((f) => f.week.week).filter((w) => !MIGRATED_WEEKS.includes(w));
+    if (legacy.length === 0) return;
+    const longestLegacy = Math.max(...legacy.map(wordsOf));
+    for (const words of migrated) {
+      expect(words).toBeGreaterThan(longestLegacy);
     }
   });
 

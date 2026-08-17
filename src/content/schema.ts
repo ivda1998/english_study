@@ -208,14 +208,34 @@ const POS_VALUES: PartOfSpeech[] = ['n.', 'v.', 'adj.', 'adv.', 'prep.', 'conj.'
 const WEEKDAYS: Weekday[] = ['mon', 'tue', 'wed', 'thu', 'fri'];
 
 /** 주차별 지문 길이 목표(단어 수). 난이도가 점진적으로 오르는지 검사한다. */
+/**
+ * 주차별 지문 길이. 수능·모의고사 수준으로 올리는 중이며, 아직 옮기지 않은 주차는
+ * 예전 기준을 그대로 둔다. 한 주차를 새로 쓸 때 그 줄만 새 값으로 바꾼다.
+ */
 export const PASSAGE_LENGTH_TARGET: Record<number, { min: number; max: number }> = {
-  1: { min: 95, max: 130 },
+  1: { min: 200, max: 245 },
   2: { min: 105, max: 140 },
   3: { min: 115, max: 150 },
   4: { min: 125, max: 160 },
   5: { min: 135, max: 172 },
   6: { min: 150, max: 195 },
 };
+
+/**
+ * 주차별 하루 어휘 개수. 지문과 같은 이유로 주차마다 다를 수 있다.
+ * 어휘 문항은 개수와 무관하게 QUIZ_SIZE개로 묶이고, 나머지는 복습에서 만난다.
+ */
+export const VOCAB_PER_DAY: Record<number, number> = {
+  1: 30,
+  2: 10,
+  3: 10,
+  4: 10,
+  5: 10,
+  6: 10,
+};
+
+/** 표에 없는 주차(사용자가 직접 넣은 콘텐츠)에 적용할 기본값 */
+export const VOCAB_PER_DAY_DEFAULT = { min: 10, max: 30 };
 
 export function countWords(text: string): number {
   // 밑줄 표기는 분량이 아니므로 세지 않는다.
@@ -249,6 +269,11 @@ function validateUnderline(v: Validator, o: Record<string, unknown>, path: strin
 
 function isString(x: unknown): x is string {
   return typeof x === 'string';
+}
+
+/** 줄바꿈과 연속 공백을 하나로 눌러 문장 대조를 쉽게 만든다. */
+function collapse(text: string): string {
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 function validateQuestion(v: Validator, q: unknown, path: string, seenIds: Set<string>) {
@@ -318,8 +343,12 @@ function validateDay(
   }
   v.str(d.title, `${path}.title`);
 
-  // 어휘 10개
-  if (v.arr(d.vocab, `${path}.vocab`, { min: 10, max: 10 })) {
+  // 어휘 — 주차별로 정해진 개수만큼
+  const vocabCount = VOCAB_PER_DAY[weekNo];
+  const vocabRange = vocabCount
+    ? { min: vocabCount, max: vocabCount }
+    : VOCAB_PER_DAY_DEFAULT;
+  if (v.arr(d.vocab, `${path}.vocab`, vocabRange)) {
     const words = new Set<string>();
     (d.vocab as unknown[]).forEach((item, i) => {
       const p = `${path}.vocab[${i}]`;
@@ -442,9 +471,20 @@ function validateDay(
     v.fail(`${path}.speaking`, '객체여야 합니다');
   } else {
     if (v.arr(s.shadowing, `${path}.speaking.shadowing`, { min: 2, max: 3 })) {
-      (s.shadowing as unknown[]).forEach((line, i) =>
-        v.str(line, `${path}.speaking.shadowing[${i}]`, { min: 10 }),
-      );
+      // 따라 읽기 문장은 그날 지문에서 그대로 가져와야 한다. 방금 읽은 문장을
+      // 소리 내어 보는 것이 목적이므로, 지문에 없는 문장이면 연결이 끊긴다.
+      const passageBody = ((d.reading as Record<string, unknown> | undefined)?.passage as
+        | Record<string, unknown>
+        | undefined)?.body;
+      const haystack =
+        typeof passageBody === 'string' ? collapse(stripMarkup(passageBody)) : undefined;
+      (s.shadowing as unknown[]).forEach((line, i) => {
+        const p = `${path}.speaking.shadowing[${i}]`;
+        if (!v.str(line, p, { min: 10 })) return;
+        if (haystack && !haystack.includes(collapse(line as string))) {
+          v.fail(p, '따라 읽기 문장이 그날 지문 본문에 없습니다');
+        }
+      });
     }
     const sub = s.substitution as Record<string, unknown> | undefined;
     if (!sub || typeof sub !== 'object') {

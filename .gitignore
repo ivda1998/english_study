@@ -7,3 +7,4 @@ test-results
 screenshots
 *.local
 .DS_Store
+shot-*.png

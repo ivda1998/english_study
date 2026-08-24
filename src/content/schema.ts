@@ -213,7 +213,7 @@ const WEEKDAYS: Weekday[] = ['mon', 'tue', 'wed', 'thu', 'fri'];
  * 예전 기준을 그대로 둔다. 한 주차를 새로 쓸 때 그 줄만 새 값으로 바꾼다.
  */
 export const PASSAGE_LENGTH_TARGET: Record<number, { min: number; max: number }> = {
-  1: { min: 200, max: 245 },
+  1: { min: 175, max: 210 },
   2: { min: 105, max: 140 },
   3: { min: 115, max: 150 },
   4: { min: 125, max: 160 },

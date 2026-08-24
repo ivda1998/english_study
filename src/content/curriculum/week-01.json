@@ -17,214 +17,214 @@
       "title": "우리가 재능이라고 부르는 것",
       "vocab": [
         {
-          "word": "account for",
+          "word": "preference",
+          "pos": "n.",
+          "meaning": "선호",
+          "example": "A natural preference is usually built.",
+          "exampleKo": "타고난 선호도 대개는 만들어진 것이다."
+        },
+        {
+          "word": "motivation",
+          "pos": "n.",
+          "meaning": "동기",
+          "example": "Researchers who study motivation are not so sure.",
+          "exampleKo": "동기를 연구하는 학자들은 그렇게 확신하지 않는다."
+        },
+        {
+          "word": "researcher",
+          "pos": "n.",
+          "meaning": "연구자",
+          "example": "Researchers looked at thousands of students.",
+          "exampleKo": "연구자들은 수천 명의 학생을 살펴보았다."
+        },
+        {
+          "word": "natural",
+          "pos": "adj.",
+          "meaning": "타고난, 자연스러운",
+          "example": "It looks like a natural preference.",
+          "exampleKo": "그것은 타고난 선호처럼 보인다."
+        },
+        {
+          "word": "quietly",
+          "pos": "adv.",
+          "meaning": "조용히",
+          "example": "The loop has been running quietly for years.",
+          "exampleKo": "그 순환은 수년간 조용히 돌아왔다."
+        },
+        {
+          "word": "faint",
+          "pos": "adj.",
+          "meaning": "희미한",
+          "example": "Being right creates a faint feeling.",
+          "exampleKo": "맞았다는 사실이 희미한 느낌을 만든다."
+        },
+        {
+          "word": "attempt",
+          "pos": "n.",
+          "meaning": "시도",
+          "example": "The next attempt feels more attractive.",
+          "exampleKo": "다음 시도가 더 매력적으로 느껴진다."
+        },
+        {
+          "word": "attractive",
+          "pos": "adj.",
+          "meaning": "매력적인",
+          "example": "The subject became more attractive to me.",
+          "exampleKo": "그 과목이 나에게 더 매력적으로 되었다."
+        },
+        {
+          "word": "tighten",
+          "pos": "v.",
+          "meaning": "조여지다",
+          "example": "The loop tightens a little each time.",
+          "exampleKo": "그 순환은 매번 조금씩 조여진다."
+        },
+        {
+          "word": "advantage",
+          "pos": "n.",
+          "meaning": "이점",
+          "example": "Small advantages add up over time.",
+          "exampleKo": "작은 이점들이 시간이 지나며 쌓인다."
+        },
+        {
+          "word": "gap",
+          "pos": "n.",
+          "meaning": "격차",
+          "example": "The gap looks like a difference in kind.",
+          "exampleKo": "그 격차는 종류가 다른 차이처럼 보인다."
+        },
+        {
+          "word": "consequence",
+          "pos": "n.",
+          "meaning": "결과",
+          "example": "This has a useful consequence.",
+          "exampleKo": "여기에는 쓸모 있는 결과가 있다."
+        },
+        {
+          "word": "judgment",
+          "pos": "n.",
+          "meaning": "판단",
+          "example": "Disliking a subject is not a judgment about you.",
+          "exampleKo": "어떤 과목을 싫어하는 것은 당신에 대한 판단이 아니다."
+        },
+        {
+          "word": "ability",
+          "pos": "n.",
+          "meaning": "능력",
+          "example": "It says nothing about your ability.",
+          "exampleKo": "그것은 당신의 능력에 대해 아무것도 말해주지 않는다."
+        },
+        {
+          "word": "reward",
+          "pos": "n.",
+          "meaning": "보상",
+          "example": "No reward comes until the second turn.",
+          "exampleKo": "두 번째 바퀴 전까지는 아무 보상도 오지 않는다."
+        },
+        {
+          "word": "correctly",
+          "pos": "adv.",
+          "meaning": "정확하게",
+          "example": "The student answered one question correctly.",
+          "exampleKo": "그 학생은 한 문제를 정확하게 맞혔다."
+        },
+        {
+          "word": "matter",
+          "pos": "v.",
+          "meaning": "중요하다",
+          "example": "What matters is how many times it turns.",
+          "exampleKo": "중요한 것은 몇 번 도는가이다."
+        },
+        {
+          "word": "slightly",
+          "pos": "adv.",
+          "meaning": "약간",
+          "example": "It becomes slightly more attractive.",
+          "exampleKo": "그것은 약간 더 매력적으로 된다."
+        },
+        {
+          "word": "difference",
+          "pos": "n.",
+          "meaning": "차이",
+          "example": "The difference looks huge from outside.",
+          "exampleKo": "그 차이는 밖에서 보면 거대해 보인다."
+        },
+        {
+          "word": "tiny",
+          "pos": "adj.",
+          "meaning": "아주 작은",
+          "example": "Thousands of tiny rounds build the gap.",
+          "exampleKo": "수천 번의 아주 작은 회차가 그 격차를 만든다."
+        },
+        {
+          "word": "explain",
           "pos": "v.",
           "meaning": "설명하다",
-          "example": "Most students cannot account for their own preferences.",
-          "exampleKo": "대부분의 학생은 자기 취향을 설명하지 못한다."
+          "example": "People explain the gap with one word.",
+          "exampleKo": "사람들은 그 격차를 한 단어로 설명한다."
         },
         {
-          "word": "innate",
-          "pos": "adj.",
-          "meaning": "타고난",
-          "example": "They describe it as an innate disposition.",
-          "exampleKo": "그들은 그것을 타고난 기질이라고 말한다."
-        },
-        {
-          "word": "disposition",
+          "word": "talent",
           "pos": "n.",
-          "meaning": "기질, 성향",
-          "example": "A cheerful disposition helps in group work.",
-          "exampleKo": "밝은 기질은 모둠 활동에 도움이 된다."
+          "meaning": "재능",
+          "example": "They call it talent.",
+          "exampleKo": "그들은 그것을 재능이라고 부른다."
         },
         {
-          "word": "skeptical",
-          "pos": "adj.",
-          "meaning": "회의적인",
-          "example": "Researchers are considerably more skeptical.",
-          "exampleKo": "연구자들은 훨씬 더 회의적이다."
-        },
-        {
-          "word": "residue",
+          "word": "loop",
           "pos": "n.",
-          "meaning": "남은 흔적",
-          "example": "The habit is the residue of years of practice.",
-          "exampleKo": "그 습관은 수년간 연습이 남긴 흔적이다."
+          "meaning": "순환, 되풀이",
+          "example": "It is simply a loop that has not started.",
+          "exampleKo": "그것은 그저 시작되지 않은 순환일 뿐이다."
         },
         {
-          "word": "compound",
-          "pos": "v.",
-          "meaning": "누적되어 커지다",
-          "example": "Small gains compound over time.",
-          "exampleKo": "작은 이득은 시간이 지나며 누적되어 커진다."
-        },
-        {
-          "word": "negligible",
-          "pos": "adj.",
-          "meaning": "무시할 만한",
-          "example": "The loop originates in a negligible event.",
-          "exampleKo": "그 순환은 무시할 만한 사건에서 시작된다."
-        },
-        {
-          "word": "elicit",
-          "pos": "v.",
-          "meaning": "이끌어내다",
-          "example": "Being right elicits a faint sense of competence.",
-          "exampleKo": "맞혔다는 사실이 희미한 유능감을 이끌어낸다."
-        },
-        {
-          "word": "competence",
+          "word": "round",
           "pos": "n.",
-          "meaning": "유능함",
-          "example": "A sense of competence keeps students going.",
-          "exampleKo": "유능하다는 느낌이 학생을 계속하게 한다."
+          "meaning": "회차, 한 바퀴",
+          "example": "Each round is too small to notice.",
+          "exampleKo": "각 회차는 알아채기에 너무 작다."
         },
         {
-          "word": "subtle",
-          "pos": "adj.",
-          "meaning": "미묘한",
-          "example": "The sensation is subtle enough to escape memory.",
-          "exampleKo": "그 감각은 기억에서 사라질 만큼 미묘하다."
-        },
-        {
-          "word": "render",
-          "pos": "v.",
-          "meaning": "~한 상태로 만들다",
-          "example": "It renders the next attempt more appealing.",
-          "exampleKo": "그것은 다음 시도를 더 매력적으로 만든다."
-        },
-        {
-          "word": "subsequent",
-          "pos": "adj.",
-          "meaning": "뒤이은",
-          "example": "The subsequent attempt feels easier.",
-          "exampleKo": "뒤이은 시도는 더 쉽게 느껴진다."
-        },
-        {
-          "word": "marginally",
+          "word": "simply",
           "pos": "adv.",
-          "meaning": "근소하게",
-          "example": "The task became marginally more appealing.",
-          "exampleKo": "그 과제는 근소하게 더 끌리게 되었다."
+          "meaning": "그저",
+          "example": "It is simply a habit, not a gift.",
+          "exampleKo": "그것은 재능이 아니라 그저 습관이다."
         },
         {
-          "word": "persist",
+          "word": "build",
           "pos": "v.",
-          "meaning": "끈질기게 계속하다",
-          "example": "The student persists a little longer.",
-          "exampleKo": "그 학생은 조금 더 오래 버틴다."
+          "meaning": "만들어 내다",
+          "example": "Practice can build a preference from nothing.",
+          "exampleKo": "연습은 아무것도 없던 데서 선호를 만들어 낼 수 있다."
         },
         {
-          "word": "decisive",
-          "pos": "adj.",
-          "meaning": "결정적인",
-          "example": "What proves decisive is the number of turns.",
-          "exampleKo": "결정적인 것은 반복된 횟수다."
+          "word": "dislike",
+          "pos": "v.",
+          "meaning": "싫어하다",
+          "example": "Disliking a subject is not permanent.",
+          "exampleKo": "어떤 과목을 싫어하는 것은 영구적이지 않다."
         },
         {
-          "word": "magnitude",
+          "word": "success",
           "pos": "n.",
-          "meaning": "크기, 규모",
-          "example": "The magnitude of each success hardly matters.",
+          "meaning": "성공",
+          "example": "The size of each success hardly matters.",
           "exampleKo": "각 성공의 크기는 거의 중요하지 않다."
         },
         {
-          "word": "sheer",
+          "word": "weak",
           "pos": "adj.",
-          "meaning": "순전한",
-          "example": "The sheer number of attempts explains the gap.",
-          "exampleKo": "순전한 시도 횟수가 그 격차를 설명한다."
+          "meaning": "약한",
+          "example": "The feeling is weak and easy to forget.",
+          "exampleKo": "그 느낌은 약하고 잊기 쉽다."
         },
         {
-          "word": "imperceptible",
-          "pos": "adj.",
-          "meaning": "감지할 수 없는",
-          "example": "The change is imperceptible from day to day.",
-          "exampleKo": "그 변화는 하루하루로는 감지할 수 없다."
-        },
-        {
-          "word": "iteration",
-          "pos": "n.",
-          "meaning": "반복, 회차",
-          "example": "Thousands of iterations build the difference.",
-          "exampleKo": "수천 번의 반복이 그 차이를 만든다."
-        },
-        {
-          "word": "trivial",
-          "pos": "adj.",
-          "meaning": "사소한",
-          "example": "Trivial advantages accrue into a large gap.",
-          "exampleKo": "사소한 이점이 쌓여 큰 격차가 된다."
-        },
-        {
-          "word": "accrue",
+          "word": "arrive",
           "pos": "v.",
-          "meaning": "쌓이다",
-          "example": "Interest accrues quietly every month.",
-          "exampleKo": "이자는 매달 조용히 쌓인다."
-        },
-        {
-          "word": "retrospect",
-          "pos": "n.",
-          "meaning": "회고",
-          "example": "In retrospect, the gap looks inevitable.",
-          "exampleKo": "돌이켜 보면 그 격차는 필연적으로 보인다."
-        },
-        {
-          "word": "categorical",
-          "pos": "adj.",
-          "meaning": "종류가 아예 다른",
-          "example": "The difference appears categorical, not gradual.",
-          "exampleKo": "그 차이는 점진적이 아니라 아예 다른 종류로 보인다."
-        },
-        {
-          "word": "trajectory",
-          "pos": "n.",
-          "meaning": "궤적",
-          "example": "Observers arrive late to the trajectory.",
-          "exampleKo": "관찰자들은 그 궤적에 뒤늦게 도착한다."
-        },
-        {
-          "word": "attribute",
-          "pos": "v.",
-          "meaning": "~의 탓으로 돌리다",
-          "example": "They attribute the disparity to a single cause.",
-          "exampleKo": "그들은 그 격차를 한 가지 원인 탓으로 돌린다."
-        },
-        {
-          "word": "disparity",
-          "pos": "n.",
-          "meaning": "격차",
-          "example": "The disparity grew without anyone noticing.",
-          "exampleKo": "그 격차는 아무도 모르게 커졌다."
-        },
-        {
-          "word": "implication",
-          "pos": "n.",
-          "meaning": "함의",
-          "example": "The implication is uncomfortable but useful.",
-          "exampleKo": "그 함의는 불편하지만 유용하다."
-        },
-        {
-          "word": "bestow",
-          "pos": "v.",
-          "meaning": "부여하다",
-          "example": "Preference is constructed rather than bestowed.",
-          "exampleKo": "선호는 주어지는 것이 아니라 만들어진다."
-        },
-        {
-          "word": "aversion",
-          "pos": "n.",
-          "meaning": "기피, 싫어함",
-          "example": "An aversion to a subject is not a verdict.",
-          "exampleKo": "어떤 과목에 대한 기피는 판정이 아니다."
-        },
-        {
-          "word": "initiate",
-          "pos": "v.",
-          "meaning": "개시하다",
-          "example": "It is a loop that has never been initiated.",
-          "exampleKo": "그것은 한 번도 시작된 적 없는 순환이다."
+          "meaning": "도착하다",
+          "example": "People who arrive late explain it wrongly.",
+          "exampleKo": "뒤늦게 도착한 사람들은 그것을 잘못 설명한다."
         }
       ],
       "grammar": {
@@ -232,8 +232,8 @@
         "explanation": "동사는 바로 앞 명사가 아니라 진짜 주어에 맞춥니다. 주어와 동사 사이에 관계사절이나 전치사구가 길게 끼면 바로 앞 명사에 끌려 실수하기 쉽습니다. 'Researchers who study motivation tell...'에서 동사 tell의 주어는 motivation이 아니라 Researchers입니다. 수식어를 괄호로 묶어 지우고 읽으면 주어가 드러납니다. 모의고사 어법 문항에서 가장 자주 나오는 유형입니다.",
         "examples": [
           {
-            "en": "Researchers who study motivation tell a different story.",
-            "ko": "동기를 연구하는 학자들은 다른 이야기를 한다."
+            "en": "Researchers who study motivation are not so sure.",
+            "ko": "동기를 연구하는 학자들은 그렇게 확신하지 않는다."
           },
           {
             "en": "The size of the successes is not important.",
@@ -248,7 +248,7 @@
           {
             "kind": "choice",
             "id": "w01d1-g1",
-            "prompt": "빈칸에 알맞은 것은?\nThe number of imperceptible iterations ______ what matters.",
+            "prompt": "빈칸에 알맞은 것은?\nThe number of tiny rounds ______ what matters.",
             "options": [
               "is",
               "are",
@@ -261,7 +261,7 @@
           {
             "kind": "choice",
             "id": "w01d1-g2",
-            "prompt": "빈칸에 알맞은 것은?\nObservers who arrive late to the trajectory ______ the gap to talent.",
+            "prompt": "빈칸에 알맞은 것은?\nPeople who arrive late to the story ______ the gap to talent.",
             "options": [
               "attributes",
               "attribute",
@@ -274,7 +274,7 @@
           {
             "kind": "choice",
             "id": "w01d1-g3",
-            "prompt": "빈칸에 알맞은 것은?\nWhat presents itself as natural preference ______ often the residue of a long loop.",
+            "prompt": "빈칸에 알맞은 것은?\nWhat looks like a natural preference ______ usually the result of a long loop.",
             "options": [
               "are",
               "is",
@@ -287,11 +287,11 @@
           {
             "kind": "write",
             "id": "w01d1-g4",
-            "prompt": "[[The sensation]] of small victories ______ (escape) memory easily. 알맞은 형태로 쓰세요.",
+            "prompt": "[[The feeling]] of small wins ______ (fade) quickly. 알맞은 형태로 쓰세요.",
             "accept": [
-              "escapes"
+              "fades"
             ],
-            "explanation": "주어는 The sensation(단수)이고 of small victories는 수식어이므로 escapes가 맞습니다.",
+            "explanation": "주어는 The feeling(단수)이고 of small wins는 수식어이므로 fades가 맞습니다.",
             "hint": "단수 주어예요"
           },
           {
@@ -299,23 +299,23 @@
             "id": "w01d1-g5",
             "prompt": "밑줄 친 부분이 어법상 틀린 것은?",
             "options": [
-              "The student who answers one question [[feels]] competent.",
-              "Advantages that seem trivial [[accrue]] into a gap.",
-              "The recognition of being right [[elicit]] a faint reward.",
-              "Loops that have never been initiated [[demand]] the most effort."
+              "The student who answers one question [[feels]] good about it.",
+              "Advantages that seem tiny [[add]] up into a gap.",
+              "The feeling of being right [[create]] a small reward.",
+              "Loops that have not started [[demand]] the most effort."
             ],
             "answer": 2,
-            "explanation": "③의 주어는 The recognition(단수)이므로 elicit이 아니라 elicits여야 합니다. of being right는 수식어입니다."
+            "explanation": "③의 주어는 The feeling(단수)이므로 create가 아니라 creates여야 합니다. of being right는 수식어입니다."
           },
           {
             "kind": "choice",
             "id": "w01d1-g6",
             "prompt": "밑줄 친 동사의 주어가 나머지와 성격이 다른 것은?",
             "options": [
-              "Researchers who study motivation [[are]] skeptical.",
+              "Researchers who study motivation [[are]] careful.",
               "Students at the same school [[perform]] differently.",
-              "The magnitude of the successes [[matters]] little.",
-              "Observers arriving late [[call]] it talent."
+              "The size of the successes [[matters]] little.",
+              "People arriving late [[call]] it talent."
             ],
             "answer": 2,
             "explanation": "③만 단수 주어(The magnitude)이고 나머지는 모두 복수 주어입니다. of the successes에 끌리면 안 됩니다."
@@ -326,30 +326,26 @@
         "passage": {
           "title": "What We Call Talent",
           "topic": "심리 · 동기와 귀인",
-          "body": "Ask a hundred students to account for their favorite subject, and most will describe it as an innate disposition, something they were simply born with. Researchers who study motivation are considerably more skeptical. What presents itself as natural preference is typically the visible residue of a feedback loop that has been compounding, unnoticed, for years.\n\nThe loop originates in a negligible event. A student answers a single question correctly, and the recognition of being right elicits a faint sense of competence. The sensation is subtle enough to escape memory, yet it renders the subsequent attempt marginally more appealing. The student persists a little longer, performs a little better, and the loop tightens on itself.\n\nWhat proves decisive is not the magnitude of any individual success but the sheer number of times the loop completes a turn. Across thousands of imperceptible iterations, trivial advantages accrue into a gap that appears, in retrospect, categorical. Observers who arrive late to the trajectory attribute the disparity to a single cause and call it talent.\n\nThe implication is uncomfortable but useful. If preference is constructed rather than bestowed, an aversion to a subject is not a verdict about capacity; it is merely [[a loop that has never been initiated]]. The initial turn demands the most effort, precisely because no reward arrives until the second one does.",
+          "body": "Ask a hundred students why math is their favorite subject, and most will say they were just born that way. Researchers who study motivation are not so sure. What looks like a natural preference is usually the result of a loop that has been running quietly for years.\n\nThe loop starts with something small. A student answers one question correctly, and being right creates a faint feeling of being good at it. The feeling is weak and easy to forget, but it makes the next attempt slightly more attractive. The student tries a little longer, does a little better, and the loop tightens.\n\nWhat matters is not the size of each success but how many times the loop turns. After thousands of tiny rounds, small advantages add up into a gap that looks, from the outside, like a difference in kind. People who arrive late to the story explain that gap with one word: talent.\n\nThis has a useful consequence. If preference is built rather than given, then [[disliking a subject is not a judgment about your ability]]. It is simply a loop that has not started yet. The first turn is the hardest, because no reward comes until the second one.",
           "glossary": [
             {
-              "word": "feedback loop",
-              "meaning": "결과가 다시 원인이 되어 돌아가는 순환"
+              "word": "be born that way",
+              "meaning": "원래 그렇게 태어나다"
             },
             {
-              "word": "in retrospect",
-              "meaning": "돌이켜 보면"
+              "word": "add up",
+              "meaning": "쌓여서 커지다"
+            },
+            {
+              "word": "a difference in kind",
+              "meaning": "종류 자체가 다른 차이"
             },
             {
               "word": "rather than",
-              "meaning": "~이라기보다"
-            },
-            {
-              "word": "verdict",
-              "meaning": "판정, 평결"
-            },
-            {
-              "word": "capacity",
-              "meaning": "역량"
+              "meaning": "~이 아니라"
             }
           ],
-          "translation": "백 명의 학생에게 좋아하는 과목을 설명해 보라고 하면, 대부분은 그것을 타고난 기질이라고, 그냥 그렇게 태어났다고 말할 것이다. 동기를 연구하는 학자들은 훨씬 더 회의적이다. 자연스러운 선호처럼 보이는 것은 대개 수년간 아무도 모르게 누적되어 온 순환이 눈에 보이도록 남긴 흔적이다.\n\n그 순환은 무시할 만한 사건에서 시작된다. 학생이 문제 하나를 맞히고, 맞았다는 인식이 희미한 유능감을 이끌어낸다. 그 감각은 기억에 남지 않을 만큼 미묘하지만, 다음 시도를 근소하게 더 끌리는 것으로 만든다. 학생은 조금 더 오래 붙들고, 조금 더 잘하게 되며, 순환은 스스로 조여진다.\n\n결정적인 것은 개별 성공의 크기가 아니라 그 순환이 한 바퀴를 도는 횟수 그 자체다. 감지할 수 없는 수천 번의 반복을 거치며 사소한 이점이 쌓여, 돌이켜 보면 종류가 아예 다른 것처럼 보이는 격차가 된다. 그 궤적에 뒤늦게 도착한 관찰자들은 그 격차를 한 가지 원인 탓으로 돌리고 그것을 재능이라 부른다.\n\n그 함의는 불편하지만 유용하다. 선호가 주어지는 것이 아니라 만들어지는 것이라면, 어떤 과목을 싫어한다는 것은 역량에 대한 판정이 아니다. 그것은 그저 한 번도 시작된 적 없는 순환일 뿐이다. 첫 바퀴가 가장 힘든 이유는, 두 번째가 오기 전까지는 아무런 보상도 도착하지 않기 때문이다."
+          "translation": "백 명의 학생에게 왜 수학이 가장 좋아하는 과목이냐고 물으면, 대부분은 그냥 그렇게 태어났다고 말할 것이다. 동기를 연구하는 학자들은 그렇게 확신하지 않는다. 타고난 선호처럼 보이는 것은 대개 수년간 조용히 돌아온 순환의 결과다.\n\n그 순환은 아주 작은 것에서 시작된다. 학생이 문제 하나를 맞히고, 맞았다는 사실이 자신이 그것을 잘한다는 희미한 느낌을 만든다. 그 느낌은 약하고 잊기 쉽지만, 다음 시도를 조금 더 매력적으로 만든다. 학생은 조금 더 오래 붙들고, 조금 더 잘하게 되고, 순환은 조여진다.\n\n중요한 것은 각 성공의 크기가 아니라 그 순환이 몇 번 도는가이다. 수천 번의 작은 회차를 거치면 작은 이점들이 쌓여, 바깥에서 보기에 종류가 다른 것처럼 보이는 격차가 된다. 이야기에 뒤늦게 도착한 사람들은 그 격차를 한 단어로 설명한다. 재능이라고.\n\n여기에는 쓸모 있는 결론이 있다. 선호가 주어지는 것이 아니라 만들어지는 것이라면, 어떤 과목을 싫어한다는 것은 당신의 능력에 대한 판단이 아니다. 그것은 그저 아직 시작되지 않은 순환일 뿐이다. 첫 바퀴가 가장 힘든 이유는 두 번째가 오기 전까지 아무 보상도 오지 않기 때문이다."
         },
         "questions": [
           {
@@ -357,52 +353,52 @@
             "id": "w01d1-r1",
             "prompt": "글의 요지로 가장 적절한 것은?",
             "options": [
-              "타고난 재능은 후천적 학습으로 바꾸기 어렵다.",
-              "선호는 미세한 성공이 반복되어 누적된 결과다.",
-              "관찰자는 타인의 노력을 과대평가하는 경향이 있다.",
-              "동기는 큰 성취를 경험할 때 비로소 생겨난다."
+              "타고난 재능은 노력으로 바꾸기 어렵다.",
+              "선호는 작은 성공이 반복되어 쌓인 결과다.",
+              "사람들은 남의 노력을 과대평가한다.",
+              "동기는 큰 성취에서만 생긴다."
             ],
             "answer": 1,
-            "explanation": "글 전체가 '작은 성공 → 유능감 → 재시도'의 순환이 누적되어 선호와 격차를 만든다고 말합니다. 재능은 그 결과를 뒤늦게 붙인 이름입니다."
+            "explanation": "작은 성공 → 잘한다는 느낌 → 다시 시도, 이 순환이 쌓여 선호와 격차를 만든다는 것이 글의 핵심입니다."
           },
           {
             "kind": "choice",
             "id": "w01d1-r2",
-            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nThe initial turn demands the most effort, precisely because ______.",
+            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nThe first turn is the hardest, because ______.",
             "options": [
-              "the loop has already begun turning",
-              "no reward arrives until the second one does",
-              "observers rarely notice small advantages",
-              "competence is bestowed rather than built"
+              "the loop is already turning",
+              "no reward comes until the second one",
+              "people rarely notice small advantages",
+              "talent is given, not built"
             ],
             "answer": 1,
-            "explanation": "순환은 성공이 보상을 낳아야 돌아가는데, 첫 바퀴에는 아직 그 보상이 없습니다. 그래서 첫 시도가 가장 힘듭니다."
+            "explanation": "순환은 보상이 있어야 돌아가는데 첫 바퀴에는 아직 보상이 없습니다. 그래서 첫 시도가 가장 힘듭니다."
           },
           {
             "kind": "choice",
             "id": "w01d1-r3",
-            "prompt": "밑줄 친 [[a loop that has never been initiated]] 가 의미하는 바로 가장 적절한 것은?",
+            "prompt": "밑줄 친 [[disliking a subject is not a judgment about your ability]] 가 뜻하는 바는?",
             "options": [
-              "역량이 부족해 시작할 수 없는 과목",
-              "아직 첫 성공을 경험하지 못했을 뿐인 과목",
-              "반복해도 실력이 늘지 않는 과목",
-              "남들이 재능이라고 부르는 과목"
+              "능력이 부족하면 그 과목을 피해야 한다.",
+              "아직 순환이 시작되지 않았을 뿐이다.",
+              "싫어하는 감정은 바꿀 수 없다.",
+              "능력은 과목마다 다르게 타고난다."
             ],
             "answer": 1,
-            "explanation": "싫어하는 과목은 역량의 문제가 아니라 순환이 아직 시작되지 않았을 뿐이라는 뜻입니다. 바로 앞 문장의 not a verdict about capacity 가 근거입니다."
+            "explanation": "바로 다음 문장에서 '그저 아직 시작되지 않은 순환'이라고 설명합니다."
           },
           {
             "kind": "choice",
             "id": "w01d1-r4",
             "prompt": "글의 내용과 일치하지 않는 것은?",
             "options": [
-              "작은 성공이 주는 느낌은 기억에 잘 남지 않는다.",
-              "격차를 만드는 것은 개별 성공의 크기가 아니라 반복 횟수다.",
-              "관찰자들은 격차가 만들어지는 과정을 처음부터 지켜본다.",
-              "선호는 부여받는 것이 아니라 구성되는 것이다."
+              "작은 성공이 주는 느낌은 약해서 잊기 쉽다.",
+              "격차를 만드는 것은 성공의 크기보다 반복 횟수다.",
+              "사람들은 격차가 만들어지는 과정을 처음부터 지켜본다.",
+              "선호는 주어지기보다 만들어진다."
             ],
             "answer": 2,
-            "explanation": "본문은 관찰자들이 궤적에 '뒤늦게 도착한다(arrive late)'고 했습니다. 과정을 못 봤기 때문에 결과만 보고 재능이라 부르는 것입니다."
+            "explanation": "본문은 사람들이 이야기에 '뒤늦게 도착한다(arrive late)'고 했습니다. 과정을 못 봤기 때문에 재능이라 부릅니다."
           }
         ]
       },
@@ -490,9 +486,9 @@
       },
       "speaking": {
         "shadowing": [
-          "The loop originates in a negligible event.",
-          "The student persists a little longer, performs a little better, and the loop tightens on itself.",
-          "The implication is uncomfortable but useful."
+          "The loop starts with something small.",
+          "The feeling is weak and easy to forget, but it makes the next attempt slightly more attractive.",
+          "This has a useful consequence."
         ],
         "substitution": {
           "pattern": "I like {subject} because it {verb} interesting to me.",
@@ -555,214 +551,214 @@
       "title": "입맛은 어디에서 오는가",
       "vocab": [
         {
-          "word": "cuisine",
-          "pos": "n.",
-          "meaning": "요리, 식문화",
-          "example": "Every cuisine reflects what the land could grow.",
-          "exampleKo": "모든 식문화는 그 땅이 기를 수 있었던 것을 반영한다."
+          "word": "unfamiliar",
+          "pos": "adj.",
+          "meaning": "낯선",
+          "example": "A child pushes away an unfamiliar dish.",
+          "exampleKo": "아이는 낯선 음식을 밀어낸다."
         },
         {
-          "word": "palate",
+          "word": "confidence",
           "pos": "n.",
-          "meaning": "미각, 입맛",
-          "example": "The palate adapts more slowly than we assume.",
-          "exampleKo": "미각은 우리 생각보다 천천히 적응한다."
+          "meaning": "확신, 자신감",
+          "example": "She said it with complete confidence.",
+          "exampleKo": "그녀는 완전한 확신을 담아 말했다."
         },
         {
-          "word": "acquire",
+          "word": "disgusting",
+          "pos": "adj.",
+          "meaning": "역겨운",
+          "example": "He said the soup was disgusting.",
+          "exampleKo": "그는 그 수프가 역겹다고 말했다."
+        },
+        {
+          "word": "accept",
           "pos": "v.",
-          "meaning": "습득하다",
-          "example": "Most preferences are acquired, not given.",
-          "exampleKo": "대부분의 선호는 주어지는 것이 아니라 습득된다."
+          "meaning": "받아들이다",
+          "example": "Adults accept this as information.",
+          "exampleKo": "어른들은 이것을 정보로 받아들인다."
         },
         {
-          "word": "exposure",
+          "word": "treat",
+          "pos": "v.",
+          "meaning": "~로 여기다",
+          "example": "Researchers treat it as something else.",
+          "exampleKo": "연구자들은 그것을 다른 것으로 여긴다."
+        },
+        {
+          "word": "personal",
+          "pos": "adj.",
+          "meaning": "개인의",
+          "example": "It is not a personal fault.",
+          "exampleKo": "그것은 개인의 잘못이 아니다."
+        },
+        {
+          "word": "fault",
           "pos": "n.",
-          "meaning": "노출",
-          "example": "Repeated exposure reduces resistance to a new taste.",
-          "exampleKo": "반복 노출은 새로운 맛에 대한 거부감을 줄인다."
+          "meaning": "잘못",
+          "example": "The reaction is nobody's fault.",
+          "exampleKo": "그 반응은 누구의 잘못도 아니다."
         },
         {
-          "word": "resistance",
-          "pos": "n.",
-          "meaning": "저항, 거부감",
-          "example": "Initial resistance fades after several trials.",
-          "exampleKo": "처음의 거부감은 몇 번 시도하면 옅어진다."
-        },
-        {
-          "word": "novel",
-          "pos": "adj.",
-          "meaning": "새로운, 생소한",
-          "example": "Children reject novel foods by default.",
-          "exampleKo": "아이들은 생소한 음식을 기본적으로 거부한다."
-        },
-        {
-          "word": "wary",
-          "pos": "adj.",
-          "meaning": "경계하는",
-          "example": "Humans are evolutionarily wary of unfamiliar plants.",
-          "exampleKo": "인간은 진화적으로 낯선 식물을 경계한다."
-        },
-        {
-          "word": "adaptive",
-          "pos": "adj.",
-          "meaning": "적응에 유리한",
-          "example": "Caution toward new food was once adaptive.",
-          "exampleKo": "새 음식에 대한 경계는 한때 생존에 유리했다."
+          "word": "inherit",
+          "pos": "v.",
+          "meaning": "물려받다",
+          "example": "We inherited this habit from our ancestors.",
+          "exampleKo": "우리는 이 습관을 조상에게서 물려받았다."
         },
         {
           "word": "ancestor",
           "pos": "n.",
           "meaning": "조상",
-          "example": "Our ancestors could not test every berry safely.",
-          "exampleKo": "우리 조상들은 모든 열매를 안전하게 시험할 수 없었다."
+          "example": "Our ancestors could not test every plant.",
+          "exampleKo": "우리 조상들은 모든 식물을 시험할 수 없었다."
         },
         {
-          "word": "toxic",
+          "word": "unknown",
           "pos": "adj.",
-          "meaning": "독성이 있는",
-          "example": "Some bitter plants are genuinely toxic.",
-          "exampleKo": "일부 쓴 식물은 실제로 독성이 있다."
+          "meaning": "알려지지 않은",
+          "example": "An unknown plant was a real risk.",
+          "exampleKo": "미지의 식물은 실제 위험이었다."
+        },
+        {
+          "word": "safely",
+          "pos": "adv.",
+          "meaning": "안전하게",
+          "example": "They could not test it safely.",
+          "exampleKo": "그들은 그것을 안전하게 시험할 수 없었다."
         },
         {
           "word": "bitter",
           "pos": "adj.",
           "meaning": "쓴",
-          "example": "Bitter flavors signal possible danger.",
-          "exampleKo": "쓴맛은 위험 가능성을 알린다."
+          "example": "Bitter flavors often warn of poison.",
+          "exampleKo": "쓴맛은 종종 독을 알린다."
         },
         {
-          "word": "signal",
-          "pos": "v.",
-          "meaning": "신호를 보내다",
-          "example": "Bitterness signals danger to the brain.",
-          "exampleKo": "쓴맛은 뇌에 위험 신호를 보낸다."
-        },
-        {
-          "word": "threshold",
+          "word": "flavor",
           "pos": "n.",
-          "meaning": "역치, 문턱",
-          "example": "Each tasting lowers the threshold slightly.",
-          "exampleKo": "한 번의 시식이 역치를 조금씩 낮춘다."
+          "meaning": "맛, 풍미",
+          "example": "The flavor stays the same.",
+          "exampleKo": "맛 자체는 그대로다."
         },
         {
-          "word": "diminish",
+          "word": "warn",
           "pos": "v.",
-          "meaning": "줄어들다",
-          "example": "The alarm diminishes with familiarity.",
-          "exampleKo": "익숙해지면 경보는 줄어든다."
+          "meaning": "경고하다",
+          "example": "Bitterness warns the brain of danger.",
+          "exampleKo": "쓴맛은 뇌에 위험을 경고한다."
         },
         {
-          "word": "familiarity",
+          "word": "poison",
           "pos": "n.",
-          "meaning": "친숙함",
-          "example": "Familiarity is often mistaken for pleasure.",
-          "exampleKo": "친숙함은 종종 즐거움으로 오인된다."
+          "meaning": "독",
+          "example": "Some bitter plants contain poison.",
+          "exampleKo": "어떤 쓴 식물은 독을 품고 있다."
         },
         {
-          "word": "mistake",
+          "word": "reflex",
+          "pos": "n.",
+          "meaning": "반사, 반사 반응",
+          "example": "The reflex rejects anything strange.",
+          "exampleKo": "그 반사는 낯선 것은 무엇이든 거부한다."
+        },
+        {
+          "word": "reject",
           "pos": "v.",
-          "meaning": "오인하다",
-          "example": "We mistake comfort for genuine liking.",
-          "exampleKo": "우리는 편안함을 진짜 좋아함으로 오인한다."
+          "meaning": "거부하다",
+          "example": "Children reject new food at first.",
+          "exampleKo": "아이들은 처음에는 새 음식을 거부한다."
         },
         {
-          "word": "genuine",
+          "word": "strange",
           "pos": "adj.",
-          "meaning": "진짜의",
-          "example": "Genuine liking takes many exposures to form.",
-          "exampleKo": "진짜 좋아함은 여러 번의 노출을 거쳐 형성된다."
+          "meaning": "낯선, 이상한",
+          "example": "The reflex rejects the strange.",
+          "exampleKo": "그 반사는 낯선 것을 거부한다."
         },
         {
-          "word": "verdict",
+          "word": "danger",
           "pos": "n.",
-          "meaning": "판정",
-          "example": "A first taste is not a verdict.",
-          "exampleKo": "첫 맛은 판정이 아니다."
+          "meaning": "위험",
+          "example": "The danger has mostly gone.",
+          "exampleKo": "위험은 대체로 사라졌다."
         },
         {
-          "word": "premature",
-          "pos": "adj.",
-          "meaning": "성급한",
-          "example": "Rejecting a dish once is premature.",
-          "exampleKo": "한 번 먹고 거부하는 것은 성급하다."
+          "word": "remove",
+          "pos": "v.",
+          "meaning": "없애다",
+          "example": "What removes it is repetition.",
+          "exampleKo": "그것을 없애는 것은 반복이다."
+        },
+        {
+          "word": "repetition",
+          "pos": "n.",
+          "meaning": "반복",
+          "example": "Repetition works better than persuasion.",
+          "exampleKo": "반복이 설득보다 잘 통한다."
+        },
+        {
+          "word": "persuasion",
+          "pos": "n.",
+          "meaning": "설득",
+          "example": "Persuasion does not change taste.",
+          "exampleKo": "설득은 입맛을 바꾸지 못한다."
+        },
+        {
+          "word": "record",
+          "pos": "v.",
+          "meaning": "기록하다",
+          "example": "The brain records that nothing bad followed.",
+          "exampleKo": "뇌는 나쁜 일이 없었다고 기록한다."
+        },
+        {
+          "word": "alarm",
+          "pos": "n.",
+          "meaning": "경보",
+          "example": "The alarm drops a little each time.",
+          "exampleKo": "경보는 매번 조금씩 내려간다."
+        },
+        {
+          "word": "resistance",
+          "pos": "n.",
+          "meaning": "거부감",
+          "example": "Most people stop noticing the resistance.",
+          "exampleKo": "대부분은 그 거부감을 알아채지 않게 된다."
+        },
+        {
+          "word": "trap",
+          "pos": "n.",
+          "meaning": "함정",
+          "example": "This creates a small trap.",
+          "exampleKo": "여기에 작은 함정이 생긴다."
+        },
+        {
+          "word": "credit",
+          "pos": "v.",
+          "meaning": "공을 돌리다",
+          "example": "We rarely credit the exposure.",
+          "exampleKo": "우리는 좀처럼 노출에 공을 돌리지 않는다."
+        },
+        {
+          "word": "exposure",
+          "pos": "n.",
+          "meaning": "노출",
+          "example": "Each exposure lowers the alarm.",
+          "exampleKo": "노출이 한 번 일어날 때마다 경보가 낮아진다."
         },
         {
           "word": "conclude",
           "pos": "v.",
-          "meaning": "결론을 내리다",
-          "example": "Children conclude too quickly about taste.",
-          "exampleKo": "아이들은 맛에 대해 너무 빨리 결론을 내린다."
-        },
-        {
-          "word": "encounter",
-          "pos": "n.",
-          "meaning": "마주침",
-          "example": "The tenth encounter feels nothing like the first.",
-          "exampleKo": "열 번째 마주침은 첫 번째와 전혀 다르게 느껴진다."
-        },
-        {
-          "word": "consistently",
-          "pos": "adv.",
-          "meaning": "일관되게",
-          "example": "The pattern appears consistently across cultures.",
-          "exampleKo": "그 양상은 문화 전반에 일관되게 나타난다."
-        },
-        {
-          "word": "cultural",
-          "pos": "adj.",
-          "meaning": "문화적인",
-          "example": "Cultural habits shape what tastes normal.",
-          "exampleKo": "문화적 습관이 무엇을 평범한 맛으로 느낄지 결정한다."
-        },
-        {
-          "word": "norm",
-          "pos": "n.",
-          "meaning": "규범, 기준",
-          "example": "What counts as a norm differs by region.",
-          "exampleKo": "무엇이 기준인지는 지역마다 다르다."
+          "meaning": "결론짓다",
+          "example": "We conclude that our taste was always there.",
+          "exampleKo": "우리는 입맛이 원래 거기 있었다고 결론짓는다."
         },
         {
           "word": "arbitrary",
           "pos": "adj.",
           "meaning": "임의적인",
-          "example": "The line between delicious and strange is arbitrary.",
-          "exampleKo": "맛있음과 이상함의 경계는 임의적이다."
-        },
-        {
-          "word": "assumption",
-          "pos": "n.",
-          "meaning": "가정",
-          "example": "The assumption that taste is fixed is wrong.",
-          "exampleKo": "입맛이 고정되어 있다는 가정은 틀렸다."
-        },
-        {
-          "word": "revise",
-          "pos": "v.",
-          "meaning": "수정하다",
-          "example": "The brain quietly revises its judgment.",
-          "exampleKo": "뇌는 조용히 판단을 수정한다."
-        },
-        {
-          "word": "gradual",
-          "pos": "adj.",
-          "meaning": "점진적인",
-          "example": "The shift is gradual and hard to notice.",
-          "exampleKo": "그 변화는 점진적이고 알아채기 어렵다."
-        },
-        {
-          "word": "reluctant",
-          "pos": "adj.",
-          "meaning": "내키지 않는",
-          "example": "Reluctant eaters often become enthusiasts.",
-          "exampleKo": "내키지 않아 하던 사람이 열광자가 되기도 한다."
-        },
-        {
-          "word": "enthusiast",
-          "pos": "n.",
-          "meaning": "열광하는 사람",
-          "example": "Today's enthusiast was yesterday's skeptic.",
-          "exampleKo": "오늘의 열광자는 어제의 회의론자였다."
+          "example": "The line is more arbitrary than we admit.",
+          "exampleKo": "그 경계는 우리가 인정하는 것보다 임의적이다."
         }
       ],
       "grammar": {
@@ -799,7 +795,7 @@
           {
             "kind": "choice",
             "id": "w01d2-g2",
-            "prompt": "빈칸에 알맞은 것은?\nAcquiring a taste requires patience, repetition, and ______.",
+            "prompt": "빈칸에 알맞은 것은?\nLearning to like a food takes patience, repetition, and ______.",
             "options": [
               "to be curious",
               "curiously",
@@ -814,13 +810,13 @@
             "id": "w01d2-g3",
             "prompt": "빈칸에 알맞은 것은?\nThe alarm is not removed but simply ______.",
             "options": [
-              "diminishing",
-              "diminish",
-              "diminished",
-              "to diminish"
+              "lowering",
+              "lower",
+              "lowered",
+              "to lower"
             ],
             "answer": 2,
-            "explanation": "not A but B 구조에서 A 자리가 removed(과거분사)이므로 B도 diminished 여야 합니다."
+            "explanation": "not A but B 구조에서 A 자리가 removed(과거분사)이므로 B도 lowered여야 합니다."
           },
           {
             "kind": "write",
@@ -863,19 +859,15 @@
         "passage": {
           "title": "The Tenth Bite",
           "topic": "인지 · 미각과 친숙함",
-          "body": "A child pushes away an unfamiliar dish and announces, with total confidence, that it is disgusting. Adults tend to accept this verdict as information about the food. Researchers who study taste treat it as something else entirely: information about how many times the child has encountered it.\n\nWariness toward novel food is not a personal failing but an inherited caution. Our ancestors could not afford to sample every unknown plant, and bitterness in particular signals possible toxicity. A reflex that rejects the strange was, for most of human history, distinctly adaptive. The reflex remains, though the danger has largely disappeared.\n\nWhat dissolves it is repetition rather than persuasion. With each exposure, the brain records that nothing harmful followed, and the threshold of alarm drops fractionally. Somewhere between the eighth and the fifteenth encounter, most people stop noticing the resistance at all. They do not decide to like the dish; they simply find, one day, that they already do.\n\nThis creates a small trap. Because the shift is gradual, we rarely attribute it to exposure. We conclude instead that our taste was always there, waiting to be discovered. [[The verdict feels like a discovery when it is closer to a construction]], and the line between delicious and strange turns out to be far more arbitrary than anyone eating comfortably would like to admit.",
+          "body": "A child pushes away an unfamiliar dish and says, with complete confidence, that it is disgusting. Adults usually accept this as information about the food. Researchers who study taste treat it as something else: information about how many times the child has met it.\n\nBeing careful with new food is not a personal fault but an inherited habit. Our ancestors could not test every unknown plant safely, and bitter flavors often warn of poison. A reflex that rejects the strange was useful for most of human history. The reflex is still here, even though the danger has mostly gone.\n\nWhat removes it is repetition, not persuasion. With each taste, the brain records that nothing bad followed, and the alarm drops a little. Somewhere between the eighth and the fifteenth try, most people stop noticing the resistance. They do not decide to like the dish. They simply find, one day, that they already do.\n\nThis creates a small trap. Because the change is slow, we rarely credit the exposure. [[We conclude instead that our taste was always there, waiting to be found]], and the line between delicious and strange turns out to be far more arbitrary than we would like to admit.",
           "glossary": [
             {
-              "word": "personal failing",
-              "meaning": "개인의 결함"
+              "word": "push away",
+              "meaning": "밀어내다"
             },
             {
-              "word": "afford to",
-              "meaning": "~할 여유가 있다"
-            },
-            {
-              "word": "fractionally",
-              "meaning": "아주 조금씩"
+              "word": "warn of",
+              "meaning": "~을 경고하다"
             },
             {
               "word": "turn out to be",
@@ -886,7 +878,7 @@
               "meaning": "인정하고 싶어 하다"
             }
           ],
-          "translation": "아이가 낯선 음식을 밀어내며 완전한 확신을 담아 맛없다고 선언한다. 어른들은 대개 이 판정을 그 음식에 대한 정보로 받아들인다. 미각을 연구하는 학자들은 그것을 전혀 다른 것으로 본다. 그 아이가 그 음식을 몇 번이나 마주했는지에 대한 정보라는 것이다.\n\n생소한 음식에 대한 경계는 개인의 결함이 아니라 물려받은 조심성이다. 우리 조상들은 모든 미지의 식물을 시험해 볼 여유가 없었고, 특히 쓴맛은 독성 가능성을 알린다. 낯선 것을 거부하는 반사는 인류 역사 대부분의 기간 동안 분명히 생존에 유리했다. 위험은 대체로 사라졌지만 그 반사는 남아 있다.\n\n그것을 녹이는 것은 설득이 아니라 반복이다. 노출이 한 번 일어날 때마다 뇌는 해로운 일이 뒤따르지 않았음을 기록하고, 경보의 역치는 아주 조금씩 낮아진다. 여덟 번째와 열다섯 번째 마주침 사이 어디쯤에서, 대부분의 사람은 그 거부감을 아예 느끼지 않게 된다. 그들은 그 음식을 좋아하기로 결정하는 것이 아니다. 어느 날 문득 이미 좋아하고 있음을 발견할 뿐이다.\n\n여기에 작은 함정이 있다. 그 변화가 점진적이기 때문에 우리는 좀처럼 그것을 노출 덕분이라고 여기지 않는다. 대신 우리의 입맛은 원래부터 거기 있었고 발견되기를 기다렸을 뿐이라고 결론짓는다. 그 판정은 사실 구성에 가까운데도 발견처럼 느껴지며, 맛있음과 이상함 사이의 경계는 편하게 먹고 있는 사람이라면 누구도 인정하고 싶지 않을 만큼 임의적인 것으로 드러난다."
+          "translation": "아이가 낯선 음식을 밀어내며 완전한 확신을 담아 맛없다고 말한다. 어른들은 대개 이것을 그 음식에 대한 정보로 받아들인다. 미각을 연구하는 학자들은 그것을 다른 것으로 본다. 그 아이가 그 음식을 몇 번이나 만나봤는지에 대한 정보라는 것이다.\n\n새 음식을 조심하는 것은 개인의 잘못이 아니라 물려받은 습관이다. 우리 조상들은 모든 미지의 식물을 안전하게 시험할 수 없었고, 쓴맛은 종종 독을 알린다. 낯선 것을 거부하는 반사는 인류 역사 대부분의 기간 동안 유용했다. 위험은 대체로 사라졌지만 그 반사는 아직 여기 있다.\n\n그것을 없애는 것은 설득이 아니라 반복이다. 한 번 맛볼 때마다 뇌는 나쁜 일이 뒤따르지 않았다고 기록하고, 경보는 조금씩 내려간다. 여덟 번째와 열다섯 번째 시도 사이 어디쯤에서 대부분의 사람은 그 거부감을 알아채지 않게 된다. 그들은 그 음식을 좋아하기로 결정하지 않는다. 어느 날 문득 이미 좋아하고 있음을 발견할 뿐이다.\n\n여기에 작은 함정이 있다. 변화가 느리기 때문에 우리는 좀처럼 그 공을 노출에 돌리지 않는다. 대신 우리의 입맛은 원래부터 거기 있었고 발견되기를 기다렸다고 결론짓는다. 그리고 맛있음과 이상함 사이의 경계는 우리가 인정하고 싶은 것보다 훨씬 임의적인 것으로 드러난다."
         },
         "questions": [
           {
@@ -895,17 +887,17 @@
             "prompt": "글의 요지로 가장 적절한 것은?",
             "options": [
               "쓴맛에 대한 거부감은 평생 사라지지 않는다.",
-              "입맛은 반복된 노출을 통해 만들어지는데 우리는 그것을 타고난 것으로 오해한다.",
-              "아이의 음식 거부는 부모의 설득으로 해결해야 한다.",
-              "문화마다 음식의 기준이 다르므로 비교는 무의미하다."
+              "입맛은 반복된 노출로 만들어지는데 우리는 원래 그랬다고 오해한다.",
+              "아이의 편식은 설득으로 고쳐야 한다.",
+              "문화마다 음식 기준이 달라 비교할 수 없다."
             ],
             "answer": 1,
-            "explanation": "노출이 반복되며 경계가 줄어드는데, 변화가 점진적이라 원래 그런 입맛이었다고 착각한다는 것이 글의 핵심입니다."
+            "explanation": "반복으로 거부감이 줄어드는데, 변화가 느려서 원래 그런 입맛이었다고 착각한다는 것이 핵심입니다."
           },
           {
             "kind": "choice",
             "id": "w01d2-r2",
-            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nWhat dissolves the reflex is ______ rather than persuasion.",
+            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nWhat removes the reflex is ______, not persuasion.",
             "options": [
               "repetition",
               "explanation",
@@ -913,33 +905,33 @@
               "tradition"
             ],
             "answer": 0,
-            "explanation": "3문단 첫 문장 그대로 반복(repetition)이 거부 반사를 녹인다고 말합니다. 설득으로는 되지 않습니다."
+            "explanation": "3문단 첫 문장 그대로입니다. 설득이 아니라 반복이 거부 반사를 없앱니다."
           },
           {
             "kind": "choice",
             "id": "w01d2-r3",
-            "prompt": "밑줄 친 [[The verdict feels like a discovery when it is closer to a construction]] 이 뜻하는 바는?",
+            "prompt": "밑줄 친 [[We conclude instead that our taste was always there, waiting to be found]] 이 뜻하는 바는?",
             "options": [
-              "입맛은 발견되는 것이므로 노력할 필요가 없다.",
-              "원래 있던 취향을 찾은 것처럼 느끼지만 실은 노출로 만들어진 것이다.",
-              "판정은 언제나 틀리므로 믿을 수 없다.",
-              "구성된 입맛은 진짜 입맛이 아니다."
+              "입맛은 노력 없이 저절로 생긴다.",
+              "반복이 만든 결과인데 원래 있던 취향을 찾았다고 착각한다.",
+              "입맛은 사람마다 정해져 있어 바뀌지 않는다.",
+              "새로운 음식은 시도할 가치가 없다."
             ],
             "answer": 1,
-            "explanation": "discovery(발견)처럼 느껴지지만 construction(구성)에 가깝다 — 즉 반복 노출이 만들어낸 것인데 원래 있었다고 착각한다는 뜻입니다."
+            "explanation": "앞 문장에서 '노출에 공을 돌리지 않는다'고 했습니다. 만들어진 것을 발견한 것으로 착각한다는 뜻입니다."
           },
           {
             "kind": "choice",
             "id": "w01d2-r4",
-            "prompt": "글에 따르면 낯선 음식을 거부하는 반사에 대한 설명으로 알맞은 것은?",
+            "prompt": "낯선 음식을 거부하는 반사에 대한 설명으로 알맞은 것은?",
             "options": [
-              "현대에도 여전히 생존에 필수적이다.",
-              "개인의 성격 결함에서 비롯된다.",
-              "과거에는 유용했으나 위험이 사라진 지금도 남아 있다.",
-              "성인이 되면 자연히 사라진다."
+              "현대에도 생존에 꼭 필요하다.",
+              "개인의 성격 문제에서 비롯된다.",
+              "과거에는 유용했고 위험이 사라진 지금도 남아 있다.",
+              "어른이 되면 저절로 사라진다."
             ],
             "answer": 2,
-            "explanation": "2문단 마지막 문장이 근거입니다. 위험은 대체로 사라졌지만 반사는 남아 있다고 했습니다."
+            "explanation": "2문단 마지막 문장이 근거입니다. 위험은 대체로 사라졌지만 반사는 남아 있습니다."
           }
         ]
       },
@@ -1027,9 +1019,9 @@
       },
       "speaking": {
         "shadowing": [
-          "What dissolves it is repetition rather than persuasion.",
-          "They do not decide to like the dish; they simply find, one day, that they already do.",
-          "Wariness toward novel food is not a personal failing but an inherited caution."
+          "What removes it is repetition, not persuasion.",
+          "They do not decide to like the dish.",
+          "Being careful with new food is not a personal fault but an inherited habit."
         ],
         "substitution": {
           "pattern": "I did not like {food} at first, but now it {verb} good to me.",
@@ -1117,214 +1109,214 @@
       "title": "다시 읽을 때 달라지는 것",
       "vocab": [
         {
-          "word": "literature",
-          "pos": "n.",
-          "meaning": "문학",
-          "example": "Literature rewards readers who return to it.",
-          "exampleKo": "문학은 다시 찾아오는 독자에게 보답한다."
-        },
-        {
-          "word": "reread",
+          "word": "return",
           "pos": "v.",
-          "meaning": "다시 읽다",
-          "example": "Readers who reread often report a different book.",
-          "exampleKo": "다시 읽는 독자들은 종종 다른 책이었다고 말한다."
+          "meaning": "돌아가다",
+          "example": "People return to a novel after many years.",
+          "exampleKo": "사람들은 여러 해 뒤 소설로 돌아간다."
         },
         {
-          "word": "identical",
+          "word": "novel",
+          "pos": "n.",
+          "meaning": "소설",
+          "example": "The novel has not changed at all.",
+          "exampleKo": "그 소설은 전혀 변하지 않았다."
+        },
+        {
+          "word": "claim",
+          "pos": "n.",
+          "meaning": "주장",
+          "example": "The claim is obviously false.",
+          "exampleKo": "그 주장은 명백히 거짓이다."
+        },
+        {
+          "word": "obviously",
+          "pos": "adv.",
+          "meaning": "명백히",
+          "example": "It is obviously not true.",
+          "exampleKo": "그것은 명백히 사실이 아니다."
+        },
+        {
+          "word": "false",
           "pos": "adj.",
-          "meaning": "동일한",
-          "example": "The text is identical; the reader is not.",
-          "exampleKo": "본문은 동일하지만 독자는 그렇지 않다."
+          "meaning": "거짓의",
+          "example": "The story is false but believable.",
+          "exampleKo": "그 이야기는 거짓이지만 믿을 만하다."
         },
         {
           "word": "alter",
           "pos": "v.",
           "meaning": "바꾸다",
-          "example": "Nothing on the page has been altered.",
-          "exampleKo": "지면 위의 무엇도 바뀌지 않았다."
+          "example": "Not one word has been altered.",
+          "exampleKo": "단 한 단어도 바뀌지 않았다."
         },
         {
-          "word": "accumulate",
+          "word": "imagine",
           "pos": "v.",
-          "meaning": "축적하다",
-          "example": "Readers accumulate experience between readings.",
-          "exampleKo": "독자는 두 번의 독서 사이에 경험을 축적한다."
+          "meaning": "상상하다",
+          "example": "Reading is often imagined as taking something out.",
+          "exampleKo": "독서는 흔히 무언가를 꺼내는 일로 상상된다."
         },
         {
-          "word": "interval",
+          "word": "store",
+          "pos": "v.",
+          "meaning": "저장하다",
+          "example": "Meaning is not simply stored in the text.",
+          "exampleKo": "의미는 단순히 본문에 저장되어 있지 않다."
+        },
+        {
+          "word": "teamwork",
           "pos": "n.",
-          "meaning": "간격",
-          "example": "The interval between readings does the work.",
-          "exampleKo": "독서 사이의 간격이 일을 한다."
+          "meaning": "협업",
+          "example": "A better picture is closer to teamwork.",
+          "exampleKo": "더 나은 그림은 협업에 가깝다."
         },
         {
-          "word": "perceive",
-          "pos": "v.",
-          "meaning": "인식하다",
-          "example": "We perceive only what we are prepared to notice.",
-          "exampleKo": "우리는 알아챌 준비가 된 것만 인식한다."
-        },
-        {
-          "word": "prepared",
-          "pos": "adj.",
-          "meaning": "준비된",
-          "example": "An unprepared reader walks past the best line.",
-          "exampleKo": "준비되지 않은 독자는 최고의 문장을 지나친다."
-        },
-        {
-          "word": "overlook",
-          "pos": "v.",
-          "meaning": "간과하다",
-          "example": "First readings overlook almost everything.",
-          "exampleKo": "첫 독서는 거의 모든 것을 간과한다."
-        },
-        {
-          "word": "significance",
+          "word": "author",
           "pos": "n.",
-          "meaning": "의미, 중요성",
-          "example": "The significance of a scene emerges later.",
-          "exampleKo": "한 장면의 의미는 나중에야 떠오른다."
-        },
-        {
-          "word": "emerge",
-          "pos": "v.",
-          "meaning": "드러나다",
-          "example": "Patterns emerge only on the second pass.",
-          "exampleKo": "양상은 두 번째 읽기에서야 드러난다."
-        },
-        {
-          "word": "detect",
-          "pos": "v.",
-          "meaning": "감지하다",
-          "example": "Experienced readers detect irony early.",
-          "exampleKo": "숙련된 독자는 반어를 일찍 감지한다."
-        },
-        {
-          "word": "irony",
-          "pos": "n.",
-          "meaning": "반어, 아이러니",
-          "example": "The irony is invisible without context.",
-          "exampleKo": "그 반어는 맥락 없이는 보이지 않는다."
-        },
-        {
-          "word": "context",
-          "pos": "n.",
-          "meaning": "맥락",
-          "example": "Context is supplied by the reader, not the page.",
-          "exampleKo": "맥락은 지면이 아니라 독자가 공급한다."
-        },
-        {
-          "word": "supply",
-          "pos": "v.",
-          "meaning": "공급하다",
-          "example": "Readers supply what the author left out.",
-          "exampleKo": "독자는 작가가 남겨둔 것을 채워 넣는다."
-        },
-        {
-          "word": "omit",
-          "pos": "v.",
-          "meaning": "생략하다",
-          "example": "Good writers omit more than they explain.",
-          "exampleKo": "좋은 작가는 설명하는 것보다 더 많이 생략한다."
+          "meaning": "작가",
+          "example": "Authors leave out more than they explain.",
+          "exampleKo": "작가는 설명하는 것보다 많이 남겨둔다."
         },
         {
           "word": "deliberate",
           "pos": "adj.",
           "meaning": "의도적인",
-          "example": "The gaps are deliberate, not careless.",
-          "exampleKo": "그 빈틈들은 부주의가 아니라 의도적이다."
+          "example": "Those gaps are deliberate.",
+          "exampleKo": "그 빈틈들은 의도적이다."
         },
         {
-          "word": "recall",
+          "word": "collect",
           "pos": "v.",
-          "meaning": "기억해 내다",
-          "example": "We recall the plot but rarely the sentences.",
-          "exampleKo": "우리는 줄거리는 기억해도 문장은 좀처럼 기억하지 못한다."
+          "meaning": "모으다",
+          "example": "Readers fill the gaps with what they collected.",
+          "exampleKo": "독자는 모아온 것으로 빈틈을 채운다."
         },
         {
-          "word": "distort",
-          "pos": "v.",
-          "meaning": "왜곡하다",
-          "example": "Memory distorts a book into a summary.",
-          "exampleKo": "기억은 책을 요약으로 왜곡한다."
-        },
-        {
-          "word": "summary",
-          "pos": "n.",
-          "meaning": "요약",
-          "example": "A summary is not the experience.",
-          "exampleKo": "요약은 경험이 아니다."
-        },
-        {
-          "word": "encounter",
-          "pos": "v.",
-          "meaning": "마주하다",
-          "example": "You encounter a different book each decade.",
-          "exampleKo": "십 년마다 다른 책을 마주하게 된다."
-        },
-        {
-          "word": "decade",
-          "pos": "n.",
-          "meaning": "십 년",
-          "example": "A decade changes what a sentence means to you.",
-          "exampleKo": "십 년은 한 문장의 의미를 바꾼다."
-        },
-        {
-          "word": "grief",
-          "pos": "n.",
-          "meaning": "상실의 슬픔",
-          "example": "Readers who have known grief read the scene differently.",
-          "exampleKo": "상실을 겪어본 독자는 그 장면을 다르게 읽는다."
-        },
-        {
-          "word": "resonate",
-          "pos": "v.",
-          "meaning": "울림을 주다",
-          "example": "The line resonates only after experience.",
-          "exampleKo": "그 문장은 경험을 겪은 뒤에야 울림을 준다."
-        },
-        {
-          "word": "capacity",
-          "pos": "n.",
-          "meaning": "수용력",
-          "example": "Reading builds the capacity to be moved.",
-          "exampleKo": "독서는 감동할 수 있는 수용력을 기른다."
-        },
-        {
-          "word": "cumulative",
+          "word": "ordinary",
           "pos": "adj.",
-          "meaning": "누적적인",
-          "example": "The effect of reading is cumulative.",
-          "exampleKo": "독서의 효과는 누적적이다."
+          "meaning": "평범한",
+          "example": "Ordinary disappointments become useful later.",
+          "exampleKo": "평범한 실망도 나중에 쓸모가 있다."
         },
         {
-          "word": "worthwhile",
+          "word": "disappointment",
+          "pos": "n.",
+          "meaning": "실망",
+          "example": "Small disappointments teach us to read.",
+          "exampleKo": "작은 실망들이 우리에게 읽는 법을 가르친다."
+        },
+        {
+          "word": "particular",
           "pos": "adj.",
-          "meaning": "가치 있는",
-          "example": "Slow books are worthwhile for this reason.",
-          "exampleKo": "느린 책이 가치 있는 이유가 여기 있다."
+          "meaning": "특유의",
+          "example": "The particular feel of ten years matters.",
+          "exampleKo": "십 년의 특유한 느낌이 중요하다."
+        },
+        {
+          "word": "otherwise",
+          "pos": "adv.",
+          "meaning": "그러지 않으면",
+          "example": "It explains what otherwise makes no sense.",
+          "exampleKo": "그러지 않으면 말이 안 되는 것을 설명해 준다."
+        },
+        {
+          "word": "sentence",
+          "pos": "n.",
+          "meaning": "문장",
+          "example": "A sentence can stop you completely.",
+          "exampleKo": "한 문장이 당신을 완전히 멈춰 세울 수 있다."
+        },
+        {
+          "word": "improve",
+          "pos": "v.",
+          "meaning": "나아지다",
+          "example": "The sentence did not improve.",
+          "exampleKo": "그 문장이 나아진 것은 아니다."
+        },
+        {
+          "word": "background",
+          "pos": "n.",
+          "meaning": "배경지식",
+          "example": "You finally have the background needed.",
+          "exampleKo": "당신은 마침내 필요한 배경을 갖추었다."
+        },
+        {
+          "word": "lesson",
+          "pos": "n.",
+          "meaning": "교훈",
+          "example": "There is a small lesson here.",
+          "exampleKo": "여기에 작은 교훈이 있다."
+        },
+        {
+          "word": "judge",
+          "pos": "v.",
+          "meaning": "판단하다",
+          "example": "We judge our own reading too fast.",
+          "exampleKo": "우리는 자기 독서를 너무 빨리 판단한다."
         },
         {
           "word": "measure",
           "pos": "v.",
-          "meaning": "재다, 판단하다",
-          "example": "We measure books by the wrong scale.",
-          "exampleKo": "우리는 잘못된 잣대로 책을 잰다."
+          "meaning": "재다",
+          "example": "We measure books by the wrong thing.",
+          "exampleKo": "우리는 잘못된 것으로 책을 잰다."
         },
         {
-          "word": "scale",
-          "pos": "n.",
-          "meaning": "잣대, 척도",
-          "example": "Speed is a poor scale for reading.",
-          "exampleKo": "속도는 독서를 재는 형편없는 잣대다."
-        },
-        {
-          "word": "return",
+          "word": "tend",
           "pos": "v.",
-          "meaning": "되돌아가다",
-          "example": "The best books ask you to return.",
-          "exampleKo": "가장 좋은 책은 되돌아오기를 청한다."
+          "meaning": "~하는 경향이 있다",
+          "example": "We tend to give up too early.",
+          "exampleKo": "우리는 너무 일찍 포기하는 경향이 있다."
+        },
+        {
+          "word": "thin",
+          "pos": "adj.",
+          "meaning": "얄팍한",
+          "example": "A thin book may simply have been waiting.",
+          "exampleKo": "얄팍한 책은 그저 기다렸을 수도 있다."
+        },
+        {
+          "word": "seem",
+          "pos": "v.",
+          "meaning": "~처럼 보이다",
+          "example": "It seemed boring at fifteen.",
+          "exampleKo": "그것은 열다섯에는 지루해 보였다."
+        },
+        {
+          "word": "fill",
+          "pos": "v.",
+          "meaning": "채우다",
+          "example": "Readers fill what the author left out.",
+          "exampleKo": "독자는 작가가 남겨둔 것을 채운다."
+        },
+        {
+          "word": "experience",
+          "pos": "n.",
+          "meaning": "경험",
+          "example": "This explains a strange experience.",
+          "exampleKo": "이것은 이상한 경험 하나를 설명한다."
+        },
+        {
+          "word": "finally",
+          "pos": "adv.",
+          "meaning": "마침내",
+          "example": "You finally see what it was doing.",
+          "exampleKo": "당신은 마침내 그것이 하던 일을 본다."
+        },
+        {
+          "word": "completely",
+          "pos": "adv.",
+          "meaning": "완전히",
+          "example": "It can stop you completely.",
+          "exampleKo": "그것은 당신을 완전히 멈춰 세울 수 있다."
+        },
+        {
+          "word": "believe",
+          "pos": "v.",
+          "meaning": "믿다",
+          "example": "Almost everyone believes the claim.",
+          "exampleKo": "거의 모두가 그 주장을 믿는다."
         }
       ],
       "grammar": {
@@ -1426,30 +1418,26 @@
         "passage": {
           "title": "The Book That Changed Without Being Rewritten",
           "topic": "문학 · 읽기와 경험",
-          "body": "People who return to a novel after many years frequently report that it has changed. The claim is obviously false and yet almost universally believed. Not one word has been altered. What has changed is the equipment the reader brings.\n\nReading is often imagined as extraction, as though meaning were stored in the text and the reader's job were to remove it intact. A more accurate picture is closer to collaboration. Authors omit far more than they explain, and those omissions are deliberate. The gaps are filled by whatever the reader has accumulated: other books, ordinary disappointments, the particular texture of a decade lived.\n\nThis explains an experience that otherwise makes no sense. A sentence passed over at seventeen can stop a reader completely at thirty, not because the sentence improved, but because the reader finally possesses the context required to detect what it was doing. Someone who has known grief reads a scene about loss with equipment that no amount of attention could have supplied earlier.\n\nThere is a modest lesson buried here about how we judge our own reading. [[We tend to measure books by what we extracted on the first pass]], and dismiss the ones that gave us little. But a book that seemed thin at fifteen may simply have been waiting. The reader was not yet an instrument capable of receiving it, and instruments are built slowly.",
+          "body": "People who return to a novel after many years often say that it has changed. The claim is obviously false, and yet almost everyone believes it. Not one word has been altered. What has changed is what the reader brings.\n\nReading is often imagined as taking something out, as if meaning were stored in the text and the reader's job were to remove it. A better picture is closer to teamwork. Authors leave out far more than they explain, and those gaps are deliberate. They are filled by whatever the reader has collected: other books, ordinary disappointments, the particular feel of ten years lived.\n\nThis explains an experience that otherwise makes no sense. A sentence you passed over at seventeen can stop you completely at thirty, not because the sentence improved, but because you finally have the background needed to see what it was doing.\n\nThere is a small lesson here about how we judge our own reading. [[We tend to measure books by what we got on the first try]], and give up on the ones that gave us little. But a book that seemed thin at fifteen may simply have been waiting.",
           "glossary": [
             {
-              "word": "extraction",
-              "meaning": "추출, 뽑아내기"
-            },
-            {
-              "word": "intact",
-              "meaning": "온전한 상태로"
+              "word": "leave out",
+              "meaning": "빼놓다, 생략하다"
             },
             {
               "word": "pass over",
               "meaning": "그냥 지나치다"
             },
             {
-              "word": "dismiss",
-              "meaning": "무시하다, 제쳐두다"
+              "word": "give up on",
+              "meaning": "~을 포기하다"
             },
             {
-              "word": "instrument",
-              "meaning": "악기, 도구"
+              "word": "thin",
+              "meaning": "(내용이) 얄팍한"
             }
           ],
-          "translation": "여러 해가 지나 소설로 되돌아온 사람들은 자주 그 책이 변했다고 말한다. 그 주장은 명백히 거짓인데도 거의 모두가 믿는다. 단 한 단어도 바뀌지 않았다. 변한 것은 독자가 가지고 온 장비다.\n\n독서는 흔히 추출로 상상된다. 의미가 본문 안에 저장되어 있고 독자의 일은 그것을 온전히 꺼내는 것이라는 듯이. 더 정확한 그림은 협업에 가깝다. 작가는 설명하는 것보다 훨씬 많은 것을 생략하며, 그 생략은 의도적이다. 그 빈틈은 독자가 축적해 온 것으로 채워진다. 다른 책들, 평범한 실망들, 살아낸 십 년의 특유한 결 같은 것들로.\n\n이것은 그러지 않고서는 말이 되지 않는 경험 하나를 설명해 준다. 열일곱에 그냥 지나쳤던 문장이 서른에는 독자를 완전히 멈춰 세울 수 있다. 그 문장이 좋아져서가 아니라, 독자가 마침내 그 문장이 하고 있던 일을 감지하는 데 필요한 맥락을 갖추었기 때문이다. 상실을 겪어본 사람은 상실에 대한 장면을, 이전에는 아무리 주의를 기울여도 갖출 수 없었던 장비로 읽는다.\n\n여기에는 우리가 자신의 독서를 판단하는 방식에 대한 소박한 교훈이 묻혀 있다. 우리는 첫 번째 읽기에서 뽑아낸 것으로 책을 재는 경향이 있고, 별로 준 것이 없는 책을 제쳐둔다. 그러나 열다섯에 얄팍해 보였던 책은 그저 기다리고 있었을 수도 있다. 그 독자가 아직 그것을 받아들일 수 있는 악기가 아니었을 뿐이고, 악기는 천천히 만들어진다."
+          "translation": "여러 해가 지나 소설로 돌아온 사람들은 종종 그 책이 변했다고 말한다. 그 주장은 명백히 거짓인데도 거의 모두가 믿는다. 단 한 단어도 바뀌지 않았다. 변한 것은 독자가 가지고 오는 것이다.\n\n독서는 흔히 무언가를 꺼내는 일로 상상된다. 마치 의미가 본문 안에 저장되어 있고 독자의 일은 그것을 꺼내는 것이라는 듯이. 더 나은 그림은 협업에 가깝다. 작가는 설명하는 것보다 훨씬 많은 것을 남겨두고, 그 빈틈은 의도적이다. 그것은 독자가 모아온 것으로 채워진다. 다른 책들, 평범한 실망들, 살아낸 십 년의 특유한 느낌 같은 것들로.\n\n이것은 그러지 않고서는 말이 되지 않는 경험 하나를 설명해 준다. 열일곱에 그냥 지나쳤던 문장이 서른에는 당신을 완전히 멈춰 세울 수 있다. 그 문장이 좋아져서가 아니라, 그 문장이 하고 있던 일을 볼 수 있는 배경을 당신이 마침내 갖추었기 때문이다.\n\n여기에는 우리가 자기 독서를 판단하는 방식에 대한 작은 교훈이 있다. 우리는 첫 번째 시도에서 얻은 것으로 책을 재는 경향이 있고, 별로 주지 않은 책은 포기한다. 그러나 열다섯에 얄팍해 보였던 책은 그저 기다리고 있었을 수도 있다."
         },
         "questions": [
           {
@@ -1457,52 +1445,52 @@
             "id": "w01d3-r1",
             "prompt": "글의 요지로 가장 적절한 것은?",
             "options": [
-              "좋은 책은 시간이 지나도 같은 감동을 준다.",
-              "책이 달라지는 것이 아니라 독자가 갖춘 맥락이 달라진다.",
-              "작가는 의미를 명확히 설명해야 한다.",
+              "좋은 책은 언제 읽어도 같은 감동을 준다.",
+              "책이 변하는 것이 아니라 독자가 갖춘 배경이 변한다.",
+              "작가는 의미를 분명히 설명해야 한다.",
               "어릴 때 읽은 책은 다시 읽을 필요가 없다."
             ],
             "answer": 1,
-            "explanation": "본문은 텍스트는 그대로이고 독자가 가져오는 '장비(equipment)'가 달라진다고 반복해서 말합니다."
+            "explanation": "본문은 본문은 그대로이고 독자가 가져오는 것이 달라진다고 반복해서 말합니다."
           },
           {
             "kind": "choice",
             "id": "w01d3-r2",
-            "prompt": "글쓴이가 독서를 extraction 이 아니라 collaboration 에 가깝다고 본 이유는?",
+            "prompt": "글쓴이가 독서를 teamwork 에 가깝다고 본 이유는?",
             "options": [
-              "독자가 작가에게 편지를 쓰기 때문에",
-              "작가가 생략한 빈틈을 독자의 경험이 채우기 때문에",
-              "여러 사람이 함께 읽어야 이해되기 때문에",
-              "번역자가 개입하기 때문에"
+              "여러 사람이 함께 읽어야 하므로",
+              "작가가 남겨둔 빈틈을 독자의 경험이 채우므로",
+              "번역자가 도와주므로",
+              "독서 모임이 필요하므로"
             ],
             "answer": 1,
-            "explanation": "2문단에서 작가는 많은 것을 의도적으로 생략하고, 그 빈틈은 독자가 축적한 것으로 채워진다고 했습니다."
+            "explanation": "2문단에서 작가는 많은 것을 의도적으로 남겨두고, 그 빈틈은 독자가 모아온 것으로 채워진다고 했습니다."
           },
           {
             "kind": "choice",
             "id": "w01d3-r3",
-            "prompt": "밑줄 친 [[We tend to measure books by what we extracted on the first pass]] 에 대한 글쓴이의 태도는?",
+            "prompt": "밑줄 친 [[We tend to measure books by what we got on the first try]] 에 대한 글쓴이의 태도는?",
             "options": [
-              "타당한 기준이므로 유지해야 한다.",
-              "성급한 기준이며 책을 놓치게 만든다.",
+              "타당하므로 유지해야 한다.",
+              "성급해서 좋은 책을 놓치게 만든다.",
               "작가의 책임을 묻는 기준이다.",
-              "학교 교육에서만 통하는 기준이다."
+              "학교에서만 통하는 기준이다."
             ],
             "answer": 1,
-            "explanation": "바로 뒤에서 얄팍해 보였던 책이 사실은 기다리고 있었을 수 있다고 반박합니다. 첫 읽기로 판단하는 것은 성급하다는 뜻입니다."
+            "explanation": "바로 뒤에서 얄팍해 보였던 책이 기다리고 있었을 수 있다고 반박합니다."
           },
           {
             "kind": "choice",
             "id": "w01d3-r4",
-            "prompt": "마지막 문장의 instruments are built slowly 가 함축하는 것은?",
+            "prompt": "글의 내용과 일치하는 것은?",
             "options": [
-              "악기 연주는 오래 배워야 한다.",
-              "독자의 수용 능력은 시간과 경험으로 천천히 형성된다.",
-              "좋은 책은 천천히 써야 한다.",
-              "출판에는 오랜 시간이 걸린다."
+              "다시 읽으면 책의 문장이 실제로 바뀐다.",
+              "작가는 설명을 최대한 많이 해야 한다.",
+              "열일곱에 지나친 문장이 서른에 다르게 읽힐 수 있다.",
+              "독서 경험은 나이와 관계가 없다."
             ],
-            "answer": 1,
-            "explanation": "앞 문장에서 독자를 '받아들일 수 있는 악기'에 비유했으므로, 그 능력이 천천히 만들어진다는 뜻입니다."
+            "answer": 2,
+            "explanation": "3문단이 정확히 그 예를 듭니다. 문장이 좋아진 것이 아니라 독자의 배경이 갖춰진 것입니다."
           }
         ]
       },
@@ -1590,8 +1578,8 @@
       },
       "speaking": {
         "shadowing": [
-          "What has changed is the equipment the reader brings.",
-          "Authors omit far more than they explain, and those omissions are deliberate.",
+          "What has changed is what the reader brings.",
+          "Authors leave out far more than they explain, and those gaps are deliberate.",
           "But a book that seemed thin at fifteen may simply have been waiting."
         ],
         "substitution": {
@@ -1665,214 +1653,214 @@
       "title": "영화가 우리를 속이는 방식",
       "vocab": [
         {
-          "word": "sequence",
+          "word": "experiment",
           "pos": "n.",
-          "meaning": "연속 장면, 순서",
-          "example": "The sequence lasts only eleven seconds.",
-          "exampleKo": "그 장면은 11초밖에 되지 않는다."
+          "meaning": "실험",
+          "example": "It is one of the oldest experiments in film.",
+          "exampleKo": "그것은 영화에서 가장 오래된 실험 중 하나다."
         },
         {
-          "word": "footage",
+          "word": "audience",
           "pos": "n.",
-          "meaning": "촬영 영상",
-          "example": "The same footage was cut two different ways.",
-          "exampleKo": "같은 영상이 두 가지로 편집되었다."
+          "meaning": "관객",
+          "example": "The audience watched two shots.",
+          "exampleKo": "관객은 두 장면을 보았다."
         },
         {
-          "word": "identical",
+          "word": "blank",
           "pos": "adj.",
-          "meaning": "똑같은",
-          "example": "The actor's face is identical in both versions.",
-          "exampleKo": "배우의 얼굴은 두 버전에서 똑같다."
-        },
-        {
-          "word": "neutral",
-          "pos": "adj.",
-          "meaning": "무표정한, 중립적인",
-          "example": "His expression is completely neutral.",
-          "exampleKo": "그의 표정은 완전히 무표정하다."
+          "meaning": "무표정한, 빈",
+          "example": "The actor had a completely blank face.",
+          "exampleKo": "그 배우는 완전히 무표정했다."
         },
         {
           "word": "expression",
           "pos": "n.",
           "meaning": "표정",
-          "example": "Viewers read emotion into a blank expression.",
-          "exampleKo": "관객은 무표정한 얼굴에 감정을 읽어 넣는다."
+          "example": "They praised his sad expression.",
+          "exampleKo": "그들은 그의 슬픈 표정을 칭찬했다."
         },
         {
-          "word": "juxtapose",
+          "word": "praise",
           "pos": "v.",
-          "meaning": "나란히 놓다",
-          "example": "Editors juxtapose two unrelated shots.",
-          "exampleKo": "편집자는 관련 없는 두 장면을 나란히 놓는다."
+          "meaning": "칭찬하다",
+          "example": "Viewers praised a face that did nothing.",
+          "exampleKo": "관객은 아무것도 하지 않은 얼굴을 칭찬했다."
         },
         {
-          "word": "adjacent",
-          "pos": "adj.",
-          "meaning": "인접한",
-          "example": "Meaning arises from adjacent images.",
-          "exampleKo": "의미는 인접한 이미지들에서 생겨난다."
-        },
-        {
-          "word": "infer",
-          "pos": "v.",
-          "meaning": "추론하다",
-          "example": "The audience infers a connection automatically.",
-          "exampleKo": "관객은 자동으로 연결을 추론한다."
-        },
-        {
-          "word": "automatically",
-          "pos": "adv.",
-          "meaning": "자동으로",
-          "example": "The mind fills the gap automatically.",
-          "exampleKo": "마음은 그 틈을 자동으로 메운다."
-        },
-        {
-          "word": "involuntary",
-          "pos": "adj.",
-          "meaning": "무의식적인, 비자발적인",
-          "example": "The interpretation is involuntary.",
-          "exampleKo": "그 해석은 무의식적으로 일어난다."
-        },
-        {
-          "word": "narrative",
+          "word": "version",
           "pos": "n.",
-          "meaning": "이야기, 서사",
-          "example": "We assemble a narrative without being asked.",
-          "exampleKo": "우리는 요청받지 않아도 서사를 조립한다."
+          "meaning": "판, 버전",
+          "example": "His face did not move between versions.",
+          "exampleKo": "두 버전 사이에 그의 얼굴은 움직이지 않았다."
         },
         {
-          "word": "assemble",
-          "pos": "v.",
-          "meaning": "조립하다",
-          "example": "Viewers assemble meaning from fragments.",
-          "exampleKo": "관객은 조각들로부터 의미를 조립한다."
-        },
-        {
-          "word": "fragment",
+          "word": "image",
           "pos": "n.",
-          "meaning": "조각",
-          "example": "A film is a sequence of fragments.",
-          "exampleKo": "영화는 조각들의 연속이다."
+          "meaning": "이미지",
+          "example": "Meaning does not live inside a single image.",
+          "exampleKo": "의미는 한 이미지 안에 살지 않는다."
         },
         {
-          "word": "coherent",
-          "pos": "adj.",
-          "meaning": "일관된",
-          "example": "The result feels coherent and inevitable.",
-          "exampleKo": "그 결과는 일관되고 필연적으로 느껴진다."
-        },
-        {
-          "word": "inevitable",
-          "pos": "adj.",
-          "meaning": "필연적인",
-          "example": "The reading feels inevitable, though it is not.",
-          "exampleKo": "그 해석은 필연적으로 느껴지지만 사실은 아니다."
-        },
-        {
-          "word": "manipulate",
+          "word": "appear",
           "pos": "v.",
-          "meaning": "조작하다",
-          "example": "Editing manipulates response without deceiving anyone.",
-          "exampleKo": "편집은 누구를 속이지 않고도 반응을 조작한다."
+          "meaning": "나타나다",
+          "example": "It appears between images.",
+          "exampleKo": "그것은 이미지들 사이에서 나타난다."
         },
         {
-          "word": "deceive",
+          "word": "cross",
           "pos": "v.",
-          "meaning": "속이다",
-          "example": "Nothing in the frame deceives the viewer.",
-          "exampleKo": "화면 안의 무엇도 관객을 속이지 않는다."
+          "meaning": "건너다",
+          "example": "The audience has to cross that space.",
+          "exampleKo": "관객은 그 공간을 건너야 한다."
         },
         {
-          "word": "attribute",
+          "word": "instruction",
+          "pos": "n.",
+          "meaning": "지시",
+          "example": "The mind does not wait for instructions.",
+          "exampleKo": "마음은 지시를 기다리지 않는다."
+        },
+        {
+          "word": "connection",
+          "pos": "n.",
+          "meaning": "연결",
+          "example": "It builds a connection by itself.",
+          "exampleKo": "그것은 스스로 연결을 만든다."
+        },
+        {
+          "word": "cause",
+          "pos": "n.",
+          "meaning": "원인",
+          "example": "The mind picks a cause quickly.",
+          "exampleKo": "마음은 원인을 빠르게 고른다."
+        },
+        {
+          "word": "deliver",
           "pos": "v.",
-          "meaning": "~의 것으로 보다",
-          "example": "We attribute feelings to the actor.",
-          "exampleKo": "우리는 감정을 배우의 것으로 본다."
+          "meaning": "내놓다, 전달하다",
+          "example": "It delivers the result as if it were seen.",
+          "exampleKo": "그것은 결과를 본 것처럼 내놓는다."
+        },
+        {
+          "word": "guess",
+          "pos": "v.",
+          "meaning": "짐작하다",
+          "example": "Viewers do not report guessing an emotion.",
+          "exampleKo": "관객은 감정을 짐작했다고 말하지 않는다."
+        },
+        {
+          "word": "emotion",
+          "pos": "n.",
+          "meaning": "감정",
+          "example": "They report seeing an emotion.",
+          "exampleKo": "그들은 감정을 보았다고 말한다."
         },
         {
           "word": "credit",
-          "pos": "v.",
-          "meaning": "공을 돌리다",
-          "example": "Audiences credit the actor for their own inference.",
-          "exampleKo": "관객은 자기 추론의 공을 배우에게 돌린다."
-        },
-        {
-          "word": "conscious",
-          "pos": "adj.",
-          "meaning": "의식적인",
-          "example": "None of this is conscious.",
-          "exampleKo": "이 중 어느 것도 의식적이지 않다."
-        },
-        {
-          "word": "perception",
           "pos": "n.",
-          "meaning": "지각",
-          "example": "Perception arrives already interpreted.",
-          "exampleKo": "지각은 이미 해석된 채로 도착한다."
+          "meaning": "공로",
+          "example": "They give the actor credit.",
+          "exampleKo": "그들은 배우에게 공을 돌린다."
         },
         {
-          "word": "interpret",
-          "pos": "v.",
-          "meaning": "해석하다",
-          "example": "We interpret before we notice we are doing it.",
-          "exampleKo": "우리는 해석하고 있음을 알아채기 전에 이미 해석한다."
-        },
-        {
-          "word": "raw",
-          "pos": "adj.",
-          "meaning": "가공되지 않은",
-          "example": "We never receive raw images.",
-          "exampleKo": "우리는 결코 가공되지 않은 이미지를 받지 않는다."
-        },
-        {
-          "word": "demonstrate",
-          "pos": "v.",
-          "meaning": "입증하다",
-          "example": "The experiment demonstrates the effect clearly.",
-          "exampleKo": "그 실험은 효과를 분명히 입증한다."
-        },
-        {
-          "word": "unaware",
-          "pos": "adj.",
-          "meaning": "알아차리지 못하는",
-          "example": "Viewers remain unaware of their own work.",
-          "exampleKo": "관객은 자신이 한 일을 알아차리지 못한 채로 있다."
-        },
-        {
-          "word": "principle",
+          "word": "performance",
           "pos": "n.",
-          "meaning": "원리",
-          "example": "The principle extends far beyond cinema.",
-          "exampleKo": "그 원리는 영화를 훨씬 넘어 확장된다."
+          "meaning": "연기",
+          "example": "The performance was nothing at all.",
+          "exampleKo": "그 연기는 아무것도 아니었다."
         },
         {
-          "word": "extend",
-          "pos": "v.",
-          "meaning": "확장되다",
-          "example": "The same logic extends to everyday judgment.",
-          "exampleKo": "같은 논리가 일상적 판단으로 확장된다."
-        },
-        {
-          "word": "gesture",
+          "word": "frame",
           "pos": "n.",
-          "meaning": "몸짓",
-          "example": "A neutral gesture becomes hostile in context.",
-          "exampleKo": "무표정한 몸짓도 맥락에 따라 적대적으로 변한다."
+          "meaning": "(영상의) 한 장면",
+          "example": "In those frames he did nothing.",
+          "exampleKo": "그 장면들에서 그는 아무것도 하지 않았다."
         },
         {
-          "word": "hostile",
-          "pos": "adj.",
-          "meaning": "적대적인",
-          "example": "The same silence can seem hostile or kind.",
-          "exampleKo": "같은 침묵이 적대적으로도 다정하게도 보일 수 있다."
+          "word": "reach",
+          "pos": "v.",
+          "meaning": "미치다, 이르다",
+          "example": "The idea reaches well past film.",
+          "exampleKo": "그 생각은 영화를 훨씬 넘어선다."
+        },
+        {
+          "word": "silence",
+          "pos": "n.",
+          "meaning": "침묵",
+          "example": "A silence is not a fact but an arrangement.",
+          "exampleKo": "침묵은 사실이 아니라 배치다."
+        },
+        {
+          "word": "conversation",
+          "pos": "n.",
+          "meaning": "대화",
+          "example": "A silence in conversation can mean anything.",
+          "exampleKo": "대화 속 침묵은 무엇이든 뜻할 수 있다."
         },
         {
           "word": "arrangement",
           "pos": "n.",
           "meaning": "배치",
-          "example": "Meaning lives in the arrangement, not the parts.",
-          "exampleKo": "의미는 부분이 아니라 배치에 산다."
+          "example": "Meaning lives in the arrangement.",
+          "exampleKo": "의미는 배치에 산다."
+        },
+        {
+          "word": "thoughtful",
+          "pos": "adj.",
+          "meaning": "사려 깊은",
+          "example": "The same pause can sound thoughtful.",
+          "exampleKo": "같은 멈춤이 사려 깊게 들릴 수 있다."
+        },
+        {
+          "word": "bored",
+          "pos": "adj.",
+          "meaning": "지루해하는",
+          "example": "It can also sound bored.",
+          "exampleKo": "그것은 지루하게 들릴 수도 있다."
+        },
+        {
+          "word": "single",
+          "pos": "adj.",
+          "meaning": "단 하나의",
+          "example": "No single image carries the meaning.",
+          "exampleKo": "어떤 하나의 이미지도 의미를 담고 있지 않다."
+        },
+        {
+          "word": "space",
+          "pos": "n.",
+          "meaning": "공간, 틈",
+          "example": "The space between shots does the work.",
+          "exampleKo": "장면 사이의 틈이 일을 한다."
+        },
+        {
+          "word": "shot",
+          "pos": "n.",
+          "meaning": "(촬영된) 장면",
+          "example": "The two shots were placed side by side.",
+          "exampleKo": "두 장면이 나란히 놓였다."
+        },
+        {
+          "word": "follow",
+          "pos": "v.",
+          "meaning": "뒤따르다",
+          "example": "A bowl of soup followed the blank face.",
+          "exampleKo": "무표정한 얼굴 뒤에 수프 한 그릇이 뒤따랐다."
+        },
+        {
+          "word": "report",
+          "pos": "v.",
+          "meaning": "말하다, 보고하다",
+          "example": "Viewers report seeing, not guessing.",
+          "exampleKo": "관객은 짐작이 아니라 봤다고 말한다."
+        },
+        {
+          "word": "decide",
+          "pos": "v.",
+          "meaning": "결정하다",
+          "example": "The next sentence decides the meaning.",
+          "exampleKo": "다음 문장이 의미를 결정한다."
         }
       ],
       "grammar": {
@@ -1974,30 +1962,26 @@
         "passage": {
           "title": "The Face That Did Nothing",
           "topic": "미디어 · 지각과 편집",
-          "body": "In one of the oldest experiments in film, an audience was shown a shot of an actor with a completely neutral expression, followed by a shot of a bowl of soup. Viewers described the actor as hungry. The same neutral shot was then followed by an image of a child in a coffin, and the same viewers praised the actor's expression of grief. His face had not moved between versions. It was the identical piece of footage.\n\nWhat the experiment demonstrates is that meaning does not live inside a single image. It arises between images, in the space the audience is required to cross. Presented with two adjacent shots, the mind does not wait for instructions; it constructs a connection, assigns a cause, and delivers the result as though it had been observed rather than manufactured.\n\nThe striking part is that nobody experiences this as work. Viewers do not report inferring an emotion. They report seeing one. They then credit the actor for a performance that consisted, in the relevant frames, of doing nothing whatsoever.\n\nThe principle extends well past cinema. [[A silence in conversation is not a fact but an arrangement]], and the sentence placed beside it decides whether it reads as hostile, thoughtful, or bored. We rarely notice the assembling because perception arrives already finished, and a conclusion that we built ourselves is the hardest kind to doubt.",
+          "body": "In one of the oldest experiments in film, an audience watched a shot of an actor with a completely blank face, followed by a shot of a bowl of soup. Viewers said the actor looked hungry. The same blank shot was then followed by a picture of a child in a coffin, and the same viewers praised his sad expression. His face had not moved between versions. It was the same piece of film.\n\nWhat the experiment shows is that meaning does not live inside a single image. It appears between images, in the space the audience has to cross. Given two shots side by side, the mind does not wait for instructions. It builds a connection, picks a cause, and delivers the result as if it had been seen rather than made.\n\nThe strange part is that nobody feels this as work. Viewers do not report guessing an emotion. They report seeing one. They then give the actor credit for a performance that was, in those frames, nothing at all.\n\nThe idea reaches well past film. [[A silence in conversation is not a fact but an arrangement]], and the sentence placed next to it decides whether it sounds cold, thoughtful, or bored.",
           "glossary": [
+            {
+              "word": "blank face",
+              "meaning": "무표정한 얼굴"
+            },
             {
               "word": "coffin",
               "meaning": "관"
             },
             {
-              "word": "arise",
-              "meaning": "생겨나다"
+              "word": "side by side",
+              "meaning": "나란히"
             },
             {
-              "word": "whatsoever",
-              "meaning": "전혀 (부정 강조)"
-            },
-            {
-              "word": "well past",
-              "meaning": "훨씬 넘어서"
-            },
-            {
-              "word": "doubt",
-              "meaning": "의심하다"
+              "word": "give credit for",
+              "meaning": "~의 공을 인정하다"
             }
           ],
-          "translation": "영화에서 가장 오래된 실험 중 하나에서, 관객에게 완전히 무표정한 배우의 장면을 보여준 뒤 수프 한 그릇의 장면을 이어 붙였다. 관객들은 그 배우가 배고파 보인다고 말했다. 이어서 같은 무표정한 장면 뒤에 관 속에 누운 아이의 이미지를 붙였고, 같은 관객들이 그 배우의 슬픈 표정 연기를 칭찬했다. 두 버전 사이에 그의 얼굴은 움직이지 않았다. 완전히 똑같은 영상 조각이었다.\n\n이 실험이 입증하는 것은 의미가 한 장의 이미지 안에 살지 않는다는 사실이다. 의미는 이미지들 사이에서, 관객이 건너야 하는 그 공간에서 생겨난다. 인접한 두 장면을 마주하면 마음은 지시를 기다리지 않는다. 연결을 만들고, 원인을 배정하고, 그 결과를 마치 만들어낸 것이 아니라 관찰한 것처럼 내놓는다.\n\n놀라운 점은 아무도 이것을 노동으로 경험하지 않는다는 것이다. 관객은 감정을 추론했다고 말하지 않는다. 감정을 보았다고 말한다. 그리고 해당 장면에서는 아무것도 하지 않은 연기에 대해 배우에게 공을 돌린다.\n\n그 원리는 영화를 훨씬 넘어 확장된다. 대화 속의 침묵은 사실이 아니라 배치이며, 그 옆에 놓인 문장이 그 침묵을 적대적으로 읽을지, 사려 깊게 읽을지, 지루하게 읽을지를 결정한다. 우리가 그 조립을 좀처럼 알아채지 못하는 이유는 지각이 이미 완성된 채로 도착하기 때문이고, 스스로 세운 결론이야말로 가장 의심하기 어려운 종류이기 때문이다."
+          "translation": "영화에서 가장 오래된 실험 중 하나에서, 관객은 완전히 무표정한 배우의 장면을 본 뒤 수프 한 그릇의 장면을 이어 보았다. 관객들은 그 배우가 배고파 보인다고 말했다. 이어서 같은 무표정한 장면 뒤에 관 속의 아이 사진을 붙였고, 같은 관객들이 그의 슬픈 표정을 칭찬했다. 두 버전 사이에 그의 얼굴은 움직이지 않았다. 똑같은 필름 조각이었다.\n\n이 실험이 보여주는 것은 의미가 한 장의 이미지 안에 살지 않는다는 사실이다. 의미는 이미지들 사이, 관객이 건너야 하는 공간에서 나타난다. 두 장면이 나란히 주어지면 마음은 지시를 기다리지 않는다. 연결을 만들고, 원인을 고르고, 그 결과를 만들어낸 것이 아니라 본 것처럼 내놓는다.\n\n이상한 점은 아무도 이것을 노동으로 느끼지 않는다는 것이다. 관객은 감정을 짐작했다고 말하지 않는다. 감정을 보았다고 말한다. 그리고 그 장면들에서는 아무것도 아니었던 연기에 대해 배우에게 공을 돌린다.\n\n이 생각은 영화를 훨씬 넘어선다. 대화 속의 침묵은 사실이 아니라 배치이며, 그 옆에 놓인 문장이 그것이 차갑게 들릴지, 사려 깊게 들릴지, 지루하게 들릴지를 결정한다."
         },
         "questions": [
           {
@@ -2006,51 +1990,51 @@
             "prompt": "글의 요지로 가장 적절한 것은?",
             "options": [
               "뛰어난 배우는 무표정으로도 감정을 전달한다.",
-              "의미는 개별 이미지가 아니라 이미지들의 배치에서 관객이 만들어낸다.",
+              "의미는 개별 이미지가 아니라 배치에서 관객이 만들어낸다.",
               "영화 편집은 관객을 의도적으로 속인다.",
-              "실험 참가자들은 영화에 대한 지식이 부족했다."
+              "실험 참가자들이 영화를 잘 몰랐다."
             ],
             "answer": 1,
-            "explanation": "meaning does not live inside a single image. It arises between images — 이것이 글 전체를 관통합니다."
+            "explanation": "meaning does not live inside a single image. It appears between images 가 글 전체를 관통합니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r2",
-            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nViewers do not report inferring an emotion. They report ______ one.",
+            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nViewers do not report guessing an emotion. They report ______ one.",
             "options": [
               "seeing",
               "doubting",
-              "creating",
+              "making",
               "editing"
             ],
             "answer": 0,
-            "explanation": "추론했다고 느끼지 않고 그냥 '보았다'고 느낀다는 대조입니다. 조립 과정이 의식되지 않는다는 뜻입니다."
+            "explanation": "짐작했다고 느끼지 않고 그냥 '봤다'고 느낀다는 대조입니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r3",
-            "prompt": "밑줄 친 [[A silence in conversation is not a fact but an arrangement]] 이 의미하는 바는?",
+            "prompt": "밑줄 친 [[A silence in conversation is not a fact but an arrangement]] 이 뜻하는 바는?",
             "options": [
               "침묵은 언제나 오해를 부른다.",
-              "침묵 자체보다 그 앞뒤에 무엇이 놓이는지가 의미를 정한다.",
-              "대화에서는 침묵을 피해야 한다.",
-              "침묵은 사실 관계를 왜곡한다."
+              "침묵 자체보다 그 앞뒤에 무엇이 오는지가 의미를 정한다.",
+              "대화에서 침묵은 피해야 한다.",
+              "침묵은 사실을 왜곡한다."
             ],
             "answer": 1,
-            "explanation": "바로 뒤 문장에서 옆에 놓인 문장이 침묵의 해석을 결정한다고 설명합니다. 영화의 편집 원리를 대화로 옮긴 것입니다."
+            "explanation": "바로 뒤 문장에서 옆에 놓인 문장이 침묵의 해석을 결정한다고 설명합니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r4",
-            "prompt": "마지막 문장에서 글쓴이가 지적하는 어려움은?",
+            "prompt": "실험에 대한 설명으로 알맞은 것은?",
             "options": [
-              "영화를 객관적으로 평가하기 어렵다.",
-              "스스로 만들어낸 결론일수록 의심하기 어렵다.",
-              "지각 실험은 재현하기 어렵다.",
-              "배우의 연기를 정확히 평가하기 어렵다."
+              "배우가 두 번 다르게 연기했다.",
+              "관객이 두 장면의 차이를 알아챘다.",
+              "같은 필름 조각인데 뒤에 붙인 장면에 따라 다르게 읽혔다.",
+              "수프 장면이 슬픔을 일으켰다."
             ],
-            "answer": 1,
-            "explanation": "a conclusion that we built ourselves is the hardest kind to doubt — 직접 조립했기 때문에 의심이 어렵다는 것입니다."
+            "answer": 2,
+            "explanation": "His face had not moved... It was the same piece of film 이 근거입니다."
           }
         ]
       },
@@ -2135,8 +2119,8 @@
       "speaking": {
         "shadowing": [
           "His face had not moved between versions.",
-          "The striking part is that nobody experiences this as work.",
-          "It was the identical piece of footage."
+          "The strange part is that nobody feels this as work.",
+          "It was the same piece of film."
         ],
         "substitution": {
           "pattern": "The movie was {adjective} because the ending {verb} everything.",
@@ -2210,67 +2194,88 @@
       "title": "쉬는 동안 뇌가 하는 일",
       "vocab": [
         {
-          "word": "consolidate",
-          "pos": "v.",
-          "meaning": "굳히다, 공고히 하다",
-          "example": "Sleep consolidates what the day collected.",
-          "exampleKo": "잠은 낮에 모은 것을 굳힌다."
-        },
-        {
-          "word": "retention",
+          "word": "exam",
           "pos": "n.",
-          "meaning": "기억 유지",
-          "example": "Retention improves after a night of sleep.",
-          "exampleKo": "하룻밤 자고 나면 기억 유지가 좋아진다."
+          "meaning": "시험",
+          "example": "Students getting ready for an exam skip sleep.",
+          "exampleKo": "시험을 준비하는 학생들은 잠을 건너뛴다."
         },
         {
-          "word": "idle",
+          "word": "preparation",
+          "pos": "n.",
+          "meaning": "준비",
+          "example": "They treat sleep as the enemy of preparation.",
+          "exampleKo": "그들은 잠을 준비의 적으로 여긴다."
+        },
+        {
+          "word": "enemy",
+          "pos": "n.",
+          "meaning": "적",
+          "example": "Sleep is not the enemy here.",
+          "exampleKo": "여기서 잠은 적이 아니다."
+        },
+        {
+          "word": "cost",
+          "pos": "n.",
+          "meaning": "비용",
+          "example": "They see it as a cost to cut down.",
+          "exampleKo": "그들은 그것을 줄여야 할 비용으로 본다."
+        },
+        {
+          "word": "obvious",
           "pos": "adj.",
-          "meaning": "쉬고 있는, 놀고 있는",
-          "example": "The resting brain is far from idle.",
-          "exampleKo": "쉬고 있는 뇌는 결코 놀고 있지 않다."
+          "meaning": "명백한",
+          "example": "The math seems obvious at first.",
+          "exampleKo": "계산은 처음에는 명백해 보인다."
         },
         {
-          "word": "intuition",
+          "word": "laboratory",
           "pos": "n.",
-          "meaning": "직관",
-          "example": "Our intuition about rest is mistaken.",
-          "exampleKo": "휴식에 대한 우리의 직관은 틀렸다."
+          "meaning": "실험실",
+          "example": "Laboratories measure what happens during sleep.",
+          "exampleKo": "실험실들은 수면 중 일어나는 일을 잰다."
         },
         {
-          "word": "mistaken",
+          "word": "measure",
+          "pos": "v.",
+          "meaning": "재다, 측정하다",
+          "example": "They measure it a week later.",
+          "exampleKo": "그들은 일주일 뒤에 그것을 잰다."
+        },
+        {
+          "word": "convenient",
           "pos": "adj.",
-          "meaning": "잘못된",
-          "example": "The mistaken view treats rest as waste.",
-          "exampleKo": "그 잘못된 관점은 휴식을 낭비로 본다."
+          "meaning": "편리한",
+          "example": "The answer is less convenient than we hoped.",
+          "exampleKo": "그 답은 우리가 바란 것보다 덜 편하다."
         },
         {
-          "word": "waste",
+          "word": "ordinary",
+          "pos": "adj.",
+          "meaning": "통상적인",
+          "example": "The brain is not resting in any ordinary sense.",
+          "exampleKo": "뇌는 통상적인 의미로 쉬고 있지 않다."
+        },
+        {
+          "word": "pattern",
           "pos": "n.",
-          "meaning": "낭비",
-          "example": "Students treat breaks as waste.",
-          "exampleKo": "학생들은 쉬는 시간을 낭비로 여긴다."
+          "meaning": "패턴",
+          "example": "It turns on the patterns used during the day.",
+          "exampleKo": "그것은 낮에 쓰인 패턴을 켠다."
         },
         {
-          "word": "reactivate",
-          "pos": "v.",
-          "meaning": "다시 활성화하다",
-          "example": "The brain reactivates the day's patterns at night.",
-          "exampleKo": "뇌는 밤에 그날의 패턴을 다시 활성화한다."
-        },
-        {
-          "word": "replay",
-          "pos": "v.",
-          "meaning": "재생하다",
-          "example": "Neurons replay the sequence at high speed.",
-          "exampleKo": "뉴런은 그 순서를 빠른 속도로 재생한다."
-        },
-        {
-          "word": "sequence",
+          "word": "original",
           "pos": "n.",
-          "meaning": "순서, 연쇄",
-          "example": "The same sequence repeats during sleep.",
-          "exampleKo": "같은 연쇄가 수면 중에 반복된다."
+          "meaning": "원래의 것",
+          "example": "It plays them faster than the original.",
+          "exampleKo": "그것은 원래보다 빠르게 재생한다."
+        },
+        {
+          "word": "connection",
+          "pos": "n.",
+          "meaning": "연결",
+          "example": "Connections used often are strengthened.",
+          "exampleKo": "자주 쓰인 연결은 강화된다."
         },
         {
           "word": "strengthen",
@@ -2280,144 +2285,123 @@
           "exampleKo": "반복이 연결을 강화한다."
         },
         {
-          "word": "discard",
-          "pos": "v.",
-          "meaning": "버리다",
-          "example": "The brain discards what it does not need.",
-          "exampleKo": "뇌는 필요 없는 것을 버린다."
-        },
-        {
           "word": "selective",
           "pos": "adj.",
           "meaning": "선택적인",
-          "example": "Memory is selective by design.",
-          "exampleKo": "기억은 설계상 선택적이다."
+          "example": "The process is selective rather than complete.",
+          "exampleKo": "그 과정은 완전하기보다 선택적이다."
         },
         {
-          "word": "prioritize",
-          "pos": "v.",
-          "meaning": "우선순위를 두다",
-          "example": "Sleep prioritizes what mattered emotionally.",
-          "exampleKo": "잠은 감정적으로 중요했던 것에 우선순위를 둔다."
-        },
-        {
-          "word": "emotional",
+          "word": "complete",
           "pos": "adj.",
-          "meaning": "감정적인",
-          "example": "Emotional material survives the night.",
-          "exampleKo": "감정이 실린 내용은 밤을 견뎌낸다."
+          "meaning": "완전한",
+          "example": "It is not a complete record of the day.",
+          "exampleKo": "그것은 하루의 완전한 기록이 아니다."
         },
         {
-          "word": "cram",
-          "pos": "v.",
-          "meaning": "벼락치기로 채워 넣다",
-          "example": "Students who cram remember less a week later.",
-          "exampleKo": "벼락치기한 학생은 일주일 뒤 더 적게 기억한다."
-        },
-        {
-          "word": "interval",
+          "word": "priority",
           "pos": "n.",
-          "meaning": "간격",
-          "example": "Spacing the intervals doubles retention.",
-          "exampleKo": "간격을 두면 기억 유지가 두 배가 된다."
+          "meaning": "우선순위",
+          "example": "It gives priority to what mattered.",
+          "exampleKo": "그것은 중요했던 것에 우선순위를 준다."
+        },
+        {
+          "word": "material",
+          "pos": "n.",
+          "meaning": "학습 내용, 자료",
+          "example": "Material that carried feeling survives.",
+          "exampleKo": "감정을 지닌 내용이 살아남는다."
+        },
+        {
+          "word": "produce",
+          "pos": "v.",
+          "meaning": "낳다, 만들어 내다",
+          "example": "This produces an unwelcome result.",
+          "exampleKo": "이것은 달갑지 않은 결과를 낳는다."
+        },
+        {
+          "word": "accept",
+          "pos": "v.",
+          "meaning": "받아들이다",
+          "example": "Most students find it hard to accept.",
+          "exampleKo": "대부분의 학생은 그것을 받아들이기 어려워한다."
+        },
+        {
+          "word": "beat",
+          "pos": "v.",
+          "meaning": "이기다, 낫다",
+          "example": "Two hours plus sleep beats four hours.",
+          "exampleKo": "두 시간에 잠을 더한 것이 네 시간을 이긴다."
+        },
+        {
+          "word": "productive",
+          "pos": "adj.",
+          "meaning": "생산적인",
+          "example": "The extra hours only feel productive.",
+          "exampleKo": "그 추가 시간은 생산적으로 느껴질 뿐이다."
+        },
+        {
+          "word": "exactly",
+          "pos": "adv.",
+          "meaning": "바로, 정확히",
+          "example": "It feels good exactly because it is easy.",
+          "exampleKo": "쉽기 때문에 바로 그래서 좋게 느껴진다."
+        },
+        {
+          "word": "review",
+          "pos": "n.",
+          "meaning": "복습",
+          "example": "Smoothness during review fools us.",
+          "exampleKo": "복습 중의 매끄러움이 우리를 속인다."
+        },
+        {
+          "word": "mistake",
+          "pos": "v.",
+          "meaning": "오해하다",
+          "example": "We mistake smoothness for learning.",
+          "exampleKo": "우리는 매끄러움을 학습으로 오해한다."
+        },
+        {
+          "word": "practical",
+          "pos": "adj.",
+          "meaning": "실질적인",
+          "example": "The practical lesson is small.",
+          "exampleKo": "실질적인 교훈은 작다."
+        },
+        {
+          "word": "unwelcome",
+          "pos": "adj.",
+          "meaning": "달갑지 않은",
+          "example": "The advice is unwelcome but true.",
+          "exampleKo": "그 조언은 달갑지 않지만 사실이다."
         },
         {
           "word": "spacing",
           "pos": "n.",
           "meaning": "간격 두기",
-          "example": "Spacing beats repetition without pause.",
-          "exampleKo": "간격 두기가 쉼 없는 반복을 이긴다."
+          "example": "Spacing beats cramming every time.",
+          "exampleKo": "간격 두기가 늘 벼락치기를 이긴다."
         },
         {
-          "word": "efficient",
-          "pos": "adj.",
-          "meaning": "효율적인",
-          "example": "Continuous study feels efficient but is not.",
-          "exampleKo": "연속 학습은 효율적으로 느껴지지만 아니다."
-        },
-        {
-          "word": "illusion",
+          "word": "cramming",
           "pos": "n.",
-          "meaning": "착각",
-          "example": "Fluency during study is an illusion of learning.",
-          "exampleKo": "공부 중의 매끄러움은 학습의 착각이다."
+          "meaning": "벼락치기",
+          "example": "Cramming feels efficient but is not.",
+          "exampleKo": "벼락치기는 효율적으로 느껴지지만 아니다."
         },
         {
-          "word": "fluency",
+          "word": "break",
           "pos": "n.",
-          "meaning": "막힘없음, 유창함",
-          "example": "Fluency is not the same as memory.",
-          "exampleKo": "막힘없음은 기억과 같지 않다."
+          "meaning": "쉬는 시간",
+          "example": "Sleep is not the break between study periods.",
+          "exampleKo": "잠은 학습 구간 사이의 쉬는 시간이 아니다."
         },
         {
-          "word": "confuse",
-          "pos": "v.",
-          "meaning": "혼동하다",
-          "example": "We confuse ease with learning.",
-          "exampleKo": "우리는 쉬움을 학습과 혼동한다."
-        },
-        {
-          "word": "effortful",
-          "pos": "adj.",
-          "meaning": "애를 써야 하는",
-          "example": "Effortful recall builds stronger memory.",
-          "exampleKo": "애써서 떠올리는 것이 더 강한 기억을 만든다."
-        },
-        {
-          "word": "retrieve",
-          "pos": "v.",
-          "meaning": "꺼내다, 인출하다",
-          "example": "Trying to retrieve a word helps more than rereading it.",
-          "exampleKo": "단어를 떠올리려 애쓰는 것이 다시 읽는 것보다 낫다."
-        },
-        {
-          "word": "counterintuitive",
-          "pos": "adj.",
-          "meaning": "직관에 어긋나는",
-          "example": "The finding is counterintuitive but reliable.",
-          "exampleKo": "그 결과는 직관에 어긋나지만 믿을 만하다."
-        },
-        {
-          "word": "reliable",
-          "pos": "adj.",
-          "meaning": "믿을 만한",
-          "example": "The effect is small but reliable.",
-          "exampleKo": "그 효과는 작지만 믿을 만하다."
-        },
-        {
-          "word": "deprive",
-          "pos": "v.",
-          "meaning": "빼앗다",
-          "example": "Depriving yourself of sleep undoes the studying.",
-          "exampleKo": "잠을 빼앗기면 공부한 것이 무너진다."
-        },
-        {
-          "word": "undo",
-          "pos": "v.",
-          "meaning": "되돌리다, 무효로 만들다",
-          "example": "One late night can undo three afternoons.",
-          "exampleKo": "하룻밤 늦잠이 세 번의 오후를 무효로 만들 수 있다."
-        },
-        {
-          "word": "modest",
-          "pos": "adj.",
-          "meaning": "소박한, 크지 않은",
-          "example": "The advice is modest but effective.",
-          "exampleKo": "그 조언은 소박하지만 효과적이다."
-        },
-        {
-          "word": "implication",
+          "word": "period",
           "pos": "n.",
-          "meaning": "시사점",
-          "example": "The practical implication is simple.",
-          "exampleKo": "실질적인 시사점은 단순하다."
-        },
-        {
-          "word": "trade",
-          "pos": "v.",
-          "meaning": "맞바꾸다",
-          "example": "Do not trade sleep for one more hour of review.",
-          "exampleKo": "복습 한 시간을 위해 잠을 맞바꾸지 마라."
+          "meaning": "구간, 기간",
+          "example": "It is one of the learning periods.",
+          "exampleKo": "그것은 학습 구간 중 하나다."
         }
       ],
       "grammar": {
@@ -2480,7 +2464,7 @@
           {
             "kind": "write",
             "id": "w01d5-g4",
-            "prompt": "강조구문으로 바꿔 쓰세요.\nSleep consolidates memory. → It is [[sleep]] ______ consolidates memory.",
+            "prompt": "강조구문으로 바꿔 쓰세요.\nSleep sorts the day. → It is [[sleep]] ______ sorts the day.",
             "accept": [
               "that"
             ],
@@ -2519,30 +2503,26 @@
         "passage": {
           "title": "The Work That Happens While You Stop",
           "topic": "과학 · 수면과 학습",
-          "body": "Students preparing for an examination tend to treat sleep as the enemy of preparation, an expense to be minimized. The arithmetic seems obvious: hours spent unconscious are hours not spent studying. Laboratories that measure what actually happens during those hours report something less convenient.\n\nDuring sleep the brain is not resting in any ordinary sense. It reactivates the patterns fired during the day and replays them, sometimes at many times their original speed. Connections used repeatedly are strengthened; those that led nowhere are quietly discarded. The process is selective rather than complete, and it prioritizes material that carried emotional weight. A fact learned in a state of mild anxiety survives the night more reliably than one absorbed with indifference.\n\nThis produces a result that most students find hard to accept. Two hours of study followed by sleep will typically outperform four hours of study followed by none, measured a week later. [[The extra hours feel productive precisely because nothing about them is difficult]], and fluency during review is regularly mistaken for durable learning.\n\nThe practical implication is modest and unwelcome. Effortful recall beats rereading, spacing beats cramming, and sleep is not the interval between periods of learning. It is one of them. A night traded for one more review is not a gain of an hour; it is the loss of the process that would have made the hour count.",
+          "body": "Students getting ready for an exam tend to treat sleep as the enemy of preparation, a cost to cut down. The math seems obvious: hours spent asleep are hours not spent studying. Laboratories that measure what actually happens during those hours report something less convenient.\n\nDuring sleep the brain is not resting in any ordinary sense. It turns on the patterns used during the day and plays them again, sometimes much faster than the original. Connections used often are strengthened; those that led nowhere are quietly thrown away. The process is selective rather than complete, and it gives priority to material that carried some feeling.\n\nThis produces a result most students find hard to accept. Two hours of study followed by sleep usually beats four hours followed by none, measured a week later. [[The extra hours feel productive exactly because nothing about them is difficult]], and smoothness during review is often mistaken for real learning.\n\nThe practical lesson is small and unwelcome. Testing yourself beats rereading, spacing beats cramming, and sleep is not the break between periods of learning. It is one of them.",
           "glossary": [
             {
-              "word": "expense",
-              "meaning": "비용, 대가"
-            },
-            {
-              "word": "minimize",
-              "meaning": "최소화하다"
+              "word": "cut down",
+              "meaning": "줄이다"
             },
             {
               "word": "lead nowhere",
               "meaning": "아무 데도 이어지지 않다"
             },
             {
-              "word": "indifference",
-              "meaning": "무관심"
+              "word": "throw away",
+              "meaning": "버리다"
             },
             {
-              "word": "outperform",
-              "meaning": "더 나은 성과를 내다"
+              "word": "give priority to",
+              "meaning": "~에 우선순위를 두다"
             }
           ],
-          "translation": "시험을 준비하는 학생들은 잠을 준비의 적으로, 최소화해야 할 비용으로 여기는 경향이 있다. 계산은 명백해 보인다. 의식이 없는 시간은 공부하지 않은 시간이라는 것이다. 그 시간에 실제로 무슨 일이 일어나는지 측정하는 실험실들은 그보다 덜 편리한 이야기를 전한다.\n\n수면 중에 뇌는 통상적인 의미로 쉬고 있지 않다. 낮 동안 발화한 패턴을 다시 활성화해 재생하는데, 때로는 원래 속도의 여러 배로 재생한다. 반복해서 쓰인 연결은 강화되고, 아무 데도 이어지지 않은 연결은 조용히 버려진다. 그 과정은 완전하기보다 선택적이며, 감정적 무게를 지녔던 내용에 우선순위를 둔다. 가벼운 불안 속에서 배운 사실은 무관심하게 흡수한 사실보다 더 확실하게 밤을 견뎌낸다.\n\n이것은 대부분의 학생이 받아들이기 어려워하는 결과를 낳는다. 두 시간 공부한 뒤 잔 경우가, 네 시간 공부하고 자지 않은 경우보다 일주일 뒤 측정했을 때 대체로 더 낫다. 그 추가 시간이 생산적으로 느껴지는 것은 바로 그 시간에 어려운 것이 하나도 없기 때문이며, 복습 중의 매끄러움은 흔히 오래가는 학습으로 오인된다.\n\n실질적인 시사점은 소박하고 달갑지 않다. 애써 떠올리기가 다시 읽기를 이기고, 간격 두기가 벼락치기를 이기며, 잠은 학습 구간 사이의 간격이 아니다. 잠도 학습 구간 중 하나다. 복습 한 번을 위해 맞바꾼 하룻밤은 한 시간을 번 것이 아니라, 그 한 시간을 의미 있게 만들어 주었을 과정을 잃은 것이다."
+          "translation": "시험을 준비하는 학생들은 잠을 준비의 적으로, 줄여야 할 비용으로 여기는 경향이 있다. 계산은 명백해 보인다. 자는 시간은 공부하지 않은 시간이라는 것이다. 그 시간에 실제로 무슨 일이 일어나는지 재는 실험실들은 그보다 덜 편한 이야기를 전한다.\n\n수면 중에 뇌는 통상적인 의미로 쉬고 있지 않다. 낮에 쓰인 패턴을 켜서 다시 재생하는데, 때로는 원래보다 훨씬 빠르게 재생한다. 자주 쓰인 연결은 강화되고, 아무 데도 이어지지 않은 연결은 조용히 버려진다. 그 과정은 완전하기보다 선택적이며, 어떤 감정을 지녔던 내용에 우선순위를 준다.\n\n이것은 대부분의 학생이 받아들이기 어려워하는 결과를 낳는다. 두 시간 공부한 뒤 잔 경우가, 네 시간 공부하고 자지 않은 경우보다 일주일 뒤에 재면 대체로 낫다. 그 추가 시간이 생산적으로 느껴지는 것은 바로 그 시간에 어려운 것이 하나도 없기 때문이고, 복습 중의 매끄러움은 종종 진짜 학습으로 오해된다.\n\n실질적인 교훈은 작고 달갑지 않다. 스스로 시험 보기가 다시 읽기를 이기고, 간격 두기가 벼락치기를 이기며, 잠은 학습 구간 사이의 쉬는 시간이 아니다. 잠도 학습 구간 중 하나다."
         },
         "questions": [
           {
@@ -2552,21 +2532,21 @@
             "options": [
               "시험 전에는 공부 시간을 최대한 늘려야 한다.",
               "수면은 학습의 중단이 아니라 학습 과정의 일부다.",
-              "감정이 실린 기억은 오히려 왜곡되기 쉽다.",
-              "복습은 여러 번 반복할수록 효과가 커진다."
+              "감정이 실린 기억은 왜곡되기 쉽다.",
+              "복습은 반복할수록 효과가 커진다."
             ],
             "answer": 1,
-            "explanation": "마지막 문단의 sleep is not the interval between periods of learning. It is one of them. 이 요지입니다."
+            "explanation": "마지막 문장의 sleep is not the break between periods of learning. It is one of them. 이 요지입니다."
           },
           {
             "kind": "choice",
             "id": "w01d5-r2",
-            "prompt": "수면 중 일어나는 일에 대한 설명으로 알맞지 않은 것은?",
+            "prompt": "수면 중 일어나는 일로 알맞지 않은 것은?",
             "options": [
-              "낮에 쓰인 패턴을 다시 활성화해 재생한다.",
-              "반복해서 쓰인 연결을 강화한다.",
-              "그날의 모든 정보를 빠짐없이 저장한다.",
-              "감정적 무게가 있던 내용에 우선순위를 둔다."
+              "낮에 쓰인 패턴을 다시 재생한다.",
+              "자주 쓰인 연결을 강화한다.",
+              "하루의 모든 정보를 빠짐없이 저장한다.",
+              "감정이 실린 내용에 우선순위를 둔다."
             ],
             "answer": 2,
             "explanation": "본문은 selective rather than complete 라고 했습니다. 필요 없는 연결은 버려집니다."
@@ -2574,7 +2554,7 @@
           {
             "kind": "choice",
             "id": "w01d5-r3",
-            "prompt": "밑줄 친 [[The extra hours feel productive precisely because nothing about them is difficult]] 이 뜻하는 바는?",
+            "prompt": "밑줄 친 [[The extra hours feel productive exactly because nothing about them is difficult]] 이 뜻하는 바는?",
             "options": [
               "쉬운 공부가 실제로 더 효과적이다.",
               "어렵지 않아서 잘되고 있다고 착각한다.",
@@ -2582,20 +2562,20 @@
               "어려운 공부는 피해야 한다."
             ],
             "answer": 1,
-            "explanation": "바로 뒤에서 fluency 를 durable learning 으로 오인한다고 했습니다. 쉬우니까 잘된다고 느끼는 착각입니다."
+            "explanation": "바로 뒤에서 매끄러움을 진짜 학습으로 오해한다고 했습니다."
           },
           {
             "kind": "choice",
             "id": "w01d5-r4",
-            "prompt": "글쓴이가 권하는 공부 방법이 아닌 것은?",
+            "prompt": "글쓴이가 권하는 방법이 아닌 것은?",
             "options": [
-              "애써 떠올리기",
-              "간격을 두고 나눠 하기",
+              "스스로 시험 보기",
+              "간격을 두고 나눠 공부하기",
               "충분히 자기",
-              "밤을 새워 복습하기"
+              "밤새워 복습하기"
             ],
             "answer": 3,
-            "explanation": "마지막 문단이 정확히 그 반대를 말합니다. 하룻밤을 맞바꾸는 것은 손해라고 했습니다."
+            "explanation": "마지막 문단이 정확히 그 반대를 말합니다."
           }
         ]
       },
@@ -2684,8 +2664,8 @@
       "speaking": {
         "shadowing": [
           "During sleep the brain is not resting in any ordinary sense.",
-          "Effortful recall beats rereading, spacing beats cramming, and sleep is not the interval between periods of learning.",
-          "The practical implication is modest and unwelcome."
+          "The practical lesson is small and unwelcome.",
+          "It is one of them."
         ],
         "substitution": {
           "pattern": "On weekends I usually {verb} for about {time}.",

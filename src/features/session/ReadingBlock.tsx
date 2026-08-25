@@ -40,6 +40,20 @@ export default function ReadingBlock({ day, onDone }: BlockProps) {
         ))}
       </div>
 
+      {/* 지문은 직접 쓴 글이다. 소재가 실제 연구라면 어디에 기댔는지 밝힌다. */}
+      {passage.source && (
+        <p className="source">
+          <span className="source__label">근거</span>
+          {passage.source.url ? (
+            <a href={passage.source.url} target="_blank" rel="noreferrer noopener">
+              {passage.source.label}
+            </a>
+          ) : (
+            passage.source.label
+          )}
+        </p>
+      )}
+
       <div className="row">
         {speech.supported && (
           <button

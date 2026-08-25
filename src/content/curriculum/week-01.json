@@ -345,7 +345,11 @@
               "meaning": "~이 아니라"
             }
           ],
-          "translation": "백 명의 학생에게 왜 수학이 가장 좋아하는 과목이냐고 물으면, 대부분은 그냥 그렇게 태어났다고 말할 것이다. 동기를 연구하는 학자들은 그렇게 확신하지 않는다. 타고난 선호처럼 보이는 것은 대개 수년간 조용히 돌아온 순환의 결과다.\n\n그 순환은 아주 작은 것에서 시작된다. 학생이 문제 하나를 맞히고, 맞았다는 사실이 자신이 그것을 잘한다는 희미한 느낌을 만든다. 그 느낌은 약하고 잊기 쉽지만, 다음 시도를 조금 더 매력적으로 만든다. 학생은 조금 더 오래 붙들고, 조금 더 잘하게 되고, 순환은 조여진다.\n\n중요한 것은 각 성공의 크기가 아니라 그 순환이 몇 번 도는가이다. 수천 번의 작은 회차를 거치면 작은 이점들이 쌓여, 바깥에서 보기에 종류가 다른 것처럼 보이는 격차가 된다. 이야기에 뒤늦게 도착한 사람들은 그 격차를 한 단어로 설명한다. 재능이라고.\n\n여기에는 쓸모 있는 결론이 있다. 선호가 주어지는 것이 아니라 만들어지는 것이라면, 어떤 과목을 싫어한다는 것은 당신의 능력에 대한 판단이 아니다. 그것은 그저 아직 시작되지 않은 순환일 뿐이다. 첫 바퀴가 가장 힘든 이유는 두 번째가 오기 전까지 아무 보상도 오지 않기 때문이다."
+          "translation": "백 명의 학생에게 왜 수학이 가장 좋아하는 과목이냐고 물으면, 대부분은 그냥 그렇게 태어났다고 말할 것이다. 동기를 연구하는 학자들은 그렇게 확신하지 않는다. 타고난 선호처럼 보이는 것은 대개 수년간 조용히 돌아온 순환의 결과다.\n\n그 순환은 아주 작은 것에서 시작된다. 학생이 문제 하나를 맞히고, 맞았다는 사실이 자신이 그것을 잘한다는 희미한 느낌을 만든다. 그 느낌은 약하고 잊기 쉽지만, 다음 시도를 조금 더 매력적으로 만든다. 학생은 조금 더 오래 붙들고, 조금 더 잘하게 되고, 순환은 조여진다.\n\n중요한 것은 각 성공의 크기가 아니라 그 순환이 몇 번 도는가이다. 수천 번의 작은 회차를 거치면 작은 이점들이 쌓여, 바깥에서 보기에 종류가 다른 것처럼 보이는 격차가 된다. 이야기에 뒤늦게 도착한 사람들은 그 격차를 한 단어로 설명한다. 재능이라고.\n\n여기에는 쓸모 있는 결론이 있다. 선호가 주어지는 것이 아니라 만들어지는 것이라면, 어떤 과목을 싫어한다는 것은 당신의 능력에 대한 판단이 아니다. 그것은 그저 아직 시작되지 않은 순환일 뿐이다. 첫 바퀴가 가장 힘든 이유는 두 번째가 오기 전까지 아무 보상도 오지 않기 때문이다.",
+          "source": {
+            "label": "Hidi & Renninger, 'The Four-Phase Model of Interest Development', Educational Psychologist 41(2), 2006",
+            "url": "https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_4"
+          }
         },
         "questions": [
           {
@@ -859,7 +863,7 @@
         "passage": {
           "title": "The Tenth Bite",
           "topic": "인지 · 미각과 친숙함",
-          "body": "A child pushes away an unfamiliar dish and says, with complete confidence, that it is disgusting. Adults usually accept this as information about the food. Researchers who study taste treat it as something else: information about how many times the child has met it.\n\nBeing careful with new food is not a personal fault but an inherited habit. Our ancestors could not test every unknown plant safely, and bitter flavors often warn of poison. A reflex that rejects the strange was useful for most of human history. The reflex is still here, even though the danger has mostly gone.\n\nWhat removes it is repetition, not persuasion. With each taste, the brain records that nothing bad followed, and the alarm drops a little. Somewhere between the eighth and the fifteenth try, most people stop noticing the resistance. They do not decide to like the dish. They simply find, one day, that they already do.\n\nThis creates a small trap. Because the change is slow, we rarely credit the exposure. [[We conclude instead that our taste was always there, waiting to be found]], and the line between delicious and strange turns out to be far more arbitrary than we would like to admit.",
+          "body": "A child pushes away an unfamiliar dish and says, with complete confidence, that it is disgusting. Adults usually accept this as information about the food. Researchers who study taste treat it as something else: information about how many times the child has met it.\n\nBeing careful with new food is not a personal fault but an inherited habit. Our ancestors could not test every unknown plant safely, and bitter flavors often warn of poison. A reflex that rejects the strange was useful for most of human history. The reflex is still here, even though the danger has mostly gone.\n\nWhat removes it is repetition, not persuasion. With each taste, the brain records that nothing bad followed, and the alarm drops a little. In one study of young children, a new taste was accepted after about eight tries, and a plainer one took fifteen. They do not decide to like the dish. They simply find, one day, that they already do.\n\nThis creates a small trap. Because the change is slow, we rarely credit the exposure. [[We conclude instead that our taste was always there, waiting to be found]], and the line between delicious and strange turns out to be far more arbitrary than we would like to admit.",
           "glossary": [
             {
               "word": "push away",
@@ -878,7 +882,11 @@
               "meaning": "인정하고 싶어 하다"
             }
           ],
-          "translation": "아이가 낯선 음식을 밀어내며 완전한 확신을 담아 맛없다고 말한다. 어른들은 대개 이것을 그 음식에 대한 정보로 받아들인다. 미각을 연구하는 학자들은 그것을 다른 것으로 본다. 그 아이가 그 음식을 몇 번이나 만나봤는지에 대한 정보라는 것이다.\n\n새 음식을 조심하는 것은 개인의 잘못이 아니라 물려받은 습관이다. 우리 조상들은 모든 미지의 식물을 안전하게 시험할 수 없었고, 쓴맛은 종종 독을 알린다. 낯선 것을 거부하는 반사는 인류 역사 대부분의 기간 동안 유용했다. 위험은 대체로 사라졌지만 그 반사는 아직 여기 있다.\n\n그것을 없애는 것은 설득이 아니라 반복이다. 한 번 맛볼 때마다 뇌는 나쁜 일이 뒤따르지 않았다고 기록하고, 경보는 조금씩 내려간다. 여덟 번째와 열다섯 번째 시도 사이 어디쯤에서 대부분의 사람은 그 거부감을 알아채지 않게 된다. 그들은 그 음식을 좋아하기로 결정하지 않는다. 어느 날 문득 이미 좋아하고 있음을 발견할 뿐이다.\n\n여기에 작은 함정이 있다. 변화가 느리기 때문에 우리는 좀처럼 그 공을 노출에 돌리지 않는다. 대신 우리의 입맛은 원래부터 거기 있었고 발견되기를 기다렸다고 결론짓는다. 그리고 맛있음과 이상함 사이의 경계는 우리가 인정하고 싶은 것보다 훨씬 임의적인 것으로 드러난다."
+          "translation": "아이가 낯선 음식을 밀어내며 완전한 확신을 담아 맛없다고 말한다. 어른들은 대개 이것을 그 음식에 대한 정보로 받아들인다. 미각을 연구하는 학자들은 그것을 다른 것으로 본다. 그 아이가 그 음식을 몇 번이나 만나봤는지에 대한 정보라는 것이다.\n\n새 음식을 조심하는 것은 개인의 잘못이 아니라 물려받은 습관이다. 우리 조상들은 모든 미지의 식물을 안전하게 시험할 수 없었고, 쓴맛은 종종 독을 알린다. 낯선 것을 거부하는 반사는 인류 역사 대부분의 기간 동안 유용했다. 위험은 대체로 사라졌지만 그 반사는 아직 여기 있다.\n\n그것을 없애는 것은 설득이 아니라 반복이다. 한 번 맛볼 때마다 뇌는 나쁜 일이 뒤따르지 않았다고 기록하고, 경보는 조금씩 내려간다. 어린아이를 대상으로 한 한 연구에서는 새로운 맛이 여덟 번쯤 시도한 뒤 받아들여졌고, 더 밋밋한 맛은 열다섯 번이 걸렸다. 그들은 그 음식을 좋아하기로 결정하지 않는다. 어느 날 문득 이미 좋아하고 있음을 발견할 뿐이다.\n\n여기에 작은 함정이 있다. 변화가 느리기 때문에 우리는 좀처럼 그 공을 노출에 돌리지 않는다. 대신 우리의 입맛은 원래부터 거기 있었고 발견되기를 기다렸다고 결론짓는다. 그리고 맛있음과 이상함 사이의 경계는 우리가 인정하고 싶은 것보다 훨씬 임의적인 것으로 드러난다.",
+          "source": {
+            "label": "Sullivan & Birch, 'Pass the sugar, pass the salt: Experience dictates preference', Developmental Psychology 26(4), 1990",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK582166/"
+          }
         },
         "questions": [
           {
@@ -1418,7 +1426,7 @@
         "passage": {
           "title": "The Book That Changed Without Being Rewritten",
           "topic": "문학 · 읽기와 경험",
-          "body": "People who return to a novel after many years often say that it has changed. The claim is obviously false, and yet almost everyone believes it. Not one word has been altered. What has changed is what the reader brings.\n\nReading is often imagined as taking something out, as if meaning were stored in the text and the reader's job were to remove it. A better picture is closer to teamwork. Authors leave out far more than they explain, and those gaps are deliberate. They are filled by whatever the reader has collected: other books, ordinary disappointments, the particular feel of ten years lived.\n\nThis explains an experience that otherwise makes no sense. A sentence you passed over at seventeen can stop you completely at thirty, not because the sentence improved, but because you finally have the background needed to see what it was doing.\n\nThere is a small lesson here about how we judge our own reading. [[We tend to measure books by what we got on the first try]], and give up on the ones that gave us little. But a book that seemed thin at fifteen may simply have been waiting.",
+          "body": "People who return to a novel after many years often say that it has changed. The claim is obviously false, and yet almost everyone believes it. Not one word has been altered. What has changed is what the reader brings.\n\nPsychologists showed this with a simple test. Readers given a paragraph that described an ordinary process in vague terms found it confusing and remembered little. Another group read the same paragraph after being told its title, understood it easily, and recalled far more. Only the background had changed, and it had to arrive before the reading to help at all.\n\nAuthors leave out far more than they explain, and those gaps are deliberate. They are filled by whatever the reader has collected. A sentence you passed over at seventeen can stop you completely at thirty, not because the sentence improved, but because you finally have the background needed to see what it was doing.\n\nThere is a small lesson here about how we judge our own reading. [[We tend to measure books by what we got on the first try]], and give up on the ones that gave us little. But a book that seemed thin at fifteen may simply have been waiting.",
           "glossary": [
             {
               "word": "leave out",
@@ -1437,7 +1445,11 @@
               "meaning": "(내용이) 얄팍한"
             }
           ],
-          "translation": "여러 해가 지나 소설로 돌아온 사람들은 종종 그 책이 변했다고 말한다. 그 주장은 명백히 거짓인데도 거의 모두가 믿는다. 단 한 단어도 바뀌지 않았다. 변한 것은 독자가 가지고 오는 것이다.\n\n독서는 흔히 무언가를 꺼내는 일로 상상된다. 마치 의미가 본문 안에 저장되어 있고 독자의 일은 그것을 꺼내는 것이라는 듯이. 더 나은 그림은 협업에 가깝다. 작가는 설명하는 것보다 훨씬 많은 것을 남겨두고, 그 빈틈은 의도적이다. 그것은 독자가 모아온 것으로 채워진다. 다른 책들, 평범한 실망들, 살아낸 십 년의 특유한 느낌 같은 것들로.\n\n이것은 그러지 않고서는 말이 되지 않는 경험 하나를 설명해 준다. 열일곱에 그냥 지나쳤던 문장이 서른에는 당신을 완전히 멈춰 세울 수 있다. 그 문장이 좋아져서가 아니라, 그 문장이 하고 있던 일을 볼 수 있는 배경을 당신이 마침내 갖추었기 때문이다.\n\n여기에는 우리가 자기 독서를 판단하는 방식에 대한 작은 교훈이 있다. 우리는 첫 번째 시도에서 얻은 것으로 책을 재는 경향이 있고, 별로 주지 않은 책은 포기한다. 그러나 열다섯에 얄팍해 보였던 책은 그저 기다리고 있었을 수도 있다."
+          "translation": "여러 해가 지나 소설로 돌아온 사람들은 종종 그 책이 변했다고 말한다. 그 주장은 명백히 거짓인데도 거의 모두가 믿는다. 단 한 단어도 바뀌지 않았다. 변한 것은 독자가 가지고 오는 것이다.\n\n심리학자들은 이것을 간단한 실험으로 보여주었다. 평범한 과정을 모호한 말로 설명한 문단을 받은 사람들은 헷갈려했고 거의 기억하지 못했다. 다른 집단은 같은 문단을 제목을 들은 뒤에 읽고서 쉽게 이해했고 훨씬 많이 기억해 냈다. 달라진 것은 배경뿐이었고, 그 배경은 읽기 전에 도착해야만 도움이 되었다.\n\n작가는 설명하는 것보다 훨씬 많은 것을 남겨두고, 그 빈틈은 의도적이다. 그것은 독자가 그동안 모아온 것으로 채워진다. 열일곱에 그냥 지나쳤던 문장이 서른에는 당신을 완전히 멈춰 세울 수 있다. 그 문장이 좋아져서가 아니라, 그 문장이 하고 있던 일을 볼 수 있는 배경을 당신이 마침내 갖추었기 때문이다.\n\n여기에는 우리가 자기 독서를 판단하는 방식에 대한 작은 교훈이 있다. 우리는 첫 번째 시도에서 얻은 것으로 책을 재는 경향이 있고, 별로 주지 않은 책은 포기한다. 그러나 열다섯에 얄팍해 보였던 책은 그저 기다리고 있었을 수도 있다.",
+          "source": {
+            "label": "Bransford & Johnson, 'Contextual prerequisites for understanding', Journal of Verbal Learning and Verbal Behavior 11, 1972",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2812925/"
+          }
         },
         "questions": [
           {
@@ -1456,15 +1468,15 @@
           {
             "kind": "choice",
             "id": "w01d3-r2",
-            "prompt": "글쓴이가 독서를 teamwork 에 가깝다고 본 이유는?",
+            "prompt": "심리학 실험에서 두 집단의 차이를 만든 것은?",
             "options": [
-              "여러 사람이 함께 읽어야 하므로",
-              "작가가 남겨둔 빈틈을 독자의 경험이 채우므로",
-              "번역자가 도와주므로",
-              "독서 모임이 필요하므로"
+              "읽은 문단의 단어가 서로 달랐다.",
+              "한쪽만 읽기 전에 제목을 들었다.",
+              "한쪽이 더 오래 읽을 시간을 받았다.",
+              "한쪽만 두 번 읽었다."
             ],
             "answer": 1,
-            "explanation": "2문단에서 작가는 많은 것을 의도적으로 남겨두고, 그 빈틈은 독자가 모아온 것으로 채워진다고 했습니다."
+            "explanation": "단어는 똑같았고, 한 집단만 읽기 전에 제목을 들었습니다. 본문은 그 배경이 '읽기 전에' 도착해야 도움이 된다고 덧붙입니다."
           },
           {
             "kind": "choice",
@@ -1960,28 +1972,32 @@
       },
       "reading": {
         "passage": {
-          "title": "The Face That Did Nothing",
+          "title": "The Experiment Nobody Can Watch",
           "topic": "미디어 · 지각과 편집",
-          "body": "In one of the oldest experiments in film, an audience watched a shot of an actor with a completely blank face, followed by a shot of a bowl of soup. Viewers said the actor looked hungry. The same blank shot was then followed by a picture of a child in a coffin, and the same viewers praised his sad expression. His face had not moved between versions. It was the same piece of film.\n\nWhat the experiment shows is that meaning does not live inside a single image. It appears between images, in the space the audience has to cross. Given two shots side by side, the mind does not wait for instructions. It builds a connection, picks a cause, and delivers the result as if it had been seen rather than made.\n\nThe strange part is that nobody feels this as work. Viewers do not report guessing an emotion. They report seeing one. They then give the actor credit for a performance that was, in those frames, nothing at all.\n\nThe idea reaches well past film. [[A silence in conversation is not a fact but an arrangement]], and the sentence placed next to it decides whether it sounds cold, thoughtful, or bored.",
+          "body": "Every film student learns the story. In the 1920s the Soviet director Lev Kuleshov cut the same shot of an actor's blank face against three different images: a bowl of soup, a dead woman in a coffin, and a child playing. Audiences reportedly saw hunger, then grief, then delight, in a face that had never moved.\n\nThere is an awkward detail. The original film is lost. What survives are descriptions written years later, and even those disagree about which images were used. Modern attempts to run the experiment again have produced mixed results, and researchers still argue about how strong the effect really is.\n\n[[The story survived because it is useful, not because it was proven]]. Editors rely on the principle every day, and audiences do the work without noticing. Given two shots side by side, the mind does not wait for instructions. It builds a connection and delivers the result as if it had been seen rather than made.\n\nThe idea reaches well past film. A silence in conversation is not a fact but an arrangement, and the sentence placed next to it decides whether it sounds cold, thoughtful, or bored. That much you can test yourself, which is more than can be said for the film.",
           "glossary": [
             {
-              "word": "blank face",
-              "meaning": "무표정한 얼굴"
+              "word": "cut A against B",
+              "meaning": "A를 B에 이어 붙이다 (편집)"
             },
             {
-              "word": "coffin",
-              "meaning": "관"
+              "word": "reportedly",
+              "meaning": "전해지는 바로는"
+            },
+            {
+              "word": "awkward",
+              "meaning": "곤란한, 껄끄러운"
             },
             {
               "word": "side by side",
               "meaning": "나란히"
-            },
-            {
-              "word": "give credit for",
-              "meaning": "~의 공을 인정하다"
             }
           ],
-          "translation": "영화에서 가장 오래된 실험 중 하나에서, 관객은 완전히 무표정한 배우의 장면을 본 뒤 수프 한 그릇의 장면을 이어 보았다. 관객들은 그 배우가 배고파 보인다고 말했다. 이어서 같은 무표정한 장면 뒤에 관 속의 아이 사진을 붙였고, 같은 관객들이 그의 슬픈 표정을 칭찬했다. 두 버전 사이에 그의 얼굴은 움직이지 않았다. 똑같은 필름 조각이었다.\n\n이 실험이 보여주는 것은 의미가 한 장의 이미지 안에 살지 않는다는 사실이다. 의미는 이미지들 사이, 관객이 건너야 하는 공간에서 나타난다. 두 장면이 나란히 주어지면 마음은 지시를 기다리지 않는다. 연결을 만들고, 원인을 고르고, 그 결과를 만들어낸 것이 아니라 본 것처럼 내놓는다.\n\n이상한 점은 아무도 이것을 노동으로 느끼지 않는다는 것이다. 관객은 감정을 짐작했다고 말하지 않는다. 감정을 보았다고 말한다. 그리고 그 장면들에서는 아무것도 아니었던 연기에 대해 배우에게 공을 돌린다.\n\n이 생각은 영화를 훨씬 넘어선다. 대화 속의 침묵은 사실이 아니라 배치이며, 그 옆에 놓인 문장이 그것이 차갑게 들릴지, 사려 깊게 들릴지, 지루하게 들릴지를 결정한다."
+          "translation": "영화를 배우는 사람이라면 누구나 이 이야기를 듣는다. 1920년대에 소련 감독 레프 쿨레쇼프가 배우의 무표정한 얼굴을 담은 같은 장면을 세 가지 다른 이미지에 붙였다. 수프 한 그릇, 관 속의 죽은 여인, 그리고 노는 아이. 전해지기로 관객들은 한 번도 움직이지 않은 그 얼굴에서 배고픔을, 다음에는 슬픔을, 그다음에는 기쁨을 보았다고 한다.\n\n곤란한 사실이 하나 있다. 원본 필름이 소실되었다. 남아 있는 것은 여러 해 뒤에 쓰인 설명들뿐이고, 그마저도 어떤 이미지가 쓰였는지에 대해 서로 엇갈린다. 현대에 그 실험을 다시 해보려는 시도들은 엇갈리는 결과를 냈고, 연구자들은 그 효과가 실제로 얼마나 강한지를 두고 여전히 논쟁한다.\n\n그 이야기가 살아남은 것은 증명되어서가 아니라 쓸모가 있어서다. 편집자들은 매일 그 원리에 기대고, 관객은 알아채지 못한 채 그 일을 해낸다. 두 장면이 나란히 주어지면 마음은 지시를 기다리지 않는다. 연결을 만들고, 그 결과를 만들어낸 것이 아니라 본 것처럼 내놓는다.\n\n이 생각은 영화를 훨씬 넘어선다. 대화 속의 침묵은 사실이 아니라 배치이며, 그 옆에 놓인 문장이 그것이 차갑게 들릴지, 사려 깊게 들릴지, 지루하게 들릴지를 결정한다. 그 정도는 직접 시험해 볼 수 있는데, 그 필름에 대해서는 그렇게 말할 수 없다.",
+          "source": {
+            "label": "Barratt, Rédei, Innes-Ker & van de Weijer, 'Does the Kuleshov effect really exist?', Perception 45(8), 2016 — 원본 필름은 소실되었고 재현 결과는 엇갈린다",
+            "url": "https://www.lunduniversity.lu.se/publication/ca3d37a0-82b5-487e-a523-188ff1564d0a"
+          }
         },
         "questions": [
           {
@@ -1989,52 +2005,52 @@
             "id": "w01d4-r1",
             "prompt": "글의 요지로 가장 적절한 것은?",
             "options": [
-              "뛰어난 배우는 무표정으로도 감정을 전달한다.",
-              "의미는 개별 이미지가 아니라 배치에서 관객이 만들어낸다.",
-              "영화 편집은 관객을 의도적으로 속인다.",
-              "실험 참가자들이 영화를 잘 몰랐다."
+              "쿨레쇼프 실험은 완벽하게 증명된 고전이다.",
+              "증명되지 않은 이야기이지만 그 원리 자체는 관객의 실제 작동 방식을 가리킨다.",
+              "영화 편집은 관객을 속이므로 경계해야 한다.",
+              "소실된 자료는 연구 가치가 없다."
             ],
             "answer": 1,
-            "explanation": "meaning does not live inside a single image. It appears between images 가 글 전체를 관통합니다."
+            "explanation": "본문은 원본이 없고 재현도 엇갈린다고 인정하면서도, 편집자들이 매일 기대는 원리이고 관객이 실제로 연결을 만든다고 말합니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r2",
-            "prompt": "빈칸에 들어갈 말로 가장 적절한 것은?\nViewers do not report guessing an emotion. They report ______ one.",
+            "prompt": "글에 따르면 그 실험의 곤란한 점은?",
             "options": [
-              "seeing",
-              "doubting",
-              "making",
-              "editing"
+              "배우가 연기를 거부했다.",
+              "원본 필름이 없고 설명들끼리도 엇갈린다.",
+              "관객 수가 너무 적었다.",
+              "당시에는 편집 기술이 없었다."
             ],
-            "answer": 0,
-            "explanation": "짐작했다고 느끼지 않고 그냥 '봤다'고 느낀다는 대조입니다."
+            "answer": 1,
+            "explanation": "2문단이 그대로 근거입니다. 원본은 소실되었고 남은 설명도 서로 다릅니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r3",
-            "prompt": "밑줄 친 [[A silence in conversation is not a fact but an arrangement]] 이 뜻하는 바는?",
+            "prompt": "밑줄 친 [[The story survived because it is useful, not because it was proven]] 이 뜻하는 바는?",
             "options": [
-              "침묵은 언제나 오해를 부른다.",
-              "침묵 자체보다 그 앞뒤에 무엇이 오는지가 의미를 정한다.",
-              "대화에서 침묵은 피해야 한다.",
-              "침묵은 사실을 왜곡한다."
+              "증명되지 않은 이야기는 퍼지면 안 된다.",
+              "쓸모가 있었기 때문에 검증 없이도 전해져 왔다.",
+              "그 이야기는 결국 사실로 밝혀졌다.",
+              "영화계는 과학을 신뢰하지 않는다."
             ],
             "answer": 1,
-            "explanation": "바로 뒤 문장에서 옆에 놓인 문장이 침묵의 해석을 결정한다고 설명합니다."
+            "explanation": "증명(proven)이 아니라 쓸모(useful) 때문에 살아남았다는 대조입니다. 바로 뒤에서 편집자들이 매일 쓴다고 설명합니다."
           },
           {
             "kind": "choice",
             "id": "w01d4-r4",
-            "prompt": "실험에 대한 설명으로 알맞은 것은?",
+            "prompt": "마지막 문장 That much you can test yourself 가 가리키는 것은?",
             "options": [
-              "배우가 두 번 다르게 연기했다.",
-              "관객이 두 장면의 차이를 알아챘다.",
-              "같은 필름 조각인데 뒤에 붙인 장면에 따라 다르게 읽혔다.",
-              "수프 장면이 슬픔을 일으켰다."
+              "소실된 필름을 복원하는 일",
+              "대화 속 침묵이 옆에 오는 말에 따라 다르게 들린다는 것",
+              "배우의 표정 연기를 따라 하는 일",
+              "실험을 다시 촬영하는 일"
             ],
-            "answer": 2,
-            "explanation": "His face had not moved... It was the same piece of film 이 근거입니다."
+            "answer": 1,
+            "explanation": "바로 앞 문장이 침묵의 예입니다. 필름과 달리 이것은 직접 확인할 수 있다는 대비입니다."
           }
         ]
       },
@@ -2118,9 +2134,9 @@
       },
       "speaking": {
         "shadowing": [
-          "His face had not moved between versions.",
-          "The strange part is that nobody feels this as work.",
-          "It was the same piece of film."
+          "There is an awkward detail.",
+          "Given two shots side by side, the mind does not wait for instructions.",
+          "The original film is lost."
         ],
         "substitution": {
           "pattern": "The movie was {adjective} because the ending {verb} everything.",
@@ -2503,7 +2519,7 @@
         "passage": {
           "title": "The Work That Happens While You Stop",
           "topic": "과학 · 수면과 학습",
-          "body": "Students getting ready for an exam tend to treat sleep as the enemy of preparation, a cost to cut down. The math seems obvious: hours spent asleep are hours not spent studying. Laboratories that measure what actually happens during those hours report something less convenient.\n\nDuring sleep the brain is not resting in any ordinary sense. It turns on the patterns used during the day and plays them again, sometimes much faster than the original. Connections used often are strengthened; those that led nowhere are quietly thrown away. The process is selective rather than complete, and it gives priority to material that carried some feeling.\n\nThis produces a result most students find hard to accept. Two hours of study followed by sleep usually beats four hours followed by none, measured a week later. [[The extra hours feel productive exactly because nothing about them is difficult]], and smoothness during review is often mistaken for real learning.\n\nThe practical lesson is small and unwelcome. Testing yourself beats rereading, spacing beats cramming, and sleep is not the break between periods of learning. It is one of them.",
+          "body": "Students getting ready for an exam tend to treat sleep as the enemy of preparation, a cost to cut down. The math seems obvious: hours spent asleep are hours not spent studying. Laboratories that measure what actually happens during those hours report something less convenient.\n\nDuring sleep the brain is not resting in any ordinary sense. It turns on the patterns used during the day and plays them again, sometimes much faster than the original. Connections used often are strengthened; those that led nowhere are quietly thrown away. The process is selective rather than complete, and it gives priority to material that carried some feeling.\n\nThis produces a result most students find hard to accept. When two groups learn the same material and one sleeps while the other stays awake, the sleepers remember more, and the finding has held up for a century. [[The extra hours feel productive exactly because nothing about them is difficult]], and smoothness during review is often mistaken for real learning.\n\nThe practical lesson is small and unwelcome. Testing yourself beats rereading, spacing beats cramming, and sleep is not the break between periods of learning. It is one of them.",
           "glossary": [
             {
               "word": "cut down",
@@ -2522,7 +2538,11 @@
               "meaning": "~에 우선순위를 두다"
             }
           ],
-          "translation": "시험을 준비하는 학생들은 잠을 준비의 적으로, 줄여야 할 비용으로 여기는 경향이 있다. 계산은 명백해 보인다. 자는 시간은 공부하지 않은 시간이라는 것이다. 그 시간에 실제로 무슨 일이 일어나는지 재는 실험실들은 그보다 덜 편한 이야기를 전한다.\n\n수면 중에 뇌는 통상적인 의미로 쉬고 있지 않다. 낮에 쓰인 패턴을 켜서 다시 재생하는데, 때로는 원래보다 훨씬 빠르게 재생한다. 자주 쓰인 연결은 강화되고, 아무 데도 이어지지 않은 연결은 조용히 버려진다. 그 과정은 완전하기보다 선택적이며, 어떤 감정을 지녔던 내용에 우선순위를 준다.\n\n이것은 대부분의 학생이 받아들이기 어려워하는 결과를 낳는다. 두 시간 공부한 뒤 잔 경우가, 네 시간 공부하고 자지 않은 경우보다 일주일 뒤에 재면 대체로 낫다. 그 추가 시간이 생산적으로 느껴지는 것은 바로 그 시간에 어려운 것이 하나도 없기 때문이고, 복습 중의 매끄러움은 종종 진짜 학습으로 오해된다.\n\n실질적인 교훈은 작고 달갑지 않다. 스스로 시험 보기가 다시 읽기를 이기고, 간격 두기가 벼락치기를 이기며, 잠은 학습 구간 사이의 쉬는 시간이 아니다. 잠도 학습 구간 중 하나다."
+          "translation": "시험을 준비하는 학생들은 잠을 준비의 적으로, 줄여야 할 비용으로 여기는 경향이 있다. 계산은 명백해 보인다. 자는 시간은 공부하지 않은 시간이라는 것이다. 그 시간에 실제로 무슨 일이 일어나는지 재는 실험실들은 그보다 덜 편한 이야기를 전한다.\n\n수면 중에 뇌는 통상적인 의미로 쉬고 있지 않다. 낮에 쓰인 패턴을 켜서 다시 재생하는데, 때로는 원래보다 훨씬 빠르게 재생한다. 자주 쓰인 연결은 강화되고, 아무 데도 이어지지 않은 연결은 조용히 버려진다. 그 과정은 완전하기보다 선택적이며, 어떤 감정을 지녔던 내용에 우선순위를 준다.\n\n이것은 대부분의 학생이 받아들이기 어려워하는 결과를 낳는다. 두 집단이 같은 내용을 배우고 한쪽은 자고 다른 쪽은 깨어 있으면, 잔 쪽이 더 많이 기억한다. 이 결과는 백 년 동안 유지되어 왔다. 그 추가 시간이 생산적으로 느껴지는 것은 바로 그 시간에 어려운 것이 하나도 없기 때문이고, 복습 중의 매끄러움은 종종 진짜 학습으로 오해된다.\n\n실질적인 교훈은 작고 달갑지 않다. 스스로 시험 보기가 다시 읽기를 이기고, 간격 두기가 벼락치기를 이기며, 잠은 학습 구간 사이의 쉬는 시간이 아니다. 잠도 학습 구간 중 하나다.",
+          "source": {
+            "label": "Jenkins & Dallenbach, 'Obliviscence during sleep and waking', American Journal of Psychology 35, 1924 — 이후 현대 연구들이 반복해서 확인",
+            "url": "https://www.jneurosci.org/content/37/3/457"
+          }
         },
         "questions": [
           {

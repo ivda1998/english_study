@@ -84,6 +84,12 @@ export interface Passage {
   glossary: { word: string; meaning: string }[];
   /** 전체 해석 — 다 푼 뒤에만 보여준다 */
   translation: string;
+  /**
+   * 지문이 다루는 연구나 사건의 출처.
+   * 지문은 직접 쓴 글이지만 소재가 실제 연구라면 어디에 기댔는지 밝힌다.
+   * 아이가 읽은 내용을 사실로 받아들이므로, 근거를 확인할 수 있어야 한다.
+   */
+  source?: { label: string; url?: string };
 }
 
 export interface ReadingBlock {
@@ -413,6 +419,15 @@ function validateDay(
       v.str(ps.title, `${path}.reading.passage.title`);
       v.str(ps.topic, `${path}.reading.passage.topic`);
       v.str(ps.translation, `${path}.reading.passage.translation`, { min: 30 });
+      if (ps.source !== undefined) {
+        const src = ps.source as Record<string, unknown>;
+        if (typeof src !== 'object' || src === null) {
+          v.fail(`${path}.reading.passage.source`, '객체여야 합니다');
+        } else {
+          v.str(src.label, `${path}.reading.passage.source.label`, { min: 4 });
+          if (src.url !== undefined) v.str(src.url, `${path}.reading.passage.source.url`, { min: 8 });
+        }
+      }
       if (v.str(ps.body, `${path}.reading.passage.body`, { min: 200 })) {
         const words = countWords(ps.body as string);
         const target = PASSAGE_LENGTH_TARGET[weekNo];

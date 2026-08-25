@@ -76,12 +76,16 @@
 npm install
 npm run dev              # 개발 서버
 npm run validate:content # 커리큘럼 검증 (30일 스키마·시간표·주제·정답)
-npm test                 # 단위 테스트 74개
+npm test                 # 단위 테스트 81개
 npm run build            # 검증 → 타입체크 → 빌드
 npm run e2e              # Playwright: 하루 세션 완주, 진도 유지, 마이크 폴백, 모바일 폭, 밑줄 표시
 ```
 
 `main`에 푸시하면 GitHub Actions가 테스트를 돌리고 GitHub Pages로 배포합니다.
+
+**지문을 새로 쓰거나 고쳤다면 푸시 전에 사실 검증을 거치세요.** 자동 검사로는 잡히지 않습니다.
+`.claude/agents/fact-checker.md` 에이전트가 지문의 주장을 원 연구와 대조합니다
+(`src/content/README.md`의 "배포 전 사실 검증" 참고).
 
 저장소를 새로 만들었다면 **처음 한 번은 사람이 설정을 만져 줘야 하고, 순서가 중요합니다.**
 워크플로 토큰 권한 밖이라 자동화할 수 없고, 안 하면 빌드가 전부 통과하고도 배포만 멈춥니다.
